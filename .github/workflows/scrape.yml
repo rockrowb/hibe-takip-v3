@@ -1,1 +1,64 @@
+name: Hibe Duyuruları Tarama
 
+on:
+  schedule:
+    # 06:00 UTC = TR saatiyle ~09:00. Önceden günde 2 kez çalışıyordu; bazı
+    # kaynaklarda "önce erişilebiliyor, sonra erişilemez oluyor" tipi aralıklı
+    # engellemeler gözlemlendi — bu, sık istek atmanın bot-korumasını
+    # tetiklemesiyle ilgili olabilir. Günde 1 keze düşürmek hem bu riski
+    # azaltıyor hem de Playwright adımıyla birlikte artan çalışma süresini
+    # dengeliyor. Gerekirse Actions sekmesinden elle de çalıştırılabilir.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}   # elle de tetiklenebilir (Actions sekmesinden "Run workflow")
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      HAS_AI_KEY: ${{ (secrets.ANTHROPIC_API_KEY != '') || (secrets.GEMINI_API_KEY != '') || (secrets.GROQ_API_KEY != '') }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Bağımlılıkları kur
+        run: pip install -r requirements.txt
+
+      - name: Playwright tarayıcısını kur (bot-korumalı siteler için yedek yöntem)
+        run: playwright install --with-deps chromium
+
+      - name: Tara (Katman 1 - ham veri)
+        run: python scrape.py
+
+      - name: Sınıflandır (Katman 2 - ücretsiz, anahtar kelime)
+        run: python classify.py
+
+      - name: AI ile zenginleştir (Katman 3 - opsiyonel, ANTHROPIC_API_KEY / GEMINI_API_KEY / GROQ_API_KEY secret'larından biri tanımlıysa çalışır)
+        if: ${{ env.HAS_AI_KEY == 'true' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        # Not: üst sınır bilinçli olarak yüksek tutuldu (AI'ın birikmiş
+        # kayıtları hızlıca işlemesi için). Kota/limit dolarsa script kendini
+        # güvenle durdurur ve kaldığı yerden bir sonraki çalıştırmada devam
+        # eder (enrich.py'daki QuotaExceeded güvencesi) — bu yüzden yüksek
+        # limit vermek riskli değildir.
+        run: python enrich.py --limit 150
+
+      - name: AI adımı atlandıysa bile paneli güncel tut
+        if: ${{ env.HAS_AI_KEY != 'true' }}
+        run: python enrich.py
+
+      - name: Değişiklik varsa commit'le
+        run: |
+          git config user.name "hibe-takip-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/raw.json data/classified.json data/duyurular.json
+          git diff --cached --quiet || git commit -m "Otomatik güncelleme: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
