@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ka_gov",
+    "name": "Kalkınma Ajansları Genel Müdürlüğü - Güncel Destekler (26 ajans tek yerde)",
+    "homepage": "https://ka.gov.tr",
+    "paths": ["/destekler"],
+    "link_contains": [],
+    "note": "26 kalkınma ajansının desteklerini başlangıç/bitiş tarihleriyle tek sayfada listeleyen merkezi platform. Bireysel ajans kaynaklarıyla örtüşebilir, bu istenerek yapıldı (çapraz doğrulama)."
+  },
+  {
+    "id": "teknofest",
+    "name": "TEKNOFEST",
+    "homepage": "https://teknofest.org",
+    "paths": ["/tr/duyurular/"],
+    "link_contains": []
+  },
+  {
+    "id": "horizon_avrupa",
+    "name": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+    "homepage": "https://ufukavrupa.org.tr",
+    "paths": ["/tr/haberler", "/tr/horizon-europe"],
+    "link_contains": []
+  },
+  {
+    "id": "yatirimadestek",
+    "name": "Yatırıma Destek (Kalkınma Ajansları / KOSGEB / TKDK / İŞKUR)",
+    "homepage": "https://www.yatirimadestek.gov.tr",
+    "paths": ["/gelismis-arama", "/duyurular"],
+    "link_contains": ["/haber/", "/detay/"]
+  },
+  {
+    "id": "kosgeb",
+    "name": "KOSGEB",
+    "homepage": "https://www.kosgeb.gov.tr",
+    "paths": ["/", "/site/tr/genel/destekler/3/destekler", "/site/tr/genel/duyurular"],
+    "link_contains": [],
+    "note": "Önceki hâlde link_contains filtresi gerçek link kalıbıyla (/destekdetay/) örtüşmüyordu, tek bir genel gruba düşüyordu. Ana sayfa tarihli, ayrı program adlarıyla güncel duyurular listeliyor, birincil kaynak bu yapıldı."
+  },
+  {
+    "id": "iskur",
+    "name": "İŞKUR (Türkiye İş Kurumu)",
+    "homepage": "https://www.iskur.gov.tr",
+    "paths": ["/duyurular/", "/haberler"],
+    "link_contains": []
+  },
+  {
+    "id": "tkdk",
+    "name": "TKDK (Tarım ve Kırsal Kalkınmayı Destekleme Kurumu) - IPARD",
+    "homepage": "https://www.tkdk.gov.tr",
+    "paths": ["/Duyurular"],
+    "link_contains": []
+  },
+  {
+    "id": "tubitak",
+    "name": "TÜBİTAK",
+    "homepage": "https://tubitak.gov.tr",
+    "paths": ["/tr/duyuru"],
+    "link_contains": ["/duyuru/"]
+  },
+  {
+    "id": "ticaret_bakanligi",
+    "name": "Ticaret Bakanlığı",
+    "homepage": "https://ticaret.gov.tr",
+    "paths": ["/destekler", "/duyurular"],
+    "link_contains": ["/destek", "/duyuru", "/haber"]
+  },
+  {
+    "id": "ua_erasmus",
+    "name": "Erasmus+ Türkiye Ulusal Ajansı",
+    "homepage": "https://www.ua.gov.tr",
+    "paths": ["/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/", "/haber/"],
+    "link_contains": []
+  },
+  {
+    "id": "unesco_turkiye",
+    "name": "UNESCO Türkiye Millî Komisyonu",
+    "homepage": "https://www.unesco.org.tr",
+    "paths": ["/", "/Pages"],
+    "link_contains": ["/Pages"]
+  },
+  {
+    "id": "sivil_dusun",
+    "name": "Sivil Düşün AB Programı",
+    "homepage": "https://www.sivildusun.net",
+    "paths": ["/kategori/fon-hibe-destek-duyurulari/"],
+    "link_contains": []
+  },
+  {
+    "id": "sivil_alan",
+    "name": "Sivil Alan",
+    "homepage": "https://sivilalan.com",
+    "paths": ["/category/hibe-duyurulari/"],
+    "link_contains": []
+  },
+  {
+    "id": "undp_turkiye",
+    "name": "UNDP Türkiye",
+    "homepage": "https://www.undp.org",
+    "paths": ["/turkiye/news", "/turkiye/press-releases", "/turkiye/procurement-notices"],
+    "link_contains": []
+  },
+  {
+    "id": "eu_funding_portal",
+    "name": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
+    "homepage": "https://ec.europa.eu",
+    "paths": ["/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate"],
+    "link_contains": [],
+    "note": "Bu resmi AB portalı tamamen JavaScript ile render ediliyor (Angular tabanlı), bu yüzden normal istek kesinlikle 0 sonuç verecek ve otomatik olarak Playwright yedeğine düşecek. Sonuçlar TÜRKİYE'ye özel değil, TÜM AB çağrılarını listeler — ileride ülke/konu filtresi eklemek gerekebilir."
+  },
+  {
+    "id": "opusunity",
+    "name": "Opusunity - Proje Yönetimi (hibe/sonuç toplulukları)",
+    "homepage": "https://opusunity.com",
+    "paths": ["/@projeyonetimi"],
+    "link_contains": [],
+    "note": "İncelendiğinde bu sayfanın içeriği (hibe duyuruları, sonuç paylaşımları) girişe/oturuma bağlı olarak JavaScript ile yükleniyor gibi görünüyor — Playwright yedeği denenecek ama içerik yine de görünür olmayabilir (üyelik gerektirebilir). Şu an en iyi tahminimiz bu; gerçek sonuca göre inceltmemiz gerekebilir."
+  },
+  {
+    "id": "stgm",
+    "name": "Sivil Toplum Geliştirme Merkezi (STGM) - Fonlar",
+    "homepage": "https://www.stgm.org.tr",
+    "paths": ["/hibe-duyurulari"],
+    "link_contains": []
+  },
+  {
+    "id": "cssp",
+    "name": "Sivil Toplum Destek Programı (CSSP - CFCU/AB Başkanlığı)",
+    "homepage": "https://www.cfcu.gov.tr",
+    "paths": ["/ihaleler", "/duyurular", "/"],
+    "link_contains": []
+  },
+  {
+    "id": "ktb",
+    "name": "Kültür ve Turizm Bakanlığı",
+    "homepage": "https://www.ktb.gov.tr",
+    "paths": ["/TR-9857/duyurular.html", "/duyurular", "/"],
+    "link_contains": [],
+    "note": "Bakanlığın destekleri (kültür fonu, tiyatro desteği, kültür yatırımları vb.) farklı genel müdürlüklerin alt alan adlarında (yigm.ktb.gov.tr, kvmgm.ktb.gov.tr vb.) dağınık durumda — bu path tahmine dayalı, gerçek sonuca göre inceltilmesi gerekebilir."
+  },
+  {
+    "id": "tarim_orman",
+    "name": "Tarım ve Orman Bakanlığı",
+    "homepage": "https://www.tarimorman.gov.tr",
+    "paths": ["/Haberler", "/Duyuru", "/"],
+    "link_contains": [],
+    "note": "IPARD, kırsal kalkınma yatırımları desteği (KKYDP) gibi önemli hibe programlarını yürütüyor — path tahmine dayalı."
+  },
+  {
+    "id": "gsb",
+    "name": "Gençlik ve Spor Bakanlığı",
+    "homepage": "https://www.gsb.gov.tr",
+    "paths": ["/Haberler", "/Duyurular", "/"],
+    "link_contains": [],
+    "note": "Gençlik projeleri destek/hibe programları için — path tahmine dayalı."
+  },
+  {"id": "istka",     "name": "İSTKA (İstanbul Kalkınma Ajansı)",          "homepage": "https://www.istka.org.tr",     "paths": ["/destekler", "/tr/basvuru-cagrilari", "/duyurular"], "link_contains": []},
+  {"id": "ankaraka",  "name": "ANKARAKA (Ankara Kalkınma Ajansı)",         "homepage": "https://ankaraka.org.tr",      "paths": ["/ajans-destek-programlari", "/destekler"],             "link_contains": []},
+  {"id": "izka",      "name": "İZKA (İzmir Kalkınma Ajansı)",              "homepage": "https://izka.org.tr",          "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "bebka",     "name": "BEBKA (Bursa Eskişehir Bilecik Kalkınma Ajansı)", "homepage": "https://bebka.org.tr",    "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "karacadag", "name": "Karacadağ Kalkınma Ajansı",                 "homepage": "https://www.karacadag.gov.tr", "paths": ["/destekler/", "/destekler"],                          "link_contains": []},
+  {"id": "cka",       "name": "ÇKA (Çukurova Kalkınma Ajansı)",            "homepage": "https://www.cka.org.tr",       "paths": ["/tr/guncel-destekler", "/tr/guncel-destek"],          "link_contains": []},
+  {"id": "baka",      "name": "BAKA (Batı Akdeniz Kalkınma Ajansı)",       "homepage": "https://www.baka.org.tr",      "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "dogaka",    "name": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)",     "homepage": "https://www.dogaka.gov.tr",    "paths": ["/destekler/destekler", "/medya/guncel-duyurular"],   "link_contains": []},
+  {"id": "mevka",     "name": "MEVKA (Mevlana Kalkınma Ajansı)",           "homepage": "https://www.mevka.org.tr",     "paths": ["/destekler/guncel-destek-programlari"],               "link_contains": []},
+  {"id": "oka",       "name": "OKA (Orta Karadeniz Kalkınma Ajansı)",      "homepage": "https://oka.gov.tr",           "paths": ["/", "/duyurular"],                                    "link_contains": []},
+  {"id": "doka",      "name": "DOKA (Doğu Karadeniz Kalkınma Ajansı)",     "homepage": "https://www.doka.org.tr",      "paths": ["/acik-destekler", "/destekler", "/"],                 "link_contains": []},
+  {"id": "oran",      "name": "ORAN (Orta Anadolu Kalkınma Ajansı)",       "homepage": "https://www.oran.org.tr",      "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "marka",     "name": "MARKA (Doğu Marmara Kalkınma Ajansı)",      "homepage": "https://www.marka.org.tr",     "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "gmka",      "name": "GMKA (Güney Marmara Kalkınma Ajansı)",      "homepage": "https://www.gmka.gov.tr",      "paths": ["/acik-destek-programlari", "/duyurular"],             "link_contains": []},
+  {"id": "geka",      "name": "GEKA (Güney Ege Kalkınma Ajansı)",          "homepage": "https://geka.gov.tr",          "paths": ["/", "/tr/basvurusu-devam-eden-destekler"],            "link_contains": []},
+  {"id": "ika",       "name": "İKA (İpekyolu Kalkınma Ajansı)",            "homepage": "https://www.ika.org.tr",       "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "trakyaka",  "name": "TRAKYAKA (Trakya Kalkınma Ajansı)",         "homepage": "https://www.trakyaka.org.tr",  "paths": ["/tr/33286/DESTEKLER", "/destekler"],                  "link_contains": []},
+  {"id": "zafer",     "name": "ZAFER (Zafer Kalkınma Ajansı)",             "homepage": "https://zafer.gov.tr",         "paths": ["/destekler", "/"],                                    "link_contains": []},
+  {"id": "ahika",     "name": "AHİKA (Ahiler Kalkınma Ajansı)",            "homepage": "https://www.ahika.gov.tr",     "paths": ["/destekler", "/haberler"],                            "link_contains": []},
+  {"id": "kuzka",     "name": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",     "homepage": "https://www.kuzka.gov.tr",     "paths": ["/", "/destekler"],                                    "link_contains": []},
+  {"id": "kudaka",    "name": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)","homepage": "https://kudaka.gov.tr",        "paths": ["/home", "/duyurular", "/"],                           "link_contains": []},
+  {"id": "serka",     "name": "SERKA (Serhat Kalkınma Ajansı)",            "homepage": "https://www.serka.gov.tr",     "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "daka",      "name": "DAKA (Doğu Anadolu Kalkınma Ajansı)",       "homepage": "https://www.daka.org.tr",      "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "fka",       "name": "FKA (Fırat Kalkınma Ajansı)",               "homepage": "https://fka.gov.tr",           "paths": ["/destekler", "/duyurular", "/"],                      "link_contains": []},
+  {"id": "dika",      "name": "DİKA (Dicle Kalkınma Ajansı)",              "homepage": "https://www.dika.org.tr",      "paths": ["/destekler", "/duyurular"],                           "link_contains": []},
+  {"id": "bakka",     "name": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",    "homepage": "https://bakka.gov.tr",         "paths": ["/duyurular", "/destekler", "/"],                      "link_contains": []}
+]

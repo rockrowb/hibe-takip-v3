@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hibe Takip Panosu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#152238; --ink-soft:#3b4a63;
+    --paper:#f4f1e9; --paper-raised:#fffdf8;
+    --line:#d8d2c2;
+    --seal:#a8471f; --seal-soft:#f0ded3;
+    --gold:#b9862f; --gold-soft:#f3e6c9;
+    --green:#3d5c3a; --green-soft:#e3e8de;
+    color-scheme: light;
+  }
+  html[data-theme="dark"]{
+    --ink:#ece7da; --ink-soft:#a8a190;
+    --paper:#1b1a17; --paper-raised:#242320;
+    --line:#3a3833;
+    --seal:#e07a4c; --seal-soft:#3a271e;
+    --gold:#e0b866; --gold-soft:#3a3120;
+    --green:#9bc496; --green-soft:#26301f;
+    color-scheme: dark;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;
+    transition:background 0.15s ease, color 0.15s ease;
+  }
+  a{color:inherit;}
+
+  .masthead{border-bottom:3px solid var(--ink);padding:2.2rem 1.5rem 1.4rem;max-width:1080px;margin:0 auto;}
+  .masthead-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1rem;}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--seal);margin:0 0 0.5rem;}
+  h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(2rem,4.5vw,3.1rem);margin:0;line-height:1.02;letter-spacing:-0.01em;}
+  .masthead-right{display:flex;align-items:center;gap:0.8rem;}
+  .last-updated{font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--ink-soft);text-align:right;}
+  .theme-toggle{
+    width:2.3rem;height:2.3rem;border:1.5px solid var(--ink);background:var(--paper-raised);color:var(--ink);
+    border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0;
+  }
+  .theme-toggle:hover{background:var(--ink);color:var(--paper);}
+  .sub{font-size:0.95rem;color:var(--ink-soft);margin-top:0.6rem;max-width:64ch;}
+
+  .banner{max-width:1080px;margin:0 auto;padding:0.7rem 1.5rem;font-family:'IBM Plex Mono',monospace;font-size:0.8rem;display:none;align-items:center;gap:0.6rem;}
+  .banner.show{display:flex;}
+  .banner-quota{background:var(--seal-soft);color:var(--seal);border-bottom:1px solid var(--seal);}
+  .banner-dot{width:0.5rem;height:0.5rem;border-radius:50%;background:currentColor;flex-shrink:0;}
+
+  .tabs{max-width:1080px;margin:1.4rem auto 0;padding:0 1.5rem;display:flex;gap:0.4rem;border-bottom:1px solid var(--line);flex-wrap:wrap;}
+  .tab{font-family:'IBM Plex Mono',monospace;font-size:0.8rem;padding:0.6rem 0.9rem;border:none;background:transparent;color:var(--ink-soft);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;}
+  .tab.active{color:var(--ink);border-bottom-color:var(--seal);font-weight:600;}
+  .tab:hover{color:var(--ink);}
+
+  .searchbar{max-width:1080px;margin:1rem auto 0;padding:0 1.5rem;display:flex;gap:0.6rem;flex-wrap:wrap;align-items:center;}
+  input[type="search"], input[type="number"], input[type="date"], input[type="text"]{
+    padding:0.65rem 0.9rem;border:1.5px solid var(--line);background:var(--paper-raised);
+    font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--ink);border-radius:2px;
+  }
+  input[type="search"]{flex:1 1 220px;}
+  input[type="search"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="text"]:focus{outline:2px solid var(--seal);outline-offset:1px;}
+  select{
+    padding:0.6rem 0.8rem;border:1.5px solid var(--line);background:var(--paper-raised);
+    font-family:'IBM Plex Mono',monospace;font-size:0.8rem;color:var(--ink);border-radius:2px;
+  }
+  .filter-toggle{
+    font-family:'IBM Plex Mono',monospace;font-size:0.8rem;padding:0.6rem 0.9rem;
+    border:1.5px solid var(--ink);background:var(--paper-raised);color:var(--ink);cursor:pointer;border-radius:2px;
+    display:flex;align-items:center;gap:0.4rem;
+  }
+  .filter-toggle:hover{background:var(--ink);color:var(--paper-raised);}
+  .filter-toggle.has-filters{border-color:var(--seal);color:var(--seal);}
+  .filter-count{
+    background:var(--seal);color:var(--paper-raised);font-size:0.66rem;border-radius:8px;
+    padding:0.05rem 0.4rem;font-weight:600;
+  }
+  .custom-range{display:flex;align-items:center;gap:0.3rem;font-family:'IBM Plex Mono',monospace;font-size:0.76rem;color:var(--ink-soft);}
+  .custom-range input[type="number"]{width:3.2rem;padding:0.4rem 0.4rem;text-align:center;}
+
+  .chip{font-family:'IBM Plex Mono',monospace;font-size:0.76rem;padding:0.45rem 0.7rem;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;border-radius:2px;}
+  .chip.active{background:var(--ink);color:var(--paper-raised);}
+
+  .filter-panel{max-width:1080px;margin:0.7rem auto 0;padding:0 1.5rem;display:none;}
+  .filter-panel.open{display:block;}
+  .filter-panel-inner{
+    border:1px solid var(--line);background:var(--paper-raised);border-radius:4px;padding:1.1rem 1.2rem;
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.1rem;
+  }
+  .filter-group h4{font-family:'IBM Plex Mono',monospace;font-size:0.7rem;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 0.5rem;}
+  .filter-group .clear-link{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--seal);cursor:pointer;text-decoration:underline;margin-left:0.5rem;}
+  .checklist{max-height:180px;overflow-y:auto;display:flex;flex-direction:column;gap:0.35rem;padding-right:0.3rem;}
+  .checklist label{display:flex;align-items:center;gap:0.45rem;font-size:0.82rem;cursor:pointer;color:var(--ink);}
+  .checklist input{cursor:pointer;accent-color:var(--seal);}
+  .range-row{display:flex;align-items:center;gap:0.5rem;}
+  .range-row input{width:100%;}
+  .range-row span{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
+  .tema-chips{display:flex;flex-wrap:wrap;gap:0.35rem;max-height:180px;overflow-y:auto;}
+  .tema-toggle{
+    font-family:'IBM Plex Mono',monospace;font-size:0.7rem;padding:0.25rem 0.55rem;border:1px solid var(--line);
+    background:var(--paper);color:var(--ink-soft);cursor:pointer;border-radius:12px;
+  }
+  .tema-toggle.active{background:var(--ink);color:var(--paper-raised);border-color:var(--ink);}
+
+  .notice-box{max-width:1080px;margin:1rem auto 0;padding:0 1.5rem;}
+  .notice-box details{font-family:'IBM Plex Mono',monospace;font-size:0.76rem;border:1px solid var(--line);background:var(--paper-raised);padding:0.6rem 0.9rem;border-radius:2px;color:var(--ink-soft);}
+  .notice-box.warn details{color:var(--seal);border-color:var(--seal-soft);background:var(--seal-soft);}
+  .notice-box summary{cursor:pointer;font-weight:600;}
+  .notice-box ul{margin:0.5rem 0 0;padding-left:1.2rem;}
+
+  .stats{max-width:1080px;margin:1rem auto 0;padding:0 1.5rem;display:flex;gap:1.6rem;font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--ink-soft);flex-wrap:wrap;}
+  .stats b{color:var(--ink);font-size:0.95rem;}
+
+  main{max-width:1080px;margin:1rem auto 4rem;padding:0 1.5rem;}
+
+  .entry{display:grid;grid-template-columns:92px 1fr 220px;gap:1rem;padding:1.1rem 0;border-bottom:1px solid var(--line);}
+  .entry:hover{background:rgba(185,134,47,0.06);}
+  .entry-date{font-family:'IBM Plex Mono',monospace;font-size:0.78rem;color:var(--ink-soft);padding-top:0.15rem;}
+  .entry-body{min-width:0;}
+  .entry-source{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;letter-spacing:0.05em;text-transform:uppercase;color:var(--seal);margin-bottom:0.25rem;}
+  .entry-title{margin-bottom:0.1rem;}
+  .entry-title a{color:var(--ink);text-decoration:none;font-size:1rem;font-weight:500;line-height:1.35;}
+  .entry-title a:hover{text-decoration:underline;text-decoration-color:var(--gold);}
+
+  .badge{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:0.64rem;letter-spacing:0.04em;padding:0.12rem 0.4rem;margin-left:0.45rem;border-radius:2px;vertical-align:middle;white-space:nowrap;}
+  .badge-new{background:var(--gold-soft);color:var(--gold);font-weight:600;}
+  .badge-other{background:var(--line);color:var(--ink-soft);border:1px solid transparent;}
+  .badge-ai{background:transparent;border:1px solid var(--line);color:var(--ink-soft);}
+  .badge-ai.verified{border-color:var(--green);color:var(--green);}
+  .badge-ai.pending{border-color:var(--gold);color:var(--gold);}
+
+  .entry-summary{font-size:0.85rem;color:var(--ink-soft);margin-top:0.35rem;line-height:1.45;}
+  .entry-temalar{display:inline-flex;flex-wrap:wrap;gap:0.3rem;align-items:center;}
+  .tema-chip{font-family:'IBM Plex Mono',monospace;font-size:0.64rem;background:var(--green-soft);color:var(--green);padding:0.1rem 0.4rem;border-radius:10px;}
+
+  .edit-btn, .copy-one-btn{border:none;background:transparent;cursor:pointer;font-size:0.78rem;padding:0 0.2rem;opacity:0.55;vertical-align:middle;margin-left:0.2rem;}
+  .edit-btn:hover, .copy-one-btn:hover{opacity:1;}
+
+  .approve-row{display:flex;gap:0.35rem;margin-top:0.5rem;}
+  .approve-btn{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;padding:0.25rem 0.5rem;border:1px solid var(--line);background:var(--paper-raised);color:var(--ink-soft);cursor:pointer;border-radius:2px;}
+  .approve-btn.active-onay{background:var(--green-soft);color:var(--green);border-color:var(--green);}
+  .approve-btn.active-belki{background:var(--gold-soft);color:var(--gold);border-color:var(--gold);}
+  .approve-btn.active-red{background:var(--seal-soft);color:var(--seal);border-color:var(--seal);}
+
+  .field-empty{color:var(--ink-soft);font-style:italic;opacity:0.75;}
+
+  .entry-info{
+    display:grid;grid-template-columns:auto 1fr;row-gap:0.5rem;column-gap:0.7rem;align-items:baseline;
+    border-left:1px solid var(--line);padding-left:1rem;font-family:'IBM Plex Mono',monospace;font-size:0.72rem;
+    align-content:start;
+  }
+  .entry-info-label{color:var(--ink-soft);font-size:0.64rem;letter-spacing:0.03em;text-transform:uppercase;white-space:nowrap;padding-top:0.1rem;}
+  .entry-info-value{color:var(--ink);font-size:0.78rem;font-weight:500;}
+  .entry-info-value.urgent{color:var(--seal);font-weight:700;}
+  .entry-info-value.soon{color:var(--gold);font-weight:700;}
+
+  .edit-form{
+    grid-column:1 / -1;margin-top:0.8rem;padding:0.9rem 1rem;
+    border:1px dashed var(--seal-soft);border-radius:4px;background:var(--paper);
+  }
+  .edit-form h4{margin:0 0 0.6rem;font-family:'IBM Plex Mono',monospace;font-size:0.75rem;color:var(--seal);text-transform:uppercase;letter-spacing:0.05em;}
+  .edit-label{display:block;font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--ink-soft);margin:0.6rem 0 0.25rem;}
+  .edit-form input[type="text"], .edit-form input[type="date"], .edit-form input[type="number"], .edit-form textarea{
+    width:100%;padding:0.5rem 0.6rem;border:1.5px solid var(--line);background:var(--paper-raised);
+    color:var(--ink);font-family:'Inter',sans-serif;font-size:0.85rem;border-radius:2px;
+  }
+  .edit-temalar{max-height:120px;overflow-y:auto;border:1px solid var(--line);border-radius:2px;padding:0.5rem;background:var(--paper-raised);}
+  .edit-actions{display:flex;align-items:center;gap:0.6rem;margin-top:0.8rem;flex-wrap:wrap;}
+  .edit-actions button{font-family:'IBM Plex Mono',monospace;font-size:0.76rem;padding:0.45rem 0.8rem;border-radius:2px;cursor:pointer;}
+  .edit-save{background:var(--ink);color:var(--paper-raised);border:1.5px solid var(--ink);}
+  .edit-cancel{background:transparent;color:var(--ink-soft);border:1.5px solid var(--line);}
+  .edit-delete{background:transparent;color:var(--seal);border:1.5px solid var(--seal);}
+  .edit-status{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
+
+  .empty, .loading{padding:3rem 1rem;text-align:center;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;font-size:0.85rem;}
+
+  footer{max-width:1080px;margin:0 auto 3rem;padding:1.5rem 1.5rem 0;border-top:1px solid var(--line);font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--ink-soft);}
+  footer a{color:var(--seal);}
+
+  .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.45);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:3rem 1rem;overflow-y:auto;}
+  .modal-overlay.open{display:flex;}
+  .modal-box{background:var(--paper);color:var(--ink);border-radius:6px;max-width:760px;width:100%;padding:1.5rem;max-height:85vh;overflow-y:auto;}
+  .modal-box h3{font-family:'Fraunces',serif;margin:0 0 1rem;}
+  .modal-close{float:right;border:none;background:transparent;font-size:1.2rem;cursor:pointer;color:var(--ink-soft);}
+  .log-entry{border-bottom:1px solid var(--line);padding:0.7rem 0;font-size:0.82rem;}
+  .log-entry-meta{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--ink-soft);margin-bottom:0.2rem;}
+  .log-entry-title{font-weight:500;margin-bottom:0.3rem;}
+  .log-undo-btn{font-family:'IBM Plex Mono',monospace;font-size:0.7rem;padding:0.25rem 0.6rem;border:1px solid var(--seal);color:var(--seal);background:transparent;cursor:pointer;border-radius:2px;margin-top:0.3rem;}
+
+  @media (max-width:640px){
+    .entry{grid-template-columns:1fr;gap:0.4rem;}
+    .entry-info{border-left:none;border-top:1px dashed var(--line);padding-left:0;padding-top:0.6rem;margin-top:0.3rem;}
+    .filter-panel-inner{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <p class="eyebrow">Türkiye · Hibe &amp; Destek Programları</p>
+  <div class="masthead-top">
+    <h1>Duyuru Panosu</h1>
+    <div class="masthead-right">
+      <div class="last-updated" id="lastUpdated">yükleniyor…</div>
+      <button class="theme-toggle" id="themeToggle" title="Karanlık/aydınlık mod" aria-label="Tema değiştir">🌙</button>
+    </div>
+  </div>
+  <p class="sub">Kalkınma Ajansları, KOSGEB, İŞKUR, TKDK, TÜBİTAK, TEKNOFEST, Ufuk Avrupa ve daha fazla kaynaktan otomatik olarak toplanan, AI ile sınıflandırılan güncel çağrı ve destek duyuruları.</p>
+</div>
+
+<div class="banner banner-quota" id="quotaBanner">
+  <span class="banner-dot"></span>
+  <span id="quotaBannerText"></span>
+</div>
+<div class="banner" id="triggerStatus"></div>
+
+<div class="tabs">
+  <button class="tab active" data-tab="hibe">Hibe Çağrıları</button>
+  <button class="tab" data-tab="yarisma">Yarışma Programları</button>
+  <button class="tab" data-tab="sonuc">Sonuç İlanları</button>
+  <button class="tab" data-tab="diger">Diğer / Haberler</button>
+</div>
+
+<div class="searchbar">
+  <input type="search" id="search" placeholder="Başlık, özet, kimler, temada ara…">
+  <select id="sortBy">
+    <option value="date">Yayın tarihine göre sırala</option>
+    <option value="deadline">Son başvuru tarihine göre sırala</option>
+    <option value="amount">Hibe miktarına göre sırala (çoktan aza)</option>
+  </select>
+  <button class="chip active" data-range="all">Tümü</button>
+  <button class="chip" data-range="24">Bugün</button>
+  <button class="chip" data-range="168">Son 7 gün</button>
+  <button class="chip" data-range="720">Son 30 gün</button>
+  <span class="custom-range">
+    Son <input type="number" id="customDays" min="0" placeholder="0" title="gün"> gün
+    <input type="number" id="customHours" min="0" max="23" placeholder="0" title="saat"> saat
+    <button class="chip" id="applyCustomRange" title="Özel süre uygula">uygula</button>
+  </span>
+  <button class="filter-toggle" id="filterToggle">
+    <span>⚙ Filtreler</span>
+    <span class="filter-count" id="filterCount" style="display:none;">0</span>
+  </button>
+  <button class="filter-toggle" id="triggerScan" title="GitHub Actions üzerinden taramayı şimdi başlat">▶ Şimdi Tara</button>
+  <button class="filter-toggle" id="copyAllBtn" title="Filtrelenmiş tüm sonuçları Excel'e yapıştırılabilir formatta kopyala">📋 Tümünü Kopyala</button>
+  <button class="filter-toggle" id="openLogBtn" title="Yaptığın düzenlemelerin geçmişi">📜 Log</button>
+</div>
+
+<div class="filter-panel" id="filterPanel">
+  <div class="filter-panel-inner">
+    <div class="filter-group">
+      <h4>Kaynak <span class="clear-link" data-clear="source">temizle</span></h4>
+      <div class="checklist" id="sourceChecklist"></div>
+    </div>
+    <div class="filter-group">
+      <h4>AI durumu <span class="clear-link" data-clear="ai">temizle</span></h4>
+      <div class="checklist" id="aiChecklist">
+        <label><input type="checkbox" value="verified"> AI ile onaylanmış</label>
+        <label><input type="checkbox" value="pending"> AI bekliyor (henüz işlenmedi)</label>
+        <label><input type="checkbox" value="free"> Ücretsiz tahmin (sonuç ilanı)</label>
+      </div>
+    </div>
+    <div class="filter-group">
+      <h4>Durum <span class="clear-link" data-clear="durum">temizle</span></h4>
+      <div class="checklist" id="durumChecklist">
+        <label><input type="checkbox" value="aktif"> Hâlâ geçerli / aktif</label>
+        <label><input type="checkbox" value="bitmis"> Süresi dolmuş / bitmiş</label>
+        <label><input type="checkbox" value="belirsiz"> Durumu belirsiz</label>
+      </div>
+    </div>
+    <div class="filter-group">
+      <h4>Onay durumum <span class="clear-link" data-clear="onay">temizle</span></h4>
+      <div class="checklist" id="onayChecklist">
+        <label><input type="checkbox" value="onay"> ✓ Onayladıklarım</label>
+        <label><input type="checkbox" value="belki"> ? Belki dediklerim</label>
+        <label><input type="checkbox" value="red"> ✗ Reddettiklerim</label>
+        <label><input type="checkbox" value="isaretsiz"> İşaretlemediklerim</label>
+      </div>
+    </div>
+    <div class="filter-group">
+      <h4>Tema <span class="clear-link" data-clear="tema">temizle</span></h4>
+      <div class="tema-chips" id="temaChips"></div>
+    </div>
+    <div class="filter-group">
+      <h4>Program serisi <span class="clear-link" data-clear="program">temizle</span></h4>
+      <div class="tema-chips" id="programChips"></div>
+    </div>
+    <div class="filter-group">
+      <h4>Kimler için <span class="clear-link" data-clear="kimler">temizle</span></h4>
+      <div class="tema-chips" id="kimlerChips"></div>
+    </div>
+    <div class="filter-group">
+      <h4>Tekilleştirme</h4>
+      <label style="display:flex;align-items:center;gap:0.45rem;font-size:0.82rem;cursor:pointer;">
+        <input type="checkbox" id="hideDuplicates" checked style="cursor:pointer;accent-color:var(--seal);">
+        Aynı duyurunun kopyalarını gizle
+      </label>
+      <p style="font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--ink-soft);margin:0.5rem 0 0;">
+        Kapatırsan, başka bir kaynakta da bulunan kayıtlar da ayrı ayrı listelenir.
+      </p>
+    </div>
+    <div class="filter-group">
+      <h4>Hibe miktarı (TL) <span class="clear-link" data-clear="amount">temizle</span></h4>
+      <div class="range-row">
+        <input type="number" id="amountMin" placeholder="Min">
+        <span>—</span>
+        <input type="number" id="amountMax" placeholder="Maks">
+      </div>
+      <p style="font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--ink-soft);margin:0.5rem 0 0;">AI'ın ya da senin girdiğin sayısal tutarı olan kayıtlarda çalışır.</p>
+    </div>
+    <div class="filter-group">
+      <h4>Son başvuru tarihi aralığı <span class="clear-link" data-clear="deadline">temizle</span></h4>
+      <div class="range-row">
+        <input type="date" id="deadlineFrom">
+        <span>—</span>
+        <input type="date" id="deadlineTo">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="notice-box warn" id="sourceWarning" style="display:none;"></div>
+<div class="notice-box" id="dupNotice" style="display:none;"></div>
+
+<div class="stats" id="stats"></div>
+
+<main id="list"><div class="loading">Duyurular yükleniyor…</div></main>
+
+<footer>
+  Veri: <code>data/duyurular.json</code> — GitHub Actions ile otomatik güncellenir (Tara → Sınıflandır → AI zenginleştir).<br>
+  Kaynaklar arasında: <a href="https://ka.gov.tr/destekler" target="_blank">ka.gov.tr</a>,
+  <a href="https://www.yatirimadestek.gov.tr" target="_blank">yatirimadestek.gov.tr</a>,
+  <a href="https://tubitak.gov.tr/tr/duyuru" target="_blank">tubitak.gov.tr</a>,
+  <a href="https://www.iskur.gov.tr" target="_blank">iskur.gov.tr</a>,
+  <a href="https://www.tkdk.gov.tr" target="_blank">tkdk.gov.tr</a> ve 35+ diğer kaynak.
+</footer>
+
+<div class="modal-overlay" id="logModal">
+  <div class="modal-box">
+    <button class="modal-close" id="closeLogBtn" aria-label="Kapat">✕</button>
+    <h3>Düzenleme Geçmişim</h3>
+    <div id="logList"></div>
+  </div>
+</div>
+
+<script>
+let ALL_ITEMS = [];
+let TEMA_LISTESI = [];
+let PROGRAM_SERISI_LISTESI = [];
+let KIMLER_ETIKET_LISTESI = [];
+let activeRange = "all"; // "all" ya da saat cinsinden bir sayı (string)
+let activeTab = "hibe";
+let activeTemalar = new Set();
+let activeSources = new Set();
+let activeAiStatus = new Set();
+let activeDurum = new Set();
+let activeOnay = new Set();
+let activeProgram = new Set();
+let activeKimler = new Set();
+let USER_EDITS = {}; // GitHub'daki data/user_edits.json + bu tarayıcının yerel taslakları birleşmiş hali
+
+/* ---------- Karanlık mod ---------- */
+function applyTheme(theme){
+  document.documentElement.setAttribute('data-theme', theme);
+  document.getElementById('themeToggle').textContent = theme === 'dark' ? '☀️' : '🌙';
+  try{ localStorage.setItem('hibe-takip-theme', theme); }catch(e){}
+}
+(function initTheme(){
+  let saved = null;
+  try{ saved = localStorage.getItem('hibe-takip-theme'); }catch(e){}
+  const preferred = saved || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  applyTheme(preferred);
+})();
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  applyTheme(current === 'dark' ? 'light' : 'dark');
+});
+
+/* ---------- Filtre paneli aç/kapa ---------- */
+document.getElementById('filterToggle').addEventListener('click', () => {
+  document.getElementById('filterPanel').classList.toggle('open');
+});
+document.querySelectorAll('.clear-link').forEach(el => {
+  el.addEventListener('click', () => {
+    const which = el.dataset.clear;
+    if(which === 'source'){ activeSources.clear(); document.querySelectorAll('#sourceChecklist input').forEach(c=>c.checked=false); }
+    if(which === 'ai'){ activeAiStatus.clear(); document.querySelectorAll('#aiChecklist input').forEach(c=>c.checked=false); }
+    if(which === 'durum'){ activeDurum.clear(); document.querySelectorAll('#durumChecklist input').forEach(c=>c.checked=false); }
+    if(which === 'onay'){ activeOnay.clear(); document.querySelectorAll('#onayChecklist input').forEach(c=>c.checked=false); }
+    if(which === 'tema'){ activeTemalar.clear(); document.querySelectorAll('#temaChips .tema-toggle').forEach(c=>c.classList.remove('active')); }
+    if(which === 'program'){ activeProgram.clear(); document.querySelectorAll('#programChips .tema-toggle').forEach(c=>c.classList.remove('active')); }
+    if(which === 'kimler'){ activeKimler.clear(); document.querySelectorAll('#kimlerChips .tema-toggle').forEach(c=>c.classList.remove('active')); }
+    if(which === 'amount'){ document.getElementById('amountMin').value=''; document.getElementById('amountMax').value=''; }
+    if(which === 'deadline'){ document.getElementById('deadlineFrom').value=''; document.getElementById('deadlineTo').value=''; }
+    render();
+  });
+});
+
+/* ---------- Yardımcılar ---------- */
+function hoursAgo(dateStr){
+  if(!dateStr) return Infinity;
+  return (Date.now() - new Date(dateStr).getTime()) / (1000*60*60);
+}
+function daysAgo(dateStr){ return hoursAgo(dateStr) / 24; }
+function effectiveDetails(it){
+  const base = it.details || {};
+  const edit = USER_EDITS[it.url];
+  if(!edit) return base;
+  return { ...base, ...edit, _edited: true };
+}
+function earliestDeadline(it){
+  const eff = effectiveDetails(it);
+  const arr = eff.son_basvuru_tarihleri;
+  if(arr && arr.length) return [...arr].sort()[0];
+  const raw = it.on_tarihler;
+  if(raw && raw.length) return [...raw].sort().slice(-1)[0];
+  return null;
+}
+function daysUntil(dateStr){
+  if(!dateStr) return null;
+  return Math.ceil((new Date(dateStr).getTime() - Date.now()) / (1000*60*60*24));
+}
+function maxAmount(it){
+  const d = effectiveDetails(it);
+  if(d.hibe_miktari_manual_tl !== undefined && d.hibe_miktari_manual_tl !== null && d.hibe_miktari_manual_tl !== '')
+    return Number(d.hibe_miktari_manual_tl);
+  return (d.hibe_miktari_max_tl !== undefined && d.hibe_miktari_max_tl !== null) ? d.hibe_miktari_max_tl
+       : (d.hibe_miktari_min_tl !== undefined ? d.hibe_miktari_min_tl : null);
+}
+function tabOf(it){
+  const tur = it.details && it.details.tur;
+  if(tur){
+    if(tur === "hibe_duyurusu") return "hibe";
+    if(tur === "yarisma_duyurusu") return "yarisma";
+    if(tur === "sonuc_ilani" || tur === "sonuc_ilani_tahmini") return "sonuc";
+    return "diger";
+  }
+  const ot = it.olasi_tur;
+  if(ot === "sonuc_olabilir") return "sonuc";
+  if(ot === "yarisma_olabilir") return "yarisma";
+  if(ot === "haber_olabilir") return "diger";
+  return "hibe";
+}
+function aiStatusOf(it){
+  const d = it.details;
+  if(!d) return "pending";
+  if(d.ai_ile_dogrulandi) return "verified";
+  return "free";
+}
+function grantStatus(it){
+  const d = effectiveDetails(it);
+  if(d.basvuruya_acik === false) return "bitmis";
+  const dl = earliestDeadline(it);
+  if(dl){
+    const days = daysUntil(dl);
+    if(days !== null && days < 0) return "bitmis";
+    return "aktif";
+  }
+  if(d.basvuruya_acik === true) return "aktif";
+  return "belirsiz";
+}
+function approvalOf(it){
+  const d = effectiveDetails(it);
+  return d.onay_durumu || null;
+}
+function fieldOrStatus(it, value){
+  if(value !== null && value !== undefined && value !== '' && !(Array.isArray(value) && value.length === 0)){
+    return Array.isArray(value) ? value.join(', ') : value;
+  }
+  const status = aiStatusOf(it);
+  if(status === 'verified') return '<span class="field-empty">Bulunamadı</span>';
+  return '<span class="field-empty">Taranmadı</span>';
+}
+
+function updateFilterCount(){
+  let n = activeSources.size + activeAiStatus.size + activeTemalar.size + activeDurum.size + activeOnay.size + activeProgram.size + activeKimler.size;
+  if(document.getElementById('amountMin').value || document.getElementById('amountMax').value) n++;
+  if(document.getElementById('deadlineFrom').value || document.getElementById('deadlineTo').value) n++;
+  const badge = document.getElementById('filterCount');
+  const toggle = document.getElementById('filterToggle');
+  if(n > 0){ badge.style.display='inline-block'; badge.textContent = n; toggle.classList.add('has-filters'); }
+  else { badge.style.display='none'; toggle.classList.remove('has-filters'); }
+}
+
+/* ---------- Render ---------- */
+function render(){
+  updateFilterCount();
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const sortBy = document.getElementById('sortBy').value;
+  const amountMin = parseFloat(document.getElementById('amountMin').value);
+  const amountMax = parseFloat(document.getElementById('amountMax').value);
+  const deadlineFrom = document.getElementById('deadlineFrom').value;
+  const deadlineTo = document.getElementById('deadlineTo').value;
+  const list = document.getElementById('list');
+
+  let items = document.getElementById('hideDuplicates').checked
+    ? ALL_ITEMS.filter(it => !it.duplicate_of)
+    : ALL_ITEMS.slice();
+
+  items = items.filter(it => {
+    if(q){
+      const d = effectiveDetails(it);
+      const hay = [it.title, d.ozet, d.kimler_basvurabilir, d.hibe_miktari, d.toplam_butce,
+        ...(d.temalar||[]), ...(d.program_serisi||[]), ...(d.kimler_etiketleri||[])]
+        .filter(Boolean).join(' ').toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    if(activeSources.size && !activeSources.has(it.source)) return false;
+    if(activeAiStatus.size && !activeAiStatus.has(aiStatusOf(it))) return false;
+    if(activeRange !== "all"){
+      if(hoursAgo(it.first_seen || it.date) > Number(activeRange)) return false;
+    }
+    if(activeDurum.size && !activeDurum.has(grantStatus(it))) return false;
+    if(activeOnay.size){
+      const ap = approvalOf(it) || "isaretsiz";
+      if(!activeOnay.has(ap)) return false;
+    }
+    if(tabOf(it) !== activeTab) return false;
+    if(activeTemalar.size){
+      const temalar = (it.details && it.details.temalar) || [];
+      if(![...activeTemalar].some(t => temalar.includes(t))) return false;
+    }
+    if(activeProgram.size){
+      const progs = effectiveDetails(it).program_serisi || [];
+      if(![...activeProgram].some(p => progs.includes(p))) return false;
+    }
+    if(activeKimler.size){
+      const kims = effectiveDetails(it).kimler_etiketleri || [];
+      if(![...activeKimler].some(k => kims.includes(k))) return false;
+    }
+    if(!isNaN(amountMin) || !isNaN(amountMax)){
+      const amt = maxAmount(it);
+      if(amt === null) return false;
+      if(!isNaN(amountMin) && amt < amountMin) return false;
+      if(!isNaN(amountMax) && amt > amountMax) return false;
+    }
+    if(deadlineFrom || deadlineTo){
+      const dl = earliestDeadline(it);
+      if(!dl) return false;
+      if(deadlineFrom && dl < deadlineFrom) return false;
+      if(deadlineTo && dl > deadlineTo) return false;
+    }
+    return true;
+  });
+
+  if(sortBy === "deadline"){
+    items.sort((a,b) => (earliestDeadline(a) || "9999-99-99").localeCompare(earliestDeadline(b) || "9999-99-99"));
+  } else if(sortBy === "amount"){
+    items.sort((a,b) => (maxAmount(b) ?? -1) - (maxAmount(a) ?? -1));
+  } else {
+    items.sort((a,b) => (b.date||b.first_seen||"").localeCompare(a.date||a.first_seen||""));
+  }
+
+  const visibleAll = document.getElementById('hideDuplicates').checked
+    ? ALL_ITEMS.filter(it => !it.duplicate_of)
+    : ALL_ITEMS.slice();
+  const counts = {hibe:0, yarisma:0, sonuc:0, diger:0};
+  visibleAll.forEach(it => counts[tabOf(it)]++);
+  document.querySelector('.tab[data-tab="hibe"]').textContent = `Hibe Çağrıları (${counts.hibe})`;
+  document.querySelector('.tab[data-tab="yarisma"]').textContent = `Yarışma Programları (${counts.yarisma})`;
+  document.querySelector('.tab[data-tab="sonuc"]').textContent = `Sonuç İlanları (${counts.sonuc})`;
+  document.querySelector('.tab[data-tab="diger"]').textContent = `Diğer / Haberler (${counts.diger})`;
+
+  document.getElementById('stats').innerHTML =
+    `<span><b>${items.length}</b> duyuru gösteriliyor</span><span><b>${visibleAll.length}</b> toplam kayıt</span>`;
+
+  if(items.length === 0){
+    list.innerHTML = '<div class="empty">Eşleşen duyuru bulunamadı. Filtreleri gözden geçirmeyi dene.</div>';
+    return;
+  }
+
+  list.innerHTML = items.map(it => {
+    const isNew = daysAgo(it.first_seen) <= 7;
+    const dateLabel = it.date || it.first_seen || "—";
+    const d = effectiveDetails(it);
+    const wasEdited = !!d._edited;
+
+    const otherTag = d && d.tur && d.tur !== "hibe_duyurusu"
+      ? `<span class="badge badge-other">${d.tur.replace(/_/g,' ')}</span>` : '';
+    const dupTag = it.duplicate_of ? `<span class="badge badge-other" title="${it.duplicate_of_source || ''} kaynağındaki aynı kayıtla birleştirildi">kopya</span>` : '';
+    const alsoFoundTag = (it.also_found_in && it.also_found_in.length)
+      ? `<span class="badge badge-other" title="Ayrıca şu kaynak(lar)da da bulundu: ${it.also_found_in.map(a=>a.source).join(', ')}">+${it.also_found_in.length} kaynakta daha</span>` : '';
+    const editedTag = wasEdited ? `<span class="badge badge-other" title="Panelden manuel düzenlendi">elle düzenlendi</span>` : '';
+
+    const gs = grantStatus(it);
+    const gsLabel = gs === 'aktif' ? 'Aktif' : gs === 'bitmis' ? 'Süresi Bitmiş' : 'Durum belirsiz';
+    const gsStyle = gs==='aktif' ? 'color:var(--green);border-color:var(--green);' : gs==='bitmis' ? 'color:var(--seal);border-color:var(--seal);' : '';
+    const gsTag = `<span class="badge badge-other" style="${gsStyle}">${gsLabel}</span>`;
+
+    const status = aiStatusOf(it);
+    const aiBadgeLabel = status === "verified" ? "AI onaylı" : status === "pending" ? "AI bekliyor" : "ücretsiz tahmin";
+    const aiBadge = `<span class="badge badge-ai ${status}">${aiBadgeLabel}</span>`;
+
+    const ap = approvalOf(it);
+    const approveRow = `
+      <div class="approve-row">
+        <button class="approve-btn ${ap==='onay'?'active-onay':''}" data-approve-url="${it.url}" data-approve-val="onay">✓ Onay</button>
+        <button class="approve-btn ${ap==='belki'?'active-belki':''}" data-approve-url="${it.url}" data-approve-val="belki">? Belki</button>
+        <button class="approve-btn ${ap==='red'?'active-red':''}" data-approve-url="${it.url}" data-approve-val="red">✗ Red</button>
+      </div>`;
+
+    const deadline = earliestDeadline(it);
+    const dleft = deadline ? daysUntil(deadline) : null;
+    const isEstimated = !(d && d.son_basvuru_tarihleri && d.son_basvuru_tarihleri.length);
+    let deadlineValue, deadlineCls = '';
+    if (deadline) {
+      deadlineValue = deadline + (isEstimated ? ' (tahmini)' : '');
+      if (dleft !== null && dleft <= 7) deadlineCls = 'urgent';
+      else if (dleft !== null && dleft <= 30) deadlineCls = 'soon';
+    } else {
+      deadlineValue = fieldOrStatus(it, null);
+    }
+    const kalanText = (deadline && dleft !== null) ? (dleft < 0 ? 'süresi doldu' : `${dleft} gün kaldı`) : null;
+
+    // Hibe miktarı: ÖNCE sıralanabilir sayısal değer (varsa, biçimlendirilmiş
+    // TL olarak kalın), SONRA insan-okunur detaylı açıklama alt satırda.
+    const amt = maxAmount(it);
+    let hibeMiktariValue;
+    if (amt !== null) {
+      const formatted = amt.toLocaleString('tr-TR') + ' TL';
+      hibeMiktariValue = d && d.hibe_miktari && d.hibe_miktari !== formatted
+        ? `<b>${formatted}</b><br><span style="font-weight:400;">${d.hibe_miktari}</span>`
+        : `<b>${formatted}</b>`;
+    } else {
+      hibeMiktariValue = fieldOrStatus(it, d && d.hibe_miktari);
+    }
+
+    const rows = [
+      ['Son başvuru', `<span class="entry-info-value ${deadlineCls}">${deadlineValue}</span>`],
+      kalanText ? ['Kalan süre', `<span class="entry-info-value ${deadlineCls}">${kalanText}</span>`] : null,
+      ['Hibe miktarı', hibeMiktariValue],
+      ['Toplam bütçe', fieldOrStatus(it, d && d.toplam_butce)],
+      ['Kimler için', (d && d.kimler_etiketleri && d.kimler_etiketleri.length)
+        ? `<span class="entry-temalar">${d.kimler_etiketleri.map(k => `<span class="tema-chip">${k}</span>`).join('')}</span>`
+        : fieldOrStatus(it, d && d.kimler_basvurabilir)],
+      ['Kapsam', fieldOrStatus(it, d && d.desteklenen_aktiviteler)],
+      ['Faaliyet süresi', fieldOrStatus(it, d && d.faaliyet_suresi)],
+      (d && d.program_serisi && d.program_serisi.length)
+        ? ['Program', `<span class="entry-temalar">${d.program_serisi.map(p => `<span class="tema-chip">${p}</span>`).join('')}</span>`] : null,
+      (d && d.temalar && d.temalar.length)
+        ? ['Etiketler', `<span class="entry-temalar">${d.temalar.map(t => `<span class="tema-chip">${t}</span>`).join('')}</span>`] : null,
+      (d && d.notlar) ? ['Not', `<span class="entry-info-value">${d.notlar}</span>`] : null,
+    ].filter(Boolean);
+
+    const infoRows = rows.map(([label, valueHtml]) =>
+      `<div class="entry-info-row"><span class="entry-info-label">${label}</span>${valueHtml.startsWith('<span') ? valueHtml : `<span class="entry-info-value">${valueHtml}</span>`}</div>`
+    ).join('');
+
+    return `
+      <div class="entry" data-entry-url="${it.url}">
+        <div class="entry-date">${dateLabel}</div>
+        <div class="entry-body">
+          <div class="entry-source">${it.source}</div>
+          <div class="entry-title">
+            <a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
+            ${isNew ? '<span class="badge badge-new">YENİ</span>' : ''}
+            ${otherTag}
+            ${gsTag}
+            ${dupTag}
+            ${alsoFoundTag}
+            ${editedTag}
+            ${aiBadge}
+            <button class="edit-btn" data-edit-url="${it.url}" title="Bu kaydı düzenle">✏️</button>
+            <button class="copy-one-btn" data-copy-url="${it.url}" title="Bu kaydı Excel'e yapıştırılabilir formatta kopyala">📋</button>
+          </div>
+          ${d && d.ozet ? `<div class="entry-summary">${d.ozet}</div>` : ''}
+          ${approveRow}
+        </div>
+        <div class="entry-info">
+          ${infoRows}
+        </div>
+      </div>`;
+  }).join("");
+}
+
+document.getElementById('list').addEventListener('click', (e) => {
+  const editBtn = e.target.closest('.edit-btn');
+  if(editBtn){ e.preventDefault(); openEditForm(editBtn.dataset.editUrl); return; }
+  const copyBtn = e.target.closest('.copy-one-btn');
+  if(copyBtn){ e.preventDefault(); copyOneToClipboard(copyBtn.dataset.copyUrl); return; }
+  const approveBtn = e.target.closest('.approve-btn');
+  if(approveBtn){ e.preventDefault(); setApproval(approveBtn.dataset.approveUrl, approveBtn.dataset.approveVal); return; }
+});
+
+/* ---------- GitHub Actions'ı panelden tetikleme + panelden düzenleme ---------- */
+/* GÜVENLİK NOTU: Bu sayfa herkese açık statik bir GitHub Pages sayfasıdır.
+   GitHub'da bir işlem yapabilmek (tarama başlatma ya da düzenleme kaydetme)
+   için bir yetki anahtarı (Personal Access Token) gerekir. Bu anahtar
+   HİÇBİR ZAMAN bu dosyaya/koda gömülmez. Butona bastığında anahtarı SEN
+   tarayıcı penceresine yapıştırıyorsun; anahtar sadece o an tarayıcı
+   belleğinde durur (istersen "bu tarayıcıda hatırla" ile yerel olarak
+   saklanabilir, GitHub'a ya da başka bir sunucuya hiç gönderilmez).
+   Önerilen anahtar türü: GitHub'da "Fine-grained personal access token",
+   SADECE bu depoya, "Actions: Read and write" (tarama tetiklemek için) VE
+   "Contents: Read and write" (düzenleme kaydetmek için) izinleriyle
+   oluşturulmalı. */
+function detectRepo(){
+  const host = window.location.hostname;
+  const path = window.location.pathname.split('/').filter(Boolean);
+  if(!host.endsWith('.github.io') || path.length === 0) return null;
+  return { owner: host.replace('.github.io',''), repo: path[0] };
+}
+function showTriggerStatus(text, kind){
+  const box = document.getElementById('triggerStatus');
+  box.classList.add('show');
+  box.style.background = kind === 'error' ? 'var(--seal-soft)' : kind === 'ok' ? 'var(--green-soft)' : 'var(--gold-soft)';
+  box.style.color = kind === 'error' ? 'var(--seal)' : kind === 'ok' ? 'var(--green)' : 'var(--gold)';
+  box.textContent = text;
+}
+function getGithubToken(promptText){
+  let token = null;
+  try{ token = localStorage.getItem('hibe-takip-gh-token'); }catch(e){}
+  if(!token){
+    token = window.prompt(promptText);
+    if(!token) return null;
+    const remember = window.confirm('Bu anahtarı bu tarayıcıda hatırlayayım mı? (Onaylarsan bir daha sormam.)');
+    if(remember){ try{ localStorage.setItem('hibe-takip-gh-token', token); }catch(e){} }
+  }
+  return token;
+}
+function forgetGithubToken(){ try{ localStorage.removeItem('hibe-takip-gh-token'); }catch(e){} }
+
+document.getElementById('triggerScan').addEventListener('click', async () => {
+  const repoInfo = detectRepo();
+  if(!repoInfo){
+    showTriggerStatus('Bu sayfa GitHub Pages üzerinde çalışmıyor gibi görünüyor, otomatik depo tespiti yapılamadı.', 'error');
+    return;
+  }
+  const token = getGithubToken(
+    'Taramayı başlatmak için bir GitHub Personal Access Token gerekiyor.\n\n' +
+    'GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.\n' +
+    'Sadece bu depoyu, "Actions: Read and write" ve "Contents: Read and write" izinlerini seç.\n\n' +
+    'Anahtarı buraya yapıştır:'
+  );
+  if(!token) return;
+  showTriggerStatus('Tarama başlatılıyor…', 'info');
+  try{
+    const res = await fetch(`https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/actions/workflows/scrape.yml/dispatches`, {
+      method: 'POST',
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ref: 'main' }),
+    });
+    if(res.status === 204){
+      showTriggerStatus('Tarama başlatıldı ✓ — birkaç dakika sonra sayfayı yenile.', 'ok');
+    } else if(res.status === 401 || res.status === 403){
+      showTriggerStatus('Yetki reddedildi — anahtarın süresi dolmuş ya da izinleri yetersiz olabilir.', 'error');
+      forgetGithubToken();
+    } else {
+      const body = await res.text();
+      showTriggerStatus(`Beklenmeyen yanıt (HTTP ${res.status}): ${body.slice(0,150)}`, 'error');
+    }
+  } catch(e){
+    showTriggerStatus('İstek gönderilemedi: ' + e.message, 'error');
+  }
+});
+
+function loadLocalEdits(){
+  try{ return JSON.parse(localStorage.getItem('hibe-takip-local-edits') || '{}'); }catch(e){ return {}; }
+}
+function saveLocalEdits(edits){
+  try{ localStorage.setItem('hibe-takip-local-edits', JSON.stringify(edits)); }catch(e){}
+}
+
+async function saveEditToGithub(updatedAllEdits){
+  const repoInfo = detectRepo();
+  if(!repoInfo) return { ok:false, reason:'norepo' };
+  const token = getGithubToken(
+    'Düzenlemeyi kaydetmek için bir GitHub Personal Access Token gerekiyor.\n\n' +
+    'GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.\n' +
+    'Sadece bu depoyu ve "Contents: Read and write" iznini seç.\n\n' +
+    'Anahtarı buraya yapıştır:'
+  );
+  if(!token) return { ok:false, reason:'notoken' };
+  try{
+    const getRes = await fetch(`https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/contents/data/user_edits.json`, {
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json' },
+    });
+    let sha = undefined;
+    if(getRes.ok){ const j = await getRes.json(); sha = j.sha; }
+    const jsonStr = JSON.stringify(updatedAllEdits, null, 2);
+    const content = btoa(unescape(encodeURIComponent(jsonStr)));
+    const putRes = await fetch(`https://api.github.com/repos/${repoInfo.owner}/${repoInfo.repo}/contents/data/user_edits.json`, {
+      method: 'PUT',
+      headers: { 'Authorization': `Bearer ${token}`, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: 'Panel üzerinden manuel düzenleme', content, sha, branch: 'main' }),
+    });
+    if(putRes.ok){ return { ok:true }; }
+    if(putRes.status === 401 || putRes.status === 403){ forgetGithubToken(); return { ok:false, reason:'auth' }; }
+    return { ok:false, reason:'http', status: putRes.status };
+  } catch(e){
+    return { ok:false, reason:'network', message: e.message };
+  }
+}
+
+/* ---------- Düzenleme geçmişi (log) ---------- */
+function getLog(){ return USER_EDITS._log || (USER_EDITS._log = []); }
+function appendLog(url, title, action, before, after){
+  const log = getLog();
+  log.unshift({ url, title, action, before: before || null, after: after || null, at: new Date().toISOString() });
+  if(log.length > 300) log.length = 300;
+}
+async function persistEdits(statusEl){
+  if(statusEl) statusEl.textContent = 'Kaydediliyor…';
+  const result = await saveEditToGithub(USER_EDITS);
+  if(result.ok){
+    if(statusEl) statusEl.textContent = '✓ GitHub\'a kaydedildi, herkes görecek.';
+    saveLocalEdits({});
+  } else {
+    if(statusEl) statusEl.textContent = '⚠ GitHub\'a kaydedilemedi, sadece bu tarayıcıda saklandı.';
+    saveLocalEdits(USER_EDITS);
+  }
+  return result.ok;
+}
+function setApproval(url, val){
+  const it = ALL_ITEMS.find(i => i.url === url);
+  if(!it) return;
+  const before = USER_EDITS[url] ? { ...USER_EDITS[url] } : null;
+  const current = USER_EDITS[url] || {};
+  const newVal = current.onay_durumu === val ? null : val;
+  USER_EDITS[url] = { ...current, onay_durumu: newVal, edited_at: new Date().toISOString() };
+  appendLog(url, it.title, `onay durumu: ${newVal || 'temizlendi'}`, before, { ...USER_EDITS[url] });
+  persistEdits().then(() => render());
+}
+function deleteEdit(url){
+  const it = ALL_ITEMS.find(i => i.url === url);
+  if(!it || !USER_EDITS[url]) return;
+  if(!window.confirm('Bu kayıttaki tüm manuel düzenlemelerini silmek istediğine emin misin? (AI\'ın kendi verisi etkilenmez)')) return;
+  const before = { ...USER_EDITS[url] };
+  delete USER_EDITS[url];
+  appendLog(url, it.title, 'düzenleme silindi', before, null);
+  persistEdits().then(() => render());
+  const form = document.querySelector('.edit-form');
+  if(form) form.remove();
+}
+function undoLogEntry(index){
+  const log = getLog();
+  const entry = log[index];
+  if(!entry) return;
+  if(entry.before) USER_EDITS[entry.url] = entry.before;
+  else delete USER_EDITS[entry.url];
+  appendLog(entry.url, entry.title, 'geri alındı', entry.after, entry.before);
+  persistEdits().then(() => { render(); renderLog(); });
+}
+function renderLog(){
+  const log = getLog();
+  const box = document.getElementById('logList');
+  if(!log.length){ box.innerHTML = '<p style="color:var(--ink-soft);font-size:0.85rem;">Henüz bir düzenleme yapmadın.</p>'; return; }
+  box.innerHTML = log.map((entry, i) => `
+    <div class="log-entry">
+      <div class="log-entry-meta">${new Date(entry.at).toLocaleString('tr-TR')} — ${entry.action}</div>
+      <div class="log-entry-title">${entry.title}</div>
+      ${entry.action !== 'geri alındı' ? `<button class="log-undo-btn" data-undo-index="${i}">Geri Al</button>` : ''}
+    </div>
+  `).join('');
+  box.querySelectorAll('.log-undo-btn').forEach(btn => {
+    btn.addEventListener('click', () => undoLogEntry(Number(btn.dataset.undoIndex)));
+  });
+}
+document.getElementById('openLogBtn').addEventListener('click', () => {
+  renderLog();
+  document.getElementById('logModal').classList.add('open');
+});
+document.getElementById('closeLogBtn').addEventListener('click', () => {
+  document.getElementById('logModal').classList.remove('open');
+});
+document.getElementById('logModal').addEventListener('click', (e) => {
+  if(e.target.id === 'logModal') document.getElementById('logModal').classList.remove('open');
+});
+
+/* ---------- Excel'e kopyalama ---------- */
+const EXCEL_COLUMNS = ['Başlık', 'Kaynak', 'Yayın Tarihi', 'Son Başvuru', 'Kalan Gün', 'Hibe Miktarı', 'Toplam Bütçe', 'Kimler İçin', 'Durum', 'URL'];
+function itemToExcelRow(it){
+  const d = effectiveDetails(it);
+  const deadline = earliestDeadline(it);
+  const dleft = deadline ? daysUntil(deadline) : '';
+  const kimler = (d.kimler_etiketleri && d.kimler_etiketleri.length) ? d.kimler_etiketleri.join('; ') : (d.kimler_basvurabilir || '');
+  const durum = grantStatus(it);
+  return [it.title, it.source, (it.date || it.first_seen || ''), (deadline || ''), (dleft === '' ? '' : dleft),
+    (d.hibe_miktari || ''), (d.toplam_butce || ''), kimler, durum, it.url]
+    .map(v => String(v).replace(/\t/g, ' ').replace(/\n/g, ' ')).join('\t');
+}
+async function copyTextToClipboard(text, statusCb){
+  try{ await navigator.clipboard.writeText(text); if(statusCb) statusCb(true); }
+  catch(e){ if(statusCb) statusCb(false, e.message); }
+}
+function copyOneToClipboard(url){
+  const it = ALL_ITEMS.find(i => i.url === url);
+  if(!it) return;
+  const tsv = EXCEL_COLUMNS.join('\t') + '\n' + itemToExcelRow(it);
+  copyTextToClipboard(tsv, (ok) => {
+    showTriggerStatus(ok ? 'Kayıt kopyalandı — Excel\'e CTRL+V ile yapıştırabilirsin.' : 'Kopyalama başarısız oldu.', ok ? 'ok' : 'error');
+  });
+}
+document.getElementById('copyAllBtn').addEventListener('click', () => {
+  const visible = [...document.querySelectorAll('.entry')].map(el => el.dataset.entryUrl);
+  const items = visible.map(u => ALL_ITEMS.find(i => i.url === u)).filter(Boolean);
+  if(!items.length){ showTriggerStatus('Kopyalanacak filtrelenmiş kayıt yok.', 'error'); return; }
+  const tsv = EXCEL_COLUMNS.join('\t') + '\n' + items.map(itemToExcelRow).join('\n');
+  copyTextToClipboard(tsv, (ok) => {
+    showTriggerStatus(ok ? `${items.length} kayıt kopyalandı — Excel'e CTRL+V ile yapıştırabilirsin.` : 'Kopyalama başarısız oldu.', ok ? 'ok' : 'error');
+  });
+});
+
+/* ---------- Düzenleme formu ---------- */
+function openEditForm(url){
+  const it = ALL_ITEMS.find(i => i.url === url);
+  if(!it) return;
+  const d = effectiveDetails(it);
+  const formId = 'editform-' + btoa(url).replace(/[^a-zA-Z0-9]/g,'');
+  const existing = document.getElementById(formId);
+  if(existing){ existing.remove(); return; }
+
+  const temaOptions = TEMA_LISTESI.map(t =>
+    `<label style="display:inline-flex;align-items:center;gap:0.3rem;margin:0.15rem 0.5rem 0.15rem 0;font-size:0.78rem;">
+      <input type="checkbox" value="${t}" ${(d.temalar||[]).includes(t) ? 'checked' : ''}> ${t}
+    </label>`).join('');
+  const hasExistingEdit = !!USER_EDITS[url];
+
+  const form = document.createElement('div');
+  form.id = formId;
+  form.className = 'edit-form';
+  form.innerHTML = `
+    <h4>Düzenle</h4>
+    <label class="edit-label">Hibe miktarı (serbest metin)</label>
+    <input type="text" class="edit-amount" value="${(d.hibe_miktari||'').replace(/"/g,'&quot;')}" placeholder="ör. %75 hibe, üst limit 500.000 TL">
+    <label class="edit-label">Hibe miktarı — sayısal (TL, SIRALAMA/FİLTRE için kullanılır)</label>
+    <input type="number" class="edit-amount-manual" value="${d.hibe_miktari_manual_tl ?? ''}" placeholder="ör. 500000">
+    <label class="edit-label">Son başvuru tarihi</label>
+    <input type="date" class="edit-deadline" value="${(d.son_basvuru_tarihleri && d.son_basvuru_tarihleri[0]) || ''}">
+    <label class="edit-label">Etiketler</label>
+    <div class="edit-temalar">${temaOptions}</div>
+    <label class="edit-label">Not (sadece bu panelde görünür, AI'a gönderilmez)</label>
+    <textarea class="edit-notlar" rows="2" placeholder="kendi notunu yaz…">${d.notlar || ''}</textarea>
+    <div class="edit-actions">
+      <button class="edit-save">Kaydet</button>
+      <button class="edit-cancel">Vazgeç</button>
+      ${hasExistingEdit ? '<button class="edit-delete">Düzenlemeyi Sil</button>' : ''}
+      <span class="edit-status"></span>
+    </div>
+  `;
+  const card = document.querySelector(`[data-entry-url="${CSS.escape(url)}"]`);
+  card.appendChild(form);
+
+  form.querySelector('.edit-cancel').addEventListener('click', () => form.remove());
+  const delBtn = form.querySelector('.edit-delete');
+  if(delBtn) delBtn.addEventListener('click', () => deleteEdit(url));
+
+  form.querySelector('.edit-save').addEventListener('click', async () => {
+    const statusEl = form.querySelector('.edit-status');
+    const newAmount = form.querySelector('.edit-amount').value.trim();
+    const newAmountManual = form.querySelector('.edit-amount-manual').value;
+    const newDeadline = form.querySelector('.edit-deadline').value;
+    const newTemalar = [...form.querySelectorAll('.edit-temalar input:checked')].map(c => c.value);
+    const newNotlar = form.querySelector('.edit-notlar').value.trim();
+
+    const before = USER_EDITS[url] ? { ...USER_EDITS[url] } : null;
+    const edit = {
+      ...(USER_EDITS[url] || {}),
+      hibe_miktari: newAmount || null,
+      hibe_miktari_manual_tl: newAmountManual !== '' ? Number(newAmountManual) : null,
+      son_basvuru_tarihleri: newDeadline ? [newDeadline] : (d.son_basvuru_tarihleri || null),
+      temalar: newTemalar,
+      notlar: newNotlar || null,
+      edited_at: new Date().toISOString(),
+    };
+    USER_EDITS[url] = edit;
+    appendLog(url, it.title, 'düzenlendi', before, { ...edit });
+    await persistEdits(statusEl);
+    setTimeout(() => { render(); }, 900);
+  });
+}
+
+/* ---------- Başlangıç ---------- */
+async function init(){
+  try{
+    const res = await fetch('data/duyurular.json', {cache:"no-store"});
+    const data = await res.json();
+    ALL_ITEMS = Object.values(data.items || {});
+    TEMA_LISTESI = data.tema_listesi || [];
+    PROGRAM_SERISI_LISTESI = data.program_serisi_listesi || [];
+    KIMLER_ETIKET_LISTESI = data.kimler_etiket_listesi || [];
+    document.getElementById('lastUpdated').textContent =
+      data.last_updated ? `Son güncelleme: ${data.last_updated}` : "";
+
+    try{
+      const editsRes = await fetch('data/user_edits.json', {cache:"no-store"});
+      const githubEdits = editsRes.ok ? await editsRes.json() : {};
+      USER_EDITS = { ...githubEdits, ...loadLocalEdits() };
+    }catch(e){ USER_EDITS = loadLocalEdits(); }
+
+    const aiStatus = data.ai_status;
+    if(aiStatus && aiStatus.quota_exceeded){
+      const banner = document.getElementById('quotaBanner');
+      banner.classList.add('show');
+      document.getElementById('quotaBannerText').textContent =
+        `AI günlük kota/limit sınırına ulaştı (${aiStatus.checked_at ? new Date(aiStatus.checked_at).toLocaleString('tr-TR') : ''}). `
+        + `${aiStatus.pending_count || 0} kayıt bir sonraki otomatik çalıştırmada işlenmeye devam edecek.`;
+    } else if(aiStatus && aiStatus.provider && aiStatus.pending_count > 0){
+      const banner = document.getElementById('quotaBanner');
+      banner.classList.add('show');
+      banner.classList.remove('banner-quota');
+      banner.style.background = 'var(--gold-soft)'; banner.style.color = 'var(--gold)';
+      document.getElementById('quotaBannerText').textContent =
+        `AI şu an ${aiStatus.pending_count} kaydı işlemeyi bekliyor (kota sorunu yok, sırada).`;
+    }
+
+    const visible = ALL_ITEMS.filter(it => !it.duplicate_of);
+
+    const sources = [...new Set(visible.map(i => i.source))].sort();
+    const sourceBox = document.getElementById('sourceChecklist');
+    sourceBox.innerHTML = sources.map(s => `<label><input type="checkbox" value="${s}"> ${s}</label>`).join('');
+    sourceBox.querySelectorAll('input').forEach(cb => {
+      cb.addEventListener('change', () => { if(cb.checked) activeSources.add(cb.value); else activeSources.delete(cb.value); render(); });
+    });
+
+    document.getElementById('aiChecklist').querySelectorAll('input').forEach(cb => {
+      cb.addEventListener('change', () => { if(cb.checked) activeAiStatus.add(cb.value); else activeAiStatus.delete(cb.value); render(); });
+    });
+    document.getElementById('durumChecklist').querySelectorAll('input').forEach(cb => {
+      cb.addEventListener('change', () => { if(cb.checked) activeDurum.add(cb.value); else activeDurum.delete(cb.value); render(); });
+    });
+    document.getElementById('onayChecklist').querySelectorAll('input').forEach(cb => {
+      cb.addEventListener('change', () => { if(cb.checked) activeOnay.add(cb.value); else activeOnay.delete(cb.value); render(); });
+    });
+
+    const temaBox = document.getElementById('temaChips');
+    temaBox.innerHTML = TEMA_LISTESI.map(t => `<button class="tema-toggle" data-tema="${t}">${t}</button>`).join('');
+    temaBox.querySelectorAll('.tema-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const t = btn.dataset.tema;
+        if(activeTemalar.has(t)){ activeTemalar.delete(t); btn.classList.remove('active'); }
+        else { activeTemalar.add(t); btn.classList.add('active'); }
+        render();
+      });
+    });
+    const programBox = document.getElementById('programChips');
+    programBox.innerHTML = PROGRAM_SERISI_LISTESI.map(p => `<button class="tema-toggle" data-tema="${p}">${p}</button>`).join('');
+    programBox.querySelectorAll('.tema-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const p = btn.dataset.tema;
+        if(activeProgram.has(p)){ activeProgram.delete(p); btn.classList.remove('active'); }
+        else { activeProgram.add(p); btn.classList.add('active'); }
+        render();
+      });
+    });
+    const kimlerBox = document.getElementById('kimlerChips');
+    kimlerBox.innerHTML = KIMLER_ETIKET_LISTESI.map(k => `<button class="tema-toggle" data-tema="${k}">${k}</button>`).join('');
+    kimlerBox.querySelectorAll('.tema-toggle').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const k = btn.dataset.tema;
+        if(activeKimler.has(k)){ activeKimler.delete(k); btn.classList.remove('active'); }
+        else { activeKimler.add(k); btn.classList.add('active'); }
+        render();
+      });
+    });
+
+    const failed = Object.entries(data.source_status || {}).filter(([id, st]) => !st.ok || st.found === 0);
+    if (failed.length) {
+      const box = document.getElementById('sourceWarning');
+      box.style.display = 'block';
+      box.innerHTML = `<details><summary>${failed.length} kaynağa şu an ulaşılamadı ya da içerik bulunamadı</summary>
+        <ul>${failed.map(([id, st]) => `<li><b>${id}</b> ${st.error ? '— ' + st.error : (st.diag ? '— ' + st.diag : '(0 sonuç)')}</li>`).join('')}</ul>
+      </details>`;
+    }
+
+    const dupCount = ALL_ITEMS.length - visible.length;
+    if (dupCount > 0) {
+      const box = document.getElementById('dupNotice');
+      box.style.display = 'block';
+      box.innerHTML = `<details><summary>${dupCount} kayıt başka bir kaynaktaki aynı duyuruyla eşleşti ve tekilleştirildi (gizlendi)</summary>
+        <p>Filtreler panelinden "Aynı duyurunun kopyalarını gizle" seçeneğini kapatarak bunları da ayrı ayrı görebilirsin.</p>
+      </details>`;
+    }
+
+    render();
+  }catch(e){
+    document.getElementById('list').innerHTML =
+      '<div class="empty">Veri henüz yok. scrape.py → classify.py → enrich.py bir kez çalıştırıldığında burada görünecek.</div>';
+    document.getElementById('lastUpdated').textContent = "";
+    console.error(e);
+  }
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('sortBy').addEventListener('change', render);
+document.getElementById('amountMin').addEventListener('input', render);
+document.getElementById('amountMax').addEventListener('input', render);
+document.getElementById('deadlineFrom').addEventListener('input', render);
+document.getElementById('deadlineTo').addEventListener('input', render);
+document.getElementById('hideDuplicates').addEventListener('change', render);
+document.querySelectorAll('.chip').forEach(btn => {
+  if(btn.id === 'applyCustomRange') return;
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeRange = btn.dataset.range;
+    render();
+  });
+});
+document.getElementById('applyCustomRange').addEventListener('click', () => {
+  const days = parseInt(document.getElementById('customDays').value, 10) || 0;
+  const hours = parseInt(document.getElementById('customHours').value, 10) || 0;
+  const totalHours = days * 24 + hours;
+  if(totalHours <= 0) return;
+  document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
+  activeRange = String(totalHours);
+  render();
+});
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeTab = btn.dataset.tab;
+    render();
+  });
+});
+
+init();
+</script>
+</body>
+</html>
