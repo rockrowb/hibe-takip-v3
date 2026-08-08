@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-08-07",
+  "last_updated": "2026-08-08",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 148940 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 44,
       "diag": "/tr/haberler -> HTTP 200, 37671 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 10,
-      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/gelismis-arama -> HTTP 200, 12013 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11886 byte HTML, 0 link, 0 olası duyuru | /gelismis-arama (Playwright) -> HTTP 200, 11638 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 44,
       "diag": "/ -> HTTP 200, 109853 byte HTML, 157 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 69,
       "diag": "/duyurular/ -> HTTP 200, 196322 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 27,
       "diag": "/Duyurular -> HTTP 200, 27576 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 95205 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 94962 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 11956 byte HTML, 0 link, 0 olası duyuru | /kategori/fon-hibe-destek-duyurulari/ (Playwright) -> HTTP 200, 11649 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "sivil_alan": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 26,
-      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 301889 byte HTML, 128 link, 46 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 11904 byte HTML, 0 link, 0 olası duyuru | /category/hibe-duyurulari/ (Playwright) -> HTTP 200, 11676 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 0,
       "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 759 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 69,
       "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59985 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 583335 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 3,
       "diag": "/@projeyonetimi -> HTTP 200, 145001 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 0,
       "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27456 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 8,
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 355,
       "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215419 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
-      "ok": false,
-      "checked": "2026-08-07",
-      "found": 0,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyuru -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Haberler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.tarimorman.gov.tr/Haberler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-08",
+      "found": 68,
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271906 byte HTML, 239 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 22,
       "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54749 byte HTML, 106 link, 59 olası duyuru"
     },
     "istka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 24,
-      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11983 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 11971 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11963 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11634 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "ankaraka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/ajans-destek-programlari -> HTTP 200, 12032 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11987 byte HTML, 0 link, 0 olası duyuru | /ajans-destek-programlari (Playwright) -> HTTP 200, 11647 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 68229 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 28,
-      "diag": "/destekler -> HTTP 200, 144176 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289487 byte HTML, 309 link, 66 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11949 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11978 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11624 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 19,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/tr/guncel-destekler -> HTTP 200, 11963 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 11909 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destekler (Playwright) -> HTTP 200, 11603 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "baka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 1,
-      "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11962 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11996 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11610 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "dogaka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 76,
-      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler/destekler -> HTTP 200, 11966 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 12025 byte HTML, 0 link, 0 olası duyuru | /destekler/destekler (Playwright) -> HTTP 200, 11692 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 11982 byte HTML, 0 link, 0 olası duyuru | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 11590 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 44,
-      "diag": "/ -> HTTP 200, 122363 byte HTML, 277 link, 63 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11859 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11852 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11676 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "doka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 231741 byte HTML, 130 link, 53 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/acik-destekler -> HTTP 200, 11967 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12023 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11894 byte HTML, 0 link, 0 olası duyuru | /acik-destekler (Playwright) -> HTTP 200, 11663 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oran": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 84,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 111471 byte HTML, 189 link, 125 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11877 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11958 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11606 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "marka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 482841 byte HTML, 649 link, 177 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12014 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11984 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11627 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "gmka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 39,
-      "diag": "/acik-destek-programlari -> HTTP 200, 71450 byte HTML, 94 link, 51 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/acik-destek-programlari -> HTTP 200, 11917 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12002 byte HTML, 0 link, 0 olası duyuru | /acik-destek-programlari (Playwright) -> hata: Page.goto: net::ERR_CERT_DATE_INVALID at https://www.gmka.gov.tr/acik-destek-programlari\nCall log:\nnavigating to \"https://www.gmka.gov.tr/acik-destek-programlari\", waiting until \"networkidle\"\n"
     },
     "geka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 129,
-      "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11916 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 11958 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11567 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "ika": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 2,
-      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11900 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11957 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11651 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "trakyaka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 11880 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11916 byte HTML, 0 link, 0 olası duyuru | /tr/33286/DESTEKLER (Playwright) -> HTTP 200, 11650 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 56,
-      "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11919 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 11947 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11624 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kuzka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 94,
-      "diag": "/ -> HTTP 200, 190989 byte HTML, 253 link, 114 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11914 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11551 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kudaka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 127,
-      "diag": "/home -> HTTP 200, 101646 byte HTML, 196 link, 134 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/home -> HTTP 200, 11986 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11970 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11913 byte HTML, 0 link, 0 olası duyuru | /home (Playwright) -> HTTP 200, 11581 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "serka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 147,
-      "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11973 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11978 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11593 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "daka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 74,
-      "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12011 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11966 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11622 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "fka": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66934 byte HTML, 167 link, 73 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11932 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11902 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11955 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11622 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "dika": {
-      "ok": true,
-      "checked": "2026-08-07",
-      "found": 27,
-      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11978 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11942 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11622 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-07",
+      "checked": "2026-08-08",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156334 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -5977,7 +5977,14 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "also_found_in": [
+        {
+          "source": "Tarım ve Orman Bakanlığı",
+          "source_id": "tarim_orman",
+          "url": "https://www.tarimorman.gov.tr/Link/1/Misyonumuz-Vizyonumuz"
+        }
+      ]
     },
     "https://www.ktb.gov.tr/TR-96132/teskilat-semasi.html": {
       "title": "Teşkilat Şeması",
@@ -9884,7 +9891,14 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "also_found_in": [
+        {
+          "source": "Tarım ve Orman Bakanlığı",
+          "source_id": "tarim_orman",
+          "url": "https://www.tarimorman.gov.tr/btgm/Sayfalar/Bilgi-G%c3%bcvenligi-Ihlal-Bildirimi.aspx"
+        }
+      ]
     },
     "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -12803,6 +12817,11 @@
           "source": "DİKA (Dicle Kalkınma Ajansı)",
           "source_id": "dika",
           "url": "https://www.dika.org.tr/kurumsal/faaliyet-raporlari"
+        },
+        {
+          "source": "Tarım ve Orman Bakanlığı",
+          "source_id": "tarim_orman",
+          "url": "https://www.tarimorman.gov.tr/Belgeler/Tar%C4%B1m%20ve%20Orman%20Bakanl%C4%B1%C4%9F%C4%B1%202025%20Y%C4%B1l%C4%B1%20%C4%B0dare%20Faaliyet%20Raporu2.pdf"
         }
       ]
     },
@@ -25897,6 +25916,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a6c4c7d4d2cfc8dfc2c9e6c4c7cdcdc788c1c9d088d2d4"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#077d686960726b63666c7e63684765666c6c6629606871297375"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6902081b080b1c02100d06290b08020208470e061f471d1b"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#aac8cbd8dec3c4d3cec5eac8cbc1c1cb84cdc5dc84ded8"
         }
       ]
     },
@@ -25920,6 +25954,788 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/blokzincir-yarismasi-proje-sunum-sonuclari-aciklandi": {
+      "title": "Blokzincir Yarışması Proje Sunum Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/blokzincir-yarismasi-proje-sunum-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/biyoteknoloji-inovasyon-yarismasi-proje-detay-raporu-sonuclari-aciklandi": {
+      "title": "Biyoteknoloji İnovasyon Yarışması Proje Detay Raporu Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/biyoteknoloji-inovasyon-yarismasi-proje-detay-raporu-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/cip-tasarim-yarismasi-detay-tasarim-raporu-sonuclari-aciklandi": {
+      "title": "Çip Tasarım Yarışması Detay Tasarım Raporu Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/cip-tasarim-yarismasi-detay-tasarim-raporu-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/insanlik-yararina-teknolojiler-yarismasi-ilkokul-seviyesi-proje-sunum-sonuclari-aciklandi": {
+      "title": "İnsanlık Yararına Teknolojiler Yarışması – İlkokul Seviyesi Proje Sunum Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/insanlik-yararina-teknolojiler-yarismasi-ilkokul-seviyesi-proje-sunum-sonuclari-aciklandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2242-universite-ogrencileri-arastirma-proje-yarismalari-final-degerlendirme-sonuclari-aciklandi-3": {
+      "title": "2242–Üniversite Öğrencileri Araştırma Proje Yarışmaları Final Değerlendirme Sonuçları Açıklandı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2242-universite-ogrencileri-arastirma-proje-yarismalari-final-degerlendirme-sonuclari-aciklandi-3",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "sonuc_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/hyperloop-gelistirme-yarismasi-performans-teknoloji-gosterim-ve-tanimli-problem-cozumu-kategorilerinde-finalist-takimlar-belli-oldu": {
+      "title": "Hyperloop Geliştirme Yarışması Performans, Teknoloji Gösterim ve Tanımlı Problem Çözümü Kategorilerinde Finalist Takımlar Belli Oldu",
+      "url": "https://tubitak.gov.tr/tr/duyuru/hyperloop-gelistirme-yarismasi-performans-teknoloji-gosterim-ve-tanimli-problem-cozumu-kategorilerinde-finalist-takimlar-belli-oldu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "yarisma_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/AlbumDetay.aspx?OgeId=9361": {
+      "title": "FOTOĞRAF GALERİSİ",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/AlbumDetay.aspx?OgeId=9361",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=62": {
+      "title": "EBUBEKİR GİZLİGİDER",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=62",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=69": {
+      "title": "PROF. DR. AHMET GÜMEN",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=69",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=83": {
+      "title": "DR. AHMET BAĞCI",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=83",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=79": {
+      "title": "ABDULKADİR POLAT",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=79",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/PERGEM/Sayfalar/Detay.aspx?SayfaId=90": {
+      "title": "ETİK KOMİSYON",
+      "url": "https://www.tarimorman.gov.tr/PERGEM/Sayfalar/Detay.aspx?SayfaId=90",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=87": {
+      "title": "ORGANİZASYON ŞEMASI",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=87",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "http://www.tarimorman.gov.tr/Sayfalar/Bakanlik.aspx?OgeId=4&Liste=Bakanlik": {
+      "title": "BAKANLARIMIZ LİSTESİ",
+      "url": "http://www.tarimorman.gov.tr/Sayfalar/Bakanlik.aspx?OgeId=4&Liste=Bakanlik",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "http://www.tarimorman.gov.tr/Sayfalar/Birimler.aspx": {
+      "title": "MERKEZ BİRİMLER",
+      "url": "http://www.tarimorman.gov.tr/Sayfalar/Birimler.aspx",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=53": {
+      "title": "BAĞLI VE İLGİLİ KURULUŞLAR",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=53",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "http://www.tarimorman.gov.tr/Sayfalar/TasraTeskilati.aspx": {
+      "title": "TAŞRA BİRİMLERİ",
+      "url": "http://www.tarimorman.gov.tr/Sayfalar/TasraTeskilati.aspx",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=57": {
+      "title": "MİRASIMIZ YEREL TOHUM",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=57",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Konular/Bitkisel-Uretim/Tarim-Havzalari": {
+      "title": "TARIM HAVZALARI",
+      "url": "https://www.tarimorman.gov.tr/Konular/Bitkisel-Uretim/Tarim-Havzalari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Konular/Toprak-Koruma-ve-Arazi-Degerlendirme": {
+      "title": "TOPRAK KORUMA VE ARAZİ DEGERLENDİRME",
+      "url": "https://www.tarimorman.gov.tr/Konular/Toprak-Koruma-ve-Arazi-Degerlendirme",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/<a href=\"http:/www.tarimorman.gov.tr/Konular/Avrupa-Birligi-ve-Dis-Iliskiler\">http:/www.tarim.gov.tr/Konular/Avrupa-Birligi-ve-Dis-Iliskiler</a>": {
+      "title": "AVRUPA BİRLİĞİ VE DIŞ İLİŞKİLER",
+      "url": "https://www.tarimorman.gov.tr/<a href=\"http:/www.tarimorman.gov.tr/Konular/Avrupa-Birligi-ve-Dis-Iliskiler\">http:/www.tarim.gov.tr/Konular/Avrupa-Birligi-ve-Dis-Iliskiler</a>",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "http://www.tarimorman.gov.tr/Konular/Arazi-Toplulastirma-ve-Tarla-Ici-Gelistirme": {
+      "title": "ARAZİ TOPLULAŞTIRMA",
+      "url": "http://www.tarimorman.gov.tr/Konular/Arazi-Toplulastirma-ve-Tarla-Ici-Gelistirme",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/DKMP/Menu/39/Korunan-Alanlar-Ucret-Tarifesi": {
+      "title": "KORUNAN ALANLAR ÜCRET TARİFESİ",
+      "url": "https://www.tarimorman.gov.tr/DKMP/Menu/39/Korunan-Alanlar-Ucret-Tarifesi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Belgeler/Istatistik%20Bultenleri%20Takvimi%20-%20%202026.pdf": {
+      "title": "İSTATİSTİK BÜLTENLERİ TAKVİMİ - 2026",
+      "url": "https://www.tarimorman.gov.tr/Belgeler/Istatistik%20Bultenleri%20Takvimi%20-%20%202026.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Belgeler/trgm/%C4%B0statistikBultenleri/2025%20Y%C4%B1l%C4%B1%20%C4%B0statistik%20B%C3%BCltenleri%20Takvimi.pdf": {
+      "title": "İSTATİSTİK BÜLTENLERİ TAKVİMİ - 2025",
+      "url": "https://www.tarimorman.gov.tr/Belgeler/trgm/%C4%B0statistikBultenleri/2025%20Y%C4%B1l%C4%B1%20%C4%B0statistik%20B%C3%BCltenleri%20Takvimi.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/EYDB/Belgeler/IddialarveGercekler.pdf": {
+      "title": "İDDİALAR VE GERÇEKLER",
+      "url": "https://www.tarimorman.gov.tr/EYDB/Belgeler/IddialarveGercekler.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Belgeler/Paylasim/Sorularla_Tarimsal_Uretim_Planlamasi.pdf": {
+      "title": "SORULARLA TARIMSAL ÜRETİM PLANLAMASI VE YENİ DESTEKLEME MODELİ",
+      "url": "https://www.tarimorman.gov.tr/Belgeler/Paylasim/Sorularla_Tarimsal_Uretim_Planlamasi.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Belgeler/Paylasim/Tarimsal_Uretim_Planlamasi.pdf": {
+      "title": "TARIMSAL ÜRETİM PLANLAMASI",
+      "url": "https://www.tarimorman.gov.tr/Belgeler/Paylasim/Tarimsal_Uretim_Planlamasi.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Belgeler/DMM_Orman%20Yang%C4%B1nlari%20ile%20Ilgili%20Iddialar%20ve%20Gercekler_270725.pdf": {
+      "title": "ORMAN YANGINLARI İLE İLGİLİ İDDİALAR VE GERÇEKLER",
+      "url": "https://www.tarimorman.gov.tr/Belgeler/DMM_Orman%20Yang%C4%B1nlari%20ile%20Ilgili%20Iddialar%20ve%20Gercekler_270725.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Iletisim": {
+      "title": "BAKANLIK MERKEZ",
+      "url": "https://www.tarimorman.gov.tr/Iletisim",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7212/688-Milyon-Liralik-Tarimsal-Destekleme-Odemesi-Bugun-Ciftcilerin-Hesaplarina-Aktariliyor": {
+      "title": "688 MİLYON LİRALIK TARIMSAL DESTEKLEME ÖDEMESİ BUGÜN ÇİFTÇİLERİN HESAPLARINA AKTARILIYOR",
+      "url": "https://www.tarimorman.gov.tr/Haber/7212/688-Milyon-Liralik-Tarimsal-Destekleme-Odemesi-Bugun-Ciftcilerin-Hesaplarina-Aktariliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7211/Bakan-Yumakli-Acikladi-17-Milyon-Buyukbasa-Dijital-Kupe-Geliyor": {
+      "title": "BAKAN YUMAKLI AÇIKLADI: 17 MİLYON BÜYÜKBAŞA DİJİTAL KÜPE GELİYOR",
+      "url": "https://www.tarimorman.gov.tr/Haber/7211/Bakan-Yumakli-Acikladi-17-Milyon-Buyukbasa-Dijital-Kupe-Geliyor",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7210/Tmo-2026_27-Donemi-Kabuklu-Findik-Alim-Fiyatlari-Belli-Oldu": {
+      "title": "TMO 2026/27 DÖNEMİ KABUKLU FINDIK ALIM FİYATLARI BELLİ OLDU",
+      "url": "https://www.tarimorman.gov.tr/Haber/7210/Tmo-2026_27-Donemi-Kabuklu-Findik-Alim-Fiyatlari-Belli-Oldu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7208/Ipard-Iii-Kapsaminda-Ureticiler-Ile-Yatirimcilara-Temmuzda-6343-Milyon-Liralik-Hibe-Odemesi-Yapildi": {
+      "title": "IPARD III KAPSAMINDA ÜRETİCİLER İLE YATIRIMCILARA TEMMUZDA 634,3 MİLYON LİRALIK HİBE ÖDEMESİ YAPILDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7208/Ipard-Iii-Kapsaminda-Ureticiler-Ile-Yatirimcilara-Temmuzda-6343-Milyon-Liralik-Hibe-Odemesi-Yapildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7207/Fransanin-Ardindan-Ispanyadaki-Ucaklarimiz-Da-Gorevini-Tamamlayip-Ulkemize-Donus-Yapti": {
+      "title": "FRANSA’NIN ARDINDAN İSPANYA’DAKİ UÇAKLARIMIZ DA GÖREVİNİ TAMAMLAYIP ÜLKEMİZE DÖNÜŞ YAPTI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7207/Fransanin-Ardindan-Ispanyadaki-Ucaklarimiz-Da-Gorevini-Tamamlayip-Ulkemize-Donus-Yapti",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7206/Temmuz-Ayinda-107-Bin-113-Gida-Denetimi-Gerceklestirildi": {
+      "title": "TEMMUZ AYINDA 107 BİN 113 GIDA DENETİMİ GERÇEKLEŞTİRİLDİ",
+      "url": "https://www.tarimorman.gov.tr/Haber/7206/Temmuz-Ayinda-107-Bin-113-Gida-Denetimi-Gerceklestirildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/HaberArsivi": {
+      "title": "Haber Arşivi",
+      "url": "https://www.tarimorman.gov.tr/HaberArsivi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "http://www.tarimorman.gov.tr/Ihracat-Ithalat": {
+      "title": "İTHALAT-İHRACAT",
+      "url": "http://www.tarimorman.gov.tr/Ihracat-Ithalat",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2649/Balikesir-Gonen-Tarima-Dayali-Ihtisas-_jeotermal-Kaynakli-Sera_-Organize-Sanayi-Bolgesine-Ait-1_1000-Olcekli-Uygulama-Imar-Plani-Degisikligi-Onayinin-Duyurusu": {
+      "title": "Balıkesir Gönen Tarıma Dayalı İhtisas (Jeotermal Kaynaklı Sera) Organize Sanayi  ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2649/Balikesir-Gonen-Tarima-Dayali-Ihtisas-_jeotermal-Kaynakli-Sera_-Organize-Sanayi-Bolgesine-Ait-1_1000-Olcekli-Uygulama-Imar-Plani-Degisikligi-Onayinin-Duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2648/Tarim-Ve-Orman-Bakanligi-Tarim-Reformu-Genel-Mudurlugu-Kontrolor-Yardimcisi-Atamasi-Icin-Istenilen-Belgeler": {
+      "title": "Tarım ve Orman Bakanlığı Tarım Reformu Genel Müdürlüğü Kontrolör Yardımcısı Atam ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2648/Tarim-Ve-Orman-Bakanligi-Tarim-Reformu-Genel-Mudurlugu-Kontrolor-Yardimcisi-Atamasi-Icin-Istenilen-Belgeler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2644/Organik-Tarim-Kontrolor-Egitimi-Katilimci-Listesi": {
+      "title": "Organik Tarım Kontrolör Eğitimi Katılımcı Listesi",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2644/Organik-Tarim-Kontrolor-Egitimi-Katilimci-Listesi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2643/Iklim-Fenolojik-Durum-Ve-Sulama-Izleme-Istatistik-Bulteni-Yayinlandi": {
+      "title": "İklim, Fenolojik Durum Ve Sulama İzleme İstatistik Bülteni Yayınlandı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2643/Iklim-Fenolojik-Durum-Ve-Sulama-Izleme-Istatistik-Bulteni-Yayinlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2642/Unvan-Degisikligi-Sozlu-Sinavi": {
+      "title": "Ünvan Değişikliği Sözlü Sınavı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2642/Unvan-Degisikligi-Sozlu-Sinavi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2639/Tarim-Ve-Orman-Bakanligi-Sozlesmeli-Personel-Alim-Ilani": {
+      "title": "Tarım ve Orman Bakanlığı Sözleşmeli Personel Alım İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2639/Tarim-Ve-Orman-Bakanligi-Sozlesmeli-Personel-Alim-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2638/Tarim-Ve-Orman-Bakanligi-Tarim-Reformu-Genel-Mudurlugu-Kontrolor-Yardimciligi-Giris-Sinavi-Sonuc-Duyurusu": {
+      "title": "Tarım ve Orman Bakanlığı Tarım Reformu Genel Müdürlüğü Kontrolör Yardımcılığı Gi ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2638/Tarim-Ve-Orman-Bakanligi-Tarim-Reformu-Genel-Mudurlugu-Kontrolor-Yardimciligi-Giris-Sinavi-Sonuc-Duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2636/Bitkisel-Uretimde-Iyi-Tarim-Uygulamalari-Kontrolor-Egitimi-Katilimci-Listesi": {
+      "title": "Bitkisel Üretimde İyi Tarım Uygulamaları Kontrolör Eğitimi Katılımcı Listesi",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2636/Bitkisel-Uretimde-Iyi-Tarim-Uygulamalari-Kontrolor-Egitimi-Katilimci-Listesi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2635/2026-Yili-Donem-Tayinleri-Kesin-Yerlestirme-Sonuclari": {
+      "title": "2026 Yılı Dönem Tayinleri Kesin Yerleştirme Sonuçları",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2635/2026-Yili-Donem-Tayinleri-Kesin-Yerlestirme-Sonuclari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2633/Organik-Tarim-Kontroloru-Egitimi-Duyurusu": {
+      "title": "Organik Tarım Kontrolörü Eğitimi Duyurusu",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2633/Organik-Tarim-Kontroloru-Egitimi-Duyurusu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2647/15-Bolge-Mudurlugu-Malatya-Kinali-Keklik-Uretim-Istasyonu-Insaat-Isleri-Ihale-Ilani": {
+      "title": "15. Bölge Müdürlüğü Malatya Kınalı Keklik Üretim İstasyonu İnşaat İşleri İhale İ ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2647/15-Bolge-Mudurlugu-Malatya-Kinali-Keklik-Uretim-Istasyonu-Insaat-Isleri-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2645/6-Bolge-Mudurlugu-Antalya-Incekum-Tabiat-Parki-Bina-Tadilati-Ihale-Ilani": {
+      "title": "6. Bölge Müdürlüğü Antalya İncekum Tabiat Parkı Bina Tadilatı İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2645/6-Bolge-Mudurlugu-Antalya-Incekum-Tabiat-Parki-Bina-Tadilati-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2646/Tarim-Reformu-Genel-Mudurlugu-_tucsap_-Ciftci-Orgutlerinin-Ortak-Makine-Parklari-Icin-Makine-Ve-Ekipman-Alimi-Ihaleside-Zeyilname-Duzenlenmistir": {
+      "title": "Tarım Reformu Genel Müdürlüğü (Tucsap)  Çiftçi Örgütlerinin Ortak Makine Parklar ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2646/Tarim-Reformu-Genel-Mudurlugu-_tucsap_-Ciftci-Orgutlerinin-Ortak-Makine-Parklari-Icin-Makine-Ve-Ekipman-Alimi-Ihaleside-Zeyilname-Duzenlenmistir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2640/9-Bolge-Mudurlugu-Bolu-Golcuk-Tabiat-Parki-Saha-Isleri-Ihale-Ilani": {
+      "title": "9. Bölge Müdürlüğü Bolu Gölcük Tabiat Parkı Saha İşleri İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2640/9-Bolge-Mudurlugu-Bolu-Golcuk-Tabiat-Parki-Saha-Isleri-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2641/10-Bolge-Mudurlugu-Sinop-Inalti-Magarasi-Tabiat-Parki-Yapim-Isleri-Ihale-Ilani": {
+      "title": "10. Bölge Müdürlüğü Sinop İnaltı Mağarası Tabiat Parkı Yapım İşleri İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2641/10-Bolge-Mudurlugu-Sinop-Inalti-Magarasi-Tabiat-Parki-Yapim-Isleri-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2637/Turkiyede-Depremden-Etkilenen-Illerde-Tarim-Sektorunun-Iyilesmesi-Projesi-_tardip_": {
+      "title": "Türkiye'de Depremden Etkilenen İllerde Tarım Sektörünün İyileşmesi Projesi (TARD ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2637/Turkiyede-Depremden-Etkilenen-Illerde-Tarim-Sektorunun-Iyilesmesi-Projesi-_tardip_",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2634/Istanbul-_pendik_-Izmir-_bornova_-Ve-Konya-Veteriner-Kontrol-Enstitu-Mudurlukleri-Bunyesinde-Biyoguvenlik-Seviyesi-2-_bsl-2_-Ve-Biyoguvenlik-Seviyesi-3-_bsl-3_-Laboratuvarlari-Yapim-Isi-Zeyilname-Duzenlenmistir": {
+      "title": "İstanbul (Pendik), İzmir (Bornova) ve Konya Veteriner Kontrol Enstitü Müdürlükle ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2634/Istanbul-_pendik_-Izmir-_bornova_-Ve-Konya-Veteriner-Kontrol-Enstitu-Mudurlukleri-Bunyesinde-Biyoguvenlik-Seviyesi-2-_bsl-2_-Ve-Biyoguvenlik-Seviyesi-3-_bsl-3_-Laboratuvarlari-Yapim-Isi-Zeyilname-Duzenlenmistir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2631/9-Bolge-Mudurlugu-Ihale-Ilanlari": {
+      "title": "9. Bölge Müdürlüğü İhale İlanları",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2631/9-Bolge-Mudurlugu-Ihale-Ilanlari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2632/12-Bolge-Mudurlugu-Trabzon-Pick-Up-Hizmet-Alimi-Ihale-Ilani": {
+      "title": "12. Bölge Müdürlüğü Trabzon Pick-Up Hizmet Alımı İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2632/12-Bolge-Mudurlugu-Trabzon-Pick-Up-Hizmet-Alimi-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2630/15-Bolge-Mudurlugu-Ihale-Ilanlari": {
+      "title": "15. Bölge Müdürlüğü İhale İlanları",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2630/15-Bolge-Mudurlugu-Ihale-Ilanlari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2629&Liste=Destekler": {
+      "title": "SERTİFİKALI TOHUM KULLANIM DESTEĞİ",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2629&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1575&Liste=Destekler": {
+      "title": "Arıcılık Desteklemesi Başvuru Süreçleri​",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1575&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2221&Liste=Destekler": {
+      "title": "Arıcılık Desteklemesi Birim Fiyatları",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2221&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2204&Liste=Destekler": {
+      "title": "Atık Desteği Başvuru Süreçleri",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2204&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2220&Liste=Destekler": {
+      "title": "Atık Desteği Birim Fiyatları",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2220&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1013&Liste=Destekler": {
+      "title": "Besilik Erkek Sığır Başvuru Süreçleri​",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1013&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2216&Liste=Destekler": {
+      "title": "Çiğ Süt Desteği Birim Fiyatları",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2216&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1574&Liste=Destekler": {
+      "title": "Tiftik Üretim Başvuru Süreçleri",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1574&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2213&Liste=Destekler": {
+      "title": "Tiftik Üretim Birim Fiyatları",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2213&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1595&Liste=Destekler": {
+      "title": "İpek Böceği (Yaş Koza) Desteklemesi Başvuru Süreçleri",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=1595&Liste=Destekler",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Link/1/Misyonumuz-Vizyonumuz": {
+      "title": "Misyonumuz-Vizyonumuz",
+      "url": "https://www.tarimorman.gov.tr/Link/1/Misyonumuz-Vizyonumuz",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.ktb.gov.tr/TR-133260/misyonumuz-vizyonumuz.html",
+      "duplicate_of_source": "Kültür ve Turizm Bakanlığı"
+    },
+    "https://www.tarimorman.gov.tr/SGB/Belgeler/Performans%20Programlar%c4%b1/2026_TOB_Performans_Program%c4%b1.pdf": {
+      "title": "Performans Programı",
+      "url": "https://www.tarimorman.gov.tr/SGB/Belgeler/Performans%20Programlar%c4%b1/2026_TOB_Performans_Program%c4%b1.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.tarimorman.gov.tr/Belgeler/Tar%C4%B1m%20ve%20Orman%20Bakanl%C4%B1%C4%9F%C4%B1%202025%20Y%C4%B1l%C4%B1%20%C4%B0dare%20Faaliyet%20Raporu2.pdf": {
+      "title": "Faaliyet Raporları",
+      "url": "https://www.tarimorman.gov.tr/Belgeler/Tar%C4%B1m%20ve%20Orman%20Bakanl%C4%B1%C4%9F%C4%B1%202025%20Y%C4%B1l%C4%B1%20%C4%B0dare%20Faaliyet%20Raporu2.pdf",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.dogaka.gov.tr/planlama/faaliyet-raporlari",
+      "duplicate_of_source": "DOĞAKA (Doğu Akdeniz Kalkınma Ajansı)"
+    },
+    "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=77": {
+      "title": "Gıda İsrafının Önlenmesi",
+      "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?SayfaId=77",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/ABDGM/Menu/162/Ulke-Masalari": {
+      "title": "Ülke Masaları",
+      "url": "https://www.tarimorman.gov.tr/ABDGM/Menu/162/Ulke-Masalari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/btgm/Sayfalar/Bilgi-G%c3%bcvenligi-Ihlal-Bildirimi.aspx": {
+      "title": "Bilgi Güvenliği İhlal Bildirimi",
+      "url": "https://www.tarimorman.gov.tr/btgm/Sayfalar/Bilgi-G%c3%bcvenligi-Ihlal-Bildirimi.aspx",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.gsb.gov.tr/tr/bilgi-guvenligi-ihlal-bildirimi",
+      "duplicate_of_source": "Gençlik ve Spor Bakanlığı"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#077d686960726b63666c7e63684765666c6c6629606871297375": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#077d686960726b63666c7e63684765666c6c6629606871297375",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6902081b080b1c02100d06290b08020208470e061f471d1b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6902081b080b1c02100d06290b08020208470e061f471d1b",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#aac8cbd8dec3c4d3cec5eac8cbc1c1cb84cdc5dc84ded8": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#aac8cbd8dec3c4d3cec5eac8cbc1c1cb84cdc5dc84ded8",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-08",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
