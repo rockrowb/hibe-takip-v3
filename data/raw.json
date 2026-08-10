@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-10",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 148940 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37603 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37476 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/gelismis-arama -> HTTP 200, 11892 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11963 byte HTML, 0 link, 0 olası duyuru | /gelismis-arama (Playwright) -> HTTP 200, 11580 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/gelismis-arama -> HTTP 200, 11870 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11963 byte HTML, 0 link, 0 olası duyuru | /gelismis-arama (Playwright) -> HTTP 200, 11673 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 44,
       "diag": "/ -> HTTP 200, 109587 byte HTML, 158 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 69,
       "diag": "/duyurular/ -> HTTP 200, 196324 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 27,
-      "diag": "/Duyurular -> HTTP 200, 27575 byte HTML, 93 link, 29 olası duyuru"
+      "diag": "/Duyurular -> HTTP 200, 27576 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94962 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 4,
       "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 12006 byte HTML, 0 link, 0 olası duyuru | /kategori/fon-hibe-destek-duyurulari/ (Playwright) -> HTTP 200, 11702 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 11982 byte HTML, 0 link, 0 olası duyuru | /kategori/fon-hibe-destek-duyurulari/ (Playwright) -> HTTP 200, 11630 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "sivil_alan": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 11921 byte HTML, 0 link, 0 olası duyuru | /category/hibe-duyurulari/ (Playwright) -> HTTP 200, 11650 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 11956 byte HTML, 0 link, 0 olası duyuru | /category/hibe-duyurulari/ (Playwright) -> HTTP 200, 11646 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 761 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 759 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 69,
       "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59985 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 583335 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 3,
-      "diag": "/@projeyonetimi -> HTTP 200, 145991 byte HTML, 16 link, 3 olası duyuru"
+      "diag": "/@projeyonetimi -> HTTP 200, 147329 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
       "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27456 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 8,
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 355,
       "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215419 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15889 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271407 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271407 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 22,
       "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54725 byte HTML, 106 link, 59 olası duyuru"
     },
     "istka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11974 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 11975 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12019 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11584 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11948 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 11921 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11822 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11673 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "ankaraka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 11911 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11891 byte HTML, 0 link, 0 olası duyuru | /ajans-destek-programlari (Playwright) -> HTTP 200, 11768 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12001 byte HTML, 0 link, 0 olası duyuru | /ajans-destek-programlari (Playwright) -> HTTP 200, 11615 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "izka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
       "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://izka.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "bebka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11919 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11940 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11580 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 12045 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11847 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11607 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 11872 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 11901 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destekler (Playwright) -> HTTP 200, 11624 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/tr/guncel-destekler -> HTTP 200, 12018 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 11981 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destekler (Playwright) -> HTTP 200, 11599 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "baka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11967 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11882 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11567 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11983 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11886 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11647 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "dogaka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler/destekler -> HTTP 200, 11947 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 11870 byte HTML, 0 link, 0 olası duyuru | /destekler/destekler (Playwright) -> HTTP 200, 11627 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler/destekler -> HTTP 200, 11926 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 11939 byte HTML, 0 link, 0 olası duyuru | /destekler/destekler (Playwright) -> HTTP 200, 11662 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 11979 byte HTML, 0 link, 0 olası duyuru | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 11651 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 11967 byte HTML, 0 link, 0 olası duyuru | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 11631 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/ -> HTTP 200, 11955 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11519 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/ -> HTTP 200, 11905 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11953 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11636 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "doka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/acik-destekler -> HTTP 200, 11991 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11907 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11895 byte HTML, 0 link, 0 olası duyuru | /acik-destekler (Playwright) -> HTTP 200, 11638 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/acik-destekler -> HTTP 200, 12023 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11957 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11916 byte HTML, 0 link, 0 olası duyuru | /acik-destekler (Playwright) -> HTTP 200, 11663 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oran": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11953 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12048 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11592 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11993 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11941 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11638 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "marka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11989 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11927 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11582 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11964 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11917 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11613 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "gmka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/acik-destek-programlari -> HTTP 200, 11951 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11958 byte HTML, 0 link, 0 olası duyuru | /acik-destek-programlari (Playwright) -> hata: Page.goto: net::ERR_CERT_DATE_INVALID at https://www.gmka.gov.tr/acik-destek-programlari\nCall log:\nnavigating to \"https://www.gmka.gov.tr/acik-destek-programlari\", waiting until \"networkidle\"\n"
+      "diag": "/acik-destek-programlari -> HTTP 200, 11951 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11983 byte HTML, 0 link, 0 olası duyuru | /acik-destek-programlari (Playwright) -> hata: Page.goto: net::ERR_CERT_DATE_INVALID at https://www.gmka.gov.tr/acik-destek-programlari\nCall log:\nnavigating to \"https://www.gmka.gov.tr/acik-destek-programlari\", waiting until \"networkidle\"\n"
     },
     "geka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/ -> HTTP 200, 12006 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 11993 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11595 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/ -> HTTP 200, 11914 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 11955 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11646 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "ika": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 12016 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11992 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11634 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11992 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11930 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11546 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "trakyaka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 12060 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11982 byte HTML, 0 link, 0 olası duyuru | /tr/33286/DESTEKLER (Playwright) -> HTTP 200, 11659 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 12024 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11866 byte HTML, 0 link, 0 olası duyuru | /tr/33286/DESTEKLER (Playwright) -> HTTP 200, 11614 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11899 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 11885 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11688 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11901 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 11895 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11669 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kuzka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/ -> HTTP 200, 11946 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11969 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11576 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/ -> HTTP 200, 11927 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11924 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11607 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kudaka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/home -> HTTP 200, 11899 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11981 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11954 byte HTML, 0 link, 0 olası duyuru | /home (Playwright) -> HTTP 200, 11605 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/home -> HTTP 200, 11929 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11991 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11933 byte HTML, 0 link, 0 olası duyuru | /home (Playwright) -> HTTP 200, 11580 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "serka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11957 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11883 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11659 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11923 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11999 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11602 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "daka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11937 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12033 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11648 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11918 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11912 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11586 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "fka": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11963 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11943 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11951 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11658 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11946 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11708 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "dika": {
       "ok": false,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 0,
-      "diag": "/destekler -> HTTP 200, 11961 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11916 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11642 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler -> HTTP 200, 11931 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11893 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11612 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-09",
+      "checked": "2026-08-10",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156334 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -21479,6 +21479,42 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-09"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/water4all-proje-sonuclarinin-tanitim-etkinligi": {
+      "title": "Water4All Proje Sonuçlarının Tanıtım Etkinliği",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/water4all-proje-sonuclarinin-tanitim-etkinligi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-10"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c9b3a6a7aebca5ada8a2b0ada689aba8a2a2a8e7aea6bfe7bdbb": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c9b3a6a7aebca5ada8a2b0ada689aba8a2a2a8e7aea6bfe7bdbb",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-10"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#32595340535047594b565d7250535959531c555d441c4640": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#32595340535047594b565d7250535959531c555d441c4640",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-10"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#07656675736e697e63684765666c6c6629606871297375": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#07656675736e697e63684765666c6c6629606871297375",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-10"
     }
   }
 }
