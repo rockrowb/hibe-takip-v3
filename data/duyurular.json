@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-11",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148940 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149031 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37476 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37084 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/gelismis-arama -> HTTP 200, 11870 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11963 byte HTML, 0 link, 0 olası duyuru | /gelismis-arama (Playwright) -> HTTP 200, 11673 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 10,
+      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 44,
       "diag": "/ -> HTTP 200, 109587 byte HTML, 158 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 69,
       "diag": "/duyurular/ -> HTTP 200, 196324 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 27,
       "diag": "/Duyurular -> HTTP 200, 27576 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94962 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 4,
       "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-10",
-      "found": 51,
-      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
+      "checked": "2026-08-11",
+      "found": 52,
+      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96946 byte HTML, 209 link, 156 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 11982 byte HTML, 0 link, 0 olası duyuru | /kategori/fon-hibe-destek-duyurulari/ (Playwright) -> HTTP 200, 11630 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 25,
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
     },
     "sivil_alan": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 11956 byte HTML, 0 link, 0 olası duyuru | /category/hibe-duyurulari/ (Playwright) -> HTTP 200, 11646 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 26,
+      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 301889 byte HTML, 128 link, 46 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 759 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 300 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 69,
       "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59985 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 583335 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 3,
-      "diag": "/@projeyonetimi -> HTTP 200, 147329 byte HTML, 16 link, 3 olası duyuru"
+      "diag": "/@projeyonetimi -> HTTP 200, 147612 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 0,
       "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27456 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 8,
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215419 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213513 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 271407 byte HTML, 238 link, 167 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 268775 byte HTML, 238 link, 167 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54725 byte HTML, 106 link, 59 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54393 byte HTML, 106 link, 59 olası duyuru"
     },
     "istka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11948 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 11921 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11822 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11673 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 24,
+      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12001 byte HTML, 0 link, 0 olası duyuru | /ajans-destek-programlari (Playwright) -> HTTP 200, 11615 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 71,
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://izka.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 16,
+      "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 12045 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11847 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11607 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 28,
+      "diag": "/destekler -> HTTP 200, 144176 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289487 byte HTML, 309 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 12018 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 11981 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destekler (Playwright) -> HTTP 200, 11599 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 19,
+      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11983 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11886 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11647 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 1,
+      "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler/destekler -> HTTP 200, 11926 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 11939 byte HTML, 0 link, 0 olası duyuru | /destekler/destekler (Playwright) -> HTTP 200, 11662 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 76,
+      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 11967 byte HTML, 0 link, 0 olası duyuru | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 11631 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/ -> HTTP 200, 11905 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11953 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11636 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 44,
+      "diag": "/ -> HTTP 200, 122390 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/acik-destekler -> HTTP 200, 12023 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11957 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11916 byte HTML, 0 link, 0 olası duyuru | /acik-destekler (Playwright) -> HTTP 200, 11663 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 21,
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226312 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11993 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11941 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11638 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 84,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 111433 byte HTML, 189 link, 125 olası duyuru"
     },
     "marka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11964 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11917 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11613 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 3,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483171 byte HTML, 648 link, 177 olası duyuru"
     },
     "gmka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/acik-destek-programlari -> HTTP 200, 11951 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11983 byte HTML, 0 link, 0 olası duyuru | /acik-destek-programlari (Playwright) -> hata: Page.goto: net::ERR_CERT_DATE_INVALID at https://www.gmka.gov.tr/acik-destek-programlari\nCall log:\nnavigating to \"https://www.gmka.gov.tr/acik-destek-programlari\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 39,
+      "diag": "/acik-destek-programlari -> HTTP 200, 71443 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/ -> HTTP 200, 11914 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 11955 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11646 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 129,
+      "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
     },
     "ika": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11992 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11930 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11546 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 2,
+      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 12024 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11866 byte HTML, 0 link, 0 olası duyuru | /tr/33286/DESTEKLER (Playwright) -> HTTP 200, 11614 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 60,
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 80,
       "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11901 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 11895 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11669 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 56,
+      "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
     },
     "kuzka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/ -> HTTP 200, 11927 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11924 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11607 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 94,
+      "diag": "/ -> HTTP 200, 191005 byte HTML, 253 link, 114 olası duyuru"
     },
     "kudaka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/home -> HTTP 200, 11929 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11991 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11933 byte HTML, 0 link, 0 olası duyuru | /home (Playwright) -> HTTP 200, 11580 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 127,
+      "diag": "/home -> HTTP 200, 101624 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11923 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11999 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11602 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 147,
+      "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
     },
     "daka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11918 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11912 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11586 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 74,
+      "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
     },
     "fka": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11952 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11946 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11708 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 65,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66934 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
-      "ok": false,
-      "checked": "2026-08-10",
-      "found": 0,
-      "diag": "/destekler -> HTTP 200, 11931 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11893 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11612 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-11",
+      "found": 27,
+      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-10",
+      "checked": "2026-08-11",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156334 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -360,8 +360,8 @@
     "provider": "groq",
     "quota_exceeded": false,
     "quota_error": null,
-    "checked_at": "2026-08-10T08:26:43Z",
-    "pending_count": 11
+    "checked_at": "2026-08-11T09:02:33Z",
+    "pending_count": 16
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -384,7 +384,33 @@
       "source": "Kalkınma Ajansları Genel Müdürlüğü - Güncel Destekler (26 ajans tek yerde)",
       "source_id": "ka_gov",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "Dijitalleşme",
+          "Kentleşme - Kentsel Planlama",
+          "Küreselleşme",
+          "Kalkınma için İşbirlikleri",
+          "Uluslararası İşbirlikleri"
+        ],
+        "program_serisi": [],
+        "ozet": "Kalkınma Ajansları Politika Alanları hakkında genel bilgiler ve politika alanları listesi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ka.gov.tr/": {
       "title": "KALKINMAAJANSLARI",
@@ -394,7 +420,34 @@
       "source": "Kalkınma Ajansları Genel Müdürlüğü - Güncel Destekler (26 ajans tek yerde)",
       "source_id": "ka_gov",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": "Göç vermiş veya göç edecek ilçelerde yaşayan çiftçiler, esnaflar ve girişimciler",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "%75 hibe oranı, projenin maksimum destek tutarının 1,5 katı",
+        "toplam_butce": "10 Milyar TL",
+        "son_basvuru_tarihleri": [
+          "2022-01-01",
+          "2024-12-31"
+        ],
+        "desteklenen_aktiviteler": "Sürdürülebilir tarım ve hayvancılık uygulamaları, geleneksel dokuma kültürü, teknoloji ve inovasyon",
+        "faaliyet_suresi": "En fazla 2 yıldır",
+        "temalar": [
+          "tarımsal kalkınma",
+          "geleneksel dokuma",
+          "teknoloji ve inovasyon"
+        ],
+        "program_serisi": [],
+        "ozet": "Kalkınma Ajansı, yerel kalkınma projelerini destekliyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/corporate/organizations/": {
       "title": "Paydaşlarımız",
@@ -404,7 +457,39 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "TEKNOFEST",
+          "bilim",
+          "teknoloji",
+          "sanayi",
+          "inovasyon"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2023-03-31"
+        ],
+        "desteklenen_aktiviteler": "Teknoloji geliştiren projeler ve yenilikler",
+        "faaliyet_suresi": "Çok kısa süreli",
+        "temalar": [
+          "Bilgisayar Bilimleri",
+          "Sabit ve Taşınmaz Mimarlık",
+          "Tıp Bilimleri",
+          "Düzenlemeye Dair",
+          "Elektrik, Makina ve Malzeme Mühendisliği"
+        ],
+        "program_serisi": [],
+        "ozet": "TEKNOFEST, Türkiye'nin Milli Teknoloji Hamlesi'ni gerçekleştirmesi ve teknoloji geliştiren bir topluma dönüşmesini temel hedefi olarak benimsemiştir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/corporate/opinions/": {
       "title": "Paydaşlarımızdan Gelenler",
@@ -414,7 +499,25 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplom_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "TEKNOFEST, Türkiye'nin geleceğini şekillendirmek isteyen gençlerle bir araya geliyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/corporate/faq/": {
       "title": "Sıkça Sorulan Sorular",
@@ -491,7 +594,38 @@
           "source_id": "serka",
           "url": "https://www.serka.gov.tr/proje-uygulama/sikca-sorulan-sorular/"
         }
-      ]
+      ],
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "genç (29 yaş altı)",
+          "üiversite/akademisyen",
+          "araştırmacı"
+        ],
+        "kimler_basvurabilir": "Gençler, üniversite öğrencileri ve uzman araştırmacılar",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Festival kapsamında, yarışmalarda 10 milyon avroluk bütçe ayrılmıştır.",
+        "son_basvuru_tarihleri": [
+          "2024-06-30"
+        ],
+        "desteklenen_aktiviteler": "Havacılık, uzay ve teknoloji alanlarında projeler geliştirme",
+        "faaliyet_suresi": "En fazla 12 ay",
+        "temalar": [
+          "uzay",
+          "havacılık",
+          "teknoloji"
+        ],
+        "program_serisi": [
+          "Erasmus+",
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "Teknoloji yarışmaları ve festival deneyimini bir araya getiren kapsamlı bir festival",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/competitions/opportunity/": {
       "title": "Yarışmacılara Sağlanan Olanaklar",
@@ -501,7 +635,28 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "yarisma_olabilir"
+      "olasi_tur": "yarisma_olabilir",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "girisimci/startup",
+          "genç"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "TEKNOFEST'de yarışarak ödül kazanan takımlara farklı miktarlarda ödüller verilmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/competitions/objection": {
       "title": "Yarışma İtiraz Süreci",
@@ -511,7 +666,25 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "yarisma_olabilir"
+      "olasi_tur": "yarisma_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "TEKNOFEST Yarışma İtiraz Süreçleri hakkında bilgi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/competitions/competition_report/": {
       "title": "Finalist Takımlar",
@@ -521,7 +694,29 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "lise öğrencileri",
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": "Her kategori için 5.000 $ ödül",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "eğitim teknolojileri",
+          "yapay zeka",
+          "insanlık yararına teknolojiler"
+        ],
+        "program_serisi": [],
+        "ozet": "TEKNOFEST'te yıl boyunca birçok yarışma düzenleniyor. Bu yarışmalardan bazılarına katılabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/competitions/how-to-apply/": {
       "title": "Nasıl Başvurabilirim?",
@@ -531,7 +726,32 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "girişimci/startup",
+          "genç"
+        ],
+        "kimler_basvurabilir": "Hepsi katılabilir",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inovasyon"
+        ],
+        "program_serisi": [
+          "TEKNOFEST"
+        ],
+        "ozet": "TEKNOFEST teknoloji yarışmaları başvurularına online olarak katılabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/participation/food-court/": {
       "title": "Yiyecek-İçecek Alanı",
@@ -541,7 +761,25 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Dünyanın en büyük hava, uzay ve teknoloji festivaline katılın",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/duyurular/teknofest-mavi-vatanda-sahne-senin/": {
       "title": "06.08.2026GENELTEKNOFEST Mavi Vatan’da Sahne Senin!“Sahne Senin” etkinliği ile müzikseverler, katılımcı ve ziyaretçilere keyifli anlar yaşatırken yete…",
@@ -553,7 +791,25 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Yeteneklerine güvenen herkes, grubu ya da bireysel olarak TEKNOFEST Mavi Vatan 2026 sahnesinde şarkılarını söyleme ve enstrümanlarını çalmaya hak kazanıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/duyurular/teknofest-mavi-vatan-ziyaretci-kayitlari-basladi-2/": {
       "title": "05.08.2026GENELTEKNOFEST Mavi Vatan Ziyaretçi Kayıtları Başladı!Milli Teknoloji Hamlesi vizyonunun denizlerdeki yansıması kapsamında düzenlenecek TEKNOFEST Mavi Va…",
@@ -565,7 +821,25 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "TEKNOFEST Mavi Vatan, milli teknolojik hamle visionun denizdeki yansimalari kapsaminda düzenlenecek bir etkinlik. 20-23 Ağustosta Gölcük Tersanesi Komutanlıginda gerceklesayacak etkinlikte, denizcilik kültürünü keşfetme imkanı sizleri bekliyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/duyurular/teknofest-2026-su-alti-roket-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/": {
       "title": "05.08.2026YARIŞMATEKNOFEST 2026 Su Altı Roket Yarışması Kritik Tasarım Raporu Sonuçları AçıklandıKritik Tasarım Raporu sonuçları açıklandı.",
@@ -604,7 +878,32 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "girişimci/startup"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "var",
+        "temalar": [
+          "inovasyon",
+          "yapı-teknoloji"
+        ],
+        "program_serisi": [
+          "TEKNOFEST"
+        ],
+        "ozet": "TEKNOFEST Finansal Teknolojiler Yarışması Proje Sunum Sonuçları Açıklandı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/duyurular/insansiz-kara-araci-yarismasi-kritik-tasarim-raporu-sonuclari-aciklandi/": {
       "title": "05.08.2026YARIŞMAİnsansız Kara Aracı Yarışması Kritik Tasarım Raporu Sonuçları AçıklandıKritik Tasarım Raporu sonuçları açıklandı.",
@@ -645,7 +944,29 @@
       "source": "TEKNOFEST",
       "source_id": "teknofest",
       "first_seen": "2026-08-07",
-      "olasi_tur": "yarisma_olabilir"
+      "olasi_tur": "yarisma_olabilir",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "bireysel_basvuru"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "süre verilmemiştir",
+        "temalar": [],
+        "program_serisi": [
+          "TEKNOFEST"
+        ],
+        "ozet": "TEKNOFEST 2026 Hyperloop Geliştirme Yarışması Tanımlı Problem Çözme Kategorisi Tanımlı Problem Çözme Raporu sonuçları açıklanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://teknofest.org/tr/duyurular/hyperloop-gelistirme-yarismasi-teknoloji-gosterim-kategorisi-video-degerlendirme-sonuclari-aciklandi/": {
       "title": "05.08.2026YARIŞMAHyperloop Geliştirme Yarışması Teknoloji Gösterim Kategorisi Video Değerlendirme Sonuçları AçıklandıTeknoloji Gösterim Kategorisi Video Değerlendirme sonuçları açıklanmıştır.",
@@ -900,7 +1221,29 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_basvurabilir": "Araştırma Altyapılı projelerde yer alan araştırmacılar, üniversiteler, sanayi kuruluşları, STK'lardan oluşur",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "Araştırma projeleri, inovasyon projeleri, yenilikçi teknolojileri desteklemek için araştırma altyapılarına yatırımlar",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "Bilimsel Mükemmeliyet",
+          "Avrupa Araştırma Konseyi"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "- Ufuk Avrupa Alan ve Kümeleri hakkında genel bilgilendirme,",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/avrupa-arastirma-konseyi": {
       "title": "Avrupa Araştırma Konseyi",
@@ -910,7 +1253,27 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "universite/akademisyen"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "ERC Ufuk Avrupa programı hakkında güncel haber ve duyurular.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/marie-sklodowska-curie-alani-tum-cagrilar": {
       "title": "Marie S. Curie Alanı",
@@ -920,7 +1283,27 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diğer",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Her bir MSCA programı için, 2026 yılında 10,8 milyar Euro'dan daha fazla destek sağlanacak.",
+        "toplam_butce": "Tüm Horizon Europe programları için, 2026 yılında 97,4 milyar Euro'nun üzerinde bir bütçe ayrılmış durumda.",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Ufuk Avrupa programı hakkında güncel haberler ve duyurular.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/arastirma-altyapilari": {
       "title": "Araştırma Altyapıları",
@@ -930,7 +1313,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ufuk Avrupa programı ve araştırma altyapıları ile ilgili haberler ve duyurular.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/kultur-yaraticilik-ve-kapsayici-toplumlar": {
       "title": "Kültür, Yaratıcılık ve Kapsayıcı Toplumlar",
@@ -940,7 +1341,29 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Ufuk Avrupa Programı ile ilgili güncel haber ve duyurular.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/toplum-icin-sivil-guvenlik": {
       "title": "Sivil Güvenlik",
@@ -950,7 +1373,30 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "sivil_guvenlik",
+          "savunma_sanayi"
+        ],
+        "program_serisi": [
+          "ufuk_avrupa"
+        ],
+        "ozet": "Avrupa Komisyonu tarafından desteklenen Ufuk Avrupa Programı'na ilişkin haber ve duyurular sunuluyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/dijital-endustri-ve-uzay": {
       "title": "Dijital, Endüstri ve Uzay",
@@ -960,7 +1406,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Ufuk Avrupa Programı hakkında bilgiler paylaşıldı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/iklim-enerji-ve-mobilite": {
       "title": "İklim, Enerji ve Mobilite",
@@ -970,7 +1434,27 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Ufuk Avrupa Programı Küme 5 Bilgilendirme Günü 19 Kasım 2026 Tarihinde Gerçekleştirilecektir",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/gida-biyoekonomi-dogal-kaynaklar-tarim-ve-cevre": {
       "title": "Gıda, Biyoekonomi, Doğal Kaynaklar, Tarım ve Çevre",
@@ -980,7 +1464,30 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarımsal_ürünler",
+          "gıda_sektörü"
+        ],
+        "program_serisi": [
+          "ufuk_avrupa"
+        ],
+        "ozet": "AB Denizcilik Projeleri Gösterge Paneli Kullanıma Açıldı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/ortak-arastirma-merkezi-jrc": {
       "title": "Ortak Araştırma Merkezi",
@@ -990,7 +1497,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Avrupa Birliği Araştırma ve Teknoloji Geliştirme Faaliyetleri ile Ufuk Avrupa Programı 2025 Yılı İzleme Raporu yayımlandı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/avrupa-yenilik-konseyi-eic": {
       "title": "Avrupa Yenilik Konseyi",
@@ -1000,7 +1525,27 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Avrupa Yenilik Konseyi (EIC) tarafından çeşitli haberalanmak için kullanılmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/avrupa-yenilik-ekosistemleri-eie": {
       "title": "Avrupa Yenilik Ekosistemleri",
@@ -1010,7 +1555,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Avrupa Yenilik Ekosistemleri (EIE) | Ufuk Avrupa hakkında güncel haberler",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/avrupa-yenilik-ve-teknoloji-enstitusu-eit": {
       "title": "Avrupa Yenilik ve Teknoloji Enstitüsü",
@@ -1020,7 +1583,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Eurasia Interregio Teknoloji Geliştirme A.Ş. ile işbirliğiyle EIT Avrupa Yenilik ve Teknoloji Enstitüsü tarafından organize edilen Ufuk Avrupa Programı ile genç girişimciler ve start-up'lar desteklenecek.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/widening-katilimin-genisletilmesi-ve-mukemmeliyetin-yayilimi": {
       "title": "WIDENING-Katılımın Genişletilmesi ve Mükemmeliyetin Yayılımı",
@@ -1030,7 +1611,27 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "enerji"
+        ],
+        "program_serisi": [],
+        "ozet": "WIDENING-Katılımın Genişletilmesi ve Mükemmeliyetin Yayılımı | Ufuk Avrupa Skip to main content WIDENING-Katılımın Genişletilmesi ve Mükemmeliyetin Yayılımı HABERLER",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/alanlar-kumeler/eranin-guclendirilmesi-avrupa-arastirma-ve-yenilik-sisteminin-reformu-ve": {
       "title": "ERA'nın güçlendirilmesi-Avrupa Araştırma ve Yenilik Sisteminin Reformu ve Geliştirilmesi",
@@ -1040,7 +1641,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Avrupa Birliği Araştırma ve Teknoloji Geliştirme Faaliyetleri ile Ufuk Avrupa Programı 2025 Yılı İzleme Raporu yayımlandı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/tubitak-destekleri": {
       "title": "TÜBİTAK Destekleri",
@@ -1273,7 +1892,27 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Bilgi Değeri Oluşturma alanındaki yenilikçi yaklaşımların paylaşıldığı ve test edildiği çalıştayın detayları.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/18-25-yas-arasi-genc-girisimciler-araniyor-youth-start-challenge-2026-son-basvuru-20-eylul": {
       "title": "18-25 Yaş Arası Genç Girişimciler Aranıyor! Youth Start-Up Challenge 2026 - Son Başvuru: 20 Eylül 2026",
@@ -1359,7 +1998,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Avrupa Komisyonu tarafından düzenlenecek '5 Years EU Cancer Mission: Stronger Through Connection' hibrit etkinliği, kanserle mücadele konusunda iş birliklerinin güçlendirilmesini ve araştırma çıktılarının klinik bakım süreçlerine aktarılmasını amaçlamaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-enerji-alani-yeni-cagrisi-acildi-kapanis-tarihi-1-aralik-2026": {
       "title": "Ufuk Avrupa Enerji Alanı Yeni Çağrısı Açıldı- Kapanış Tarihi: 1 Aralık 2026",
@@ -1507,7 +2164,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ufuk Avrupa Sağlık Kümesi, dünyanın en büyük kamu-özel sektör ortaklığıdır. Yaşam bilimleri alanında faaliyet gösteren endüstri kuruluşlarıyla birlikte disiplinlerarası, sürdürülebilir ve hasta odaklı bir araştırma ekosistemi sağlar. IHI-13 Çağrısı kapsamında yaşlı bireylerde bağışıklık sistemi hastalıkları, sağlık inovasyon ekosistemini güçlendirecek bir ağın oluşturulması ve hayvan deneylerine alternatif yöntemlerin geliştirilmesi gibi başlıklar yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/avrupanin-derin-teknoloji-girisimleri-icin-yeni-finansman-donemi-5-milyar-avroluk-scaleup": {
       "title": "Avrupa'nın Derin Teknoloji Girişimleri İçin Yeni Finansman Dönemi: 5 Milyar Avroluk Scaleup Europe Fund Hayata Geçiyor",
@@ -1517,7 +2192,38 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Alan Toplam Bütçesi: 5 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2026 sonbaharı"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "yapay zeka",
+          "robotik ve otonom sistemler",
+          "temiz enerji teknolojileri",
+          "uzay teknolojileri",
+          "biyoteknoloji",
+          "medikal teknolojiler",
+          "ileri malzemeler",
+          "tarım teknolojileri"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Avrupa'nın derin teknoloji şirketlerine yönelik yeni finansman dönemi, Scaleup Europe Fund 5 Milyar Avroluk yatırım hacmine ulaşmayı hedeflemektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/built4people-paydas-forumu-7-ekim-2026-bruksel": {
       "title": "Built4People Paydaş Forumu- 7 Ekim 2026, Brüksel",
@@ -1527,7 +2233,31 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "yapay zeka",
+          "kentsel dönüşüm",
+          "sürdürülebilir yapılar"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Avrupa Komisyonu ile birlikte düzenlenen Built4People Paydaş Forumu, paydaşları bir araya getirecek.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/kentsel-gecisleri-surdurulebilir-bir-gelecege-yonlendirme-ortakligi-driving-urban-7": {
       "title": "Kentsel Geçişleri Sürdürülebilir Bir Geleceğe Yönlendirme Ortaklığı (Driving Urban Transitions-DUT) 2026 Çağrısı Süreç Dökümanı ve Bilgi Günü",
@@ -1599,7 +2329,28 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "ozet": "Ufuk Avrupa Sağlık Kümesi'nde yeni bir destekleyici araç yayımlanmıştır, sağlık alanındaki fon fırsatlarına erişim sağlamak için.",
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "hibe_miktari_sayisal_veri_var": false,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/horizon-cid-2026-01-02-cagrisi-hakkinda-aciklama-gono-go-milestone-oncesi-yapilan": {
       "title": "HORIZON-CID-2026-01-02 Çağrısı Hakkında Açıklama: Go/No-Go Milestone Öncesi Yapılan Harcamalar",
@@ -1675,7 +2426,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ufuk Avrupa Ulusal Bilgi Günü, Türkiye'nin farklı bölgelerinden yaklaşık 80 araştırma ve yenilik paydaşının katılımıyla 28 Temmuz 2026 tarihinde Edirne'de gerçekleştirildi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler/japonyanin-ufuk-avrupa-programina-asosiye-ulke-statusuyle-katilim-sureci-tamamlanmistir": {
       "title": "Japonya’nın Ufuk Avrupa Programı’na Asosiye Ülke Statüsüyle Katılım Süreci Tamamlanmıştır!",
@@ -1743,7 +2512,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ufuk Avrupa Programı, farklı alanlarda çağrılar açma ve destek vermeye devam edecektir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/tr/haberler?page=224": {
       "title": "Last pageLast »",
@@ -1753,7 +2540,25 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Haberler | Ufuk Avrupa",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ufukavrupa.org.tr/sites/default/files/2025-09/faydali-baglantilar-tr.pdf": {
       "title": "Diğer Faydalı Bağlantılar",
@@ -2165,7 +2970,25 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOSGEB Başkanlığı, başkan yardımcılarının kimlik ve deneyim bilgilerini paylaşmaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/liste/31/genel-kurul-ve-icra-komitesi": {
       "title": "Genel Kurul ve İcra Komitesi",
@@ -2185,7 +3008,25 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOSGEB, KOBİ'leri yenilikçi, rekabetçi ve ihracat odaklı bir yapıya kavuşturarak sürdürülebilir bir ekonomik gelecek inşa edeceğini amaçlar.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/liste/38/rapor-ve-istatistikler": {
       "title": "Rapor ve İstatistikler",
@@ -2195,7 +3036,25 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "KOSGEB T.C. Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi Başkanlığı KOBİ'leri yenilikçi, rekabetçi, ikiz dönüşüm ve ihracat odaklı bir yapıya kavuşturarak sürdürülebilir bir ekonomik gelecek inşa ediyoruz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/liste/6340/kvkk-aydinlatma-metni": {
       "title": "KVKK Aydınlatma Metni",
@@ -2229,7 +3088,25 @@
           "source_id": "ktb",
           "url": "https://www.ktb.gov.tr/TR-323840/bilgi-guvenligi-politikasi.html"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOSGEB T.C. Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi Başkanlığı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/destekdetay/1231/girisimci-destek-programi": {
       "title": "Girişimci Destek Programı",
@@ -2604,7 +3481,25 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOSGEB T.C. Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi Başkanlığı'nın anasıfa kaydına ve kayıt işlemlerinin açıklamasına ait bir açıklama.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/baglanti/DesteklenenSektor": {
       "title": "Desteklenen Sektörler",
@@ -2642,7 +3537,29 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "eğitim",
+          "kentleşim",
+          "sosyal girişimcilik"
+        ],
+        "program_serisi": [],
+        "ozet": "Türkiye'de küçük ve orta ölçekli işletmeler için destek ve kaynaklar sunan KOSGEB'in TEMSİLCİLİKLERİ hakkında bilgi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/iletisimmerkezi": {
       "title": "BİLGİ EDİNME",
@@ -2659,7 +3576,25 @@
           "source_id": "fka",
           "url": "https://fka.gov.tr/bilgi-edinme-detayi-1463572503819"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "\"İlgili tüm bilgilere ulaşmak için KOSGEB'in sıklıkla sorulan sorular bölümüne ve 4982 sayılı Bilgi Edinme Hakkı Kanunu'na bakınız. Bilgi edinme başvuruları CİMER üzerinden yapılır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/tekmerlerimiz": {
       "title": "TEKMER'lerDetaylı bilgi için tıklayınız.",
@@ -2669,7 +3604,33 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "kobı"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 10000,
+        "hibe_miktari_max_tl": 100000,
+        "hibe_miktari": "%50 hibe oranı, proje başına üst limit 100 bin TL",
+        "toplam_butce": "Programın toplam bütçesi için bilgi bulunmuyor.",
+        "son_basvuru_tarihleri": [
+          "2023-09-30"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "en fazla 18 ay",
+        "temalar": [
+          "girişimcilik"
+        ],
+        "program_serisi": [
+          "KOSGEB Ar-Ge ve İnovasyon"
+        ],
+        "ozet": "T.C. Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi Başkanlığı, KOBİ'leri yenilikçi, rekabetçi, ikiz dönüşüm ve ihracat odaklı bir yapıya kavuşturarak sürdürülebilir bir ekonomik gelecek inşa ediyoruz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9427/kosgebden-teknoloji-girisimlerine-yapay-zek-kredi-programi": {
       "title": "KOSGEB'DEN TEKNOLOJİ GİRİŞİMLERİNE YAPAY ZEKÂ KREDİ PROGRAMI",
@@ -2721,7 +3682,30 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "kadın girişimci"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "KOSGEB tarafından desteklenen program",
+        "toplam_butce": "Protokollün detayları için tıklayınız.",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kadın girişimciliği",
+          "dijital dönüşüm"
+        ],
+        "program_serisi": null,
+        "ozet": "KOSGEB ve TOGEMDER arasında kadın girişimciliğinin geliştirilmesi ve dijitalleşmenin yaygınlaştırılması amacıyla iş birliği protokolü imzalandı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9391/ureten-kobilere-guclu-destek-yeni-basvuru-donemi-basladi": {
       "title": "Üreten KOBİ’lere Güçlü Destek, Yeni Başvuru Dönemi Başladı",
@@ -2801,7 +3785,25 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOSGEB tarafından girişimcilik ve inovasyon ekosisteminin güçlendirilmesi amacıyla \"Teknoloji Geliştirme Ekosistem Buluşması\" gerçekleştirildi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9385/kosgeb-girisim-sermayesi-yatirim-fonlarina-katiliyor": {
       "title": "KOSGEB, Girişim Sermayesi Yatırım Fonlarına Katılıyor",
@@ -3184,7 +4186,27 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 100000,
+        "hibe_miktari_max_tl": 5000000,
+        "hibe_miktari": "500.000 TL",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "KOSGEB Girişimci Destek Programı"
+        ],
+        "ozet": "KOSGEB tarafından desteklenen projeler hakkında bilgi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9448/helal-expo-ve-12-dunya-helal-zirvesi": {
       "title": "Helal Expo ve 12. Dünya Helal Zirvesi",
@@ -3194,7 +4216,26 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Dünya genelindeki Müslümanlar arasında helal belgeli ürün ve hizmet ticaretinin geliştirilmesine",
+        "güvenilir ve sürdürülebilir bir helal belgelendirme sisteminin tesisine ve ilgili ülkelerde helal kalite altyapısının iyileştirilmesine yönelik iş birliklerini artırılmasına yönelik iş birliklerini artırılmasına önemli katkılar sağlaması beklenen Helal Expo ve 12. Dünya Helal Zirvesi": "\n",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9439/cezayirde-10-atik-geri-kazanimi-ve-degerlendirilmesi-uluslararasi-fuari": {
       "title": "Cezayir'de 10. Atık Geri Kazanımı ve Değerlendirilmesi Uluslararası Fuarı",
@@ -3204,7 +4245,39 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "sektör temsilcileri",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2023-10-08"
+        ],
+        "desteklenen_aktiviteler": "atık yönetimi, geri dönüşüm, geri kazanım ve yenilikçi çevre teknolojileri",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "çevre",
+          "yazılım",
+          "enerji",
+          "inovasyon",
+          "ar-ge",
+          "ihracat",
+          "dijital dönüşüm",
+          "yapay zeka",
+          "kentsel dönüşüm"
+        ],
+        "program_serisi": [
+          "diger"
+        ],
+        "ozet": "Cezayir'de 10. Atık Geri Kazanımı ve Değerlendirilmesi Uluslararası Fuarı 06-08 Ekim 2026 tarihlerinde realizasyonu yapılacak.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9422/technoxian-world-cup-2026-yarismasi": {
       "title": "TechnoXian World Cup 2026 Yarışması",
@@ -3214,7 +4287,38 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "yarisma_olabilir"
+      "olasi_tur": "yarisma_olabilir",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "girisimci/startup",
+          "muhendis",
+          "teknojiye meraklı"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2027-01-23",
+          "2027-01-27"
+        ],
+        "desteklenen_aktiviteler": "robotik, yapay zeka, drone teknolojileri, kodlama, otomasyon",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inovasyon",
+          "yatay",
+          "araştırma",
+          "yaratıcılık",
+          "eğitim"
+        ],
+        "program_serisi": [],
+        "ozet": "Dünya Robotik Sporları Örgütü tarafından düzenlenecek olan TechnoXian World Cup 2026 Yarışması, 23-27 Ocak 2027 tarihlerinde Tayland'da yapılacak.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9254/guncellenen-isletme-niteligi-ve-sinifini-belirlemek-icin-isletme-beyani-olusturma-rehberi-yayinlandi": {
       "title": "Güncellenen İşletme Niteliği ve Sınıfını Belirlemek İçin İşletme Beyanı Oluşturma Rehberi Yayınlandı",
@@ -3224,7 +4328,25 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "KOBİ'ler",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOBİ'lerimizin beyan süreçlerine yardımcı olmak için KOSGEB tarafından İşletme Niteliği ve Sınıfını Belirlemek İçin İşletme Beyanı Oluşturma Rehberi güncellenmiştir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/sss/0/sikca-sorulan-sorular": {
       "title": "Sıkça SorulanSorular",
@@ -3251,7 +4373,25 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": "",
+        "faaliyet_suresi": "",
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOSGEB T.C. Küçük ve Orta Ölçekli İşletmeler Geliştirme ve Destekleme İdaresi Başkanlığı'nda bulunan e-katalog ve e-dergi içeriği",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/IletisimMerkezi": {
       "title": "Bilgi Edinme",
@@ -3293,7 +4433,28 @@
           "source_id": "kudaka",
           "url": "https://kudaka.gov.tr/iletisim/bilgi-edinme"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf",
+          "kamu kurumu"
+        ],
+        "kimler_basvurabilir": "",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KOSGEB Bilgi Edinme başvuruları CİMER üzerinden yapılmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/turkiye-is-kurumu-cerez-politikasi/": {
       "title": "Çerez Aydınlatma Metni",
@@ -3303,7 +4464,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Türkiye İş Kurumu Çerez Politikası, web sayfamızda kullanılan çerezler hakkında bilgi vermektir. Çerez politikamız, veri sorumlusu sıfatıyla hazırlanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/teskilat-yapisi/": {
       "title": "Teşkilat Şeması",
@@ -3330,7 +4509,25 @@
           "source_id": "daka",
           "url": "https://www.daka.org.tr/icerikler/teskilat"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Turkiye Is Kurumu (ISKUR) erisimligi menusu ekran okuyucu secili alan okuyucu baglantilarini vurgulayan ikonu baglantilarini vurgulayan metin buyut iconu big metin metinlerini sola hizalayarak imleci okuma kılavuzunu ve okuma maskesini kontrast, solgunlasitrma, dusuk, doygunluk ve yüksek doygunluk erisibilidad ayarlarini temizleyerek web sitemizde sunulan hizmetler icin gerekli cerezler kullanilmissa",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/yonetim-kurulu/": {
       "title": "Yönetim Kurulu",
@@ -3479,7 +4676,27 @@
           "source_id": "daka",
           "url": "https://www.daka.org.tr/icerikler/etik"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "kamu kurumu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Etik Komisyonu, Türkiye İş Kurumu'na bağlı olarak görev yapan kamu görevlileriyle ilgili etik değerlerin belirlenmesi ve uygulanmasıyla ilgilenmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/istatistikler/": {
       "title": "İstatistikler",
@@ -3496,7 +4713,25 @@
           "source_id": "ktb",
           "url": "https://www.ktb.gov.tr/TR-96695/istatistikler.html"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye İş Kurumu'nun (İŞKUR) istatistik ve raporlarına erişmek için bu sayfa sağlanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/uluslararasi-iliskiler-ve-projeler/": {
       "title": "Uluslararası İlişkiler ve Projeler",
@@ -3506,7 +4741,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "zorunlu çerezler için başvuru koşulu yok",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "çerezler kullanımında temel kriterler",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İŞKUR sitemizin çalışması için gerekli çerezler hakkında bilgilendirme",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/aktif-isgucu-dokumanlari/": {
       "title": "Aktif İşgücü Dökümanları",
@@ -3516,7 +4769,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye İş Kurumu (İŞKUR) tarafından sunulan aktif işgücü dokumentasyonu",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/bilgi-guvenligi-yonetim-sistemi/": {
       "title": "Bilgi Güvenliği Yönetim Sistemi",
@@ -3526,7 +4797,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye İş Kurumu'nun Bilgi Güvenliği Yönetim Sisteminde açıkça talep edilmiş olduğunuz hizmetler için birinci taraf oturum çerezleri ve kalıcı çerezler kullanılmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/temiz-masa-temiz-ekran-politikasi/": {
       "title": "Temiz Masa Temiz Ekran Politikası",
@@ -3546,7 +4835,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Hizmet standardına ilişkin duyuru",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/hizmet-standartlari/": {
       "title": "Hizmet Standartları",
@@ -3563,7 +4870,25 @@
           "source_id": "gmka",
           "url": "https://www.gmka.gov.tr/dokumanlar/diger/GMKA-Hizmet-Standartlari.pdf"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Türkiye İş Kurumu hizmet standartlarını ve kurumsal bilgi sayfalarını görüntülemek için siteye giriş yapılıyor. Gerekli olan birinci taraf oturum çerezleri ve kalıcı çerezler, ayrıca web sitesinin çalışabilmesi için zorunluluğu olan çerezler kullanılacak.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal/bilgi-sayfalari/bilgi-guvenligi-farkindalik-dokumanlarimiz/": {
       "title": "Bilgi Güvenliği Farkındalık Dokümanlarımız",
@@ -3583,7 +4908,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Zorunlu Arabuluculuk Komisyonu hizmetleri için gerekli çerezler kullanılmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/kurumsal-bilgi/bilgi-edinme/": {
       "title": "Bilgi Edinme",
@@ -3617,7 +4960,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Web sitemizde sunulan hizmetler için gerekli çerezler kullanılmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/is-arayan/aktif-isgucu-programlari/mesleki-egitim-kurslari/": {
       "title": "Mesleki Eğitim Kursları",
@@ -3634,7 +4995,25 @@
           "source_id": "iskur",
           "url": "https://www.iskur.gov.tr/isveren/mesleki-egitim-kurslari/"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İŞKUR tarafından sunulan mesleki eğitim kursları, iş arayanlar ve işsizlik ödeneği alanlar için günlük zaruri gideri ve genel sağlık sigortası primi ödemesi yapıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/is-arayan/aktif-isgucu-programlari/isbasi-egitim-programlari/": {
       "title": "İşbaşı Eğitim Programları",
@@ -3679,7 +5058,30 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "engelli_birey",
+          "eski_hukumlu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 40000,
+        "hibe_miktari_max_tl": 555000,
+        "hibe_miktari": "Kuruluş işlemleri desteği; 40.000 TL, Kuruluma gideri desteği; 75.000 TL, Kuruluş demirbaş desteği; 470.000 TL",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kaynak_geliştirme"
+        ],
+        "program_serisi": [],
+        "ozet": "Tüm vücut fonksiyon kaybının en az %40 olduğu \"Engellilere Verilecek Sağlık Kurulu Raporları\" ile belgelenen engelli ve eski hükümlü kişilerin kendi işini kurması için hibe desteği",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/is-arayan/aktif-isgucu-programlari/calisanlarin-mesleki-egitimi/": {
       "title": "Çalışanların Mesleki Eğitimi",
@@ -3689,7 +5091,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Kurum tarafından finanse edilmektedir. Çalışan kişilerin mesleki bilgi ve becerilerini geliştirmek ve yeni teknolojilere uyum sağlamaları için düzenlenen mesleki eğitim kursları.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/is-arayan/aktif-isgucu-programlari/toplum-yararina-programlar-typ/": {
       "title": "Toplum Yararına Programlar (TYP)",
@@ -3907,7 +5327,27 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "kimler_basvurabilir": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2024-01-01"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/is-arayan/issizlik-sigortasi/is-kaybi-tazminati/": {
       "title": "İş Kaybı Tazminatı",
@@ -3917,7 +5357,25 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İş kaybı tazminatı, özelleştirme kapsamında işten ayrılan personele 90-240 gün arasında ödenen tazminattır. Tazminat miktarı günlük net asgari ücretin iki katıdır. Engelli personele günlük net asgari ücretin dört katı ödenir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/is-arayan/issizlik-sigortasi/ucret-garanti-fonu/": {
       "title": "Ücret Garanti Fonu",
@@ -3955,7 +5413,28 @@
       "source": "İŞKUR (Türkiye İş Kurumu)",
       "source_id": "iskur",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "kadın_girisimci",
+          "üniversite/akademisyen"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "hizmetler",
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye İş Kurumu (İŞKUR) Yarım Çalışma Ödeneği programı, doğum sonrası analık hali izni bitiminden itibaren çocuğu bakımı ve yetiştirilmesi için kadın işçiler ile evlat edinme hali bulunan kadın veya erkek işçilere haftalık çalışma süresinin yarısı kadar ücretsiz izin verilmesi ve bu süreler için ödenektir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.iskur.gov.tr/is-arayan/issizlik-sigortasi/nakdi-ucret-destegi-pandemi/": {
       "title": "Nakdi Ücret Desteği (Pandemi)",
@@ -23980,7 +25459,25 @@
       "source": "GMKA (Güney Marmara Kalkınma Ajansı)",
       "source_id": "gmka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Güney Marmara Kalkınma Ajansı, bölgenin kalkınmasını ve rekabet gücünü güçlendirmek için destekler sunuyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gmka.gov.tr/acik-destek-programlari": {
       "title": "Açık Destek Programları",
@@ -39219,7 +40716,37 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "kooperatif"
+        ],
+        "kimler_basvurabilir": "programa başvuru yapmak isteyen mikro ve küçük işletmeler ve kooperatifler",
+        "hibe_miktari_min_tl": 600000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "%50-%75 hibe oranı, projenin toplam tutarı %75-%90 ajans desteği",
+        "toplam_butce": "Programın toplam tutarı 40.000.000 TL",
+        "son_basvuru_tarihleri": [
+          "2025-09-12"
+        ],
+        "desteklenen_aktiviteler": "Yeşil dönüşüme konu faaliyetlerin desteklenmesi",
+        "faaliyet_suresi": "En az 6 ay, en fazla 12 ay",
+        "temalar": [
+          "çevre",
+          "yapısal kalkınma",
+          "yenilikçi iş geliştirme"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa",
+          "TÜBİTAK 1001"
+        ],
+        "ozet": "DAKA tarafından desteklenen program, imalat sanayi sektöründe faaliyet gösteren mikro ve küçük işletmelere ve kooperatiflere yeşil dönüşüme katkı sağlayacak projeleri desteklemeyi amaçlar.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/fzd2025": {
       "title": "2025 - Fizibilite Desteği (FZD) Programı",
@@ -39229,7 +40756,34 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "büyük işletme",
+          "şirket"
+        ],
+        "kimler_basvurabilir": "Yerel yönetimler, Üniversiteler, Diğer kamu kurum ve kuruluşları, Kamu kurumu niteliğinde meslek kuruluşları, Sivil toplum kuruluşları, Organize sanayi bölgeleri, Küçük sanayi siteleri, Teknoparklar ve teknoloji geliştirme bölgeleri, Endüstri bölgeleri, İş geliştirme merkezleri gibi kurum ve kuruluşlar, Kâr amacı gütmeyen birlikler ve kooperatifler",
+        "hibe_miktari_min_tl": 250000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "%100 hibe, üst limit 500.000 TL",
+        "toplam_butce": "Alan Toplam Bütçesi: 2.000.000,00 TL",
+        "son_basvuru_tarihleri": [
+          "2025-04-30"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "12 ay",
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik"
+        ],
+        "program_serisi": [],
+        "ozet": "2025 yılı fizibilite desteği programı açıklaması.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/fzd2024": {
       "title": "2024 - Fizibilite Desteği (FZD) Programı",
@@ -39239,7 +40793,40 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "yerel yönetim",
+          "üniversite/akademisyen",
+          "diğer kamu kurum ve kuruluşları",
+          "sivil toplum kuruluşları",
+          "kâr amacı gütmeyen birlikler ve kooperatifler"
+        ],
+        "kimler_basvurabilir": "Yerel yönetimler, Üniversiteler, Diğer kamu kurum ve kuruluşları, Kamu kurumu niteliğinde meslek kuruluşları, Sivil toplum kuruluşları, Organize sanayi bölgeleri, Küçük sanayi siteleri, Teknoparklar ve teknolojik geliştirme bölgeleri, Endüstri bölgeleri, İş geliştirme merkezleri, Kâr amacı gütmeyen birlikler ve kooperatifler.",
+        "hibe_miktari_min_tl": 100000,
+        "hibe_miktari_max_tl": 250000,
+        "hibe_miktari": "100.000 - 250.000 TL arasında değiindeki projeler desteklenecektir",
+        "toplam_butce": "1.000.000,00 TL (tüm çağrı için ayrılan kaynak)",
+        "son_basvuru_tarihleri": [
+          "2024-03-08"
+        ],
+        "desteklenen_aktiviteler": "fizibilite çalışmaları, proje hazırlama",
+        "faaliyet_suresi": "azami proje süresi 12 ay",
+        "temalar": [
+          "kadın girişimciliği",
+          "turizm",
+          "teknoloji",
+          "yenilik"
+        ],
+        "program_serisi": [
+          "2024 Yılı Fizibilite Desteği Programı"
+        ],
+        "ozet": "TRB2 Bölgesi’nde kadın girişimciliği/kadın istihdamına katkı sağlayacak sektörlere yönelik yatırımlar için fizibilite çalışmaları desteklenmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/koap06": {
       "title": "2022 - Sanayi Altyapısının...",
@@ -39269,7 +40856,34 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "diğer kamu kurum ve kuruluşları",
+          "sivil toplum kuruluşları"
+        ],
+        "kimler_basvurabilir": "yerel yönetimler, üniversiteler, kamu kurumu niteliinde meslek kuruluşları, organize sanayi bölgeleri, küçük sanayi siteleri, teknoparklar ve teknoloji geliştirme bölgeleri, endüstri bölgeleri, iş geliştirme merkezleri, kâr amacı gütmeyen birlikler ve kooperatifler",
+        "hibe_miktari_min_tl": 50000,
+        "hibe_miktari_max_tl": 150000,
+        "hibe_miktari": "Asgari Tutar: 50.000,00 TL Azami Tutar: 150.000,00 TL",
+        "toplam_butce": "1.600.000,00 TL",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "Azami Proje Süresi 12 Ay",
+        "temalar": [
+          "yenilik",
+          "girişimcilik",
+          "turizm"
+        ],
+        "program_serisi": [
+          "TRB2"
+        ],
+        "ozet": "2022 Yılı Fizibilite Desteği Programı, TRB2 Bölgesi'nin kalkınması ve rekabet gücü açısından önemli fırsatlardan yararlanılmasına, bölge ekonomisine yönelik tehdit ve risklerin önlenmesine, bölgenin yenilik ve girişimcilik kapasitesinin geliştirilmesine yönelik projelerin fizibilite çalışmalarına destek sağlamaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/td2022": {
       "title": "2022 - Genç İstihdamı Teknik Destek (TD)...",
@@ -39279,7 +40893,29 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Toplam Bütçe 600.000,00 TL",
+        "son_basvuru_tarihleri": [
+          "2022-04-29"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          "Kalkınma Ajansları"
+        ],
+        "ozet": "2022 Yılı Genç İstihdamı Teknik Destek Programı, KALKINMA AJANSLARI YÖNETİM SİSTEMİ (KAYS) üzerinden başvuruya açılmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/td2021": {
       "title": "2021 - Teknik Destek (TD) Programı",
@@ -39289,7 +40925,30 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "kamu_kurumu",
+          "yerel_yönetim"
+        ],
+        "kimler_basvurabilir": "Yerel yönetimler, Üniversiteler, Diğer kamu kurum ve kuruluşları, Kamu kurumu niteliğinde meslek kuruluşları, Sivil toplum kuruluşları, Organize sanayi bölgeleri, Küçük sanayi siteleri, Teknoloji geliştirme bölgeleri, Endüstri bölgeleri, İş geliştirme merkezleri gibi kurum ve kuruluşlar, Kar amacı gütmeyen birlikler ve kooperatifler Yukarıda yer alan kurum ve kuruluşların kurduğu veya ortağı olduğu tüzel kişiliği haiz işletmeler Kâr amacı güden gerçek ve tüzel kişiler",
+        "hibe_miktari_min_tl": 40000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "%30 oranında hibe desteği verilecek, üst limit 500.000 TL",
+        "toplam_butce": "500.000,00 TL",
+        "son_basvuru_tarihleri": [
+          "08.06.2021"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2021 Yılı Teknik Destek Programı, bölgedeki yerel aktörlerin bölgesel kalkınma açısından önemli, ancak kurumsal kapasite eksikliği nedeniyle hazırlık ve uygulama aşamalarında sıkıntı ile karşılaşılan çalışmalarına destek sağlamak için açılmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/fzd2021": {
       "title": "2021 - Fizibilite Desteği Programı",
@@ -39299,7 +40958,36 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "yönetim",
+          "üniversite",
+          "kamu_kurumu",
+          "sivil_toplum_kuruluşu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 40000,
+        "hibe_miktari_max_tl": 130000,
+        "hibe_miktari": "asgari tutar 40.000 TL, azami tutar 130.000 TL",
+        "toplam_butce": "650.000,00 TL",
+        "son_basvuru_tarihleri": [
+          "2021-04-20"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "en fazla 12 ay",
+        "temalar": [
+          "turizm",
+          "geliştirme",
+          "yatırımcılık"
+        ],
+        "program_serisi": [],
+        "ozet": "2021 yılı fizibilite desteği programı, Doğu Anadolu Kalkınma Ajansı tarafından açıklanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/koap05": {
       "title": "2021 - Sanayi Altyapısının...",
@@ -39319,7 +41007,31 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          null
+        ],
+        "kimler_basvurabilir": "yerel yönetimler, üniversiteler, kamu kurum ve kuruluşları, kamu kurumu niteliğinde meslek kuruluşları, sivil toplum kuruluşları",
+        "hibe_miktari_min_tl": 30000,
+        "hibe_miktari_max_tl": 400000,
+        "hibe_miktari": "Programın bütçe sınırı içerisinde 30.000 TL'den 400.000 TL'ye kadar destek sağlanacaktır.",
+        "toplam_butce": "Programın bütçesi 400.000,00 TL'dir.",
+        "son_basvuru_tarihleri": [
+          "2020-06-02"
+        ],
+        "desteklenen_aktiviteler": "eğitim verme, program ve proje hazırlanmasına katkı sağlama, geçici uzman personel görevlendirme, danışmanlık sağlama, lobi faaliyetleri ve uluslararası ilişkiler kurma gibi konularda destek",
+        "faaliyet_suresi": "azami 6 ay",
+        "temalar": [
+          null
+        ],
+        "program_serisi": [],
+        "ozet": "Bölgedeki yerel aktörlerin bölgesel kalkınma açısından önem arz eden çalışmaları için teknik destek sunulmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/covid": {
       "title": "2020 - COVID-19 ile Mücadele ve...",
@@ -39339,7 +41051,41 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "yerel_yonetim",
+          "universite/akademisyen",
+          "diger_kamu_kurumu",
+          "sivil_toplum_kurulu",
+          "organize_sanayi_bolgesi",
+          "kucuk_sanayi_sitesi",
+          "teknopark",
+          "endustri_bolgesi",
+          "is_gelistirme_merkezi"
+        ],
+        "kimler_basvurabilir": "Kurum ve kuruluşlar",
+        "hibe_miktari_min_tl": 20000,
+        "hibe_miktari_max_tl": 125000,
+        "hibe_miktari": null,
+        "toplam_butce": "900.000,00 TL",
+        "son_basvuru_tarihleri": [
+          "2020-02-14"
+        ],
+        "desteklenen_aktiviteler": "projeler hazırlama",
+        "faaliyet_suresi": "azami 12 ay",
+        "temalar": [
+          "turizm",
+          "emek yoğun sektörler",
+          "yerel kalkınma"
+        ],
+        "program_serisi": [],
+        "ozet": "TRB2 bölgesinin kalkınması ve rekabet gücü açısından önemli fırsatlardan yararlanılmasına",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/fzd2019": {
       "title": "2019 - Fizibilite Desteği (FZD) Programı",
@@ -39349,7 +41095,36 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "köyle"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 20000,
+        "hibe_miktari_max_tl": 125000,
+        "hibe_miktari": "20.000 - 125.000 TL arası",
+        "toplam_butce": "1.000.000 TL",
+        "son_basvuru_tarihleri": [
+          "2019-12-24"
+        ],
+        "desteklenen_aktiviteleri": null,
+        "faaliyet_suresi": "1 yıl",
+        "temalar": [
+          "tarım",
+          "ihracat",
+          "ticaret",
+          "dijital_donusum"
+        ],
+        "program_serisi": [
+          "Erasmus+"
+        ],
+        "ozet": "2019 Yılı Fizibilite Desteği Programı, TRB2 bölgesinin kalkınması amaçlıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/td2019": {
       "title": "2019 - Teknik Destek (TD) Programı",
@@ -39359,7 +41134,42 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "yerel_yonetim",
+          "kamu_kurumu",
+          "universite/akademisyen",
+          "sivil_toplum_kuruluşu",
+          "org-sanayi_bölgeleri",
+          "küçük_sanayi_sitleri",
+          "iş_gelştirme_merkezleri",
+          "teknoparklar_ve_teknoloji_geliştirme_bölgeleri",
+          "birlik_ve_kooperatifler"
+        ],
+        "kimler_basvurabilir": "belde belediyeleri, il özel idareleri, mahalli idare birlikleri, kamu kurum ve kuruluşları, valilikler, il ve bölge müdürlükleri, kaymakamlıklar, ilçe müdürlükleri, üniversiteler, kamu kurumu niteliğindeki meslek kuruluşları, TOBB'a bağlı odalar ve borsalar, esnaf ve sanatkârlar odaları, meslek odaları ve birlikler, sivil toplum kuruluşları",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "01.02.2019"
+        ],
+        "desteklenen_aktiviteler": "beşeri sermayenin geliştirilmesine yönelik faaliyetler, emek yoğun sektörlerin geliştirilmesine yönelik faaliyetler, tarımsal üretimdeki rekabet gücünün artırılmasına katkı sağlayacak faaliyetler, turizm gelirlerinin artırılmasına katkı sağlayacak faaliyetler",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "beşeri sermaye",
+          "emek yoğun sektörler",
+          "tarımsal üretim",
+          "turizm"
+        ],
+        "program_serisi": [],
+        "ozet": "Doğu Anadolu Kalkınma Ajansı 2019 Yılı Teknik Destek Programı, Kalkınma Ajansları Yönetim Sistemi üzerinden 01.02.2019 tarihli başvuruya açılmıştır. Programın amacı, bölgedeki yerel aktörlerin bölgesel kalkınma açısından önem arz eden, ancak kurumsal kapasite eksikliği nedeniyle hazırlık ve uygulama aşamalarında sıkıntı ile karşılaşılan çalışmalarına destek sağlamaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/fzd2018": {
       "title": "2018 - Fizibilite Desteği Programı",
@@ -39369,7 +41179,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2018 Yılı Fizibilite Desteği Programı, Doğu Anadolu Kalkınma Ajansı tarafından desteklenmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/td2018": {
       "title": "2018 - Teknik Destek (TD) Programı",
@@ -39409,7 +41237,39 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "kamu_kurumu",
+          "yerel_yönetim",
+          "şehir_plani",
+          "üniversite/akademisyen",
+          "sivil_toplum_kurulusu",
+          "küçük_sanayi_sitesi"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "planlama çalışmaları, yerel kalkınma kapasitesini artırıcı faaliyetler, bölge plan ve programları uygulama, kamu kurum ve kuruluşlarının yerel ve bölgesel kalkınmaya katkıda bulunabilecek çalışmalar",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "sosyal_girisimcilik",
+          "istemcilik",
+          "kalkınma"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)",
+          "KOSGEB Destek Programları"
+        ],
+        "ozet": "Bu programda, Bitlis, Hakkâri, Muş ve Van illerinde yerleşik yerel aktörlerin bölgesel kalkınma açısından önem arzeden ama kurumsal kapasite eksikliği nedeniyle sıkıntı ile karşılaşılan çalışmalarına destek sağlamak amacıyla teknik destek sağlanacaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/dfd2016": {
       "title": "2016 - Doğrudan Faaliyet Desteği (DFD) Programı",
@@ -39419,7 +41279,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplom_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": " Doğrudan Faaliyet Desteği Programı'nın amacı; TRB2 Bölgesi'nde sosyo-ekonomik gelişmeyi hızlandırabilecek önemli fırsatların değerlendirilmesine ve sosyo-ekonomik gelişme önündeki darboğazların giderilmesine yönelik tedbirleri ve planlama/araştırma faaliyetleri ile Bölgenin yatırım ortamının iyileştirilmesine katkı sağlayacak stratejik eylem ve faaliyetlerin desteklenmesi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/td2016": {
       "title": "2016 - Teknik Destek (TD) Programı",
@@ -39429,7 +41307,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2016 yılında teknik destek programı açıklanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/KGMDP2015": {
       "title": "2015 - Küçük Girişimciliğin Desteklenmesi...",
@@ -39439,7 +41335,35 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "bireysel başvuru"
+        ],
+        "kimler_basvurabilir": "yeni bir işletme kurmak üzere başvuruda bulunacak gerçek kişiler",
+        "hibe_miktari_min_tl": 25000,
+        "hibe_miktari_max_tl": 75000,
+        "hibe_miktari": "25.000 - 75.000 TL arası",
+        "toplam_butce": "3.000.000 TL",
+        "son_basvuru_tarihleri": [
+          "2015-08-18",
+          "2015-08-25"
+        ],
+        "desteklenen_aktiviteler": "zanaatkârlığa dayalı üretim süreci içeren projeler",
+        "faaliyet_suresi": "12 ay",
+        "temalar": [
+          "zanaatkârlık"
+        ],
+        "program_serisi": [
+          "TRB2"
+        ],
+        "ozet": "TRB2 Bölgesinde girişimci sayısını artırarak bölgel ekonomik büyümeye ve istihdamın artırılmasına katkı sağlamaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/RGMDP2015": {
       "title": "2015 - Rekabetçiliğin Geliştirilmesi Mali...",
@@ -39469,7 +41393,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2015 - Doğrudan Faaliyet Desteği (DFD) Programı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/td2015": {
       "title": "2015 - Teknik Destek (TD) Programı",
@@ -39479,7 +41421,28 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "Kamu Kurumu",
+          "Sivil Toplum Kuruluşu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bölgedeki yerel aktörlerin yerel ve bölgesel kalkınmaya katkıda bulunabilecek çalışmalarına teknik destek sağlanacak ve en fazla 15.000 TL tutarında uzmanlık desteği verilecektir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/hkoap2014": {
       "title": "2014 - Hakkâri’de İnanç Turizmi...",
@@ -39499,7 +41462,32 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "KURUM_TURU",
+          "KAMU KURUMU"
+        ],
+        "kimler_basvurabilir": "",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Azami 15.000 TL tutarında uzmanlık desteği sağlanacaktır.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2014-02-01"
+        ],
+        "desteklenen_aktiviteler": "",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "yöresel kalkınma"
+        ],
+        "program_serisi": [],
+        "ozet": "Yerel aktörlerin bölgesel kalkınma açısından önemli çalışmalarına teknik destek sağlanması amacıyla açıklanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/dfd2014": {
       "title": "2014 - Doğrudan Faaliyet Desteği (DFD) Programı",
@@ -39509,7 +41497,32 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "ilim-kurumu",
+          "ilim-kurumu_niteliğiyle_meslek_kuruluşu"
+        ],
+        "kimler_basvurabilir": "sadece belde belediyeleri, il, ilçe belediyeleri, il özel idareleri, mahalli idare birlikleri, valilikler, il müdürlükleri, bölge müdürlükleri kaymakamlıklar, ilçe müdürlükleri, üniversiteler, TOBB'a bağlı odalar ve borsalar, meslek odaları ve birlikleri, bitlis, hakkarı, muş, van illerindeki şube başkanlıkları, sendikalar, dernekler, vakıflar, organize sanayi bölgeleri ve küçük sanayi siteleri.",
+        "hibe_miktari_min_tl": 25000,
+        "hibe_miktari_max_tl": 90000,
+        "hibe_miktari": "%100'üne kadar ajans desteği sağlanabilir",
+        "toplam_butce": "Program kapsamında tanımlanan stratejik önceliklerin gerçekleştirilmesine katkıda bulunan faaliyetlere destek verilir.",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "stratejik eylemler, araştırma ve planlama çalışmaları, yenilikçilik ve girişimcilik kapasitesini geliştirmeye yönelik iş geliştirme merkezleri, teknoloji geliştirme merkezleri, technoparklar gibi kuruluşların ve bunların tesislerinin kurulması amacıyla yapılacak fizibilite benzeri ön çalışmalar gibi bölge için önemli olabilecek stratejik eylemler.",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kalkınma"
+        ],
+        "program_serisi": [
+          "DogrudanFaaliyetDestegi"
+        ],
+        "ozet": "Doğrudan Faaliyet Desteği Programı'nın amacı; TRB2 Bölgesinde sosyo-ekonomik gelişmeyi hızlandırabilecek önemli fırsatların değerlendirilmesine ve sosyo-ekonomik gelişme önündeki darboğazların giderilmesine yönelik tedbirleri ve planlama/araştırma faaliyetleri ile Bölgenin yatırım ortamının iyileştirilmesine katkı sağlayacak stratejik eylem ve faaliyetlerin desteklenmesidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/gmdp2014": {
       "title": "2014 - Güçlü Girişimcilik Mali Destek...",
@@ -39519,7 +41532,37 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "biginisimci",
+          "KOBİ",
+          "KOSGEB"
+        ],
+        "kimler_basvurabilir": "Bu program, 28457 sayılı resmi gazete'de yayımlanan 'Küçük ve Orta Büyüklükteki İşletmelerin Tanımı, Nitelikleri ve Sınıflandırılması Hakkında Yönetmelik\" kapsamında belirlenen KOBİ tanımını içeren işletmeler ile uygun proje konularını sunmak amacıyla yayımlanmıştır.",
+        "hibe_miktari_min_tl": 200000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "Proje başvurusu için en az 200.000 TL, en fazla 2.000.000 TL arasında destek alınacaktır.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "23.03.2014",
+          "28.03.2014"
+        ],
+        "desteklenen_aktiviteler": "KOBİ'lerin, AR-GE, yeni ürün üretilmesi, ürün çeşitlendirilmesi ve kapasite artırımına yönelik olarak gerçekleştirecekleri yatırımlar",
+        "faaliyet_suresi": "12 ay",
+        "temalar": [
+          "inanovasyon",
+          "KOBİ"
+        ],
+        "program_serisi": [
+          "Güçlü Girişimcilik Mali Destek Programı"
+        ],
+        "ozet": "Güçlü girişimcilik mali destek programı, bölgedeki imalat sanayiinin ürettiği katma değeri artırabilecek yatırımlara eşgüdümlü bir biçimde destek verecek.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2013DFD": {
       "title": "2013 - Doğrudan Faaliyet Desteği (DFD) Programı",
@@ -39529,7 +41572,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "Kurum Türü Başvuru Yapabilecek Birimleri...",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplom_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2013TD": {
       "title": "2013 - Teknik Destek (TD) Programı",
@@ -39539,7 +41600,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "Yerel yönetimlerin başta planlama çalışmaları ile bölge plan ve programlarını uygulayıcı veya yerel kalkınma kapasitesini artırıcı faaliyetlerine ve diğer kamu kurum ve kuruluşalarının ve bölgedeki sivil toplum kuruluşlarının yerel ve bölgesel kalkınmaya katkıda bulunabilecek çalışmalarına",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "azami 15.000 TL tutarında uzmanlık desteği",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "yöresel kalkınma açısından önem arzeden, ancak kurumsal kapasite eksikliği nedeniyle hazırlık ve uygulama aşamalarında sıkıntı ile karşılaşılan çalışmalarına destek",
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bu kuruluşun amacı, bölgedeki yerel aktörlerin bölge planı, başvuru rehberi ve proje hazırlama kılavuzu gibi belgeleri hazırlamaktır",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2013KOAP02": {
       "title": "2013 - Yatırım ve Turizm Altyapısının...",
@@ -39559,7 +41638,29 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": "KOBİ'ler",
+        "hibe_miktari_min_tl": 75000,
+        "hibe_miktari_max_tl": 250000,
+        "hibe_miktari": "75.000 TL - 250.000 TL arası hibe",
+        "toplam_butce": "10.000.000 TL",
+        "son_basvuru_tarihleri": [
+          "2013-03-15"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "6 ay",
+        "temalar": null,
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "İktisadi Kalkınma Mali Destek Programı başvurusu",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2012KOAP01": {
       "title": "2012 - Yatırım Altyapısının...",
@@ -39599,7 +41700,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Yerel aktörlerin bölge plan ve programlarını uygulayıcı veya yerel kalkınma kapasitesini artırıcı faaliyetlerine ve kamu kurum ve sivil toplum kuruluşlarının yerel ve bölgesel kalkınmaya katkıda bulunabilecek çalışmalarına destek amaçlanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/dfdbasvuru": {
       "title": "2012 - Doğrudan Faaliyet Desteği (DFD) Programı",
@@ -39609,7 +41728,27 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 25000,
+        "hibe_miktari_max_tl": 75000,
+        "hibe_miktari": "bu kapsamdaki başarılı projelere asgari 25.000 TL azami 75.000 TL tutarında mali kaynak sağlanacaktır.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": "stratejik önceliklerin gerçekleştirilmesine katkıda bulunan faaliyetlere destek verilir. Desteklenecek faaliyet konuları aşağıdaki gibidir.",
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Doğrudan Faaliyet Desteği Programı'nın amacı; TRB2 Bölgesinde sosyo-ekonomik gelişmeyi hızlandırabilecek önemli fırsatların değerlendirilmesine ve sosyo-ekonomik gelişme önündeki darboğazların giderilmesine yönelik tedbirleri ve planlama/araştırma faaliyetleri ile Bölgenin yatırım ortamının iyileştirilmesine katkı sağlayacak stratejik eylem ve faaliyetlerin desteklenmesidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2011DFD": {
       "title": "2011 - Doğrudan Faaliyet Desteği Programı",
@@ -39619,7 +41758,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2011 yılı Doğrudan Faaliyet Desteği Programı, kar amacı gütmeyen kurum/kuruluşların proje hazırlığı konusundaki yükümlülüklerini hafifletmek ve proje destek sürecini hızlandırmak amacıyla uygulamaya konulan bir destek türüdür.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2011TD": {
       "title": "2011 - Teknik Destek Programı",
@@ -39629,7 +41786,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kurumun teknik destek programı hakkında bilgi ve başvuru rehberi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2010MDP": {
       "title": "2010 - Mali Destek Programları",
@@ -39639,7 +41814,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "Büyük işletme, KOBİ, STK/dernek/vakıf, üniversite/akademisyen, kamu kurumu, yerel yönetim, kadın girişimci, bireysel başvuru",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Programda desteklenen işlemler için 1.000.000 TL-3.000.000 TL arası olmak 2010 model büyükbaş hayvancılık işletmelerinin yaygınlaştırılması Mali Destek Programı",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "Yapı malzemeleri, gıda sanayii, emek yoğun alanlarda üretim yapan işletmelerin kapasitesi artırılması",
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2010 KOBİ Mali Destek Programı ile bölgenin rekabet gücünü arttırmak, ekonomik kalkınmasında ivme yaratmak, bölgedeki girişimciliği yaygınlaştırmak ve bölgedeki istihdamı arttırmak amacıyla küçük ve orta ölçekli işletmelerin faaliyetlerini desteklenmesi amaçlanmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/destekler/2009MDP": {
       "title": "2009 - KOBİ Mali Destek Programı",
@@ -39649,7 +41842,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bölgenin rekabet gücünü arttırmak, ekonomik kalkınmasında ivme yaratmak, bölgedeki girişimciliği yaygınlaştırmak ve bölgedeki istihdamı arttırmak amaçlı küçük ve orta ölçekli işletmelerin faaliyetlerini desteklemektir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/icerikler/idbsss": {
       "title": "PROJE UYGULAMA SÜRECİ",
@@ -39718,7 +41929,25 @@
       "source": "DAKA (Doğu Anadolu Kalkınma Ajansı)",
       "source_id": "daka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kurumumuzun sunduğu destek ve hizmetlerin yanı sıra ilgili bağlantılar ve iletişim bilgilerini bulabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.daka.org.tr/icerikler/kvkk": {
       "title": "Bilgi Almak İçin Tıklayınız",
@@ -40052,7 +42281,27 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "Destekler, kamu kurum ve kuruluşları, üniversite ve sivil toplum kuruluşları ile kâr amacı gütmeyen kuruluşlara ait projelerine uygulanır.",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "8.779.330.547,72 ₺",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Kalkınma Ajansları Hakkında"
+        ],
+        "ozet": "Fırat Kalkınma Bölgesi, bölgesel kalkınma ajanslarının destekleriyle bölgenin ekonomik kalkınma ve büyümeyi hızlandırmayı amaçlamaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://fka.gov.tr/proje-uygulama-sureci-detayi-1463574148215": {
       "title": "Proje Uygulama Süreci",
@@ -40086,7 +42335,25 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İletişim ve bilgi edinme sayfalarından daha fazla bilgi edinebilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://fka.gov.tr/program-sonrasi-degerlendirme-raporlari-detayi-16638529632019": {
       "title": "Program Sonrası Değerlendirme Raporları",
@@ -40236,7 +42503,30 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-07",
+          "2026-08"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "2026 Yılı Yönetim Danışmanlığı Teknik Destek Programının 3. Dönemi için başvuruların değerlendirme süreci tamamlanmiştir. 5 proje başarılı bulunmuştur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://fka.gov.tr/bingol-isgemde-13-yeni-uretim-atolyesi-kurulacak-detayi-178394990442": {
       "title": "Bingöl İŞGEM’de 13 Yeni Üretim Atölyesi Kurulacak",
@@ -40266,7 +42556,27 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Projelere faizsiz finansman desteği almaya hak kazanan projelere 235 milyon TL kaynak aktarılacaktır.",
+        "toplam_butce": "235 milyon TL kaynak",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "KOSGEB Ar-Ge ve İnovasyon"
+        ],
+        "ozet": "2026 Yılı Sosyal Kapsayıcı Yeşil Geçiş Geri Ödemeli Finansman Destek Programı değerlendirmesi tamamlanmıştır. 36 proje asil listede, 3 proje yedek listede yer almıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://fka.gov.tr/haziran-ayi-yonetim-kurulu-toplantisi-elazigda-yapildi-detayi-1781857281510": {
       "title": "Haziran Ayı Yönetim Kurulu Toplantısı Elazığ’da Yapıldı",
@@ -40286,7 +42596,25 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Fırat Kalkınma Ajansı, Malatya İl Milli Eğitim Müdürlüğü ve diğer paydaşların işbirliğiyle hayata geçirilen 'Afet Sonrası Öğretmenlerde Psikososyal İyileşme Programı' başarıyla tamamlandı. Proje, öğretmenleri psikososyal açıdan desteklemeye yönelik psikodrama temelli müdahaleler içeriyordu.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://fka.gov.tr/dogu-anadolu-bolgesi-bilgilendirme-toplantisi-elazigda-gerceklestirildi-detayi-178125349765": {
       "title": "Doğu Anadolu Bölgesi Bilgilendirme Toplantısı Elazığ’da Gerçekleştirildi",
@@ -40306,7 +42634,34 @@
       "source": "FKA (Fırat Kalkınma Ajansı)",
       "source_id": "fka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": "null",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "null",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-05-01",
+          "2026-06-01"
+        ],
+        "desteklenen_aktiviteler": "null",
+        "faaliyet_suresi": "null",
+        "temalar": [
+          "bölgesel_kalkınma"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "2026 Yılı Yönetim Danışmanlığı Teknik Destek Programı 2. Dönem (Mart-Nisan) değerlendirmesi tamamlanmıştır. 8 başvuru başarılı sonuçlanmıştır. Mayıs-Haziran dönemi başvuruları açık.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://fka.gov.tr/dogansehirde-bugday-uretimine-guc-katacak-ortak-tarim-makineleri-parki-acildi-detayi-17803229661816": {
       "title": "Doğanşehir’de Buğday Üretimine Güç Katacak Ortak Tarım Makineleri Parkı Açıldı",
@@ -40533,7 +42888,40 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "yerel yönetim",
+          "kamu kurumu",
+          "sivil toplum kuruluşu",
+          "kar amacı güden işletme",
+          "kooperatif",
+          "diger"
+        ],
+        "kimler_basvurabilir": "Yerel idareler, üniversiteler, kamu kurum ve kuruluşları, kamu kurumu niteliğinde meslek kuruluşları, sivil toplum kuruluşları, kar amacı güden işletmeler, kooperatifler ve diğer gerçek ve tüzel kişiler.",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Ajansın yıllık çalışma programında ve başvuru rehberinde açıkça belirtilen miktarda",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "Bölge plan ve programlarının uygulanmasını sağlayıcı proje ve faaliyetler, bölgenin kırsal ve yerel kalkınma ile ilgili kapasitesinin geliştirilmesine katkıda bulunan proje ve faaliyetler, kamu kesimi, özel kesim ve sivil toplum kuruluşları arasındaki iş birliğini ve ortaklık kültürünü geliştiren projeler, bölgenin kaynak ve imkanlarını tespit etmeye, ekonomik ve sosyal gelişmeyi hızlandırmaya, rekabet gücünü ve yenilik kapasitesini artırmaya ve ulusal ve uluslararası düzeyde etki ve etkinliği artırmaya yönelik her türlü analiz, strateji, plan çalışması, araştırma ve inceleme gibi çalışmalar",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kentlesim",
+          "kentsel dönüşüm",
+          "inanma",
+          "işletme",
+          "yeni girişimcilik"
+        ],
+        "program_serisi": [
+          "Dicle Kalkınma Ajansı"
+        ],
+        "ozet": "Dicle Kalkınma Ajansı, bölgenin kalkınmasını desteklemek için mali ve teknik destek sunuyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.dika.org.tr/destekler/acik-destek-programlari": {
       "title": "Açık Destek Programları",
@@ -40701,7 +43089,25 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Dicle Kalkınma Ajansı'nın desteklediği projeler tanıtım kataloğu.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.dika.org.tr/destekler/ajans-destekleri/mali-destekler": {
       "title": "Mali Destekler",
@@ -40735,7 +43141,42 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "STK/dernek/vakıf",
+          "kamu kurumu",
+          "yerel yönetim"
+        ],
+        "kimler_basvurabilir": "Kamu Kurum ve Kuruluşları, Mahalli İdareler, Üretici Birlikleri, diğer kuruluşlar",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "Tüm başvurularda destek 500.000 TL'dir",
+        "toplam_butce": "2026 Yılı Teknik Destek Programının toplam bütçesi 13.1 Milyar Avro'dur",
+        "son_basvuru_tarihleri": [
+          "2026-05-31"
+        ],
+        "desteklenen_aktiviteler": "Eğitim verme, program ve proje hazırlanmasına katkı sağlama, danışmanlık sağlama, geçici uzman personel görevlendirme, lobi faaliyetleri ve uluslararası ilişkiler kurma gibi kurumsal ve kapasite geliştirici faaliyetler",
+        "faaliyet_suresi": "Eğitim ve danışmanlık faaliyetleri süresizdir",
+        "temalar": [
+          "kentleşme",
+          "yöresel ürünler",
+          "turizm",
+          "yol ve ulaşım",
+          "işletme yönetimi"
+        ],
+        "program_serisi": [
+          "Yerel Kalkınma Hamlesi",
+          "Sivil Düşün"
+        ],
+        "ozet": "2026 Yılı Teknik Destek Programı ile bölgemizde yerel tarım ürünlerinin katma değerin artırılarak pazarlanması, kültürel turizmin geliştirilmesi ve işgücü geliştirme amaçlanmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.dika.org.tr/duyuru/2026-yili-fizibilite-destek-programi-ilani/303": {
       "title": "2026 Yılı Fizibilite Destek Programı",
@@ -40745,7 +43186,39 @@
       "source": "DİKA (Dicle Kalkınma Ajansı)",
       "source_id": "dika",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "girişimci-startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen",
+          "araştırmacı",
+          "kamu kurumu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 250000,
+        "hibe_miktari_max_tl": 1500000,
+        "hibe_miktari": "250.000-1.500.000 TL’dir",
+        "toplam_butce": "Programın toplam bütçesi 10.000.000 TL’dir",
+        "son_basvuru_tarihleri": [
+          "31.12.2026"
+        ],
+        "desteklenen_aktiviteler": "Bölge içi gelişmişlik farkı ve göçün azaltılması odağındaki, sürdürülebilir üretim ve gelir modeline sahip ekonomik faaliyetlerin geliştirilmesi yoluyla kırsalda refahın iyileştirilmesi ve Mezopotamya bölgesinde kültür turizminin geliştirilerek bölgesel bir marka oluşturulması ve tanıtım ve pazarlanması yoluyla bölgesel kalkınmanın hızlandırılması.",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarımla ilgili projeler",
+          "tıcaret projeleri",
+          "sanayi projeleri"
+        ],
+        "program_serisi": [],
+        "ozet": "2026 Yılı Fizibilite Destek Programı, TRC3 Bölgesi'nin kalkınması ve rekabet gücünün artırılması amacıyla fizibilite çalışmalarını desteklemektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://bakka.gov.tr/tr/duyuru/tc-kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani-15223": {
       "title": "20265AğustosT.C. Kuzey Anadolu Kalkınma Ajansı Personel Alım İlanı",
@@ -40765,7 +43238,27 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-05-06"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Batı Karadeniz Kalkınma Ajansı'nda personel alım ilanı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://bakka.gov.tr/tr/duyuru/karacag-kalkinma-ajansi-personel-alim-ilani-15164": {
       "title": "202610NisanKaracağ Kalkınma Ajansı Personel Alım İlanı",
@@ -40805,7 +43298,27 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-03-26"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Mevlana Kalkınma Ajansı Personel Alım İlanı Başvuru Süresi Uzatıldı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://bakka.gov.tr/tr/duyuru/personel-alim-ilani-basvuru-suresi-uzatildi-15151": {
       "title": "202619MartFırat Kalkınma Ajansı Personel Alım İlanı Başvuru Süresi Uzatıldı",
@@ -40815,7 +43328,25 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Fırat Kalkınma Ajansı personel alım ilanı başvurusu süresinin uzatıldığı duyurulmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://bakka.gov.tr/tr/duyuru/dicle-kalkinma-ajansi-personel-alimi-ilani-15132": {
       "title": "202620ŞubatDicle Kalkınma Ajansı Personel Alımı İlanı",
@@ -40845,7 +43376,25 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Doğu Anadolu Kalkınma Ajansı Personel Alım İlanı Başvuru Süresi Uzatıldı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://bakka.gov.tr/tr/duyuru/firat-kalkinma-ajansi-personel-alim-ilani-15125": {
       "title": "202613ŞubatFırat Kalkınma Ajansı Personel Alım İlanı",
@@ -40865,7 +43414,37 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "genc",
+          "genel_bilgi"
+        ],
+        "kimler_basvurabilir": "ilkokul, lise, lisans öğrencileri",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "52 farklı teknoloji yarışması ve 127 alt kategori",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-02-20"
+        ],
+        "desteklenen_aktiviteler": "bilim, teknoloji, inovasyon, üretme",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "teknoloji",
+          "inovasyon",
+          "genc",
+          "bilim"
+        ],
+        "program_serisi": [
+          "TEKNOFEST"
+        ],
+        "ozet": "Dünyanın en büyük havacılık, uzay ve teknoloji festivali TEKNOFEST, 2026 yılında Şanlıurfa'da düzenlenecek.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9": {
       "title": "[email protected]",
@@ -40931,6 +43510,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#07656675736e697e63684765666c6c6629606871297375"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#82f8edece5f7eee6e3e9fbe6edc2e0e3e9e9e3ace5edf4acf6f0"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#264d47544744534d5f42496644474d4d4708414950085254"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6103001315080f18050e2103000a0a004f060e174f1513"
         }
       ]
     },
@@ -41351,7 +43945,27 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "688 milyon 200 bin liralık",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarım"
+        ],
+        "program_serisi": [],
+        "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, çiftçilere 688 milyon 200 bin liralık tarımsal destekleme ödemesini aktarıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Haber/7211/Bakan-Yumakli-Acikladi-17-Milyon-Buyukbasa-Dijital-Kupe-Geliyor": {
       "title": "BAKAN YUMAKLI AÇIKLADI: 17 MİLYON BÜYÜKBAŞA DİJİTAL KÜPE GELİYOR",
@@ -41641,7 +44255,29 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 140000,
+        "hibe_miktari_max_tl": 100000,
+        "hibe_miktari": "140 TL (birlik üyesi), 100 TL ( üye olmayan) temel arıcılık desteği, kadınlara/genç üreticilere, gezginci arıcılığa ve birinci derece birliklere göre ilave ödüller",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarımsal"
+        ],
+        "program_serisi": [
+          "T.C. TARIM VE ORMAN BAKANLIĞI"
+        ],
+        "ozet": "Arıcılık Desteklemesi'nde birlik üyesi ve üye olmayan üreticilere arılı kovan başına destek verilmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2221&Liste=Destekler": {
       "title": "Arıcılık Desteklemesi Birim Fiyatları",
@@ -41651,7 +44287,31 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "Üye olmayan",
+          "kobİ"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 100,
+        "hibe_miktari_max_tl": 210,
+        "hibe_miktari": "2025 yılı için arılı kovan başına 100-210 TL",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "temel ve ilave arıcılık desteği",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarımcılık",
+          "hayvancılık"
+        ],
+        "program_serisi": [],
+        "ozet": "T.C. Tarım ve Orman Bakanlığı'nın arıcılık desteklemesi birim fiyatları",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2204&Liste=Destekler": {
       "title": "Atık Desteği Başvuru Süreçleri",
@@ -41661,7 +44321,27 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarımsal_aktiviteler"
+        ],
+        "program_serisi": [],
+        "ozet": "Atık Desteği Başvuru Süreçleri",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2220&Liste=Destekler": {
       "title": "Atık Desteği Birim Fiyatları",
@@ -41681,7 +44361,34 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "kobii",
+          "genel-iskanlik"
+        ],
+        "kimler_basvurabilir": "kayitli-girisimcilere-iliskin-ozel-kosul-varmaz",
+        "hibe_miktari_min_tl": 200000,
+        "hibe_miktari_max_tl": 200000,
+        "hibe_miktari": "%75 hibe oranı, destekleme yılı içerisindeki her bir destekleme için 200 baş sığır",
+        "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2025-09-30"
+        ],
+        "desteklenen_aktiviteler": "temel-besilik-erkek-sigiir-destege-iliskin-aktiviteler",
+        "faaliyet_suresi": "en fazla 12 aylık",
+        "temalar": [
+          "tarim"
+        ],
+        "program_serisi": [
+          "tck-tarim-orman-bakanligi"
+        ],
+        "ozet": "Tarım ve Orman Bakanlığı tarafından düzenlenen Besilik Erkek Sığırlar Destekleme Programı, üreticilere 12 aylık kesim dönemi için %75 oranında hibe ödemesi sunuyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2216&Liste=Destekler": {
       "title": "Çiğ Süt Desteği Birim Fiyatları",
@@ -41701,7 +44408,33 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "tarım",
+          "hayvancılık"
+        ],
+        "kimler_basvurabilir": "yetiştirici",
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "Ekim",
+          "Mayıs"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarımsal üretimde destek"
+        ],
+        "program_serisi": [],
+        "ozet": "Hayvancılık Desteklemeleri kapsamında uygulamaya konulan Tiftik Üretimi Desteği başvuruları, yetiştireici tarafından üretmiş olduğu tiftiğini satmış olanlar için Ekim ayı içerisinde yapılır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?OgeId=2213&Liste=Destekler": {
       "title": "Tiftik Üretim Birim Fiyatları",
@@ -41721,7 +44454,37 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen",
+          "araştırmacı",
+          "çiftçi/üretici"
+        ],
+        "kimler_basvurabilir": "Yaş koza üretimi yapan gerçek/tüzel kişiler",
+        "hibe_miktari_min_tl": 1100,
+        "hibe_miktari_max_tl": 1440,
+        "hibe_miktari": "%1100 destekleme, kadınlar/gencler için %1440 destekleme",
+        "toplum_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "İpekböceği üretimi, yaş koza üretimi",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "gıda",
+          "tarımsal üretim"
+        ],
+        "program_serisi": [
+          "T.C. TARIM VE ORMAN BAKANLIĞI"
+        ],
+        "ozet": "İpek böceği desteğinden yaşlı koza üretimi yapan gerçek/tüzel kişiler yararlanmakta olup 81 ilde uygulanmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Link/1/Misyonumuz-Vizyonumuz": {
       "title": "Misyonumuz-Vizyonumuz",
@@ -41833,7 +44596,35 @@
       "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-09",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          null
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "TÜM ÇAĞRI ÜZERİNDEN ULAŞILABİLİR",
+        "toplam_butce": "CERIC bünyesindeki mevcut tesislere dair ayrıntılı açıklamaları bu bağlantıdan inceleyebilirsiniz.",
+        "son_basvuru_tarihleri": [
+          "2026-09-30",
+          "2026-09-01"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          null
+        ],
+        "program_serisi": [
+          "TÜBİTAK 1001",
+          "Ufuk Avrupa"
+        ],
+        "ozet": "CERIC Çağrısı ile JRC Araştırma Altyapılarına Erişim İmkanı!",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.kosgeb.gov.tr/site/tr/genel/detay/9453/kosgebden-cop31-odakli-hizlandirma-destegi-cagrisi": {
       "title": "KOSGEB’den COP31 Odaklı Hızlandırma Desteği Çağrısı",
@@ -41843,7 +44634,37 @@
       "source": "KOSGEB",
       "source_id": "kosgeb",
       "first_seen": "2026-08-09",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ"
+        ],
+        "kimler_basvurabilir": "TEKMER işletici kuruluşları, GO sahibi TGB yönetici şirketleri",
+        "hibe_miktari_min_tl": 6500000,
+        "hibe_miktari_max_tl": 6500000,
+        "hibe_miktari": "Programlar üst limiti 6.5 milyon TL'ye kadardır.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-08-30"
+        ],
+        "desteklenen_aktiviteler": "yatırım, iş birliği fırsatlarının artırılması, COP31 kapsamında küresel görünürlüklerinin güçlendirilmesi",
+        "faaliyet_suresi": "en az 1 ay, en fazla 3 ay",
+        "temalar": [
+          "Sıfır Atık ve Döngüsel Ekonomi",
+          "Gıda Güvenliği ve Sürdürülebilir Tarım",
+          "İklime Dayanıklı Şehirler",
+          "Yeşil Sanayileşme",
+          "Temiz Enerji"
+        ],
+        "program_serisi": [
+          "COSME Programa İlişkin Dokümanlar"
+        ],
+        "ozet": "KOSGEB tarafından hayata geçirilen bu çağrı ile Türkiye'nin yeşil dönüşüm hedeflerine katkı sağlayacak teknoloji tabanlı işletmelerin uluslararası pazarlara erişiminin kolaylaştırılması",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.tarimorman.gov.tr/Haber/7213/81-Ildeki-Aile-Kamplarina-Yogun-Ilgi": {
       "title": "81 İLDEKİ AİLE KAMPLARINA YOĞUN İLGİ",
@@ -41957,6 +44778,387 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-10",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-finansal-teknolojiler-yarismasi-proje-sunum-sonuclari-aciklandi/": {
+      "title": "10.08.2026YARIŞMATEKNOFEST Finansal Teknolojiler Yarışması Proje Sunum Sonuçları AçıklandıFinansal Teknolojiler Yarışması proje sunum sonuçları açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-finansal-teknolojiler-yarismasi-proje-sunum-sonuclari-aciklandi/",
+      "date": "2026-08-10",
+      "on_tarihler": [
+        "2026-08-10"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "sonuc_olabilir",
+      "details": {
+        "tur": "sonuc_ilani_tahmini",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": false
+      }
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ab-denizcilik-projeleri-gosterge-paneli-kullanima-acildi": {
+      "title": "AB Denizcilik Projeleri Gösterge Paneli Kullanıma Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ab-denizcilik-projeleri-gosterge-paneli-kullanima-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-virtual-human-twins-vhts-integrated": {
+      "title": "Ufuk Avrupa Sağlık Kümesi Ortak Arama Duyurusu: “Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis”",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-virtual-human-twins-vhts-integrated",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-5-bilgilendirme-gunu-19-kasim-2026-tarihinde-gerceklestirilecektir": {
+      "title": "Ufuk Avrupa Küme 5 Bilgilendirme Günü 19 Kasım 2026 Tarihinde Gerçekleştirilecektir",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-kume-5-bilgilendirme-gunu-19-kasim-2026-tarihinde-gerceklestirilecektir",
+      "date": "2026-11-19",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/girisiminiz-eit-destegi-ile-japonyada-son-basvuru-3-eylul-2026": {
+      "title": "Girişiminiz EIT Desteği ile Japonya'da! Son Başvuru: 3 Eylül 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/girisiminiz-eit-destegi-ile-japonyada-son-basvuru-3-eylul-2026",
+      "date": "2026-09-03",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "son_basvuru_tarihleri": [
+          "2026-09-03"
+        ],
+        "kimler_etiketleri": [
+          "kobı",
+          "gırişimci/startup"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 2200,
+        "hibe_miktari_max_tl": 2200,
+        "hibe_miktari": "2.200 Avro (ön finansman %50'si), geriye kalan %50'si programa tamamlanmadan sonra",
+        "toplom_butce": "Program kapsamında girişimlerden çözüm üretmeleri beklenen alanlar bellidir. Elektrikli mobilite ve termal yönetim, döngüsel plastikler ve döngüsel iş modelleri, akıllı gözlük ve sağlık uygulamaları, sürdürülebilir ambalaj, enerji verimliliği ve çevresel sensörler, yeşil hidrojen, CO2 yakalama ve ilaç keşif teknolojileri, akıllı fabrikalar ve teknik gelişimlikler",
+        "desteklenen_aktiviteler": "Japonya pazarına giriş eğitimi, eşleştirme faaliyetleri, saha ziyaretleri ve sunum fırsatları, mentorluk",
+        "faaliyet_suresi": "üç aya kadar (challenge-based program)",
+        "temalar": [
+          "yazılım",
+          "inovasyon"
+        ],
+        "program_serisi": [
+          "EIT Global Outreach, Ufuk Avrupa"
+        ],
+        "ozet": "Ufuk Avrupa'nın Japonya pazarına girişimlerin katılması için 'Calling2Scale Gunma: Gateway to Japan' programı duyurulmakta.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/karadeniz-proje-odulleri-2026-icin-basvurular-acildi": {
+      "title": "Karadeniz Proje Ödülleri 2026 İçin Başvurular Açıldı",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/karadeniz-proje-odulleri-2026-icin-basvurular-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "yaruşma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "girisimci/startup",
+          "bilim/aranma kuruluşu",
+          "denizcilik_kümeleri/dernek/STK"
+        ],
+        "kimler_basvurabilir": "Karadeniz bölgesinde yerleşik profesyoneller, girişimciler, araştırma kuruluşları, denizcilik kümeleri, dernekler ve STK'lar",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Karadeniz Proje Ödülleri 2026 kapsamında, kazanan projeler ödül tutarını alacaktır, ayrıntılı bilgi için lütfen başvuru formunu inceleyiniz",
+        "toplam_butce": "Karadeniz Proje Ödülleri 2026 programının toplam bütçesi, detaylı bilgi için lütfen başvuru formunu inceleyiniz",
+        "son_basvuru_tarihleri": [
+          "15 Ağustos 2026"
+        ],
+        "desteklenen_aktiviteler": "Yarışmalara uygun olan projelerin geliştirilmesi",
+        "faaliyet_suresi": "Süresiz",
+        "temalar": [
+          "turizm",
+          "enerji",
+          "çevre"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Karadeniz Proje Ödülleri 2026 kapsamında, yenilikçi ve başarılı projelerin ödüllendirilmesine ilişkin başvuru açıklaması",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/water4all-ortakligi-2026-cagrisi-degerlendirme-paneline-katilmak-uzere-uzman-daveti": {
+      "title": "Water4All Ortaklığı 2026 Çağrısı Değerlendirme Paneline Katılmak Üzere Uzman Daveti",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/water4all-ortakligi-2026-cagrisi-degerlendirme-paneline-katilmak-uzere-uzman-daveti",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "üiversite/akademisyen ve araştırmacı",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "10 Kasım 2026"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "sürdürülebilir su yönetimi"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Değerlendirme Paneline katılım daveti",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.ua.gov.tr/kurumsal/ziyaretciler-icin-aydinlatma-metni/": {
+      "title": "Ziyaretçiler için Aydınlatma Metni",
+      "url": "https://www.ua.gov.tr/kurumsal/ziyaretciler-icin-aydinlatma-metni/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Erasmus+ Türkiye Ulusal Ajansı",
+      "source_id": "ua_erasmus",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-470246/aspendos39ta-2-bin-400-yillik-guresci-mezari-kesfedildi.html": {
+      "title": "ASPENDOS'TA 2 BİN 400 YILLIK GÜREŞÇİ MEZARI KEŞFEDİLDİ",
+      "url": "https://www.ktb.gov.tr/TR-470246/aspendos39ta-2-bin-400-yillik-guresci-mezari-kesfedildi.html",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7214/Bakan-Yumakli-Adana-Karatas-Sera-Organize-Tarim-Bolgesi-Yillik-100-Bin-Ton-Uretim-Kapasitesine-Sahip-Olacak": {
+      "title": "BAKAN YUMAKLI: “ADANA KARATAŞ SERA ORGANİZE TARIM BÖLGESİ YILLIK 100 BİN TON ÜRETİM KAPASİTESİNE SAHİP OLACAK”",
+      "url": "https://www.tarimorman.gov.tr/Haber/7214/Bakan-Yumakli-Adana-Karatas-Sera-Organize-Tarim-Bolgesi-Yillik-100-Bin-Ton-Uretim-Kapasitesine-Sahip-Olacak",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2650/Organize-Tarim-Bolgelerinde-On-Tahsis-Ve-Arsa-Tahsisi-Yapilacak-Parsellere-Iliskin-Duyurusu-_agustos-2026_": {
+      "title": "Organize Tarım Bölgelerinde Ön Tahsis ve Arsa Tahsisi Yapılacak Parsellere İlişk ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2650/Organize-Tarim-Bolgelerinde-On-Tahsis-Ve-Arsa-Tahsisi-Yapilacak-Parsellere-Iliskin-Duyurusu-_agustos-2026_",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2651/Batman-Tarima-Dayali-Ihtisas-Organize-Sanayi-Bolgesi-Mutesebbis-Heyet-Baskanligindan-Ihale-Ilani": {
+      "title": "BATMAN TARIMA DAYALI İHTİSAS ORGANİZE SANAYİ BÖLGESİ MÜTEŞEBBİS HEYET BAŞKANLIĞI ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2651/Batman-Tarima-Dayali-Ihtisas-Organize-Sanayi-Bolgesi-Mutesebbis-Heyet-Baskanligindan-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301116-bakan-bak-spor-guvenligi-degerlendirme-toplantisinda-konustu": {
+      "title": "BAKAN BAK SPOR GÜVENLİĞİ DEĞERLENDİRME TOPLANTISI'NDA KONUŞTU24.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301116-bakan-bak-spor-guvenligi-degerlendirme-toplantisinda-konustu",
+      "date": "2026-07-24",
+      "on_tarihler": [
+        "2026-07-24"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-ihracatta-ikiz-donusum-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "10AĞUSTOS2026 Yılı İhracatta İkiz Dönüşüm Teknik Destek Programı 3. Dönem (Mayıs-Haziran) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-ihracatta-ikiz-donusum-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "kamu kurumu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Aynı programa ait önceki dönemlerden farklı",
+        "toplam_butce": "Programın toplam bütçesi hakkında bilgi verilmiyor, projeler için ayrılan miktarlar belirlenmiştir",
+        "son_basvuru_tarihleri": [
+          "null"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "null",
+        "temalar": [],
+        "program_serisi": [
+          "İhracatta İkiz Dönüşüm Teknik Destek Programı"
+        ],
+        "ozet": "2026 Yılı İhracatta İkiz Dönüşüm Teknik Destek Programı 3. Dönemi'nde 7 adet proje başarılı bulunmuştur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-anadoludakiler-turizm-ve-yoresel-degerler-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "10AĞUSTOS2026 Yılı Anadoludakiler: Turizm ve Yöresel Değerler Teknik Destek Programı 3. Dönem (Mayıs-Haziran) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-anadoludakiler-turizm-ve-yoresel-degerler-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2026 Yılı Anadoludakiler: Turizm ve Yöresel Değerler Teknik Destek Programı 3. Dönem başvuruları sonuçlandırılmıştır. 5 proje başarılı bulunmuştur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://oka.gov.tr/duyuru/2026-yili-sosyal-kalkinma-ve-girisimcilik-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir": {
+      "title": "10AĞUSTOS2026 Yılı Sosyal Kalkınma ve Girişimcilik Teknik Destek Programı 3. Dönem (Mayıs-Haziran) Desteklenmeye Hak Kazanan Projeler Açıklanmıştır",
+      "url": "https://oka.gov.tr/duyuru/2026-yili-sosyal-kalkinma-ve-girisimcilik-teknik-destek-programi-3-donem-mayis-haziran-desteklenmeye-hak-kazanan-projeler-aciklanmistir",
+      "date": "2026-08-10",
+      "on_tarihler": [],
+      "source": "OKA (Orta Karadeniz Kalkınma Ajansı)",
+      "source_id": "oka",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2026 Yılı Sosyal Kalkınma ve Girişimcilik Teknik Destek Programı 3. Dönem kapsamında sunulan 9 adet proje başvurusu değerlendirmesinden 6 adet proje başarılı bulunmuştur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.oran.org.tr/duyuru/kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani": {
+      "title": "Ağustos 10, 2026Kuzey Anadolu Kalkınma Ajansı Personel Alım İlanıT.C. Kuzey Anadolu Kalkınma Ajansı 4 sayılı Bakanlıklara Bağlı, İlgili, İlişkili Kurum ve Kuruluşlar ile Diğer Kurum ve Kuruluşların Teşkilatı Hakkınd",
+      "url": "https://www.oran.org.tr/duyuru/kuzey-anadolu-kalkinma-ajansi-personel-alim-ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://kudaka.gov.tr/haber/kudaka-dan-bayburt-a-uretim-ve-istihdam-yatirimi-100-gence-is-kapisi-acilacak/721": {
+      "title": "KUDAKA'dan Bayburt'a Üretim ve İstihdam Yatırımı: 100 Gence İş Kapısı Açılacak10.08.2026 Pazartesi",
+      "url": "https://kudaka.gov.tr/haber/kudaka-dan-bayburt-a-uretim-ve-istihdam-yatirimi-100-gence-is-kapisi-acilacak/721",
+      "date": "2026-08-10",
+      "on_tarihler": [
+        "2026-08-10"
+      ],
+      "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
+      "source_id": "kudaka",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#82f8edece5f7eee6e3e9fbe6edc2e0e3e9e9e3ace5edf4acf6f0": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#82f8edece5f7eee6e3e9fbe6edc2e0e3e9e9e3ace5edf4acf6f0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#264d47544744534d5f42496644474d4d4708414950085254": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#264d47544744534d5f42496644474d4d4708414950085254",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-11",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#6103001315080f18050e2103000a0a004f060e174f1513": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#6103001315080f18050e2103000a0a004f060e174f1513",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-11",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
