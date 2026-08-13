@@ -1,287 +1,287 @@
 {
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 149031 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 148953 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37147 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37040 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 10,
       "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 44,
       "diag": "/ -> HTTP 200, 109587 byte HTML, 158 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 69,
-      "diag": "/duyurular/ -> HTTP 200, 196326 byte HTML, 324 link, 156 olası duyuru"
+      "diag": "/duyurular/ -> HTTP 200, 196322 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 27,
-      "diag": "/Duyurular -> HTTP 200, 27576 byte HTML, 93 link, 29 olası duyuru"
+      "diag": "/Duyurular -> HTTP 200, 27702 byte HTML, 94 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94962 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 4,
       "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 25,
       "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
     },
     "sivil_alan": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 26,
       "diag": "/category/hibe-duyurulari/ -> HTTP 200, 301889 byte HTML, 128 link, 46 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 298 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 302 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 69,
-      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59985 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 583335 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
+      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59985 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 589533 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 3,
-      "diag": "/@projeyonetimi -> HTTP 200, 147372 byte HTML, 16 link, 3 olası duyuru"
+      "diag": "/@projeyonetimi -> HTTP 200, 147329 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 0,
-      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27452 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27473 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 8,
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213597 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215466 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 269653 byte HTML, 239 link, 168 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 344416 byte HTML, 259 link, 189 olası duyuru"
     },
     "gsb": {
-      "ok": true,
-      "checked": "2026-08-12",
-      "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54393 byte HTML, 106 link, 59 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-13",
+      "found": 0,
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Haberler (Playwright) -> HTTP 200, 678 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "istka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 24,
       "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54417 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 28,
       "diag": "/destekler -> HTTP 200, 144176 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289487 byte HTML, 309 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 19,
       "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 1,
       "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 76,
       "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 0,
       "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 44,
       "diag": "/ -> HTTP 200, 122390 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 21,
       "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226312 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
-      "checked": "2026-08-12",
-      "found": 84,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 111433 byte HTML, 189 link, 125 olası duyuru"
+      "checked": "2026-08-13",
+      "found": 88,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 114257 byte HTML, 195 link, 130 olası duyuru"
     },
     "marka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 3,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483171 byte HTML, 648 link, 177 olası duyuru"
     },
     "gmka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 39,
       "diag": "/acik-destek-programlari -> HTTP 200, 71443 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 129,
       "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
     },
     "ika": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 2,
       "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 56,
       "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
     },
     "kuzka": {
       "ok": true,
-      "checked": "2026-08-12",
-      "found": 94,
-      "diag": "/ -> HTTP 200, 186282 byte HTML, 250 link, 114 olası duyuru"
+      "checked": "2026-08-13",
+      "found": 105,
+      "diag": "/ -> HTTP 200, 188174 byte HTML, 262 link, 126 olası duyuru"
     },
     "kudaka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 127,
       "diag": "/home -> HTTP 200, 101624 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 147,
       "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
     },
     "daka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 74,
       "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
     },
     "fka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66934 byte HTML, 167 link, 73 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66762 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 27,
       "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-12",
+      "checked": "2026-08-13",
       "found": 15,
-      "diag": "/duyurular -> HTTP 200, 156864 byte HTML, 39 link, 17 olası duyuru"
+      "diag": "/duyurular -> HTTP 200, 157159 byte HTML, 39 link, 17 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -360,8 +360,8 @@
     "provider": "groq",
     "quota_exceeded": false,
     "quota_error": null,
-    "checked_at": "2026-08-12T09:11:21Z",
-    "pending_count": 16
+    "checked_at": "2026-08-13T08:44:47Z",
+    "pending_count": 21
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -7917,7 +7917,27 @@
       "source": "Ticaret Bakanlığı",
       "source_id": "ticaret_bakanligi",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "İhracat"
+        ],
+        "ozet": "Destek üst limitlerine dair bilgi ve belgeler ve detaylı bilgiler ilgili sayfa üzerinden erişime açılmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ticaret.gov.tr/destekler/e-ihracat-destekleri": {
       "title": "E-İhracat DestekleriBakanlığımızca sunulan e-ihracat desteklerine yönelik mevzuat ve detaylı bilgilere buradan erişebilirsiniz.",
@@ -7927,7 +7947,25 @@
       "source": "Ticaret Bakanlığı",
       "source_id": "ticaret_bakanligi",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ticaret Bakanlığı tarafından sunulan e-ihracat destekleri hakkında bilgilendirme ve detaylı bilgiye ulaşmak için bu linkten erişilebilir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ticaret.gov.tr/destekler/hizmet-sektoru-destekleri": {
       "title": "Hizmet Sektörü DestekleriBakanlığımızca sunulan hizmet sektörü desteklerine yönelik mevzuat ve detaylı bilgilere buradan erişebilirsiniz.",
@@ -7937,7 +7975,25 @@
       "source": "Ticaret Bakanlığı",
       "source_id": "ticaret_bakanligi",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bakanlığımızca sunulan hizmet sektörü desteklerine yönelik mevzuat ve detaylı bilgilere erişebilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ticaret.gov.tr/destekler/destek-yonetim-sistemi-dys": {
       "title": "Ticaret Bakanlığı Destek Yönetim Sistemi (DYS)İhracat Genel Müdürlüğü | \nDestek Sistemleri Yönetim ve Geliştirme Daire Başkanlığı",
@@ -7947,7 +8003,25 @@
       "source": "Ticaret Bakanlığı",
       "source_id": "ticaret_bakanligi",
       "first_seen": "2026-08-07",
-      "olasi_tur": "hibe_olabilir"
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "Kullanıcılar sisteme tanımlanma başvurularında 'EK A Sistem Kullanım Taahhütnamesi'ni sunmaları gerekmektedir.",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Destek Yönetim Sistemine İlişkin Tebliğ ve Genelge bilgisine ulaşabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ua.gov.tr/kurumsal/misyon-ve-vizyon/": {
       "title": "Misyon ve Vizyon",
@@ -9388,7 +9462,39 @@
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "genel kurumsal",
+          "büyük işletme"
+        ],
+        "kimler_basvurabilir": "Eğitim, öğretim, gençlik, spor ve diğer sosyo-ekonomik sektörlerden tüzel kişiliği haiz kamu ya da özel tüm Kurum/Kuruluş",
+        "hibe_miktari_min_tl": 100000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "Bu fırsata ilişkin bütçe 100.000 TL'den 2.000.000 TL'sine kadar değişebilir.",
+        "toplam_butce": "Bu program için programın/çağrının toplam bütçesi 2,5 milyar Avro'dur.",
+        "son_basvuru_tarihleri": [
+          "2024-03-15",
+          "2024-03-31"
+        ],
+        "desteklenen_aktiviteler": "Yenilikçi uygulamaların geliştirilmesinin, aktarılmasının ve/veya uygulanmasının yanı sıra Avrupa düzeyinde iş birliğini, akran öğrenimini ve deneyim alışverişini teşvik eden ortak girişimlerin gerçekleştirilmesini amaçlamaktadır.",
+        "faaliyet_suresi": "Bu görev kapsamında gerçekleştirilen projeler en az 1 yıl, en fazla 2 yıl arasında bir süreye sahip olabilir.",
+        "temalar": [
+          "inovasyon",
+          "eğitim",
+          "Gençlik"
+        ],
+        "program_serisi": [
+          "Erasmus+",
+          "Ufuk Avrupa"
+        ],
+        "ozet": "İçindekiler: Erasmus+ Ülkelere Yerleşik Ortaklık, gençlik projeleri destekleme, yükseköğretim, spor ve diğer sosyoekonomik sektörlerden tüzel kişi kurum/kuruluşların desteklenmesi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ua.gov.tr/programlar/firsatlar/spor-alaninda-personl-hareketliligi/": {
       "title": "Spor Alanında Personel Hareketliliği",
@@ -9398,7 +9504,38 @@
       "source": "Erasmus+ Türkiye Ulusal Ajansı",
       "source_id": "ua_erasmus",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "spor_kurulusu",
+          "hobi_sporu",
+          "sağlıklı_yaşam",
+          "toplumsal_amac"
+        ],
+        "kimler_basvurabilir": "spor alanında faaliyet gösteren özel kuruluşlar ve kamu kurumları",
+        "hibe_miktari_min_tl": 350000,
+        "hibe_miktari_max_tl": 1750000,
+        "hibe_miktari": "%100'ü hibe desteği alan spor personeline, yurt dışı öğrenme hareketliliği kapsamında 350 Avro'yu aşmamak kaydıyla kurumsal destek hibe desteği sağlanacaktır.",
+        "toplam_butce": "13,1 milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2024-02-27"
+        ],
+        "desteklenen_aktiviteler": "tabana yaygın spor hizmeti sunan kuruluşlarının personeli için yurt dışında öğrenme hareketliliği",
+        "faaliyet_suresi": "3-18 ay",
+        "temalar": [
+          "spor",
+          "öğrenme_hareketliliği",
+          "yurt_disi"
+        ],
+        "program_serisi": [
+          "Erasmus+"
+        ],
+        "ozet": "Spor personeli için yurt dışı öğrenme hareketliliği desteği sağlayan Erasmus+ programı kapsamında, spor personeline yurt dışı öğrenme hareketliliği sağlayacak, 350 Avro'yu aşmamak kaydıyla kurumsal destek hibe desteği sağlanacaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ua.gov.tr/programlar/firsatlar/esc50-akreditasyon-firsatlari-4/": {
       "title": "Avrupa Dayanışma Programı Kalite Sertifikası Başvurusu",
@@ -11175,7 +11312,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNITWIN Ağları ve UNESCO Kürsüleri Programı, dünyanın farklı bölgelerinde üniversiteler arası işbirliği ve etkileşimi geliştirmeyi amaçlayan uluslararası bir programdır. Program, yükseköğretim kurumları arasında bilgi paylaşımını ve işbirliğini teşvik ederek, kurumların kapasitesini artırmaya ve araştırma, eğitim ve program gelişimini desteklemeye katkı sağlamaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/92/133/UNESCO-Kul%C3%BCpleri": {
       "title": "UNESCO Kulüpleri",
@@ -11185,7 +11340,27 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "eğitim"
+        ],
+        "program_serisi": [],
+        "ozet": "UNESCO Türk Milli Komisyonu, sosyal çevre ve koşullara göre dört ana kategori altında incelenebilen UNESCO kulüplerini desteklemektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/1967/1394/UNESCO-Taraf%C4%B1ndan-%C4%B0lan-Edilen-G%C3%BCnler": {
       "title": "UNESCO Tarafından İlan Edilen Günler",
@@ -11195,7 +11370,29 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "stk/dernek/vakıf",
+          "üniversite/akademisyen",
+          "araştırmacı"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Birleşmiş Milletler ve UNESCO tarafından kabul edilen günler ve anma günleri.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/1999/1395/UNESCO-Taraf%C4%B1ndan-%C4%B0lan-Edilen-Uluslararas%C4%B1-Haftalar": {
       "title": "UNESCO Tarafından İlan Edilen Uluslararası Haftalar",
@@ -11205,7 +11402,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNESCO, belirli günleri, haftaları, yılları ve on yılları, hedeflerini farkındalık ve eylem yoluyla tanıtmak ve belirli olaylara veya konulara dikkat çekmek için bir fırsat olarak görüyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/1998/1396/UNESCO-Taraf%C4%B1ndan-%C4%B0lan-Edilen-Y%C4%B1llar": {
       "title": "UNESCO Tarafından İlan Edilen Yıllar",
@@ -11215,7 +11430,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNESCO Tarafından İlan Edilen Yıllar: Kuantum Bilimi ve Teknolojileri Yılı, Uluslararası Buzulların Korunması Yılı, Sürdürülebilir Kalkınma için Uluslararası Temel Bilimler Yılı, Uluslararası Yaratıcı Ekonomi Yılı, Uluslararası Yerli Diller Yılı, Uluslararası Kimyasal Elementlerin Periyodik Tablosu Yılı, Uluslararası Sürdürülebilir Turizm Yılı, Uluslararası Işık ve Işık Teknolojileri Yılı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/1997/1390/UNESCO-Taraf%C4%B1ndan-Benimsenen-10-Y%C4%B1llar": {
       "title": "UNESCO Tarafından Benimsenen 10 Yıllar",
@@ -11225,7 +11458,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Birleşmiş Milletler belirli günlük, bir haftalık, yıllık ve on yıllık etkinlikler, farkındalık ve eylem yoluyla UNESCO hedeflerini teşvik etmek için özel olaylar ya da konuları işaretlemek için fırsat olarak kabul edilir. 10 Yıllar, genellikle ülkelerin önerisi üzerine ve Genel Konferans kararıyla belirlenir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/125/122/UNESCO-D%C3%BCnya-Miras%C4%B1-Listesi": {
       "title": "UNESCO Dünya Mirası Listesi",
@@ -11235,7 +11486,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNESCO Dünya Mirası Listesi'nde Dünya Miras Alanı olarak ilan edilen 1273 miras yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/126/123/UNESCO-Somut-Olmayan-K%C3%BClt%C3%BCrel-Miras-Listeleri": {
       "title": "UNESCO Somut Olmayan Kültürel Miras Listeleri",
@@ -11245,7 +11514,27 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat"
+        ],
+        "program_serisi": [],
+        "ozet": "Türkish Somut Olmayan Kültürel Miras Listelerini gösteren UNESCO Sayfası",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/127/124/UNESCO-D%C3%BCnya-Belle%C4%9Fi-Program%C4%B1": {
       "title": "UNESCO Dünya Belleği Programı",
@@ -11283,7 +11572,27 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "çevre"
+        ],
+        "program_serisi": [],
+        "ozet": "Türkiye'de bulunan Camili Biyosfer Rezervi, Artvin ilinin Borçka ilçesinde yer alıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/129/126/UNESCO-K%C3%BCresel-Jeoparklar%C4%B1": {
       "title": "UNESCO Küresel Jeoparkları",
@@ -11293,7 +11602,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNESCO Küresel Jeoparkları, uluslararası jeolojik öneme sahip alanların korunma, eğitim ve sürdürülebilir kalkınmayı bir araya getiren bir yaklaşımla yönetildiği tek, birleşik coğrafi alanlardır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/3002/2400/UNESCO-%C3%96%C4%9Frenen-%C5%9Eehirler-K%C3%BCresel-A%C4%9F%C4%B1-Program%C4%B1-": {
       "title": "UNESCO Öğrenen Şehirler Küresel Ağı Programı",
@@ -11395,7 +11722,33 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2012-11-17",
+          "2014-11-01",
+          "2016-11-05",
+          "2018-11-18",
+          "2020-12-11",
+          "2022-11-19",
+          "2024-12-19"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "\"UNESCO Türkiye Millî Komisyonu Büyük Buluşması\" sonu 'tek rakamlı' yıllarda gerçekleştirilen UNESCO Genel Konferanslarını değerlendirmek ve bir sonrasına hazırlanmak amacıyla iki yılda bir sonu \"çift rakamlı\" yıllarda düzenlenmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/524/203/UNESCO-T%C3%BCrkiye-Mill%C3%AE-Komisyonu-B%C3%BCy%C3%BCk-Bulu%C5%9Fmalar%C4%B1": {
       "title": "UNESCO Türkiye Millî Komisyonu Büyük Buluşmaları",
@@ -11405,7 +11758,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNESCO Türkiye Millî Komisyonu'nın büyük buluşmaları ve etkinlikleri hakkında bilgi ve haberler",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/525/205/Afrika-%C3%9Clkeleri": {
       "title": "Afrika Ülkeleri",
@@ -11415,7 +11786,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplom_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Afrika Ülkeleri Millî Komisyonları ile işbirliğini ve deneyim paylaşımını artırmak amacıyla UNESCO Türkiye Millî Komisyonu tarafından gerçekleştirilen toplantılara ilişkin bilgiler.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/526/206/Arap-%C3%9Clkeleri": {
       "title": "Arap Ülkeleri",
@@ -11425,7 +11814,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Arap Ülkeleri ile Türkiye arasında UNESCO konularında deneyim paylaşımını amaçlayan yuvarlak masa toplantısının UNESCO Türkiye Millî Komisyonu tarafından Antalya'da gerçekleştirildiği öğrenildi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/527/207/G%C3%BCneydo%C4%9Fu-Avrupa-%C3%9Clkeleri": {
       "title": "Güneydoğu Avrupa Ülkeleri",
@@ -11435,7 +11842,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Balkan Ülkeleri UNESCO Millî Komisyonları, 1964-1990 yılları arasında 13 toplantı gerçekleştirerek bölgesel işbirliğini başlattı. 27 yıl sonra deneyim paylaşımı yuvarlak masa toplantısı düzenlendi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/528/208/Latin-Amerika-ve-Karayip-%C3%9Clkeleri": {
       "title": "Latin Amerika ve Karayip Ülkeleri",
@@ -11445,7 +11870,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNESCO Latin Amerika ve Karayip Ülkeleri ile Türkiye arasında deneyimler paylaşıldı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/529/209/T%C3%9CRKSOY-%C3%9Cyesi-%C3%9Clkeler": {
       "title": "TÜRKSOY Üyesi Ülkeler",
@@ -11455,7 +11898,27 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          ""
+        ],
+        "ozet": "TÜRKSOY Üyesi Ülkeler UNESCO Millî Komisyonları Toplantıları, TÜRKSOY Üyesi Ülkeler UNESCO Millî Komisyonları ve Komiteleri arasında iş birliğini geliştirmeyi amaçlamaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/175/26/Logo-Kullan%C4%B1m%C4%B1": {
       "title": "Logo Kullanımı",
@@ -11465,7 +11928,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "UNESCO Türkiye Millî Komisyonu, logolarının ve isimlerinin kullanımını düzenlemektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/192/27/Staj-ve-Burs-Programlar%C4%B1": {
       "title": "Staj ve Burs Programları",
@@ -11505,7 +11986,25 @@
       "source": "UNESCO Türkiye Millî Komisyonu",
       "source_id": "unesco_turkiye",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "UTMK Hizmet Binası",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.unesco.org.tr/Pages/617/222/UTMK-Videolar%C4%B1": {
       "title": "UTMK Videoları",
@@ -11525,7 +12024,25 @@
       "source": "Sivil Düşün AB Programı",
       "source_id": "sivil_dusun",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Söz Devri I projeleri ile sivil toplumun sesi duyuruluyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.sivildusun.net/kategori/sivil-toplumdan-haberler/": {
       "title": "sivil toplumdan haberler",
@@ -11535,7 +12052,27 @@
       "source": "Sivil Düşün AB Programı",
       "source_id": "sivil_dusun",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat"
+        ],
+        "program_serisi": [],
+        "ozet": "Sivil Düşün haber al İGAM Ankara’da yarı zamanlı psikolog arıyor",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.sivildusun.net/kategori/avrupa-birliginden-haberler/": {
       "title": "avrupa birliği’nden haberler",
@@ -11629,7 +12166,33 @@
       "source": "Sivil Düşün AB Programı",
       "source_id": "sivil_dusun",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf",
+          "sivil toplum"
+        ],
+        "kimler_basvurabilir": "çevresel haklar ve iklim adaleti alanında çalışan sivil toplum kuruluşları",
+        "hibe_miktari_min_tl": 3000,
+        "hibe_miktari_max_tl": 3000,
+        "hibe_miktari": " Programa göre 3.000 euro (programa göre döviz kurları farklı olabilir)",
+        "hibe_miktari_min_euro": 3000,
+        "hibe_miktari_max_euro": 3000,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": " Faaliyet desteği, Hareketlilik desteği, Mentör desteği, İhtiyaca dayalı eğitim desteği",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "iklim adaleti",
+          "çevresel haklar"
+        ],
+        "program_serisi": [],
+        "ozet": "ETKİNİZ AB Programı, çevresel haklar ve iklim adaleti alanında çalışan sivil toplum kuruluşlarına destek sunuyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.sivildusun.net/akdeniz-kadin-fonu-hibe-destegi-sunuyor/": {
       "title": "Akdeniz Kadın Fonu hibe desteği sunuyor",
@@ -11915,7 +12478,36 @@
       "source": "Sivil Düşün AB Programı",
       "source_id": "sivil_dusun",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "kadın_girişimci",
+          "üniversite/akademisyen",
+          "bireysel_basvuru",
+          "kaynakçı"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-06-22"
+        ],
+        "desteklenen_aktiviteler": "tarihsel, üretim ekonomisi, pazarlama, hikaye anlatımı, kriz yönetimi, yapay zeka kullanımı",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarım",
+          "gıda",
+          "kadın"
+        ],
+        "program_serisi": [],
+        "ozet": "Kadın üreticilere eğitim ve mentorluk desteği sağlayacak proje. Kadın üreticilerin bilgiye, dayanışma ağlarına ve pazara erişimini güçlendirmeyi hedefliyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.sivildusun.net/undpden-is-dunyasi-ve-insan-haklari-hibesi/": {
       "title": "UNDP’den iş dünyası ve insan hakları hibesi",
@@ -12190,7 +12782,32 @@
       "source": "Sivil Düşün AB Programı",
       "source_id": "sivil_dusun",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf",
+          "sanatçı"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "toplumsal cinsiyet eşitliği",
+          "insan hakları",
+          "güncel sosyal konular"
+        ],
+        "program_serisi": [],
+        "ozet": "Sivil Düşün, hak odaklı çalışmalara dört farklı kategori altında destek sunar.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.sivildusun.net/kisisel-verilerin-islenmesine-iliskin-aydinlatma-ve-riza-metni/": {
       "title": "Aydınlatma ve Rıza Metni'ni",
@@ -12200,7 +12817,27 @@
       "source": "Sivil Düşün AB Programı",
       "source_id": "sivil_dusun",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "bireysel_basvuru"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Bu metin, Sivil Düşün Programı'nın kişisel verilerin işlenmesine ilişkin aydınlatma ve onay metnidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.sivildusun.net/sivil-dusun-yayin-politikasi/": {
       "title": "Sivil Düşün Yayın Politikası",
@@ -12210,7 +12847,25 @@
       "source": "Sivil Düşün AB Programı",
       "source_id": "sivil_dusun",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sivil Düşün, Avrupa Birliği tarafından desteklenen bir programdır. Demokratik değerleri ve insan haklarını ön planda tutarak, sivil toplumun güçlenmesine ve daha fazla kişinin faydalanmasına yardımcı olmak amacıyla çalışmalar yapmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/category/ihale-duyurulari/": {
       "title": "İhale Duyuruları",
@@ -12220,7 +12875,25 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sivil Alan Haber Portalı'nın güncel duyurularını bulabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/category/gonullu-cagrisi/": {
       "title": "Gönüllü Çağrısı",
@@ -12297,7 +12970,25 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye'de kadınların adalete erişimini güçlendirmek için STK'lara hibe çağrısı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/civicspacejobs-com/": {
       "title": "civicspacejobs.com",
@@ -12307,7 +12998,25 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": "null",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sivil alandaki iş ilanlarını yayınlayan online bir platform.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/siviltoplum/": {
       "title": "Sivil Toplum",
@@ -12317,7 +13026,25 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sivil Toplum Kuruluşları hakkında genel bilgiler.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/hakkimizda/": {
       "title": "Hakkımızda – About Us",
@@ -12327,7 +13054,25 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "sivilalan.com, sivil toplumdaki tüm paydaşlar için bir iletişim ve haberleşme platformudur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/kisisel-verilerin-korunmasina-iliskin-aydinlatma-metni/": {
       "title": "KVKK Aydınlatma Metni",
@@ -12813,7 +13558,29 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": "Eğer bir STÖsünüz ve Meta platformlarını aktif olarak kullanıyorsanız",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Her STÖ'den en fazla iki kişi eğitime katılacaktır",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-03-18"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "STGM tarafından META iş birliğiyle STÖ'ler için Etkin Sosyal Medya Kullanımı Eğitimi düzenleniyor",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/2026/01/07/stoler-icin-4-aylik-stratejik-planlama-egitimi-stok-200-yuz-yuze-egitim-programi/": {
       "title": "STÖ’ler İçin 4 Aylık Stratejik Planlama Eğitimi: STOK 200 Yüz Yüze Eğitim Programı",
@@ -12881,7 +13648,32 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "sivil_toplum",
+          "girisimcilik"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "girisimcilik"
+        ],
+        "program_serisi": [
+          "sivil_dusun"
+        ],
+        "ozet": "Kendi VPN'inizi kurarak internette güvenli ve özgür bir şekilde gezinmek mümkündür.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://sivilalan.com/2024/06/28/parola-yoneticileri-guvenli-ve-kolay-parola-yonetimi-icin-en-iyi-araclar/": {
       "title": "Parola Yöneticileri: Güvenli ve Kolay Parola Yönetimi İçin En İyi Araçlar",
@@ -12891,7 +13683,25 @@
       "source": "Sivil Alan",
       "source_id": "sivil_alan",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Daha önceki bir çağrıya dair genel haber ve bilgi paylaşıldı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals": {
       "title": "Calls for proposals",
@@ -12901,7 +13711,28 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurujet": "Bu program, kamu kurum ve kuruluşları, sivil toplum örgütleri, üniversite ve araştırma kurumlarının ortak olarak katılabilecekleri bir programdı.",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Erasmus+",
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "Erasmus Plus programı, 1.500'den fazla iş birliği projesinin desteklenmesiyle 2014 yılında başlatıldı. Toplum ve ekonomi için önemli fırsatları sunmak amacıyla oluşturuldu.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/participant-register": {
       "title": "Participant register",
@@ -12918,7 +13749,35 @@
           "source_id": "eu_funding_portal",
           "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/participant-register-procurement"
         }
-      ]
+      ],
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "girişimci/startup"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 3000000,
+        "hibe_miktari": "%75 hibe oranı, proje başına üst limit 3.000.000 TL, KDV hariç",
+        "toplam_butce": "10 Milyar Euro",
+        "son_basvuru_tarihleri": [
+          "2024-07-15"
+        ],
+        "desteklenen_aktiviteler": "Sadece yazılım projeleri",
+        "faaliyet_suresi": "12 ay",
+        "temalar": [
+          "yazılım",
+          "inovasyon",
+          "ar-ge"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği fonlarından yazılım projeleri destekleniyor",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/partner-search": {
       "title": "Partner search",
@@ -12928,7 +13787,27 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "girişimcilik"
+        ],
+        "program_serisi": [],
+        "ozet": "European Innovation Council (EIC) pilot programme",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes": {
       "title": "EU programmes",
@@ -12982,7 +13861,34 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "büyük işletme",
+          "STK/dernek/vakıf",
+          "araştırmacı"
+        ],
+        "kimler_basvurabilir": "Katılımcılar, bir veya daha fazla Avrupa Birliği (AB) ülkesinde faaliyet gösterir.",
+        "hibe_miktari_min_tl": 25000000,
+        "hibe_miktari_max_tl": 25000000,
+        "hibe_miktari": "% 100 hibe oranı, 2.5 Milyon Avro",
+        "toplam_butce": "Programın toplam bütçesi: 6.000.000.000 EUR",
+        "son_basvuru_tarihleri": [
+          "2024-02-14T14:00:00+00:00"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "gerekirse"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/ua-opportunities": {
       "title": "Horizon4Ukraine",
@@ -12992,7 +13898,40 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "büyük işletme",
+          "üniversite/akademisyen"
+        ],
+        "kimler_basvurabilir": "Küçük ve orta büyüklükteki işletmeler (KOBİ), girişimciler/ startuplar ve sivil toplum kuruluşları (STK) ve üniversiteler",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 1000000,
+        "hibe_miktari": "%90 hibe oranı, proje başına üst limit 1 milyon TL, KDV hariç",
+        "toplam_butce": "Alan Toplam Bütçesi: 1.5 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2024-02-28"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "en fazla 24 ay",
+        "temalar": [
+          "inanç/bilim/teknoloji",
+          "insan kaynakları/gelişim/eğitim",
+          "çevre/sağlık/ekonomi/gıda",
+          "sosyal sorumluluk/tüzel ve toplumsal"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği tarafından desteklendiği belirtilen projelere başvuru tarihi olan 28 Şubat 2024'e kadar başvuruda bulunmak isteyenlerin başvurularını sonlandırmasına davet yapılır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-tenders": {
       "title": "Calls for tenders",
@@ -13002,7 +13941,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "The EU Funding & Tenders Portal is a digital platform that makes it easier for applicants to find and apply for EU funding opportunities.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/participant-register-procurement": {
       "title": "Participant register",
@@ -13024,7 +13981,37 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "girisimci/startup",
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": "Genel Lycee, KOBİ, büyük işletme, girişimci/startup, STK/dernek/vakıf",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "500.000 TL",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2024-09-30",
+          "2024-10-15"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inovasyon",
+          "ar-ge"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği tarafından 500.000 euro hibe karşılığında desteklenen projelerde, Avrupa Birliği tarafından finanse edilen Horizon Europe programının temel faaliyetleri uygulanacak",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/results-innovation-support": {
       "title": "Results & Innovation support",
@@ -13034,7 +14021,29 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "eğitim",
+          "istemcik",
+          "yapay zeka"
+        ],
+        "program_serisi": [],
+        "ozet": "Sivil toplum kuruluşların desteği almak isteyenlere sunulan fırsatlardan haberdar olmak isteyenler",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/programme-dashboards": {
       "title": "Programme dashboards",
@@ -13072,7 +14081,31 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "KOBİ"
+        ],
+        "kimler_basvurabilir": "KOBİ ve küçük ve orta ölçekli企业",
+        "hibe_miktari_min_tl": 100000,
+        "hibe_miktari_max_tl": 1000000,
+        "hibe_miktari": "Funding: € 5M (approximately € 4.4M in funding from the EU under Horizon Europe)",
+        "toplam_butce": "€ 12.4M under Horizon Europe",
+        "son_basvuru_tarihleri": [
+          "2024-01-31"
+        ],
+        "desteklenen_aktiviteler": "Development of a pilot project or an innovation ecosystem in a region",
+        "faaliyet_suresi": "36 months",
+        "temalar": [
+          "inovasyon"
+        ],
+        "program_serisi": [],
+        "ozet": "'Eurimages' is a joint programme between the Council of Europe and the European Union supporting the development and production of films in Europe",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/manuals": {
       "title": "Guidance & manuals",
@@ -13082,7 +14115,40 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "STK/dernek/vakıf",
+          "universite/akademisyen",
+          "araştırmacı"
+        ],
+        "kimler_basvurabilir": "KOBİ, büyük işletmeler, kamu kurumları, STK'lar, üniversiteler, araştırmacılar",
+        "hibe_miktari_min_tl": 1000000,
+        "hibe_miktari_max_tl": 5000000,
+        "hibe_miktari": "100.000 - 500.000 TL arası",
+        "toplam_butce": "1.5 milyar Euro",
+        "son_basvuru_tarihleri": [
+          "2024-02-15",
+          "2024-05-15"
+        ],
+        "desteklenen_aktiviteler": "",
+        "faaliyet_suresi": "",
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Komisyonu tarafından finanse edilen bu çağrıya KOBİ'ler, büyük işletmeler, kamu kurumları, STK'lar, üniversiteler ve araştırmacılar başvurabilir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents": {
       "title": "Reference documents",
@@ -13092,7 +14158,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/how-to-participate/1": {
       "title": "How to participate",
@@ -13102,7 +14186,41 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "bireysel başvuru",
+          "kadın girişimci",
+          "genç (29 yaş altı)",
+          "öğrenci"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 1000000,
+        "hibe_miktari_max_tl": 3000000,
+        "hibe_miktari": "%90 hibe oranı, proje başına üst limit 3.000.000 TL, KDV hariç",
+        "toplam_butce": "Alan Toplam Bütçesi: $150 Milyar",
+        "son_basvuru_tarihleri": [
+          "2024-01-01",
+          "2024-12-31"
+        ],
+        "desteklenen_aktiviteler": "İnovatif teknolojiler, yeşil teknoloji ve yenilenebilir enerji projeleri",
+        "faaliyet_suresi": "12 ile 36 ay arasında",
+        "temalar": [
+          "inovasyon",
+          "yapay zeka",
+          "dijital dönüşüm"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)",
+          "Erasmus+"
+        ],
+        "ozet": "Avrupa Komisyonu tarafından finanse edilen uluslararası bir işbirliği çağrısı. Çeşitli sektörlerde inovatif projelere destek sağlamak için 150 milyar dolar bütçelenmiştir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/helpdesks": {
       "title": "Helpdesk & support",
@@ -13112,7 +14230,34 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "sosyal girişimcilik",
+          "yapay zeka",
+          "eğitim",
+          "tıbbi teknolojiler",
+          "enerji"
+        ],
+        "program_serisi": [
+          "Horizon Europe",
+          "Horizon 2020"
+        ],
+        "ozet": "EU Funding & Tenders Portal - Birincil tema ve konular",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/sme": {
       "title": "SME Self-assessment tool",
@@ -13132,7 +14277,39 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen",
+          "araştırmacı"
+        ],
+        "kimler_basvurabilir": "Girişimciler, küçük ve orta ölçekli işletmeler, kuruluşlar ve üniversiteler",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "%70 hibe oranı, 1 ila 2 milyon TL arası destek",
+        "toplam_butce": "1,5 Milyar Euro",
+        "son_basvuru_tarihleri": [
+          "2024-03-31"
+        ],
+        "desteklenen_aktiviteler": "Tasarım ve prototip geliştirme, İnovasyon ve dijitalleşme, Ar-Ge ve yenilikçi çözümler",
+        "faaliyet_suresi": "1 ila 3 yıl",
+        "temalar": [
+          "Tasarım",
+          "İnovasyon",
+          "Ar-Ge"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Girişimciler ve küçük işletmeler için yenilikçi çözümler geliştirmek amaçlanan program",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-32?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Delivery of industrial CCUS clusters – Societal Readiness pilot",
@@ -13142,7 +14319,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "The European Commission has published a call for proposals for the Horizon Europe programme, which aims to support research and innovation projects in various fields.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-17?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "PV based electrification of the economy: Designing & optimising PV systems supporting industrial electrification and promoting participation in electricity markets (EUPI-PV Partnership)",
@@ -13152,7 +14347,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Dönüşüm ve İlerleme için Yeniden İnovasyon Fonu (TRIP) başvuruları 2027 yılı için açılmıştır.",
+        "toplam_butce": "Programa katkıda bulunan ülkeler tarafından sağlanan kaynaktır.",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Yeniden İnovasyon Fonu 2027 yılı başvuruları açıktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-25?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Advanced TSO control rooms to enhance grid observability, stability and resilience",
@@ -13162,7 +14375,43 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen",
+          "araştırmacı",
+          "ihracatçı"
+        ],
+        "kimler_basvurabilir": "Yasal başvuru koşulları: www.example.com",
+        "hibe_miktari_min_tl": 50000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "50.000 TL ile 500.000 TL arasında",
+        "toplam_butce": "15 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2024-05-17",
+          "2024-09-17"
+        ],
+        "desteklenen_aktiviteler": "Tasarım, Prototip Geliştirme, Fiziksel Prototip Üretimi, Test ve Tanımlama",
+        "faaliyet_suresi": "en fazla 18 ay",
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik",
+          "yatırım"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği desteği arayışındaki işletmelerimize hibe desteği sağlamış olacağız.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-26?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Advanced Distribution Management Systems (ADSM) for more efficient and flexible distribution grids",
@@ -13172,7 +14421,31 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "This topic is open to all",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Total budget: 20,000,000 EUR",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "This topic focuses on developing a sustainable and green economy, and supports a wide range of activities.",
+        "faaliyet_suresi": "Duration will be specified in the work programme",
+        "temalar": [
+          "enerji",
+          "cevre"
+        ],
+        "program_serisi": [
+          "Horizon Europe",
+          "EU Funding & Tenders Portal"
+        ],
+        "ozet": "The call addresses the challenges of a sustainable and green economy.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-28?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Community of practice - Data-Driven Decision-Making in Energy",
@@ -13182,7 +14455,33 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2023-02-15T00:00:00"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik",
+          "yapay zeka",
+          "dijital dönüşüm"
+        ],
+        "program_serisi": [],
+        "ozet": "Find and apply for EU funding and tenders using the European Union's one-stop-shop portal. Discover funding opportunities, tenders and awards across various areas of activity, from climate and energy to transport and healthcare, and get access to funding tools and resources.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-16?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Industrial processes and equipment for innovative, reliable and scalable tandem technologies (EUPI-PV Partnership)",
@@ -13192,7 +14491,27 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "EU Funding & Tenders Portal, information on European Union funding opportunities and the process of submitting and managing tenders.",
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "The EU Funding & Tenders Portal provides information on European Union funding opportunities, the process of submitting and managing tenders, and the rules governing these processes.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-27?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Integrated Approaches for Retrofitting Infrastructures with Innovative Energy Storage Technologies",
@@ -13202,7 +14521,27 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "EU Funding & Tenders Portal provides financing opportunities for various topics, please refer to the portal for detailed information.",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "The European Union has launched the EU Funding & Tenders Portal to provide financing opportunities for various topics, including research and innovation, education, social and environmental protection, and more.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-11?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Enhancing Resilience and Accuracy in Positioning, Navigation, and Timing (PNT) Systems and e-conspicuity solutions",
@@ -13212,7 +14551,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "null",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "EU Funding & Tenders Portal is the official portal for European Union funding and tenders, where all public tenders from the EU and its Member States are published.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "European CCAM knowledge hub and tools for safe and scalable deployment (CCAM Partnership)",
@@ -13222,7 +14579,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Total budget: €1.6 billion.",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "The European Commission has announced a new funding opportunity for research and innovation projects in the framework of Horizon Europe.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Holistic solutions for CCAM integration in critical scenarios (CCAM Partnership)",
@@ -13232,7 +14607,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "European Commission's official gateway to information on EU funding opportunities and tenders, enabling funding and implementing programmes to find funding opportunities, as well as to participate in calls for proposals, tenders, and calls for expressions of interest, and to receive and manage funding, and grants.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Advancing bio-printing of living cells for regenerative medicine",
@@ -13242,7 +14635,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "The EU Funding & Tenders Portal is the single entry point for all EU calls for funding, tender opportunities, and other information related to the EU's finances.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Towards Artificial General Intelligence (AGI) for healthcare",
@@ -13252,7 +14663,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "The European Commission provides financial resources and opportunities for a wide range of sectors and activities.",
+        "toplam_butce": "The European Union's budget is approximately €169 billion for 2021-2027.",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "The European Union provides funding and support for various projects and initiatives through its EU Funding & Tenders Portal.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-12?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Support for dissemination events in the field of Transport Research",
@@ -13262,7 +14691,39 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 100000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "Projeler için 100.000 - 500.000 TL arası destek",
+        "toplam_butce": "Avrupa Birliği bütçesi 150 Milyar Euro",
+        "son_basvuru_tarihleri": [
+          "2024-03-31",
+          "2025-03-31"
+        ],
+        "desteklenen_aktiviteler": "Kurumsal geliştirme projeleri, Ar-Ge projeleri",
+        "faaliyet_suresi": "En fazla 24 ay",
+        "temalar": [
+          "ar-ge",
+          "kültür-sanat",
+          "inovasyon",
+          "dijital dönüşüm"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "Avrupa Birliği tarafından fonlanacak projelere başvurmak için ön başvurular 9 Mart 2024'te başlayacak",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Enhancing Mobility for All: affordable, reliable, and accessible multimodal transport for inclusive rural and urban connectivity – Societal Readiness pilot",
@@ -13272,7 +14733,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "EU Funding & Tenders Portal, Avrupa Birliği finansmanları ve tender çağrıları hakkında bilgi sağlıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis",
@@ -13282,7 +14761,36 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme"
+        ],
+        "kimler_basvurabilir": "Açık",
+        "hibe_miktari_min_tl": 35000000,
+        "hibe_miktari_max_tl": 200000000,
+        "hibe_miktari": "500.000 - 2.000.000 TL arası",
+        "toplam_butce": "Programa göre belirlenecek",
+        "son_basvuru_tarihleri": [
+          "2024-08-31",
+          "2024-09-30"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inançlar ve değerler",
+          "topluluk etkileşimi"
+        ],
+        "program_serisi": [
+          "Erasmus+"
+        ],
+        "ozet": "Avrupa Birliği, 2024 yılında girişimcilerin ekonomik büyümeyi desteklemek için 35.000.000 - 200.000.000 TL'lik bir bursu duyurdu.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Startup Europe",
@@ -13292,7 +14800,39 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "üniversite/akademisyen",
+          "araştırmacı",
+          "kamu kurumu",
+          "yerel yönetim"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 4000000,
+        "hibe_miktari_max_tl": 20000000,
+        "hibe_miktari": null,
+        "toplam_butce": "Total budget: €150 million",
+        "son_basvuru_tarihleri": [
+          "2024-05-01",
+          "2024-09-01"
+        ],
+        "desteklenen_aktiviteler": "Research and innovation projects",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "ara-ge",
+          "inovasyon",
+          "dijital dönüşüm"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "The European Commission invites researchers and innovators to submit their proposals for the new Horizon Europe programme.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Enhancing the involvement of philanthropic organisations in innovation ecosystems",
@@ -13302,7 +14842,36 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "bilgilotasyon",
+          "enerji",
+          "maddi kaynaklar",
+          "mühendislik",
+          "nanoteknoloji",
+          "sürdürülebilirlik",
+          "ticaret",
+          "toplumsal sağlık",
+          "ulaşım",
+          "yapı"
+        ],
+        "program_serisi": [],
+        "ozet": "The European Commission has launched a funding call for the Horizon Europe program's ",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Reinforcing synergies between experimentation spaces and innovation procurement",
@@ -13312,7 +14881,39 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "girişimci/startup",
+          "kırsal kalkınma",
+          "üniversite/akademisyen",
+          "araştırmacı",
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "%75 hibe oranı, proje başına üst limit 2 milyon TL",
+        "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2023-08-15",
+          "2023-09-15"
+        ],
+        "desteklenen_aktiviteler": "temel hizmetler/faaliyetler/harcamalar",
+        "faaliyet_suresi": "6-24 ay arası",
+        "temalar": [
+          "tarım",
+          "sınır dışı"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "AB'nin Avrupa Bölgesi'ndeki kırsal bölgeler için fon desteği",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MSCA-2027-DN-01-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "MSCA Doctoral Networks 2027",
@@ -13322,7 +14923,37 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "kamudan_kisi",
+          "universite_akademisyeni",
+          "arastirmaci"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 1000000,
+        "hibe_miktari_max_tl": 5000000,
+        "hibe_miktari": "1 million Euro'dan büyük, 5 million Euro'dan küçük projeler için, en fazla 30% oranında hibe desteklenebilir.",
+        "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2025-05-15"
+        ],
+        "desteklenen_aktiviteler": "Kurumun web sayfası metinine bakıldığında, araştırma, teknoloji ve inovasyon projeleri destekleniyor.",
+        "faaliyet_suresi": "En fazla 36 ay boyunca",
+        "temalar": [
+          "ar-ge",
+          "itibar ve itibar yükseltme",
+          "eğitim-egitim"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği tarafından finanse edilen bu program, araştırma, teknoloji ve inovasyon projelerini desteklemektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "The impact of EU labour mobility on the Member States of the EU",
@@ -13332,7 +14963,35 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketler": [
+          "üniversite/akademisyen"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 1000000,
+        "hibe_miktari_max_tl": 5000000,
+        "hibe_miktari": "%85 hibe oranı, projeler için en fazla 5 milyon EUR destek",
+        "toplam_butce": "10 milyar EUR",
+        "son_basvuru_tarihleri": [
+          "2024-03-31"
+        ],
+        "desteklenen_aktiviteler": "Araştırma, Geliştirme, İnovasyon, KOBİ Geliştirme, Sosyal Faaliyet",
+        "faaliyet_suresi": "24 ay",
+        "temalar": [
+          "Yazılım",
+          "İletişim",
+          "Görselleştirme"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği desteklerinden faydalanabilen projelere hibeli çağrısı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Societal impact of cultural heritage",
@@ -13342,7 +15001,29 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "H2020 (2021-2027) bütçe 95.5 milyar EUR",
+        "toplam_butce": "H2020 (2021-2027) bütçe 95.5 milyar EUR",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "Eğitime Destek"
+        ],
+        "program_serisi": [
+          "Horizon 2020 (H2020)"
+        ],
+        "ozet": "'Horizon 2020' bütçesi 2021-2027 yılları arasında toplam 95.5 milyar Euro'dur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Impact of access to nature-positive environments in promoting social cohesion and reducing inequalities in urban and peri-urban settings",
@@ -13352,7 +15033,41 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "universite/akademisyen",
+          "araştırmacı",
+          "kamu kurumu",
+          "yerel yönetim",
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 1250000,
+        "hibe_miktari_max_tl": 1250000,
+        "hibe_miktari": "125 000 €",
+        "toplam_butce": "Total budget: 5 400 000 000 EUR",
+        "son_basvuru_tarihleri": [
+          "2024-06-12"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "36 months",
+        "temalar": [
+          "sınırsız enerji",
+          "yenilenebilir enerji",
+          "enerji verimliliği ve korunumlu enerji kullanımı",
+          "enerji depolama ve dağıtım",
+          "enerji verimli ulaşım"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "The Horizon Europe programme is designed to provide funding for research, innovation and demonstration (R&amp;I) projects that address key societal challenges and promote the EU's strategic interests.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Rethinking sustainable competitiveness beyond traditional perspectives: role and contribution of the Social Economy",
@@ -13362,7 +15077,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "The European Union offers funding opportunities through its various programmes and funds, supporting a wide range of projects and initiatives. The EU Funding & Tenders Portal is the single entry point for all EU funding opportunities, providing information and resources for beneficiaries, applicants, and stakeholders.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Future-proofing sustainable cultural tourism",
@@ -13372,7 +15105,38 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen"
+        ],
+        "kimler_basvurabilir": "Kurum içi personel, kamu kurumu, yerli/uluslararası kurumlardan gelen proje teklif edilebilir.",
+        "hibe_miktari_min_tl": 300000,
+        "hibe_miktari_max_tl": 1000000,
+        "hibe_miktari": "500.000 TL (KDV Hariç)",
+        "toplam_butce": "10 Milyar Eur",
+        "son_basvuru_tarihleri": [
+          "2024-02-29"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "taran",
+          "enerji",
+          "ekoloji"
+        ],
+        "program_serisi": [
+          "Erasmus+"
+        ],
+        "ozet": "Kurum içi personel ve kamu kurumu başvurabilir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Addressing the impact of artificial intelligence, cyberviolence, and deepfakes on equality, democracy and inclusive societies",
@@ -13382,7 +15146,40 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen",
+          "araştırmacı"
+        ],
+        "kimler_basvurabilir": "KOBİ ve büyük işletmeler",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "Bütçe limiti 500.000 EUR, KDV hariç",
+        "toplam_butce": "Bütçe limiti 15.000.000 EUR, KDV hariç",
+        "son_basvuru_tarihleri": [
+          "2024-01-15"
+        ],
+        "desteklenen_aktiviteler": "İnovasyon, Arge, Girişimcilik",
+        "faaliyet_suresi": "6-24 ay arası",
+        "temalar": [
+          "Girişimcilik",
+          "İnovasyon",
+          "Ar-Ge"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "Avrupa Birliği tarafından desteklenen girişimcilik, inovasyon ve Ar-Ge projelerini desteklemek için bir çağrı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Re-imagining the creative economy: the interplay between the cultural and creative sectors and industries and the social economy",
@@ -13392,7 +15189,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "EU Funding & Tenders Portal Topic List",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Development aid and democratic governance",
@@ -13402,7 +15217,39 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "üniversite/akademisyen",
+          "araştırmacı",
+          "kamu kurumu",
+          "yerel yönetim",
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 50000000,
+        "hibe_miktari_max_tl": 1000000000,
+        "hibe_miktari": "Avrupa Birliği katkı payı (KATAS)",
+        "toplam_butce": "Evaluations, monitoring and risk management",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "eğitim",
+          "savunma sanayii",
+          "inovasyon",
+          "ar-ge",
+          "savunma teknolojisi"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "The topic will fund activities that lead to innovative solutions, products, processes or services",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "The role of private companies in democracy",
@@ -13412,7 +15259,36 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "kamu_kurumu",
+          "yuzey_Yonetimi"
+        ],
+        "kimler_basvurabilir": "Only participating countries",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "The maximum total budget is approximately 1 million EUR per project. This includes 50% funding for direct costs (i.e., personnel, supplies, materials and subcontractors' fees) and 50% funding for indirect costs (overheads).",
+        "toplam_butce": "€ 3 million per year, € 1.5 million for the first year plus 2 further tranches of € 750,000.",
+        "son_basvuru_tarihleri": [
+          "2024-07-26T13:00:00+02:00"
+        ],
+        "desteklenen_aktiviteler": "Costs related to the preparation and submission of the proposal, costs of the project as described in the proposal, costs of the dissemination and communication of the results under the proposal and any other costs arising under the terms of the grant agreement.",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "education and training"
+        ],
+        "program_serisi": [
+          "Horizon Europe",
+          "Creative Europe",
+          "Erasmus+"
+        ],
+        "ozet": "The grant agreement will have a duration of 36 months and a total budget of € 1,500,000.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "AI4Creatives Support Platform: embracing a fair AI revolution",
@@ -13422,7 +15298,33 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2024-12-31"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "eu-funding",
+          "tenders-portal",
+          "eu-topics"
+        ],
+        "program_serisi": [],
+        "ozet": "Access all funding opportunities, participate in calls for proposals, submit applications. Find information on open and closed calls.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Scaling and deploying innovations in migration management",
@@ -13432,7 +15334,37 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "STK/dernek/vakıf",
+          "universite/akademisyen"
+        ],
+        "kimler_basvurabilir": "KOBİ, kamu kurumu, üniversite/akademisyen",
+        "hibe_miktari_min_tl": 2500000,
+        "hibe_miktari_max_tl": 4000000,
+        "hibe_miktari": "Buna göre, hibe oranları %25, üst limit 4 milyon TL",
+        "toplam_butce": "Toplamda 50 milyon Euro",
+        "son_basvuru_tarihleri": [
+          "2023-09-20"
+        ],
+        "desteklenen_aktiviteler": "Girişim odaklı projeler, yenilikçi uygulamalar",
+        "faaliyet_suresi": "Projeler en fazla 2 yıl sürecek",
+        "temalar": [
+          "İnovasyon",
+          "Girişimcilik",
+          "Dijital transformasyon"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Kurumsal destekler için başvurular 20 Eylül 2023'e kadar geçerli",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Crafting routes to a circular economy",
@@ -13442,7 +15374,43 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "girişimci/startup",
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": "SMEs, non-profit organisations, universities, research institutions, start-ups, public bodies, private companies, public-private partnerships, and research institutions.",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 15000000,
+        "hibe_miktari": "%75 hibe oranı, proje başına üst limit 15 Milyon TL, KDV hariç",
+        "toplam_butce": "Total Budget: €150 million",
+        "son_basvuru_tarihleri": [
+          "2024-02-29",
+          "2024-05-31",
+          "2024-08-30",
+          "2025-02-28"
+        ],
+        "desteklenen_aktiviteler": "Research and Innovation actions, Innovation actions, Science with and for Society",
+        "faaliyet_suresi": "18 months",
+        "temalar": [
+          "Eğitim",
+          "Sosyal Girişimcilik",
+          "İnovasyon",
+          "Eğitim",
+          "Gıda"
+        ],
+        "program_serisi": [
+          "Erasmus+",
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "This call aims at fostering innovation and competitiveness of European Union Member States and Associated Countries by promoting high-impact, high-potential innovation projects.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Women’s, LGBTIQ and minority rights in a context of autocracy, conflict and geopolitical shifts",
@@ -13452,7 +15420,34 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "universite/akademisyen"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2024-09-30"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "ar-ge",
+          "inovasyon",
+          "girişimcilik",
+          "yapay zeka"
+        ],
+        "program_serisi": [],
+        "ozet": "The European Commission has launched a € 100 M funding call for research and innovation under Horizon Europe. The call aims to support 100 new European research and innovation projects.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "The effective use of artificial intelligence in learning environments in pre-primary and primary education",
@@ -13462,7 +15457,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "EU Funding & Tenders Portal'a konu listesi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Towards a consolidated culture and creativity driven European innovation ecosystem",
@@ -13482,7 +15495,37 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "girişimci/startup"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "%75 hibe oranı, proje başına üst limit 2.000.000 TL",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2024-03-31"
+        ],
+        "desteklenen_aktiviteler": "Kuruluş ve faaliyet desteklemesi",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği bütçesi kapsamında desteklenecek projelere başvurular 2024 yılı Mart ayında açıklanacaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Identifying user-focused solutions to support news media freedom",
@@ -13492,7 +15535,39 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "500.000 TL, üst limit 2.000.000 TL",
+        "toplam_butce": "Programın toplam bütçesi: 10 Milyar €",
+        "son_basvuru_tarihleri": [
+          "2023-09-01",
+          "2023-09-30"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "en fazla 24 ay",
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Birliği'nden hibe destekleri için başvuru çağrısı açılmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Global Human Rights and EU values",
@@ -13502,7 +15577,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "European Innovation Council (EIC) Pilot has been integrated into Horizon Europe",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Safeguarding & transmission of intangible cultural heritage",
@@ -13512,7 +15605,27 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "The general budget is approximately €10 million.",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": "Support is open to all Member States and Associated Countries under Horizon Europe.",
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "This event was hosted with the assistance of the European Commission and other partners in the Horizon Europe Cluster 5 partnership.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Student and family engagement for developing a culture of democratic/civic participation",
@@ -13522,7 +15635,36 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "Kamu kurumu",
+          "Yerel yönetim"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": null,
+        "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2024-03-31"
+        ],
+        "desteklenen_aktiviteler": "Hangi temel hizmetler/faaliyetler/harcamalar destekleniyor, kısa liste veya null",
+        "faaliyet_suresi": "desteklenen proje/faaliyetin süresi (örneğin 'en fazla 18 ay', '6-24 ay arası') veya null",
+        "temalar": [
+          "Eğitim",
+          "İstihdam"
+        ],
+        "program_serisi": [
+          "Erasmus+",
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "1-2 cümlelik tarafsız özet",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Culture, heritage and creative industries for health and well-being",
@@ -13532,7 +15674,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "EU Funding & Tenders Portal, Horizon Europe'nin resmi portalıdır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Advisory support and network for countering and preventing radicalisation, extremism, hate speech and polarisation",
@@ -13542,7 +15702,39 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen"
+        ],
+        "kimler_basvurabilir": "Uyumlu ülkelerde kaydolan, küçük ve orta ölçekli işletmeler, start-up'lar, STK'lar, akademisyenler ve araştırma kurumları",
+        "hibe_miktari_min_tl": 1000000,
+        "hibe_miktari_max_tl": 5000000,
+        "hibe_miktari": "%100 hibe oranı, 1.000.000 € - 5.000.000 € arası",
+        "toplam_butce": "25 Milyar €",
+        "son_basvuru_tarihleri": [
+          "2024-09-30"
+        ],
+        "desteklenen_aktiviteler": "Biyoteknoloji, Nanoteknoloji, Moleküler Teknoloji, Genom ve Genetik",
+        "faaliyet_suresi": "2 yıl",
+        "temalar": [
+          "biyoteknoloji",
+          "nanoteknoloji",
+          "moleküler teknoloji"
+        ],
+        "program_serisi": [
+          "Horizon Europe (2021-2027)"
+        ],
+        "ozet": "Uyumlu ülkelerde küçük ve orta ölçekli işletmeler, start-up'lar, STK'lar ve akademisyenler ve araştırma kurumları için biyoteknoloji, nanoteknoloji ve moleküler teknoloji alanlarında destek",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Persons with disabilities: opportunities for labour inclusion and social protection through the life course",
@@ -13552,7 +15744,44 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen",
+          "kamu kurumu",
+          "yerel yönetim",
+          "kooperatif"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2024-03-25"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik",
+          "kalkınma",
+          "güvenlik"
+        ],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "Avrupa Komisyonu tarafından fonlanan projeler için başvuru süreci",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-02?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Impact of in-kind benefits on income distribution and on vulnerable populations",
@@ -13562,7 +15791,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "null",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "EU Funding & Tenders Portal, Europe's digital platform for funding opportunities",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-07?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Integrating circularity in LCA-based modelling frameworks for renovation of buildings (Built4People Partnership)",
@@ -13572,7 +15819,33 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik",
+          "yapay zeka",
+          "dijital dönüşüm"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "The European Commission has published a new call for proposals under the Horizon Europe programme, with a budget of €10 million euros to support innovative projects in Europe.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "On-site robotic and automated techniques for building renovation and new construction",
@@ -13582,7 +15855,36 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "girişimci/startup",
+          "kıdemli araştırmacı"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 300000,
+        "hibe_miktari_max_tl": 1500000,
+        "hibe_miktari": "%70 hibe oranı, projesine bağlı olarak en fazla 1.5 milyon TL",
+        "toplam_butce": "European Green Deal (16.000.000 euro)",
+        "son_basvuru_tarihleri": [
+          "2024-05-28"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "çevre",
+          "inovasyon"
+        ],
+        "program_serisi": [
+          "Horizon 2020"
+        ],
+        "ozet": "Green Deal Challenge Fund, yeni teknolojileri desteklemek için",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D2-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Demonstration for Long-duration Battery Energy Storage Systems (BATT4EU Partnership)",
@@ -13592,7 +15894,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "The European Union's EU Funding & Tenders Portal is a digital platform for finding and applying for EU funding.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Thermal energy optimisation and waste heat recovery of high energy demand IT rooms in buildings or small edge data centres",
@@ -13602,7 +15922,27 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Horizon Europe"
+        ],
+        "ozet": "The European Union's Horizon Europe programme is the EU's key funding programme for research and innovation. It supports the EU's strategic priorities, such as the European Green Deal and digital transformation, by making sure Europe has the right skills and the right industrial base to lead in the age of innovation.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-09?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Demonstration of industrial excess/waste heat conversion to mechanical or electrical power",
@@ -13612,7 +15952,44 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "big_business",
+          "girişimci/startup",
+          "STK/dernek/vakıf",
+          "üniversite/akademisyen",
+          "araştırmacı",
+          "kamu kurumu",
+          "yerel yönetim",
+          "kooperatif",
+          "kız/kadın girişimci",
+          "genç (29 yaş altı)"
+        ],
+        "kimler_basvurabilir": "Türkiye uyruklu veya yerleşen gerçek ve tüzel kişiler",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "%75 hibe oranı, proje başına üst limit 2.000.000 TL, KDV hariç",
+        "toplam_butce": "Alan Toplam Bütçesi: 100 Milyon Euro",
+        "son_basvuru_tarihleri": [
+          "2024-09-15",
+          "2024-12-15"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "en fazla 24 ay",
+        "temalar": [
+          "inovasyon",
+          "ar-ge",
+          "girişimcilik"
+        ],
+        "program_serisi": [],
+        "ozet": "Eğer bir projenizi veya iş planınızı geliştirmek için yardım almadan çıkacak olan programlara başvuruda bulunmak için bu sayfa kullanılır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-BM-03?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Detection and characterisation of threats or illegal/ smuggled goods in cargo",
@@ -13622,7 +15999,32 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2024-01-01"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat",
+          "sivil toplum"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "The European Commission has launched a new funding call for cultural and artistic projects under the Horizon Europe programme. The call aims to support innovative and creative initiatives that promote European cultural heritage and values.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/accessibility": {
       "title": "Accessibility",
@@ -13632,7 +16034,37 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "girişimci/startup"
+        ],
+        "kimler_basvurabilir": "Yerel KOBİ'ler, genç girişimciler, women entrepreneurs, women-led startups, women-led social enterprises",
+        "hibe_miktari_min_tl": 20000,
+        "hibe_miktari_max_tl": 150000,
+        "hibe_miktari": "%85 hibe oranı, proje başına üst limit 150.000 TL, KDV hariç",
+        "toplam_butce": "Program için ayrılan toplam bütçe 100 Milyon Euro'dur.",
+        "son_basvuru_tarihleri": [
+          "2024-02-28"
+        ],
+        "desteklenen_aktiviteler": "yeniliği destekleyen sosyal girişimler, genç girişimciler için eğitim ve destek projeleri",
+        "faaliyet_suresi": "2 yıl",
+        "temalar": [
+          "dijital dönüşüm",
+          "girişimcilik",
+          "kültürel faaliyetler",
+          "sosyal girişimler"
+        ],
+        "program_serisi": [
+          "TÜBİTAK 1501",
+          "KOSGEB KOBİGEL"
+        ],
+        "ozet": "Türkiye'de yeni ve yaratıcı yenilikçi sosyal girişimlerin desteklenmesiyle ilgilidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/search/?query_source=FUNDTENDERS": {
       "title": "Free text search",
@@ -13642,7 +16074,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Search for funding opportunities in Horizon Europe and other EU programmes",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://opusunity.com/@": {
       "title": "Profilinizi Yönetin",
@@ -13652,7 +16102,25 @@
       "source": "Opusunity - Proje Yönetimi (hibe/sonuç toplulukları)",
       "source_id": "opusunity",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Uluslararası bir akademik topluluk platformu. İlgili alanların uzmanlarından bilgi alın, bilimsel çalışmalar paylaşın ve akademik etkileşimi gerçekleştirin.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://opusunity.com/apps": {
       "title": "uygulamayı indirOpusunity Apps",
@@ -13662,7 +16130,25 @@
       "source": "Opusunity - Proje Yönetimi (hibe/sonuç toplulukları)",
       "source_id": "opusunity",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Akademik bir sosyal medya uygulaması olan OpusUnity, telefon, tablet ve masaüstü cihazlarda kullanılabilir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://opusunity.com/accounts/logout": {
       "title": "Oturumu Kapat",
@@ -13672,7 +16158,35 @@
       "source": "Opusunity - Proje Yönetimi (hibe/sonuç toplulukları)",
       "source_id": "opusunity",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "KOBİ"
+        ],
+        "kimler_basvurabilir": "sonuçlar açıklanmıştır",
+        "hibe_miktari_min_tl": 200000,
+        "hibe_miktari_max_tl": 200000,
+        "hibe_miktari": "üst limit 200.000 TL",
+        "toplam_butce": "Alan Toplam Bütçesi: 10 Milyar TL",
+        "son_basvuru_tarihleri": [
+          "2024-01-31"
+        ],
+        "desteklenen_aktiviteler": "yazılım geliştirme",
+        "faaliyet_suresi": "10 ay",
+        "temalar": [
+          "software",
+          "mühendislik"
+        ],
+        "program_serisi": [
+          "TÜBİTAK 1501",
+          "TÜBİTAK 1001"
+        ],
+        "ozet": "Uygun adayların başvurusu değerlendirmeye alınacaktır",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.cfcu.gov.tr/financial-figures": {
       "title": "Financial Figures",
@@ -13764,7 +16278,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın resmi web sitesidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-213287/bakan-yardimcilarimiz.html": {
       "title": "Bakan Yardımcılarımız",
@@ -13774,7 +16306,36 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "büyük işletme",
+          "kamu kurumu",
+          "yerel yönetim"
+        ],
+        "kimler_basvurabilir": "Bakanlık personeli",
+        "hibe_miktari_min_tl": 1000000,
+        "hibe_miktari_max_tl": 10000000,
+        "hibe_miktari": "1 milyon TL (max 10 milyon TL)",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          null
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "sınıf"
+        ],
+        "program_serisi": [
+          "Erasmus+",
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "Bakanlık personeli başvuruları için",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96130/kurulus-ve-gorevler.html": {
       "title": "Kuruluş ve Görevler",
@@ -13784,7 +16345,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın görev ve yetkileri ve kuruluş bilgileri.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-133260/misyonumuz-vizyonumuz.html": {
       "title": "Misyonumuz Vizyonumuz",
@@ -13801,7 +16380,28 @@
           "source_id": "tarim_orman",
           "url": "https://www.tarimorman.gov.tr/Link/1/Misyonumuz-Vizyonumuz"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat",
+          "tarih"
+        ],
+        "program_serisi": null,
+        "ozet": "Kültür ve Turizm Bakanlığı, misyon ve vizyonuyla ülkemizin kültürel zenginliğini korumak ve geliştirmekle görevlidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96132/teskilat-semasi.html": {
       "title": "Teşkilat Şeması",
@@ -13823,7 +16423,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "total_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın resmi web sitesi için tıklayınız.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96145/kamu-hizmet-standartlari.html": {
       "title": "Kamu Hizmet Standartları",
@@ -13840,7 +16458,25 @@
           "source_id": "ktb",
           "url": "https://www.ktb.gov.tr/TR-96698/kamu-hizmet-standartlari.html"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Tümü",
+        "toplam_butce": "Bütçe bilgisi bulunmuyor.",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Sitede erişim standardaları ve özellikleri hakkında bilgi bulabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-178232/sinav-duyurulari.html": {
       "title": "Sınav Duyuruları",
@@ -13850,7 +16486,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Kültür ve Turizm Bakanlığı web sitesini ziyaret etmek için http://www.ktb.gov.tr adresini kullanınız.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın resmi web sitesini ziyaret ediniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-178231/tum-duyurular.html": {
       "title": "Tüm Duyurular",
@@ -13907,7 +16561,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Tralleis Antik Kenti'nde 2 bin yıllık antik havuz gün yüzüne çıkartıldı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-470120/sardeste-2-bin-500-yillik-heykel-gun-yuzune-cikarildi.html": {
       "title": "SARDES’TE 2 BİN 500 YILLIK HEYKEL GÜN YÜZÜNE ÇIKARILDI",
@@ -13917,7 +16589,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "2 bin 500 yıllık young erkek heykel gün yüzüne çıkarıldı, Sardes Antik Kenti'nde bulundu",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-461052/malazgirt39in-955-yillik-sirri-cozuluyor.html": {
       "title": "MALAZGİRT'İN 955 YILLIK SIRRI ÇÖZÜLÜYOR",
@@ -13927,7 +16617,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Malazgirt Savaş Alanı'nda yürütülen arkeolojik çalışmalarda XI. yüzyıl Bizans askerî teknolojisini yansıtan balista ok uçlarının keşfi gerçekleşti.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-459125/bakan-ersoy39dan-15-temmuz-demokrasi-ve-milli-birlik-gunu-mesaji.html": {
       "title": "BAKAN ERSOY'DAN 15 TEMMUZ DEMOKRASİ VE MİLLİ BİRLİK GÜNÜ MESAJI",
@@ -13937,7 +16645,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türk demokrasi tarihi 15 Temmuz 2016 gecesinde hain bir saldırı karşılamış, milletin feraseti ile bir sabaha ulaşmıştır. Millet kadın, erkek, yaşlı, genç demeden bağımsızlığına ve milli iradeye sahip çıkarak tarihin en büyük kahramanlık destanlarından birini yazmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-459107/abd39den-iade-edilen-zeugma-mozaik-paneli-evine-kavustu.html": {
       "title": "ABD'DEN İADE EDİLEN ZEUGMA MOZAİK PANELİ EVİNE KAVUŞTU",
@@ -26820,6 +29546,18 @@
       "source_id": "oran",
       "first_seen": "2026-08-07",
       "olasi_tur": "hibe_olabilir",
+      "also_found_in": [
+        {
+          "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+          "source_id": "oran",
+          "url": "https://www.oran.org.tr/tr/acik-destek-cagrilari/anadoludakiler-kirsal-kalkinma-teknik-destek-programi"
+        },
+        {
+          "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+          "source_id": "oran",
+          "url": "https://www.oran.org.tr/tr/fizibilite-destek-programi/anadoludakiler-kirsal-kalkinma-teknik-destek-programi"
+        }
+      ],
       "details": {
         "tur": "hibe_duyurusu",
         "basvuruya_acik": true,
@@ -27137,6 +29875,13 @@
       "source_id": "oran",
       "first_seen": "2026-08-07",
       "olasi_tur": "hibe_olabilir",
+      "also_found_in": [
+        {
+          "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+          "source_id": "oran",
+          "url": "https://www.oran.org.tr/tr/acik-destek-cagrilari/2026-yilik-teknik-destek-programi"
+        }
+      ],
       "details": {
         "tur": "hibe_duyurusu",
         "basvuruya_acik": true,
@@ -46281,6 +49026,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d2b0b3a0a6bbbcabb6bd92b0b3b9b9b3fcb5bda4fca6a0"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#bcc6d3d2dbc9d0d8ddd7c5d8d3fcdeddd7d7dd92dbd3ca92c8ce"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a6cdc7d4c7c4d3cddfc2c9e6c4c7cdcdc788c1c9d088d2d4"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e5878497918c8b9c818aa587848e8e84cb828a93cb9197"
         }
       ]
     },
@@ -48023,6 +50783,570 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-12",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://teknofest.org/tr/duyurular/yapay-zeka-destekli-havayolu-optimizasyonu-yarismasi-final-siralamasi-aciklandi/": {
+      "title": "12.08.2026YARIŞMAYapay Zeka Destekli Havayolu Optimizasyonu Yarışması Final Sıralaması AçıklandıYapay Zeka Destekli Havayolu Optimizasyonu Yarışması final sıralaması açıklandı.",
+      "url": "https://teknofest.org/tr/duyurular/yapay-zeka-destekli-havayolu-optimizasyonu-yarismasi-final-siralamasi-aciklandi/",
+      "date": "2026-08-12",
+      "on_tarihler": [
+        "2026-08-12"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          null
+        ],
+        "ozet": "TEKNOFEST Yapay Zeka Destekli Havayolu Optimizasyonu Yarışması final sıralaması açıklandı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-mavi-vatana-ulasim-icin-tum-alternatifler-hazir/": {
+      "title": "12.08.2026GENELTEKNOFEST Mavi Vatan’a Ulaşım İçin Tüm Alternatifler HazırGölcük Tersanesi Komutanlığında 20-23 Ağustos’ta gerçekleştirilecek TEKNOFEST Mavi Vatan’a ziyaretç…",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-mavi-vatana-ulasim-icin-tum-alternatifler-hazir/",
+      "date": "2026-08-12",
+      "on_tarihler": [
+        "2026-08-12"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-mavi-vatan-yuzme-yarisi-basvurulari-basladi/": {
+      "title": "11.08.2026YARIŞMATEKNOFEST Mavi Vatan Yüzme Yarışı Başvuruları BaşladıTEKNOFEST Mavi Vatan heyecanı bu kez kulaçlarla taşınıyor!",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-mavi-vatan-yuzme-yarisi-basvurulari-basladi/",
+      "date": "2026-08-11",
+      "on_tarihler": [
+        "2026-08-11"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "genelik"
+        ],
+        "kimler_basvurabilir": "13 yaş ve üzeri sporcular",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "spor"
+        ],
+        "program_serisi": [
+          "TEKNOFEST"
+        ],
+        "ozet": "22 Ağustos Cumartesi günü TEKNOFEST Mavi Vatan Yüzme Yarışı'na katılmak için başvurunuzu yapın.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://teknofest.org/tr/duyurular/358-takim-arasindan-finale-kalan-10-ekip-havayolu-sektorunun-gelecegi-icin-yarisacak/": {
+      "title": "11.08.2026YARIŞMA358 Takım Arasından Finale Kalan 10 Ekip, Havayolu Sektörünün Geleceği için YarışacakYapay Zeka Destekli Havayolu Optimizasyonu Yarışmasının final sunumları 11 Ağustos’ta İstanbul’da g…",
+      "url": "https://teknofest.org/tr/duyurular/358-takim-arasindan-finale-kalan-10-ekip-havayolu-sektorunun-gelecegi-icin-yarisacak/",
+      "date": "2026-08-11",
+      "on_tarihler": [
+        "2026-08-11"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "yarisma_duyurusu",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "üniversite/akademisyen",
+          "öğrenci",
+          "yazılım/teknoloji şirketi"
+        ],
+        "kimler_basvurabilir": "lisans, yüksek lisans ve doktora öğrencileri ile mezunlar",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-08-11"
+        ],
+        "desteklenen_aktiviteler": "optimizasyon modelleri, yapay zeka ve veri odaklı teknolojiler",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "yapay zeka",
+          "veri bilimi",
+          "yöneylem araştırması"
+        ],
+        "program_serisi": [
+          "TEKNOFEST"
+        ],
+        "ozet": "Yapay Zeka Destekli Havayolu Optimizasyonu Yarışması final heyecanı başlıyor. 10 takım final sunumlarına katılmaya hak kazandı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/eitnin-geleceginde-soz-sahibi-olun-son-geri-bildirim-tarihi-23-eylul-2026": {
+      "title": "EIT'nin Geleceğinde Söz Sahibi Olun! Son Geri Bildirim Tarihi: 23 Eylül 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/eitnin-geleceginde-soz-sahibi-olun-son-geri-bildirim-tarihi-23-eylul-2026",
+      "date": "2026-09-23",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/processes4planet-p4planet-ortakligi-bilgilendirme-ve-ag-kurma-gunu-8-eylul-2026-istanbul": {
+      "title": "Processes4Planet (P4Planet) Ortaklığı Bilgilendirme ve Ağ Kurma Günü, 8 Eylül 2026, İstanbul",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/processes4planet-p4planet-ortakligi-bilgilendirme-ve-ag-kurma-gunu-8-eylul-2026-istanbul",
+      "date": "2026-09-08",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-471296/502-sozlesmeli-personel-alimi-sonuclari-hakkinda-duyuru-12082026.html": {
+      "title": "502 SÖZLEŞMELİ PERSONEL ALIMI SONUÇLARI HAKKINDA DUYURU (12.08.2026)",
+      "url": "https://www.ktb.gov.tr/TR-471296/502-sozlesmeli-personel-alimi-sonuclari-hakkinda-duyuru-12082026.html",
+      "date": "2026-08-12",
+      "on_tarihler": [
+        "2026-08-12"
+      ],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-471294/80-stajyer-kontrolor-giris-sinavi-yedek-adaylar-hakkinda-duyuru-12082026.html": {
+      "title": "80 STAJYER KONTROLÖR GİRİŞ SINAVI YEDEK ADAYLAR HAKKINDA DUYURU (12.08.2026)",
+      "url": "https://www.ktb.gov.tr/TR-471294/80-stajyer-kontrolor-giris-sinavi-yedek-adaylar-hakkinda-duyuru-12082026.html",
+      "date": "2026-08-12",
+      "on_tarihler": [
+        "2026-08-12"
+      ],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7219/Bakan-Yumakli-Silvan-Projesi-Tamamlandiginda-Ekonomimize-Yillik-43-Milyar-Liralik-Katki-Saglayacak": {
+      "title": "BAKAN YUMAKLI: SİLVAN PROJESİ TAMAMLANDIĞINDA EKONOMİMİZE YILLIK 43 MİLYAR LİRALIK KATKI SAĞLAYACAK",
+      "url": "https://www.tarimorman.gov.tr/Haber/7219/Bakan-Yumakli-Silvan-Projesi-Tamamlandiginda-Ekonomimize-Yillik-43-Milyar-Liralik-Katki-Saglayacak",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2654/Turkiye-Iklim-Akilli-Ve-Rekabetci-Buyume-Projesi-%e2%80%93-Hizmet-Alim-Ihalesi-Sonuc-Bildirimi": {
+      "title": "Türkiye İklim Akıllı ve Rekabetçi Büyüme Projesi – Hizmet Alım İhalesi Sonuç Bil ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2654/Turkiye-Iklim-Akilli-Ve-Rekabetci-Buyume-Projesi-%e2%80%93-Hizmet-Alim-Ihalesi-Sonuc-Bildirimi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2653/Tarimsal-Destek-Odemesi-Istatistik-Bulteni-Yayinlandi": {
+      "title": "Tarımsal Destek Ödemesi İstatistik Bülteni Yayınlandı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2653/Tarimsal-Destek-Odemesi-Istatistik-Bulteni-Yayinlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Bakanlığımız istatistik sisteminin etkin bir şekilde yönetilmesi ve istatistiklerin kamuoyu ile paylaşılması amacıyla istatistik bülteni yayımlanmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.oran.org.tr/tr/acik-destek-cagrilari/anadoludakiler-kirsal-kalkinma-teknik-destek-programi": {
+      "title": "Anadoludakiler-Kırsal Kalkınma Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/acik-destek-cagrilari/anadoludakiler-kirsal-kalkinma-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.oran.org.tr/tr/teknik-destek-programi/anadoludakiler-kirsal-kalkinma-teknik-destek-programi",
+      "duplicate_of_source": "ORAN (Orta Anadolu Kalkınma Ajansı)"
+    },
+    "https://www.oran.org.tr/tr/acik-destek-cagrilari/2026-yili-orta-anadolu-yu-kesfet-alternatif-mali-destek-programi": {
+      "title": "2026 Yılı Orta Anadolu’yu Keşfet Alternatif Mali Destek Programı",
+      "url": "https://www.oran.org.tr/tr/acik-destek-cagrilari/2026-yili-orta-anadolu-yu-kesfet-alternatif-mali-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "KOBİ",
+          "büyük işletme",
+          "girişimci/startup",
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": "Uygulamalarda yer alan tur paketlerinin oluşturulmasına, geliştirilmesine ve uygulanmasına ilişkin olarak tur acenteleri başvurusunu kabul ediyoruz.",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-12-15"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "turizm"
+        ],
+        "program_serisi": [
+          "KOSGEB Girişimci Destek Programı"
+        ],
+        "ozet": "2026 Yılı Orta Anadolu’yu Keşfet Alternatif Mali Destek Programı, tur acentelerine yönelik olarak konaklamalı tur paketlerine destek sağlanacak programdır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.oran.org.tr/tr/acik-destek-cagrilari/2026-yilik-teknik-destek-programi": {
+      "title": "2026 Yılık Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/acik-destek-cagrilari/2026-yilik-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.oran.org.tr/tr/teknik-destek-programi/2026-yilik-teknik-destek-programi",
+      "duplicate_of_source": "ORAN (Orta Anadolu Kalkınma Ajansı)"
+    },
+    "https://www.oran.org.tr/tr/fizibilite-destek-programi/anadoludakiler-kirsal-kalkinma-teknik-destek-programi": {
+      "title": "Anadoludakiler-Kırsal Kalkınma Teknik Destek Programı",
+      "url": "https://www.oran.org.tr/tr/fizibilite-destek-programi/anadoludakiler-kirsal-kalkinma-teknik-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "duplicate_of": "https://www.oran.org.tr/tr/teknik-destek-programi/anadoludakiler-kirsal-kalkinma-teknik-destek-programi",
+      "duplicate_of_source": "ORAN (Orta Anadolu Kalkınma Ajansı)"
+    },
+    "https://www.oran.org.tr/tr/acik-destek-cagrilari": {
+      "title": "Açık Destek Çağrıları",
+      "url": "https://www.oran.org.tr/tr/acik-destek-cagrilari",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "Orta Anadolu Kalkınma Ajansı tarafından yürütülen çeşitli destek program ve projeler için ayrılan toplam bütçe",
+        "toplam_butce": "Programın toplam bütçesi 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Orta Anadolu Kalkınma Ajansı, bölgenin ekonomik ve sosyal kalkınmasına katkıda bulunmayı amaçlayan çeşitli destek program ve projeleri yürütüyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.kuzka.gov.tr/page/2014-yili-calisma-programi-ve-butcesi-375": {
+      "title": "2014 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2014-yili-calisma-programi-ve-butcesi-375",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "hie_miktari": null,
+        "toplum_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.kuzka.gov.tr/page/2013-yili-calisma-programi-ve-butcesi-376": {
+      "title": "2013 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2013-yili-calisma-programi-ve-butcesi-376",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.kuzka.gov.tr/page/2012-yili-calisma-programi-ve-butcesi-377": {
+      "title": "2012 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2012-yili-calisma-programi-ve-butcesi-377",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "KUZKİ'NİN 2012 yılı çalışma programı ve bütçesi hakkında bilgi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.kuzka.gov.tr/page/2011-yili-calisma-programi-ve-butcesi-378": {
+      "title": "2011 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2011-yili-calisma-programi-ve-butcesi-378",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2011 yılında KUZKA Ajansının çalışma programı ve bütçesi hakkında bilgi bulunuyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.kuzka.gov.tr/page/2010-yili-calisma-programi-ve-butcesi-379": {
+      "title": "2010 Yılı Çalışma Programı ve Bütçesi",
+      "url": "https://www.kuzka.gov.tr/page/2010-yili-calisma-programi-ve-butcesi-379",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "null",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "null",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": "null",
+        "faaliyet_suresi": "null",
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ulusal ve bölgesel düzeydeki plan ve programlar dikkate alınarak hazırlanan Kuzey Anadolu Kalkınma Ajansı'nin çalışma programı ve bütçesi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.kuzka.gov.tr/page/2010-yili-faaliyet-raporu-358": {
+      "title": "2010 Yılı Faaliyet Raporu",
+      "url": "https://www.kuzka.gov.tr/page/2010-yili-faaliyet-raporu-358",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "haber_olabilir"
+    },
+    "https://www.kuzka.gov.tr/page/2016-yili-sektorel-raporlar-ve-analizler-383": {
+      "title": "2019 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2016-yili-sektorel-raporlar-ve-analizler-383",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/2018-yili-sektorel-raporlar-ve-analizler-381": {
+      "title": "2018 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2018-yili-sektorel-raporlar-ve-analizler-381",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/2017-yili-sektorel-raporlar-ve-analizler-382": {
+      "title": "2017 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2017-yili-sektorel-raporlar-ve-analizler-382",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/2015-yili-sektorel-raporlar-ve-analizler-384": {
+      "title": "2015 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2015-yili-sektorel-raporlar-ve-analizler-384",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/2014-yili-sektorel-raporlar-ve-analizler-385": {
+      "title": "2014 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2014-yili-sektorel-raporlar-ve-analizler-385",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://fka.gov.tr/ulukale-dutunun-gelecegini-degerlendirdi-detayi-17865338382020": {
+      "title": "Ulukale Dutu’nun Geleceğini Değerlendirdi",
+      "url": "https://fka.gov.tr/ulukale-dutunun-gelecegini-degerlendirdi-detayi-17865338382020",
+      "date": "2026-08-06",
+      "on_tarihler": [],
+      "source": "FKA (Fırat Kalkınma Ajansı)",
+      "source_id": "fka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#bcc6d3d2dbc9d0d8ddd7c5d8d3fcdeddd7d7dd92dbd3ca92c8ce": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#bcc6d3d2dbc9d0d8ddd7c5d8d3fcdeddd7d7dd92dbd3ca92c8ce",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#a6cdc7d4c7c4d3cddfc2c9e6c4c7cdcdc788c1c9d088d2d4": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a6cdc7d4c7c4d3cddfc2c9e6c4c7cdcdc788c1c9d088d2d4",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e5878497918c8b9c818aa587848e8e84cb828a93cb9197": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e5878497918c8b9c818aa587848e8e84cb828a93cb9197",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-13",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
