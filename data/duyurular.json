@@ -1,287 +1,287 @@
 {
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148953 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 148984 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37040 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 36889 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 10,
       "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 44,
       "diag": "/ -> HTTP 200, 109587 byte HTML, 158 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 69,
-      "diag": "/duyurular/ -> HTTP 200, 196322 byte HTML, 324 link, 156 olası duyuru"
+      "diag": "/duyurular/ -> HTTP 200, 196324 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 27,
-      "diag": "/Duyurular -> HTTP 200, 27702 byte HTML, 94 link, 29 olası duyuru"
+      "diag": "/Duyurular -> HTTP 200, 27636 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94962 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 4,
       "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 25,
       "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
     },
     "sivil_alan": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 26,
       "diag": "/category/hibe-duyurulari/ -> HTTP 200, 301889 byte HTML, 128 link, 46 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 0,
       "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 302 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 69,
-      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59985 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 589533 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
+      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59984 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 589610 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 3,
       "diag": "/@projeyonetimi -> HTTP 200, 147329 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 0,
-      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27473 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27452 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 8,
       "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215466 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213348 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 344416 byte HTML, 259 link, 189 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338000 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
-      "ok": false,
-      "checked": "2026-08-13",
-      "found": 0,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Haberler (Playwright) -> HTTP 200, 678 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "ok": true,
+      "checked": "2026-08-14",
+      "found": 22,
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 53763 byte HTML, 106 link, 59 olası duyuru"
     },
     "istka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 24,
       "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 71,
       "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 28,
       "diag": "/destekler -> HTTP 200, 144176 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289487 byte HTML, 309 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 19,
       "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 1,
       "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 76,
       "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 0,
       "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 44,
-      "diag": "/ -> HTTP 200, 122390 byte HTML, 277 link, 63 olası duyuru"
+      "diag": "/ -> HTTP 200, 122392 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 21,
       "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226312 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 88,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 114257 byte HTML, 195 link, 130 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 114217 byte HTML, 195 link, 130 olası duyuru"
     },
     "marka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 3,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483171 byte HTML, 648 link, 177 olası duyuru"
     },
     "gmka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 39,
       "diag": "/acik-destek-programlari -> HTTP 200, 71443 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 129,
       "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
     },
     "ika": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 2,
       "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 60,
       "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 56,
       "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
     },
     "kuzka": {
       "ok": true,
-      "checked": "2026-08-13",
-      "found": 105,
-      "diag": "/ -> HTTP 200, 188174 byte HTML, 262 link, 126 olası duyuru"
+      "checked": "2026-08-14",
+      "found": 111,
+      "diag": "/ -> HTTP 200, 189086 byte HTML, 269 link, 132 olası duyuru"
     },
     "kudaka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 127,
       "diag": "/home -> HTTP 200, 101624 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 147,
       "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
     },
     "daka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 74,
       "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
     },
     "fka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 65,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66762 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 27,
       "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-13",
+      "checked": "2026-08-14",
       "found": 15,
-      "diag": "/duyurular -> HTTP 200, 157159 byte HTML, 39 link, 17 olası duyuru"
+      "diag": "/duyurular -> HTTP 200, 156364 byte HTML, 39 link, 17 olası duyuru"
     }
   },
   "tema_listesi": [
@@ -358,10 +358,10 @@
   ],
   "ai_status": {
     "provider": "groq",
-    "quota_exceeded": false,
-    "quota_error": null,
-    "checked_at": "2026-08-13T08:44:47Z",
-    "pending_count": 21
+    "quota_exceeded": true,
+    "quota_error": "HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kz3m3s4dfg4vxb8w1s8hawyg` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 497736, R",
+    "checked_at": "2026-08-14T09:33:53Z",
+    "pending_count": 25
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -2541,6 +2541,13 @@
       "source_id": "horizon_avrupa",
       "first_seen": "2026-08-07",
       "olasi_tur": "belirsiz",
+      "also_found_in": [
+        {
+          "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+          "source_id": "horizon_avrupa",
+          "url": "https://ufukavrupa.org.tr/tr/haberler?page=225"
+        }
+      ],
       "details": {
         "tur": "diger",
         "basvuruya_acik": null,
@@ -4450,6 +4457,11 @@
           "source": "KUDAKA (Kuzeydoğu Anadolu Kalkınma Ajansı)",
           "source_id": "kudaka",
           "url": "https://kudaka.gov.tr/iletisim/bilgi-edinme"
+        },
+        {
+          "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+          "source_id": "kuzka",
+          "url": "https://www.kuzka.gov.tr/page/bilgi-edinme-389"
         }
       ],
       "details": {
@@ -14267,7 +14279,27 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "null",
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": "null",
+        "toplam_butce": "null",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": "null",
+        "faaliyet_suresi": "null",
+        "temalar": [],
+        "program_serisi": [
+          "Ufuk Avrupa (Horizon Europe)"
+        ],
+        "ozet": "Discover funding opportunities for research and innovation projects in Europe. The European Union offers various financing instruments to support businesses, universities, research institutions, and NGOs. Find calls for proposals, tenders, and funding opportunities on the EU Funding & Tenders Portal.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-11?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Demonstration of hydropower technologies for efficient and forward-looking refurbishment of existing hydropower plants",
@@ -15485,7 +15517,25 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "EU funding and tender opportunities for research, innovation, culture, education, and international cooperation",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-06?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Closing the learning gap: uncovering causes and effective policy interventions for declining youth skills in mathematics, reading, and science",
@@ -16551,7 +16601,27 @@
           "source_id": "kudaka",
           "url": "https://kudaka.gov.tr/duyurular"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "bireysel_basvuru"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın güncel duyurularını bulabilir ve erişim sağlayabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-470133/bakan-ersoy-tralleis39te-2-bin-yillik-300-kisilik-antik-havuz-gun-yuzune-cikarildi.html": {
       "title": "BAKAN ERSOY: TRALLEIS'TE 2 BİN YILLIK 300 KİŞİLİK ANTİK HAVUZ GÜN YÜZÜNE ÇIKARILDI",
@@ -16673,7 +16743,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "dig'er.",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "ABD'den iadesi sağlanan Zeugma kökenli 13'üncü mozaik paneli, ait olduğu yere yerleştirildi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-448760/bakan-ersoy-istiklal-marsi-milletimizin-ebedi-karakterinin-en-guclu-ifadesidir.html": {
       "title": "BAKAN ERSOY: “İSTİKLAL MARŞI, MİLLETİMİZİN EBEDİ KARAKTERİNİN EN GÜÇLÜ İFADESİDİR”",
@@ -16683,7 +16771,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, İstiklal Marşı'nın 105. yıl dönümü dolayısıyla Ankara'da düzenlenen programa katıldı ve marşın Türk milletinin bağımsızlık iradesini, vatan sevgisini ve direniş ruhunu en güçlü şekilde yansıttığını söyledi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-461094/devlet-tiyatrolari-genel-mudurlugu-sahne-makinisti-alimi-ilani.html": {
       "title": "DEVLET TİYATROLARI GENEL MÜDÜRLÜĞÜ SAHNE MAKİNİSTİ ALIMI İLANI",
@@ -16693,7 +16799,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Devlet Tiyatroları Genel Müdürlüğü taşra teşkilatı Adana, Ankara, Antalya, Bursa, Diyarbakır, Erzurum, İstanbul, İzmir, Kayseri, Konya, Sivas, Trabzon ve Van Tiyatro Müdürlüklerinde görev yapmak üzere 40 personel alınacaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-461093/devlet-tiyatrolari-genel-mudurlugu-sozlesmeli-personel-alim-ilani.html": {
       "title": "DEVLET TİYATROLARI GENEL MÜDÜRLÜĞÜ SÖZLEŞMELİ PERSONEL ALIM İLANI",
@@ -16703,7 +16827,27 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": "657 sayılı Devlet Memurları Kanunu’nun 48. maddesinin (A) fıkrasının 1, 4, 5, 6 ve 7. bentlerinde belirtilen şartları taşıyanlar",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          "Kültür ve Turizm Bakanlığı"
+        ],
+        "ozet": "Devlet Tiyatro Genel Müdürlüğü sözleşmeli personel alımı için başvuru süreci açıklanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-456824/aylik-sinir-bulteni-haziran-2026-yayimlandi.html": {
       "title": "Aylık Sınır Bülteni (Haziran 2026) yayımlandı.",
@@ -16713,7 +16857,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Aylık Sınır Bülteni (Haziran 2026) yayımlandı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-461029/80-stajyer-kontrolor-giris-sinavi-yedek-adaylar-hakkinda-duyuru-28072026.html": {
       "title": "80 STAJYER KONTROLÖR GİRİŞ SINAVI YEDEK ADAYLAR HAKKINDA DUYURU (28.07.2026)",
@@ -16725,7 +16887,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "80 stajyer kontrolör giriş sınavı yedek adayların duyurusu",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-97181/duyurular.html": {
       "title": "TÜM DUYURULAR",
@@ -16778,7 +16958,25 @@
           "source_id": "gmka",
           "url": "https://www.gmka.gov.tr/dilek-ve-sikayetleriniz"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "Kültür Ve Turizm Bakanlığı'nın bütçesi — insan tarafından okunacak metin",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bakanlığın iletişim bilgileri ve kurum organizasyonu ile ilgili genel bilgilere ulaşılabilir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96808/site-kullanim-kosullari-yasal-uyari.html": {
       "title": "Site Kullanım Koşulları (Yasal Uyarı)",
@@ -16788,7 +16986,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İnternet sitesine girilmesi, kullanıcıların kullanım koşullarını kabul etmiş sayılır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-323839/kvkk-aydinlatma-metni.html": {
       "title": "KVKK Aydınlatma Metni",
@@ -16822,7 +17038,24 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Dr. Batuhan MUMCU, Kültür ve Turizm Bakanlığı Bakan Yardımcısı olarak görev yapmakta.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-213289/gokhan-yazgi.html": {
       "title": "Gökhan YAZGI",
@@ -16832,7 +17065,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Gökhan Yazgı, Kültür ve Turizm Bakan Yardımcısı olarak görevlerine devam ediyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-368285/nadir-alpaslan.html": {
       "title": "Nadir ALPASLAN",
@@ -16842,7 +17093,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın genel kurumsal bilgilerine ait bir sayfa",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-213290/dr-serdar-cam.html": {
       "title": "Dr. Serdar ÇAM",
@@ -16852,7 +17121,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "TC Kültür ve Turizm Bakanlığı'nı tanıtan bir basın bülteni.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-183813/merkez-teskilati.html": {
       "title": "Merkez Teşkilatı",
@@ -16874,7 +17161,25 @@
           "source_id": "ktb",
           "url": "https://www.ktb.gov.tr/TR-96699/merkez-teskilati.html"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın resmi internet sitesi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96134/tasra-teskilati.html": {
       "title": "Taşra Teşkilatı",
@@ -16896,7 +17201,25 @@
           "source_id": "ktb",
           "url": "https://www.ktb.gov.tr/TR-96701/tasra-teskilati.html"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "2026 T.C. Kültür ve Turizm Bakanlığı'nın resmi internet sitesine hoşgeldiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96135/yurtdisi-teskilati.html": {
       "title": "Yurtdışı Teşkilatı",
@@ -16906,7 +17229,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96683/il-kultur-turizm-mudurlukleri-internet-siteleri.html": {
       "title": "İl Kültür Turizm Müdürlükleri İnternet Siteleri",
@@ -16916,7 +17257,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın resmi internet sitesi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96146/merkez-teskilati.html": {
       "title": "Merkez Teşkilatı",
@@ -16938,7 +17297,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı web sitesine genel bakış için tıklayınız.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96148/tasra-teskilati.html": {
       "title": "Taşra Teşkilatı",
@@ -16960,7 +17337,34 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "universite/akademisyen",
+          "araştırmacı",
+          "kamu kurumu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "500.000 TL-2.000.000 TL arası",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-06-30",
+          "2026-12-31"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": "en fazla 2 yıl",
+        "temalar": [
+          "tarih"
+        ],
+        "program_serisi": [],
+        "ozet": "Türk kültürü ve tarihi hakkında bilgi sunan bir etkinlik.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96256/bibliyografya.html": {
       "title": "Bibliyografya",
@@ -16970,7 +17374,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bibliyografya, Türk folklore ve folklor alanındaki çeşitli çalışmalar ve kitaplar hakkında bilgiler içeren geniş bir literatürdür.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-104596/protokol-listesi.html": {
       "title": "Protokol Listesi",
@@ -16980,7 +17402,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-136885/il-kultur-ve-turizm-mudurlukleri-iletisim-bilgileri.html": {
       "title": "İl Kültür ve Turizm Müdürlükleri İletişim Bilgileri",
@@ -16990,7 +17430,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İl Kültür ve Turizm Müdürlükleri İletişim Bilgileri, iletişim adresleri, tel. numaraları, email地址ı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96118/orta-bolum-iconlar.html": {
       "title": "Orta Bölüm-Iconlar",
@@ -17000,7 +17458,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın resmi web sitesidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-235339/milli-mucadele39nin-100-yili.html": {
       "title": "Milli Mücadele'nin 100. Yılı",
@@ -17020,7 +17496,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Turizm istatistikleri, turizm sektörünü kapsayan istatistiksel verilerin toplanması, analiz edilmesi ve sunulmasından sorumlu bir sistem.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96119/orta-bolum-kayan-yatay-menu.html": {
       "title": "Orta Bölüm-Kayan Yatay Menü",
@@ -17030,7 +17524,27 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Bu sayfa, Kültür ve Turizm Bakanlığı'nın güncel duyurularını sunan bir kaynak olup, başvuru koşulları veya son tarihi hakkında somut bilgi içermez.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          "Sivil Düşün"
+        ],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın güncel duyurularını sunan bir sayfa.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-243658/turkiye-tanitim-filmleri.html": {
       "title": "Türkiye Tanıtım Filmleri",
@@ -17040,7 +17554,32 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "stk/dernek/vakıf",
+          "kampanya"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 100000,
+        "hibe_miktari_max_tl": 500000,
+        "hibe_miktari": "100.000 - 500.000 TL arası",
+        "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2024-03-31"
+        ],
+        "desteklenen_aktiviteler": "Tanıtım materyalleri, tanıtım görselleri ve sanal gezinti",
+        "faaliyet_suresi": "en fazla 18 ay",
+        "temalar": [],
+        "program_serisi": [
+          "Erasmus+"
+        ],
+        "ozet": "Türkiye Tanıtım Filmleri, Türkiye'nin renklerini yeniden keşfetmek için bir platform olarak kurulmuştur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-264925/turkiye39nin-renklerini-yeniden-kesfet.html": {
       "title": "Türkiye'nin Renklerini Yeniden Keşfet",
@@ -17050,7 +17589,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı tarafından tanıtıma ilgili içerikler ve haberler sunuluyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-249003/muze-filmleri.html": {
       "title": "Müze Filmleri",
@@ -17060,7 +17617,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bu sayfa, müzelere ait videolar ve içeriklerden oluşuyor. Müzelere erişmek için ilgili müze adına tıklayabilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-249004/turkish-stories-filmleri.html": {
       "title": "Turkish Stories Filmleri",
@@ -17070,7 +17645,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı resmi sitesinde tanıtım filmleri, duyurular ve tanıtım materyalleri bulunan bir web sitesidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-249005/turkiye-reklam-filmleri.html": {
       "title": "Türkiye Reklam Filmleri",
@@ -17080,7 +17673,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Türkiye'nin Renklerini Yeniden Keşfet",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye'nin renklerini yeniden keşfetmek ve tanıtım filmlerini izlemek mümkün.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-184144/tanitim-materyalleri.html": {
       "title": "Tanıtım Materyalleri",
@@ -17090,7 +17701,24 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96586/tanitim-gorselleri.html": {
       "title": "Tanıtım Görselleri",
@@ -17100,7 +17728,31 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "tarih",
+          "kültür-sanat",
+          "sanat"
+        ],
+        "program_serisi": [
+          "Kültür ve Turizm Bakanlığı"
+        ],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı web sitesinin tanıtım görselleri ve tanıtımlarını içermektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96599/sanal-gezinti.html": {
       "title": "Sanal Gezinti",
@@ -17110,7 +17762,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın web sitesi, ziyaretçileri için erişilebilirlik araçları sunar.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-184148/mesleki-turizm-egitimi-ve-basvurusu.html": {
       "title": "Mesleki Turizm Eğitimi ve Başvurusu",
@@ -17176,7 +17846,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Bakanlığımız, Türk kültür ve turizm politikalarını geliştirmekte ve bunları ulusal ve uluslararası platformlarda teşvik etmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96289/turk-bayragi-ve-istiklal-marsi.html": {
       "title": "Türk Bayrağı ve İstiklal Marşı",
@@ -17186,7 +17874,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türk Bayrağı ve İstiklal Marşı hakkında genel bilgi ve kurallar",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96290/istiklal-marsimizin-sol-minor-ve-mi-minor-tonunda-icra-edilmis-dort-degisik-versiyonu.html": {
       "title": "İstiklal Marşımızın Sol Minör ve Mi Minör Tonunda İcra Edilmiş Dört Değişik Versiyonu",
@@ -17196,7 +17902,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İstiklal Marşımızın Sol Minör ve Mi Minör Tonunda İcra Edilmiş Dört Değişik Versiyonu",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96293/10-yil-marsi.html": {
       "title": "10. Yıl Marşı",
@@ -17206,7 +17930,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Beyaz bir sayfada Türkiye'nin 10. yılına dair bir marşın metni yer alıyor.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye'nin 10. yılına dair bir marşın metni.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96294/10-yil-nutku.html": {
       "title": "10. Yıl Nutku",
@@ -17216,7 +17958,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Atatürk'ün 10. Yıl Nutku, 29 Ekim 1933 tarihinde gerçekleştirilmiştir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96295/50-yil-marsi.html": {
       "title": "50. Yıl Marşı",
@@ -17226,7 +17986,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "50. Yıl Marşı, Türkiye Cumhuriyeti'nin 50. yıldönümüne ithaf edilen bir marsidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96296/75-yil-marsi.html": {
       "title": "75. Yıl Marşı",
@@ -17236,7 +18014,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "T.C. Kültür ve Turizm Bakanlığı olarak, 75. Yıl Marşı ve Türk Bayrağı ile ilgili bilgileri paylaşıyoruz.",
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "75. Yıl Marşı ve Türk Bayrağı ile ilgili bilgileri paylaşmak için hazırlanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96300/ataturk39un-hayati.html": {
       "title": "Atatürk'ün Hayatı",
@@ -17246,7 +18042,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Mustafa Kemal Atatürk'ün hayatı ve hizmeti hakkında genel bilgiler.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96303/ataturk-ilkeleri.html": {
       "title": "Atatürk İlkeleri",
@@ -17256,7 +18070,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Cumhuriyetin ilkesi, Türk milletinin karakter ve âdetlerine en uygun olan idare şekli olan Cumhuriyet'in temellerini atmak",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96304/ataturk39un-genclige-hitabesi.html": {
       "title": "Atatürk'ün Gençliğe Hitabesi",
@@ -17266,7 +18098,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk'ün Gençliğe Hitabesi, 1927 yılında delivered",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96348/ataturk-muzeleri.html": {
       "title": "Atatürk Müzeleri",
@@ -17276,7 +18126,14 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "ozet": "",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96349/adana---ataturk-muzesi.html": {
       "title": "Adana - Atatürk Müzesi",
@@ -17286,7 +18143,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk Müzesi, Adana'da bulunan bir müzedir. Müze binası, Seyhan Caddesi üzerinde 19.yüzyılda yapılmış geleneksel Adana evlerindendir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96350/afyon---dumlupinar-muzesi.html": {
       "title": "Afyon - Dumlupınar Müzesi",
@@ -17296,7 +18171,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Afyon Dumlupınar Müzesi ücretsiz.",
+        "toplam_butce": "null",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96351/afyon---tarihi-milli-park-mudurlugu-zafer-muzesi.html": {
       "title": "Afyon - Tarihi Milli Park Müdürlüğü Zafer Müzesi",
@@ -17306,7 +18199,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Afyon - Tarihi Milli Park Müdürlüğü Zafer Müzesi, tarihini ve öneminin anlatımını içeren bir haber.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96352/ankara---alagoz-karargah-muzesi.html": {
       "title": "Ankara - Alagöz Karargah Müzesi",
@@ -17316,7 +18227,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diğer",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Alagöz Karargah Müzesi, Ankara-Polatlı arasındaki Alagöz Köyü'nde bulunan bir karargah binasıdır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96353/ankara---ataturk-kultur-merkezi-cumhuriyet-devri-muzesi.html": {
       "title": "Ankara - Atatürk Kültür Merkezi Cumhuriyet Devri Müzesi",
@@ -17326,7 +18255,29 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "büyük işletme"
+        ],
+        "kimler_basvurabilir": "Kamu kurumu",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat"
+        ],
+        "program_serisi": [],
+        "ozet": "Ankara'daki Atatürk Kültür Merkezi Cumhuriyet Devri Müzesi, 27 Aralık 1987 yılında hizmete açılmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96354/ankara---etnografya-muzesi.html": {
       "title": "Ankara - Etnoğrafya Müzesi",
@@ -17336,7 +18287,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": null,
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Geçici Sergi Salonunda; tüm dünyada ve ülkemizde halkın yaşantısında yer eden konuların belirlendiği geçici sergiler düzenlenmektedir.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96355/ankara---ii-turkiye-buyuk-millet-meclisi-cumhuriyet-muzesi.html": {
       "title": "Ankara - II. Türkiye Büyük Millet Meclisi Cumhuriyet Müzesi",
@@ -17346,7 +18315,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ankara - II. Türkiye Büyük Millet Meclisi Cumhuriyet Müzesi'nde Atatürk'ün ilkeleri, inkılâpları ve hayatını konu alan teşhirler yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96357/ankara---ataturkun-mekani-muze-kosk.html": {
       "title": "Ankara - Atatürk'ün Mekanı Müze Köşk",
@@ -17356,7 +18343,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Ankara'daki Atatürk'ün Mekanı Müze Köşk'ü, ülkenin kaderini değiştiren dünya çapında bir lidere konut olarak hizmet veren tarihi bir binadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96358/ankara---anitkabir.html": {
       "title": "Ankara - Anıtkabir",
@@ -17366,7 +18371,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "digeder",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türk Kurtuluş Savaşı'nın ve Türk İnkılâplarının büyük önderi Mustafa Kemal Atatürk'ün anıtmezarı olan Anıtkabir'in tarihi ve mimari özellikleri",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96359/ankara---ataturk-evi.html": {
       "title": "Ankara - Atatürk Evi",
@@ -17376,7 +18399,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Atatürk'ün doğduğu ve çocukluk yıllarını geçirdiği Selanik'teki baba evi Ankara'da yaptırılmış bir benzerinin açılışı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96360/antalya---alanya-ataturk-evi-muzesi.html": {
       "title": "Antalya - Alanya Atatürk Evi Müzesi",
@@ -17453,7 +18494,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Denizli'de bulunan ve Atatürk'ün kaldığı evin bulunduğu müze hakkında bilgi bulunan web sayfasıdır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96366/diyarbakir---ataturk-kosku.html": {
       "title": "Diyarbakır - Atatürk Köşkü",
@@ -17463,7 +18522,17 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "kimler_etiketleri": [
+          "turizm",
+          "kültür-sanat"
+        ],
+        "ozet": "Atatürk Köşkü, Diyarbakır surlarının 2,5 km güneyindedir. Köşkte, Eyvan'ın duvarındaki mermer sebilden havuza dökülen sular, köşke serinlik vermektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96367/erzurum---ataturk-muzesi.html": {
       "title": "Erzurum - Atatürk Müzesi",
@@ -17473,7 +18542,27 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat"
+        ],
+        "program_serisi": null,
+        "ozet": "Erzurum Atatürk Müzesi hakkında bilgi içeren bir içeriktir. Müze, XIX. yüzyılın sonlarında bir zengin tarafından konak olarak yaptırılmıştır ve 1919 yılında Mustafa Kemal Paşa'nın Samsun'a çıkmasıyla tarihsel bir önem kazanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96368/eskisehir---ataturk-ve-kultur-muzesi.html": {
       "title": "Eskişehir - Atatürk ve Kültür Müzesi",
@@ -17483,7 +18572,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Eskişehir Atatürk ve Kültür Müzesi, Atatürk'ün hayatı ve öğretileri hakkında bilgilendirici bir yerdir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96369/icel---mersin-ataturk-evi-muzesi.html": {
       "title": "İçel - Mersin Atatürk Evi Müzesi",
@@ -17493,7 +18600,27 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          " kültür-sanat"
+        ],
+        "program_serisi": [],
+        "ozet": "Mersin Atatürk Evi Müzesi'nin tarihi ve özellikleri hakkında bilgi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96370/icel---silifke-ataturk-evi.html": {
       "title": "İçel - Silifke Atatürk Evi",
@@ -17503,7 +18630,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Silifke Atatürk Evi, Atatürk'ün çiftlik olarak kurduğu ve köylülerle birlikte ilk tarım kredi kooperatifini oluşturduğu bir beldedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96371/istanbul---dolmabahce-sarayi.html": {
       "title": "İstanbul - Dolmabahçe Sarayı",
@@ -17513,7 +18658,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İstanbul - Dolmabahçe Sarayı İstanbul - Dolmabahçe Sarayı İstanbul - Dolmabahçe Sarayı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96372/istanbul---florya-ataturk-deniz-kosku.html": {
       "title": "İstanbul - Florya Atatürk Deniz Köşkü",
@@ -17523,7 +18686,27 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 2000000,
+        "hibe_miktari": "İçeriğin açıklaması burada!",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-01-01"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Deniz Köşkü, Atatürk'ün yazlık evi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96373/istanbul---pera-palas-ataturk-odasi.html": {
       "title": "İstanbul - Pera Palas Atatürk Odası",
@@ -17533,7 +18716,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Pera Palas'ta Atatürk'ün kaldığı oda, Atatürk Salonu olarak düzenlenmiştir. Burada Atatürk'ün yatağı, gardrobu, masası ve ilgili eşya ve fotoğrafları sergilenmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96374/izmir---ataturk-muzesi.html": {
       "title": "İzmir - Atatürk Müzesi",
@@ -17543,7 +18744,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk Müzesi, İzmir'de bulunan bir müzedir. Müze, 1875-1880 yıllarında halı tüccarı Takfor tarafından ev olarak yaptırılmış ve 1923 yılına kadar çeşitli görevler için kullanılan bir bina olmuştur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96375/kastamonu---arkeoloji-muzesi---ataturk-salonu.html": {
       "title": "Kastamonu - Arkeoloji Müzesi - Atatürk Salonu",
@@ -17553,7 +18772,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kastamonu - Arkeoloji Müzesi - Atatürk Salonu Kastamonu müzesinin tarihi ve içeriği hakkında bilgi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96376/kayseri---ataturk-muzesi.html": {
       "title": "Kayseri - Atatürk Müzesi",
@@ -17563,7 +18800,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "sonuc_ilani",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk Müzesi'nin tanıtımı ve tarihçesi",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96377/kocaeli---izmit-muzesi-ve-ataturk-evi.html": {
       "title": "Kocaeli - İzmit Müzesi ve Atatürk Evi",
@@ -17573,7 +18828,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvuruede": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kocaeli - İzmit Müzesi ve Atatürk Evi, tarihi Av köşkünde, 1966 yılında törenle ziyarete açılmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96378/konya---aksehir-bati-cephesi-karargahi-muzesi.html": {
       "title": "Konya - Akşehir Batı Cephesi Karargahı Müzesi",
@@ -17583,7 +18856,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bu museum, Büyük Taarruz hazırlıkları ve planlarının yapıldığı yerdir. Mustafa Kemal'in birçok kez gezdirdiği bir yerdir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96379/konya---ataturk-muzesi.html": {
       "title": "Konya - Atatürk Müzesi",
@@ -17593,7 +18884,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Konya - Atatürk Müzesi, Atatürk'ün doğumunun 100. yılı nedeniyle restore edildikten sonra 17 Nisan 1982 tarihinde ziyarete açılmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96380/malatya---ataturk-evi.html": {
       "title": "Malatya - Atatürk Evi",
@@ -17603,7 +18912,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk Evi, Malatya'da bulunan eski Halkevi binasıdır. Atatürk, Malatya'ya iki kez gelmiştir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96381/rize---ataturk-muzesi.html": {
       "title": "Rize - Atatürk Müzesi",
@@ -17613,7 +18940,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk'ün Rize gezileri, kullandığı eşyalar, Atatürk fotoğrafları, Milli Mücadele zamanlarında Rize'de Kuvay-ı Milliye iler gelenlerinin fotoğrafları Rize Atatürk Müzesi'nde sergilenmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96382/sivas---kongre-binasi-ataturk-ve-etnografya-muzesi.html": {
       "title": "Sivas - Kongre Binası Atatürk ve Etnografya Müzesi",
@@ -17623,7 +18968,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sivas'ta üç müze hizmet vermektedir: Atatürk ve Kongre Müzesi, Sivas Arkeoloji Müzesi ve Aşık Veysel Müzesi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96383/samsun---ataturk-muzesi.html": {
       "title": "Samsun - Atatürk Müzesi",
@@ -17633,7 +18996,31 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          null
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Samsun - Atatürk Müzesi, 1 Temmuz 1968'de ziyarete açılmış bir müzedir.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          null
+        ],
+        "program_serisi": [
+          null
+        ],
+        "ozet": "Atatürk Müzesi, 19 Mayıs Galerisi olarak inşa edilmiş ve tamamen taş ve renkli mermerlerle inşa edilmiş bir müzedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96384/samsun---gazi-muzesi.html": {
       "title": "Samsun - Gazi Müzesi",
@@ -17643,7 +19030,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Samsun - Gazi Müzesi Samsun, Merkez, Kale Mahallesi, Mecidiye Caddesi üzerinde yer almakta olan iki katlı yapının dış duvarları yığma tuğla, iç bölmeleri Bağdadî olarak yapılmıştır.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96385/samsun---havza-ataturk-evi.html": {
       "title": "Samsun - Havza Atatürk Evi",
@@ -17653,7 +19058,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurülebilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Samsun - Havza Atatürk Evi, Türkiye'nin en önemli tarihi öneme sahip binalarından biridir. Atatürk, 25 Mayıs 1919-12 Haziran 1919 tarihleri arasında bina içinde çalışmalarını sürdürmüştür.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96386/trabzon---ataturk-kosku.html": {
       "title": "Trabzon - Atatürk Köşkü",
@@ -17663,7 +19086,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96387/usak---ataturk-ve-etnografya-muzesi.html": {
       "title": "Uşak - Atatürk ve Etnografya Müzesi",
@@ -17673,7 +19114,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": "Herkes",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Uşak Atatürk ve Etnografya Müzesi, Türkiye'nin en önemli tarihi müzelerinden biri.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96388/yalova---ataturk-koskleri.html": {
       "title": "Yalova - Atatürk Köşkleri",
@@ -17683,7 +19142,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Yalova ve Termal'de tarihi ve tarihsel değerleri olan Atatürk Köşkleri yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96389/ataturkun-yati-savarona.html": {
       "title": "Atatürk'ün Yatı \"Savarona\"",
@@ -17693,7 +19170,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk'ün eski yatı Savarona, Atatürk'ün 10 Kasım 1938'de öldüğü Dolmabahçe sarayına hizmet verdikten sonra eğitim gemisi olarak kullanıldı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96390/ataturk39un-sevdigi-sarkilar.html": {
       "title": "Atatürk'ün Sevdiği Şarkılar",
@@ -17703,7 +19198,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bağımsız Türkiye'nin kurucusu Atatürk'ün hayatı ve mirası ile ilgili birçok bilgi ve içerik mevcuttur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96391/ataturkun-vasiyeti.html": {
       "title": "Atatürk'ün Vasiyeti",
@@ -17713,7 +19226,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk'ün Vasiyeti",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96393/ataturk-siirleri.html": {
       "title": "Atatürk Şiirleri",
@@ -17723,7 +19254,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bu sayfa Atatürk Şiirleri'nin listelenmesini içerir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96395/10-kasim-1952--vehbi-kizilgun.html": {
       "title": "10 Kasım 1952 / Vehbi KIZILGÜN",
@@ -17733,7 +19282,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bu web sitesinin erişilebilirliğini artırmak ve kullanıcılara daha iyi bir deneyim sunmak için, çeşitli erişilebilirlik modları ve ayarlarının sunulduğu bir menüsü vardır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96396/agit---destan--orhan-saik-gokyay.html": {
       "title": "Ağıt - Destan / (Orhan Şaik GÖKYAY)",
@@ -17743,7 +19310,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın resmi web sayfası",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96402/ataturk--cahit-sitki-taranci.html": {
       "title": "Atatürk / (Cahit Sıtkı TARANCI)",
@@ -17753,7 +19338,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Cumhurbaşkanı Atatürk'ün anılarını paylaştıkları \"Cumhurbaşkanı Atatürk ve Atatürk'ün Hayatı\" sayfasını ziyaret edebilirsiniz.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96403/ataturk--enis-behic-koryurek.html": {
       "title": "Atatürk / (Enis Behiç KORYÜREK)",
@@ -17763,7 +19366,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bu web sayfası, Türk Kültür ve Turizm Bakanlığı'na ait bir kamu web sayfasıdır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96405/ataturk--hasan-ali-yucel.html": {
       "title": "Atatürk / (Hasan Ali YÜCEL)",
@@ -17773,7 +19394,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nın resmi web sayfasıdır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96406/ataturk--ilhan-demiraslan.html": {
       "title": "Atatürk / (İlhan DEMİRASLAN)",
@@ -17783,7 +19422,29 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "büyük işletme",
+          "girişimci/startup",
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "\nAtatürk'ün fotoğrafı önümüzde duruyor. \n",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96407/ataturk-icin--osman-atilla.html": {
       "title": "Atatürk İçin / (Osman ATİLLA)",
@@ -17793,7 +19454,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": "T.C. Kültür ve Turizm Bakanlığı Tüm hakları saklıdır.",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk'e adanmış bir web sitesidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96408/ataturk-kurtulus-savasinda--cahit-kulebi.html": {
       "title": "Atatürk Kurtuluş Savaşında / (Cahit KÜLEBİ)",
@@ -17803,7 +19482,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Mustafa Kemal Atatürk'ün hayatı ve eserleri hakkında bilgi ve kaynaklar içeren bu sayfada, Türk kültür ve turizm bakanlığından alınmiş metinler mevcuttur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96409/ataturk-oratoryosu--selahattin-batu.html": {
       "title": "Atatürk Oratoryosu / (Selâhattin BATU)",
@@ -17813,7 +19510,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": 0,
+        "hibe_miktari_max_tl": 0,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Atatürk Oratoryosu, Atatürk'ün doğum gününün anısına inşa edilen ve Türk müziğinin önemli bir eseridir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96410/ataturke-agit--asik-veysel.html": {
       "title": "Atatürk'e Ağıt / (Aşık VEYSEL)",
@@ -17823,7 +19538,28 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "sanat",
+          "kultur"
+        ],
+        "program_serisi": null,
+        "ozet": "Aşık Veyselin Atatürk'e Ağıt isimli şiiri, Mustafa Kemal Atatürk'ün anılarak yazılmış şiirlerden biridir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96411/ataturke-agit--cahit-kulebi.html": {
       "title": "Atatürk'e Ağıt / (Cahit KÜLEBİ)",
@@ -17833,7 +19569,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Atatürk'ün anısına adanmış bir web sitesi, Atatürk'ün hayatı ve ilkeleri hakkında bilgi sunmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96412/ataturkten-son-mektup--halim-yagcioglu.html": {
       "title": "Atatürk'ten Son Mektup / (Halim Yağcıoğlu)",
@@ -17843,7 +19597,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Halim Yağcıoğlu imzalı 'Atatürk'ten Son Mektup' adlı kitabı, Mustafa Kemal Atatürk'ün hayatı, ilkeleri ve gençliğe hitabesi üzerine düşünceleri ve eleştirileri içerir. Kitap, Türkiye'nin kurucusu ile ilgili güncel olmayan bir çalışmadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96414/ataturkun-cenazesini-ankarada-karsilarken--mithat-cemal-kuntay.html": {
       "title": "Atatürk'ün Cenazesini Ankara'da Karşılarken / (Mithat Cemal KUNTAY)",
@@ -17853,7 +19625,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Atatürk'ün cenazesini Ankara'da karşılamak için toplanan pessoas, cenazenin yükselişini ve göklerin başında olmasını simgeliyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96415/bizsiz-gidiyor--faruk-nafiz-camlibel.html": {
       "title": "Bizsiz Gidiyor / (Faruk Nafiz ÇAMLIBEL)",
@@ -17863,7 +19653,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Faruk Nafiz ÇAMLIBEL'in yazmış olduğu bir şiirdir. Atatürk'ün ölümüne yaptığı duyuru hakkında yazmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96417/buyuk-arzu--arif-hikmet-par.html": {
       "title": "Büyük Arzu / (Arif Hikmet PAR)",
@@ -17873,7 +19681,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "hikaye metninde hibe miktarı geçmemektedir",
+        "toplam_butce": "hikaye metninde bütçe miktarı geçmemektedir",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Milli Mücadele'nin 100. Yılı etkinlikleri ve Atatürk'e adanmış müzeler hakkında",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96418/buyuk-misafir--faruk-nafiz-camlibel.html": {
       "title": "Büyük Misafir / (Faruk Nafiz ÇAMLIBEL)",
@@ -17883,7 +19709,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96420/dag-basini-duman-almis--bekir-sitki-erdogan.html": {
       "title": "Dağ Başını Duman Almış / (Bekir Sıtkı ERDOĞAN)",
@@ -17893,7 +19737,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "ResmiTurizmIstatistikleri.net sitesindeki içeriğin amacı, T.C. Kültür ve Turizm Bakanlığı'nın kültür ve turizm alanlarında yaptığı işleri ve faaliyetlerini sunmaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96421/dag-basini-duman-almis--muzaffer-ender.html": {
       "title": "Dağ Başını Duman Almış / (Muzaffer ENDER)",
@@ -17903,7 +19765,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bir sisli kasım sabahı, tüm gökyüzü baştan başa tenha, bir kapkara matem sarıyor memleketi...",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96422/dahi-i-teceddude--abdulhak-hamid-tarhan.html": {
       "title": "Dahi-i Teceddüd'e / (Abdülhak Hamid TARHAN)",
@@ -17913,7 +19793,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Büyük gazâ, büyük zafer bu inkılâp!",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Dahi-ı Teceddüd'ün anısına",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96424/gazi-destani--asik-hasan.html": {
       "title": "Gazi Destanı / (Aşık HASAN)",
@@ -17923,7 +19821,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Gazi Destanı, Türk şiiri ve edebiyatında önemli bir eser. Güçlü bir destan olarak okunmaya devam ediyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96425/gazimize--orhan-seyfi-orhon.html": {
       "title": "Gazimize / (Orhan Seyfi ORHON)",
@@ -17933,7 +19849,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Gazimize / (Orhan Seyfi ORHON) Gazimize / (Orhan Seyfi ORHON) GAZİMİZE Büyük küçük her ferdi asırlarca bu yurdun Emekleyip dururken köhne izler üstünde; Sen o kartal pençenle tutup bizi uçurdun Aşılamaz ne dağlar, ne denizler üstünde. Kurur senin nurunla izleri gözyaşının, Düşmanları titretir çatılışı kaşının. Bir güneş tesiri var o ilâhi başının Karanlıklara düşmüş ümitsizler üstünde. Sen çürümüş, dağılmış bir cesede can kattın: Mezarından çıkarttın, semalara fırlattın; Yeni baştan şerefli bir âlemi yarattın: Bu derece hakkın var senin bizler üstünde. Titriyor İstanbul'un sevinçle her bucağı, \"Gel!\" diyor bir el gibi sana vatan sancağı; Kapanıp öpmek için basacağın toprağı, Bütün şehir bekliyor seni dizler üstünde. Orhan Seyfi ORHON",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96428/gidiyor--orhan-seyfi-orhon.html": {
       "title": "Gidiyor / (Orhan Seyfi ORHON)",
@@ -17943,7 +19877,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Orhan Seyfi Orhon'un şiiri Gidiyor, çeşitli erişilebilirlik modları ve seçenekleri sunan resmi web sitesidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96430/havza-yollarinda-mustafa-kemal--ceyhun-atuf-kansu.html": {
       "title": "Havza Yollarında Mustafa Kemal / (Ceyhun Atuf KANSU)",
@@ -17953,7 +19905,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Havza Yollarında Mustafa Kemal, Ceyhun Atuf KANSU'nun şiiri okunuyor",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96431/istiklal-savasinda-mustafa-kemal--sabih-sendil.html": {
       "title": "İstiklal Savaşında Mustafa Kemal / (Sabih ŞENDİL)",
@@ -17963,7 +19933,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İstiklal Savaşı sırasında Mustafa Kemal'in kahramanlığı ve zaferi hakkında bir öykü.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96433/mustafa-kemal-havasi--edip-ayel.html": {
       "title": "Mustafa Kemal Havası / (Edip AYEL)",
@@ -17973,7 +19961,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Mustafa Kemal Havası, Mustafa Kemal'in liderliğindeki Türk Milleti'nin kuruluşunun sembolüdür.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96434/mustafa-kemalden-konustuk--ozker-yasin.html": {
       "title": "Mustafa Kemal'den Konuştuk / (Özker YAŞIN)",
@@ -17983,7 +19989,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplom_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "Kültür ve Turizm Bakanlığı'nın resmi web sitesinde kültür ve turizm方面ın çeşitli faaliyetleri destekleniyor.",
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bu site, Kültür ve Turizm Bakanlığı'nın resmi web sitesidir. Site, kültür ve turizm方面ın çeşitli bilgilerini ve faaliyetlerini sunuyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96435/mustafa-kemali-dusunuyorum--umit-yasar-oguzcan.html": {
       "title": "Mustafa Kemal'i Düşünüyorum / (Ümit Yaşar OĞUZCAN)",
@@ -17993,7 +20017,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Mustafa Kemal'in hayatı ve mirası için bir yazı. Türkiye'nin ilk Cumhurbaşkanı olarak bilinen Mustafa Kemal Atatürk, 1919'da Mustafa Kemal'i Düşünüyorum isimli şiiri yazdı. Şiir, Atatürk'ün hayatı ve mirasına dokunmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96436/mustafa-kemalin-ati--behcet-kemal-caglar.html": {
       "title": "Mustafa Kemal'in Atı / (Behçet Kemal ÇAĞLAR)",
@@ -18003,7 +20045,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Behçet Kemal ÇAĞLAR imzalı Mustafa Kemal'in Atı adlı şiirin bir seçme pasajıdır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96437/mustafa-kemalin-guvercini--arif-hikmet-par.html": {
       "title": "Mustafa Kemal'in Güvercin'i / (Arif Hikmet PAR)",
@@ -18013,7 +20073,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": " Mustafa Kemal'in Güvercin'i / (Arif Hikmet PAR)",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Mustafa Kemal'in Güvercin'i, İstanbul'dan Anadolu'ya uçuruyordu.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96438/mustafa-kemalin-kagnisi--fazil-husnu-daglarca.html": {
       "title": "Mustafa Kemal'in Kağnısı / (Fazıl Hüsnü DAĞLARCA)",
@@ -18023,7 +20101,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "MUSTAFA KEMAL'İN KAĞNISI... / (Fazıl Hüsnü DAĞLARCA)",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96439/mustafa-kemalin-mangasi--cahit-kulebi.html": {
       "title": "Mustafa Kemal'in Mangası / (Cahit KÜLEBİ)",
@@ -18033,7 +20129,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Mustafa Kemal'in Mangası, Cahit Külebi tarafından yazılan ve Atatürk'ün Büyük Taarruzuyla ilgili bir şiirdir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96440/mustafa-kemalin-saati--muzaffer-uyguner.html": {
       "title": "Mustafa Kemal'in Saati / (Muzaffer UYGUNER)",
@@ -18043,7 +20157,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": null,
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kitapçıoğlu'nun eserleri üzerine yazılan bir şiirdir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96441/mustafa-kemaller-tukenmez--halim-yagcioglu.html": {
       "title": "Mustafa Kemal'ler Tükenmez / (Halim YAĞCIOĞLU)",
@@ -18053,7 +20185,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı'nda hizmete sunulan erişilebilirlik menüsü ve bakanlığın misyon, vizyonu ile teşkilat şemasını içermektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96442/ne-anlatilmaz-sey--cevdet-atmaca.html": {
       "title": "Ne Anlatılmaz Şey / (Cevdet ATMACA)",
@@ -18063,7 +20213,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Milli Mücadele'nin 100. Yılı resmi tanıtım",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96444/o-geliyor--celal-sahir-erozan.html": {
       "title": "O Geliyor / (Celal Sahir EROZAN)",
@@ -18073,7 +20241,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Samsun'dan başlayarak Türkiye'nin her yerindeki milli mücadelenin 100'üncü yılına ait bilgi ve belgeleri içeren web sitesi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96445/o-gun--a-celal-simsek.html": {
       "title": "O Gün / (A. Celâl ŞİMŞEK)",
@@ -18083,7 +20269,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "A. Celâl ŞİMŞEK'nin 'O Gün' adlı şiirini okuyorlar",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96448/onsuz--ziya-osman-saba.html": {
       "title": "O'nsuz / (Ziya Osman SABA)",
@@ -18093,7 +20297,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bakanlığımızın web sitesi, Kültür ve Turizm Bakanlığı'na ait genel bilgiler, bakanlık organları, uygulamaları, duyuruları ve tanıtım materyallerini içermektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96449/onun-sesi--yusuf-ziya-ortac.html": {
       "title": "O'nun Sesi / (Yusuf Ziya ORTAÇ)",
@@ -18103,7 +20325,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkçe'den yapılan bu özet, Kültür ve Turizm Bakanlığı'nın 1 Kasım 2023'de açıkladığı Atatürk'ün Hayatı, Atatürk İlke ve Atatürk'ün Gençliğe Hitabesi kitaplarını kapsar.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96451/sayende--orhan-saik-gokyay.html": {
       "title": "Sayende / (Orhan Şaik GÖKYAY)",
@@ -49041,6 +51281,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e5878497918c8b9c818aa587848e8e84cb828a93cb9197"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#641e0b0a03110800050f1d000b2406050f0f054a030b124a1016"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e78c86958685928c9e8388a785868c8c86c9808891c99395"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#096b687b7d6067706d66496b68626268276e667f277d7b"
         }
       ]
     },
@@ -51347,6 +53602,316 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-13",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://teknofest.org/tr/duyurular/mavi-vatanda-adrenalin-zirvede-halatlar-gerilecek-hedefler-vurulacak-kurekler-ayni-ritimde-cekilecek/": {
+      "title": "13.08.2026GENELMavi Vatan’da Adrenalin Zirvede:  Halatlar Gerilecek, Hedefler Vurulacak, Kürekler Aynı Ritimde Çek…TEKNOFEST Mavi Vatan’da dört gün boyunca güç, hız, isabet ve takım ruhu sahne alacak.",
+      "url": "https://teknofest.org/tr/duyurular/mavi-vatanda-adrenalin-zirvede-halatlar-gerilecek-hedefler-vurulacak-kurekler-ayni-ritimde-cekilecek/",
+      "date": "2026-08-13",
+      "on_tarihler": [
+        "2026-08-13"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-2027-yili-cagrilari-ortak-arama-duyurusu-0": {
+      "title": "Ufuk Avrupa Sağlık Kümesi 2027 Yılı Çağrıları Ortak Arama Duyurusu",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-2027-yili-cagrilari-ortak-arama-duyurusu-0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "sağlık",
+          "eğitim",
+          "yazılım",
+          "inovasyon"
+        ],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozet": "Avrupa Komisyonu tarafından Sağlık Kümesi 2026-2027 yılı çağrıları yayımlanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/17-orta-dogu-uluslararasi-icat-fuari-kuveytte-duzenlenecek": {
+      "title": "17. Orta Doğu Uluslararası İcat Fuarı Kuveyt’te Düzenlenecek",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/17-orta-dogu-uluslararasi-icat-fuari-kuveytte-duzenlenecek",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/tubitak-erc-2027-starting-ve-consolidator-grant-cagrilari-bilgilendirme-toplantisi-18": {
+      "title": "TÜBİTAK ERC 2027 Starting ve Consolidator Grant Çağrıları Bilgilendirme Toplantısı 18 Ağustos 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/tubitak-erc-2027-starting-ve-consolidator-grant-cagrilari-bilgilendirme-toplantisi-18",
+      "date": "2026-08-18",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [
+          "Ufuk Avrupa"
+        ],
+        "ozeet": "TÜBİTAK ERC 2027 Starting ve Consolidator Grant Çağrıları Bilgilendirme Toplantısı",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://ufukavrupa.org.tr/tr/haberler?page=225": {
+      "title": "Last pageLast »",
+      "url": "https://ufukavrupa.org.tr/tr/haberler?page=225",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://ufukavrupa.org.tr/tr/haberler?page=224",
+      "duplicate_of_source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi"
+    },
+    "https://www.ktb.gov.tr/TR-471304/23-devlet-turk-sanatlari-yarismasi-basliyor.html": {
+      "title": "23. DEVLET TÜRK SANATLARI YARIŞMASI BAŞLIYOR",
+      "url": "https://www.ktb.gov.tr/TR-471304/23-devlet-turk-sanatlari-yarismasi-basliyor.html",
+      "date": "2026-08-13",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-471301/gobeklitepenin-kuzeyinde-ilk-kazi.html": {
+      "title": "GÖBEKLİTEPE’NİN KUZEYİNDE İLK KAZI",
+      "url": "https://www.ktb.gov.tr/TR-471301/gobeklitepenin-kuzeyinde-ilk-kazi.html",
+      "date": "2026-08-13",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-471299/67-sozlesmeli-personel-alimi-sonuclari-hakkinda-duyuru-13082026.html": {
+      "title": "67 SÖZLEŞMELİ PERSONEL ALIMI SONUÇLARI HAKKINDA DUYURU (13.08.2026)",
+      "url": "https://www.ktb.gov.tr/TR-471299/67-sozlesmeli-personel-alimi-sonuclari-hakkinda-duyuru-13082026.html",
+      "date": "2026-08-13",
+      "on_tarihler": [
+        "2026-08-13"
+      ],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7222/Ulusal-Su-Kurulunun-6nci-Toplantisi-Bakan-Yumaklinin-Baskanliginda-Yapildi": {
+      "title": "ULUSAL SU KURULUNUN 6'NCI TOPLANTISI, BAKAN YUMAKLI’NIN BAŞKANLIĞINDA YAPILDI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7222/Ulusal-Su-Kurulunun-6nci-Toplantisi-Bakan-Yumaklinin-Baskanliginda-Yapildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2655/Tarim-Ve-Orman-Bakanligi-Sozlesmeli-Gemi-Adami-Alim-Ilani": {
+      "title": "Tarım ve Orman Bakanlığı Sözleşmeli Gemi Adamı Alım İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2655/Tarim-Ve-Orman-Bakanligi-Sozlesmeli-Gemi-Adami-Alim-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301183-a-milli-kadin-voleybol-takimi-icin-karsilama-toreni-duzenlendi": {
+      "title": "A MİLLİ KADIN VOLEYBOL TAKIMI İÇİN KARŞILAMA TÖRENİ DÜZENLENDİ27.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301183-a-milli-kadin-voleybol-takimi-icin-karsilama-toreni-duzenlendi",
+      "date": "2026-07-27",
+      "on_tarihler": [
+        "2026-07-27"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.gsb.gov.tr/tr/haber-detay/301148-bakan-baktan-milletler-ligi-sampiyonu-a-milli-kadin-voleybol-takimina-tebrik": {
+      "title": "BAKAN BAK’TAN MİLLETLER LİGİ ŞAMPİYONU A MİLLİ KADIN VOLEYBOL TAKIMI’NA TEBRİK26.07.2026",
+      "url": "https://www.gsb.gov.tr/tr/haber-detay/301148-bakan-baktan-milletler-ligi-sampiyonu-a-milli-kadin-voleybol-takimina-tebrik",
+      "date": "2026-07-26",
+      "on_tarihler": [
+        "2026-07-26"
+      ],
+      "source": "Gençlik ve Spor Bakanlığı",
+      "source_id": "gsb",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.oran.org.tr/tr/acik-destek-cagrilari/orta-anadolu-yu-kesfet-alternatif-mali-destek-programi": {
+      "title": "Orta Anadolu’yu Keşfet Alternatif Mali Destek Programı",
+      "url": "https://www.oran.org.tr/tr/acik-destek-cagrilari/orta-anadolu-yu-kesfet-alternatif-mali-destek-programi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "ORAN (Orta Anadolu Kalkınma Ajansı)",
+      "source_id": "oran",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "hibe_olabilir",
+      "details": {
+        "tur": "hibe_duyurusu",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "girişimci/startup",
+          "KOBİ"
+        ],
+        "kimler_basvurabilir": "Seyahat Acentesi",
+        "hibe_miktari_min_tl": 500000,
+        "hibe_miktari_max_tl": 1000000,
+        "hibe_miktari": "Konaklamalı tur paketleri için max. 1 milyon TL destek",
+        "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+        "son_basvuru_tarihleri": [
+          "2026-12-15"
+        ],
+        "desteklenen_aktiviteler": "Konaklamalı tur paketlerinin geliştirilmesi, desteklenmesi",
+        "faaliyet_suresi": "en az 1 gün, en fazla 3 gün",
+        "temalar": [
+          "turizm"
+        ],
+        "program_serisi": [
+          "KOSGEB KOBİGEL"
+        ],
+        "ozet": "Orta Anadolu'yu Keşfet Alternatif Mali Destek Programı, konaklamalı tur paketleri için 500.000 ile 1.000.000 TL arasında destek veriyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
+    },
+    "https://www.kuzka.gov.tr/page/2013-yili-sektorel-raporlar-ve-analizler-386": {
+      "title": "2013 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2013-yili-sektorel-raporlar-ve-analizler-386",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/2012-yili-sektorel-raporlar-ve-analizler-387": {
+      "title": "2012 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2012-yili-sektorel-raporlar-ve-analizler-387",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/2011-yili-sektorel-raporlar-ve-analizler-388": {
+      "title": "2011 Yılı Sektörel Raporlar ve Analizler",
+      "url": "https://www.kuzka.gov.tr/page/2011-yili-sektorel-raporlar-ve-analizler-388",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/page/bilgi-edinme-389": {
+      "title": "Bilgi Edinme",
+      "url": "https://www.kuzka.gov.tr/page/bilgi-edinme-389",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.kosgeb.gov.tr/site/tr/genel/IletisimMerkezi",
+      "duplicate_of_source": "KOSGEB"
+    },
+    "https://www.kuzka.gov.tr/page/gorus-ve-oneriler-390": {
+      "title": "Görüş ve Öneriler",
+      "url": "https://www.kuzka.gov.tr/page/gorus-ve-oneriler-390",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.kuzka.gov.tr/proje-oneri-formu": {
+      "title": "Proje Öneri Formu",
+      "url": "https://www.kuzka.gov.tr/proje-oneri-formu",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#641e0b0a03110800050f1d000b2406050f0f054a030b124a1016": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#641e0b0a03110800050f1d000b2406050f0f054a030b124a1016",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#e78c86958685928c9e8388a785868c8c86c9808891c99395": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#e78c86958685928c9e8388a785868c8c86c9808891c99395",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-14",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#096b687b7d6067706d66496b68626268276e667f277d7b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#096b687b7d6067706d66496b68626268276e667f277d7b",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-14",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
