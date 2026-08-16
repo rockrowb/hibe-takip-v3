@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-16",
   "source_status": {
     "ka_gov": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 3,
-      "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://ka.gov.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 22,
-      "diag": "/tr/duyurular/ -> HTTP 200, 148938 byte HTML, 109 link, 39 olası duyuru"
+      "diag": "/tr/duyurular/ -> HTTP 200, 149181 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 44,
       "diag": "/tr/haberler -> HTTP 200, 36955 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 10,
-      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/gelismis-arama -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /gelismis-arama (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.yatirimadestek.gov.tr/gelismis-arama\", waiting until \"networkidle\"\n"
     },
     "kosgeb": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 44,
-      "diag": "/ -> HTTP 200, 109587 byte HTML, 158 link, 74 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /site/tr/genel/destekler/3/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /site/tr/genel/duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.kosgeb.gov.tr/\", waiting until \"networkidle\"\n"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 69,
-      "diag": "/duyurular/ -> HTTP 200, 196126 byte HTML, 324 link, 156 olası duyuru"
+      "diag": "/duyurular/ -> HTTP 200, 196130 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 27,
       "diag": "/Duyurular -> HTTP 200, 27636 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94846 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 25,
       "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
     },
     "sivil_alan": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 26,
       "diag": "/category/hibe-duyurulari/ -> HTTP 200, 301889 byte HTML, 128 link, 46 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 300 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 298 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
-      "ok": false,
-      "checked": "2026-08-15",
-      "found": 0,
-      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59984 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-16",
+      "found": 69,
+      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59984 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 583258 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 3,
-      "diag": "/@projeyonetimi -> HTTP 200, 147289 byte HTML, 16 link, 3 olası duyuru"
+      "diag": "/@projeyonetimi -> HTTP 200, 147332 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 0,
-      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27473 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27452 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 8,
-      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/ihaleler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /ihaleler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.cfcu.gov.tr/ihaleler\", waiting until \"networkidle\"\n"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 355,
       "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213348 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338308 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338088 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 22,
       "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 53763 byte HTML, 106 link, 59 olası duyuru"
     },
     "istka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 24,
-      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvuru-cagrilari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.istka.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "ankaraka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/ajans-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /ajans-destek-programlari (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://ankaraka.org.tr/ajans-destek-programlari\", waiting until \"networkidle\"\n"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 28,
-      "diag": "/destekler -> HTTP 200, 144176 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289487 byte HTML, 309 link, 66 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://bebka.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "karacadag": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 19,
-      "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler/ (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.karacadag.gov.tr/destekler/\", waiting until \"networkidle\"\n"
     },
     "cka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 19,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/tr/guncel-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/guncel-destek -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/guncel-destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.cka.org.tr/tr/guncel-destekler\", waiting until \"networkidle\"\n"
     },
     "baka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 1,
-      "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.baka.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "dogaka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 76,
-      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /medya/guncel-duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler/destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.dogaka.gov.tr/destekler/destekler\", waiting until \"networkidle\"\n"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler/guncel-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler/guncel-destek-programlari (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.mevka.org.tr/destekler/guncel-destek-programlari\", waiting until \"networkidle\"\n"
     },
     "oka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 44,
-      "diag": "/ -> HTTP 200, 122403 byte HTML, 277 link, 63 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://oka.gov.tr/\", waiting until \"networkidle\"\n"
     },
     "doka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226312 byte HTML, 130 link, 53 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/acik-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /acik-destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.doka.org.tr/acik-destekler\", waiting until \"networkidle\"\n"
     },
     "oran": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 88,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 114217 byte HTML, 195 link, 130 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.oran.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "marka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483171 byte HTML, 648 link, 177 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.marka.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "gmka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 39,
-      "diag": "/acik-destek-programlari -> HTTP 200, 71443 byte HTML, 94 link, 51 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/acik-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /acik-destek-programlari (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.gmka.gov.tr/acik-destek-programlari\", waiting until \"networkidle\"\n"
     },
     "geka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 129,
-      "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvurusu-devam-eden-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://geka.gov.tr/\", waiting until \"networkidle\"\n"
     },
     "ika": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 2,
-      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.ika.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "trakyaka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/tr/33286/DESTEKLER -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/33286/DESTEKLER (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.trakyaka.org.tr/tr/33286/DESTEKLER\", waiting until \"networkidle\"\n"
     },
     "zafer": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 80,
-      "diag": "/destekler -> HTTP 200, 260863 byte HTML, 165 link, 83 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://zafer.gov.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "ahika": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 56,
-      "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.ahika.gov.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "kuzka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 111,
-      "diag": "/ -> HTTP 200, 189098 byte HTML, 269 link, 132 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.kuzka.gov.tr/\", waiting until \"networkidle\"\n"
     },
     "kudaka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 127,
-      "diag": "/home -> HTTP 200, 101624 byte HTML, 196 link, 134 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/home -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /home (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://kudaka.gov.tr/home\", waiting until \"networkidle\"\n"
     },
     "serka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 147,
-      "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.serka.gov.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "daka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 74,
-      "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.daka.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "fka": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66681 byte HTML, 167 link, 73 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://fka.gov.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "dika": {
-      "ok": true,
-      "checked": "2026-08-15",
-      "found": 27,
-      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-16",
+      "found": 0,
+      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.dika.org.tr/destekler\", waiting until \"networkidle\"\n"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-15",
+      "checked": "2026-08-16",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156364 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -360,8 +360,8 @@
     "provider": "groq",
     "quota_exceeded": false,
     "quota_error": null,
-    "checked_at": "2026-08-15T08:27:57Z",
-    "pending_count": 40
+    "checked_at": "2026-08-16T08:22:11Z",
+    "pending_count": 78
   },
   "items": {
     "https://ka.gov.tr/kalkinma-ajanslari": {
@@ -17486,7 +17486,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye Cumhurbaşkanı Recep Tayyip Erdoğan'ın mesaji, cumhuriyetimizin 100. yilini kutlama programı ve vizyonu hakkında bilgilendirme",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-213203/resmi-turizm-istatistikleri.html": {
       "title": "Resmi Turizm İstatistikleri",
@@ -22726,7 +22744,55 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "büyük işletme",
+            "girişimci/startup",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": "Girişimciler ve küçük ve büyük işletmeler",
+          "hibe_miktari_min_tl": 100000,
+          "hibe_miktari_max_tl": 500000,
+          "hibe_miktari": "500.000 TL",
+          "toplam_butce": "3 Milyon ABD Doları",
+          "son_basvuru_tarihleri": [
+            "2023-08-31"
+          ],
+          "desteklenen_aktiviteler": "Proje geliştirme, insan kaynakları, pazarlama",
+          "faaliyet_suresi": "12 ay",
+          "temalar": [
+            "inovasyon",
+            "ar-ge"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa"
+          ],
+          "ozet": "Türkiye'de ekonomik büyümeyi desteklemek ve iş geliştirme programları uygulamak için hazırlanan bir çağrı açıklaması"
+        },
+        "Ve": {
+          "tur": "haber",
+          "basvuruya_acik": null,
+          "kimler_etiketleri": [],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": null,
+          "hibe_miktari_max_tl": null,
+          "hibe_miktari": null,
+          "toplam_butce": null,
+          "son_basvuru_tarihleri": null,
+          "desteklenen_aktiviteler": null,
+          "faaliyet_suresi": null,
+          "temalar": [],
+          "program_serisi": [],
+          "ozet": "Türkiye'deki girişimcilerin iş geliştirme programlarında karşılaştıkları sorunlara ilişkin sonuçlar açıklandı"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96706/almus-ilce-halk-kutuphanesi-hizmet-standartlari-tablosu.html": {
       "title": "Almus İlçe Halk Kütüphanesi Hizmet Standartları Tablosu",
@@ -22777,7 +22843,38 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": false,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "gırişimci/startup",
+            "STK/dernek/vakıf",
+            "üniversite/akademisyen"
+          ],
+          "kimler_basvurabilir": "",
+          "hibe_miktari_min_tl": 250000,
+          "hibe_miktari_max_tl": 500000,
+          "hibe_miktari": "%75 hibe oranı, proje başına üst limit 500.000 TL, KDV hariç ",
+          "toplam_butce": "Alan Toplam Bütçesi: 50 Milyar TL",
+          "son_basvuru_tarihleri": [
+            "2024-06-30",
+            "2024-08-31"
+          ],
+          "desteklenen_aktiviteler": "Halk eğitimleri, kitle eğitimleri, seminerler, konferanslar",
+          "faaliyet_suresi": "6 - 18 ay arası",
+          "temalar": [
+            "tıbbi teknolojiler",
+            "sanayi robotik",
+            "çevre teknolojileri",
+            "dijital sağlık"
+          ]
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96708/amasya-muze-mudurlugu-hizmet-standartlari-tablosu.html": {
       "title": "Amasya Müze Müdürlüğü Hizmet Standartları Tablosu",
@@ -23011,7 +23108,37 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup"
+          ],
+          "kimler_basvurabilir": "KOBİ ve girişimciler",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 2000000,
+          "hibe_miktari": "Üst limit 2.000.000 TL",
+          "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2024-01-15"
+          ],
+          "desteklenen_aktiviteler": "Yazılım geliştirme, teknoloji yatırımı",
+          "faaliyet_suresi": "en fazla 18 ay",
+          "temalar": [
+            "yazılım",
+            "teknoloji"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa"
+          ],
+          "ozet": "Yerli teknoloji geliştirme projetleri için hibe başvurusu açık"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96718/bartin-il-kultur-ve-turizm-mudurlugu-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Bartın İl Kültür ve Turizm Müdürlüğü Kamu Hizmet Standartları Tablosu",
@@ -23385,7 +23512,36 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ"
+          ],
+          "kimler_basvurabilir": "KOBİ, girişimci/startup",
+          "hibe_miktari_min_tl": 50000,
+          "hibe_miktari_max_tl": 500000,
+          "hibe_miktari": "500.000 TL - 5.000.000 TL arası",
+          "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2024-06-15"
+          ],
+          "desteklenen_aktiviteler": "Malları ithal etme, üretim desteği",
+          "faaliyet_suresi": "en fazla 24 ay",
+          "temalar": [
+            "inovasyon",
+            "ar-ge"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa (Horizon Europe)"
+          ],
+          "ozet": "Teknoloji geliştirme projeleri için destek veren bir çağrıyı ilan ediyoruz."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96731/diyarbakir-kultur-ve-tabiat-varliklarini-koruma-bolge-kurulu-mudurlugu-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Diyarbakır Kültür ve Tabiat Varlıklarını Koruma Bölge Kurulu Müdürlüğü Kamu Hizmet Standartları Tablosu",
@@ -23708,7 +23864,36 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "<|reserved_special_token_134|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": false,
+          "kimler_etiketleri": [
+            "KOBİ"
+          ],
+          "kimler_basvurabilir": "KOSGEB KOBİGEL",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 500000,
+          "hibe_miktari": "Üst limit 1 Milyon TL",
+          "toplam_butce": "Programdan ayrılan bütçe 5 Milyondur",
+          "son_basvuru_tarihleri": [
+            "YYYY-MM-DD"
+          ],
+          "desteklenen_aktiviteler": "Girişim Faaliyetleri",
+          "faaliyet_suresi": "En az 1 Yıldır",
+          "temalar": [
+            "İnovasyon",
+            "Kentsel Dönüşüm"
+          ],
+          "program_serisi": [
+            "Erasmus+"
+          ],
+          "ozet": "Kobiler için hibe fon verilecek."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96743/hatay-il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlar-tablosu.html": {
       "title": "Hatay İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartlar Tablosu",
@@ -23778,7 +23963,43 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "json": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf",
+            "üniversite/akademisyen",
+            "araştırmacı"
+          ],
+          "kimler_basvurabilir": "Kırsal Kalkınma Destek Programı'na başvuru sadece  KOBİ'ler tarafından yapılabilir, aynı anda hem KOBİ hem de STK'nin kurucusu olan başvuru sahipleri ise sadece bir seçenek olarak değerlendirilebilecek olup, bu iki seçeneğin birlikte seçilemeyeceği kabul edilmelidir. Başvuru sahipleri ayrıca üniversitelerin yüksek lisans programlarında okuyan veya yüksek lisansını tamamlamış öğrenciler ile kamu kurumlarından emekli olan başvuru sahipleri de başvurulara başvuruda bulunabilirler.",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 2000000,
+          "hibe_miktari": "Kırsal Kalkınma Destek Programı'na destek tutarları; KOBİ'lerin 75.000 TL- 500.000 TL hibe oranlı, girişimlerin ise %50 hibe oranlıdır.",
+          "toplam_butce": "Programın 2023 bütçesi 1 milyar TL'dir.",
+          "son_basvuru_tarihleri": [
+            "2024-09-30",
+            "2025-09-30"
+          ],
+          "desteklenen_aktiviteler": "Arazı çalışması ve arazi planlaması, kırsal kalkınma projesi, kırsal kentsellik iyileştirme ve kırsal kalkınma eğitimleri, kırsal girişimciliğin temel hizmetleri, kırsal turizm destekleri ve kırsal sanayi destekleri",
+          "faaliyet_suresi": "Kırsal Kalkınma Destek Programı'na başvuracak projeler için en fazla 24 ay süreli faaliyet planı sunulmalıdır.",
+          "temalar": [
+            "tarımsal üretimde verim artışı",
+            "tarımsal üretimde verimliliği arttırmak",
+            "tıbbi bitkiler yetiştiriciliği",
+            "tarımsal arazileri iyileştirmek"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa"
+          ],
+          "ozet": "Kırsal Kalkınma Destek Programı'na destek sağlayan bir programdır."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96748/istanbul-yenileme-alanlari-kultur-ve-tabiat-varliklarini-koruma-bolge-kurulu-mudurlugu-kamu-hizmetleri-standartlari-tablosu.html": {
       "title": "İstanbul Yenileme Alanları Kültür ve Tabiat Varlıklarını Koruma Bölge Kurulu Müdürlüğü Kamu Hizmetleri Standartları Tablosu",
@@ -23788,7 +24009,37 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 2000000,
+          "hibe_miktari": "%75 hibe oranı, proje başına üst limit 2.000.000 TL, KDV hariç",
+          "toplam_butce": null,
+          "son_basvuru_tarihleri": [
+            "2023-09-30"
+          ],
+          "desteklenen_aktiviteler": "yatırım, personel, malzeme",
+          "faaliyet_suresi": "en fazla 18 ay",
+          "temalar": [
+            "tıbbi teknoloji",
+            "çevre",
+            "inovasyon"
+          ],
+          "program_serisi": [
+            "Erasmus+"
+          ],
+          "ozet": "Buna başvuru yapmak isteyenler, www.example.com adresini ziyaret edebilirler."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96749/izmir-bergama-turizm-danisma-burosu--kamu-hizmet-standartlari-tablosu.html": {
       "title": "İzmir Bergama Turizm Danışma Bürosu- Kamu Hizmet Standartları Tablosu",
@@ -23899,7 +24150,36 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        ".json": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": null,
+          "hibe_miktari": "500.000 TL",
+          "toplam_butce": "Alan Totayı 150.000.000",
+          "son_basvuru_tarihleri": [
+            "2024-02-28"
+          ],
+          "desteklenen_aktiviteler": null,
+          "faaliyet_suresi": "en fazla 24 ay",
+          "temalar": [
+            "inovasyon",
+            "ar-ge"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa (Horizon Europe)"
+          ],
+          "ozet": "KOBİler için yeni hibe çağrısı"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96756/karabuk-il-kultur-turizm-mudurlugu-kamu-hizmetleri-standartlari-tablosu.html": {
       "title": "Karabük İl Kültür Turizm Müdürlüğü Kamu Hizmetleri Standartları Tablosu",
@@ -23909,7 +24189,40 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": false,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 200000,
+          "hibe_miktari_max_tl": 500000,
+          "hibe_miktari": "500.000 TL arası, üst limit 1.000.000 TL",
+          "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2023-04-30",
+            "2023-06-15"
+          ],
+          "desteklenen_aktiviteler": "Hibe desteği alan projeler için desteklenecek temel hizmetler: 1. Altyapı Geliştirme (Kamulaştırma, İnşaat), 2. Bilgisayar ve Ofis Ekipmanları Alımları",
+          "faaliyet_suresi": "en fazla 24 ay",
+          "temalar": [
+            "tarım",
+            "gıda",
+            "soyut"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa (Horizon Europe)"
+          ],
+          "ozet": "Bu çağrı kapsamında toplam 3 milyon lira hibe desteği sağlanacak. İlgilenen başvuru sahipleri son BAŞVURU TARIHİ 30 Nisan 2023 ve 15 Haziran 2023 tarihleri arasında başvuru yapabileceklerdir."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96757/karabuk-kultur-ve-tabiat-varliklarini-koruma-bolge-kurulu-mudurlugu-hizmet-standartlari-tablosu.html": {
       "title": "Karabük Kültür ve Tabiat Varlıklarını Koruma Bölge Kurulu Müdürlüğü Hizmet Standartları Tablosu",
@@ -23919,7 +24232,38 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 1000000,
+          "hibe_miktari": "%75 hibe oranı, proje başına üst limit 500.000 TL, KDV hariç",
+          "total_budjet": "3,9 Milyar TL bütçe içerisinde",
+          "son_basvuru_tarihleri": [
+            "2024-06-15"
+          ],
+          "desteklenen_aktiviteler": "Araştırma-geliştirme ve İnovasyon projeleri",
+          "faaliyet_suresi": "en az 6 ay ve en fazla 12 ay",
+          "temalar": [
+            "ar-ge",
+            "inovasyon"
+          ],
+          "program_serisi": [
+            "Erasmus+"
+          ],
+          "ozet": "Türkiye'deki küçük ve orta ölçekli işletmeler için hibe ödeneği alan proje başvuruları alınmaya başladı"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96758/kars-il-halk-kutuphanesi-hizmet-standart-tablosu.html": {
       "title": "Kars İl Halk Kütüphanesi Hizmet Standart Tablosu",
@@ -23939,7 +24283,31 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [
+          "STK/dernek/vakıf"
+        ],
+        "kimler_basvurabilir": "Tanıtım Dilekçe ve Adres",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "1 Gün",
+          "7 Gün",
+          "3 Gün"
+        ],
+        "desteklenen_aktiviteler": "Telif Hakları için Sertifika Verilmesi, Bandrol Verilmesi, Kültür Merkezi Salon Tahsisi, Taşınmaz Kültür Varlıklarının Onarımına Yardım Sağlanmasına Dair Yönetmenlik Gereği Proje Yardımı ve Proje Uygulama Yardım Müracaatları",
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İl Kültür ve Turizm Müdürlüğü'nden çeşitli hizmetler ve destekler sunuluyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96760/kastamonu-il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlari-tablosu.html": {
       "title": "Kastamonu İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartları Tablosu",
@@ -23949,7 +24317,40 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "Bu sayfa açıklamasını katarak yazınız.assistant<|en_heade_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": "KİK-8 sertifikalı KOBİ'ler, startuplar ve STK'lar",
+          "hibe_miktari_min_tl": 1000000,
+          "hibe_miktari_max_tl": null,
+          "hibe_miktari": "%50 hibe oranı, üst limit 500.000 TL, KDV hariç",
+          "toplam_butce": "3 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2024-03-15"
+          ],
+          "desteklenen_aktiviteler": "Faaliyetler ve harcamlar için destek sağlanacak",
+          "faaliyet_suresi": null,
+          "temalar": [
+            "inovasyon",
+            "ar-ge",
+            "girişimcilik",
+            "dijital dönüşüm"
+          ],
+          "program_serisi": [
+            "Erasmus+"
+          ],
+          "ozet": "Yeni girişimcilere ve yenilikçi KOBİ'lere yönelik bir hibe programı"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96761/kayseri-il-halk-kutuphanesi-kamu-hizmetleri-standartlar-tablosu.html": {
       "title": "Kayseri İl Halk Kütüphanesi Kamu Hizmetleri Standartlar Tablosu",
@@ -23989,7 +24390,37 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "üniversite/akademisyen"
+          ],
+          "kimler_basvurabilir": "Kobiler, üniversiteler ve akademisyenler",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 2000000,
+          "hibe_miktari": "500.000 TL - 2 milyon TL arası",
+          "toplam_butce": "Program toplam bütçe: 50 Milyar TL",
+          "son_basvuru_tarihleri": [
+            "2023-12-31"
+          ],
+          "desteklenen_aktiviteler": "Faaliyet expenses: equipment, personnel, project",
+          "faaliyet_suresi": "En fazla 24 ay",
+          "temalar": [
+            "inovasyon",
+            "ar-ge"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa"
+          ],
+          "ozet": "İnnovatif projelere hibe desteği için başvurular başlayacak."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96765/kesap-ilce-halk-kutuphanesi-kamu-hizmetleri-standartlari-tablosu.html": {
       "title": "Kesap İlçe Halk Kütüphanesi Kamu Hizmetleri Standartları Tablosu",
@@ -24039,7 +24470,41 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": false,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "büyük işletme",
+            "girişimci/startup",
+            "STK/dernek/vakıf",
+            "üniversite/akademisyen",
+            "araştırmacı"
+          ],
+          "kimler_basvurabilir": "KOBİ, büyük işletme, girişimci/startup, STK/dernek/vakıf, üniversite/akademisyen, araştırmacı",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 1000000,
+          "hibe_miktari": "50.000 - 500.000 TL arası",
+          "total": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2024-05-15"
+          ],
+          "desteklenen_aktiviteler": "Yazılım, Ar-ge",
+          "faaliyet_suresi": "en fazla 18 ay",
+          "temalar": [
+            "yazılım",
+            "inovasyon"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa"
+          ],
+          "ozet": "Bu proje, yeni teknolojiler geliştirmek ve onları iş dünyasına tanıtmak için tasarlandı."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96770/kutahya-il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlari-tablosu.html": {
       "title": "Kütahya İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartları Tablosu",
@@ -24049,7 +24514,38 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ"
+          ],
+          "kimler_basvurabilir": "KOBİ, büyük işletme",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 1000000,
+          "hibe_miktari": "500.000 TL - 1 milyon TL arası",
+          "toplam_butce": "5 Milyar TL",
+          "son_basvuru_tarihleri": [
+            "2023-09-30",
+            "2024-03-31"
+          ],
+          "desteklenen_aktiviteler": "Girişimcilik, KOBİ geliştirme",
+          "faaliyet_suresi": "12 - 24 ay",
+          "temalar": [
+            "Girişimcilik",
+            "KOBİ geliştirme"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa",
+            "TÜBİTAK 1001"
+          ],
+          "ozet": "KOBİ'ler ve büyük işletmeler için girişimcilik ve KOBİ geliştirme projelerine hibe desteği"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96771/kutahya-kultur-ve-tabiat-varliklarini-koruma-bolge-kurulu-mudurlugu-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Kütahya Kültür ve Tabiat Varlıklarını Koruma Bölge Kurulu Müdürlüğü Kamu Hizmet Standartları Tablosu",
@@ -24069,7 +24565,36 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": "Stoğu yüksek potansiyele sahip girişimciler",
+          "hibe_miktari_min_tl": 1000000,
+          "hibe_miktari_max_tl": 5000000,
+          "hibe_miktari": "%75 hibe oranı, proje başına üst limit 5.000.000 TL, KDV hariç",
+          "toplam_butce": "7.1 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2024-06-30"
+          ],
+          "desteklenen_aktiviteler": "Girişim hazırlama, Marka oluşturma, Pazar araştırması, Rekabet analiz",
+          "faaliyet_suresi": "6-24 ay arası",
+          "temalar": [
+            "Girişimcilik",
+            "Kadın Girişimciliği"
+          ],
+          "program_serisi": [
+            "KOSGEB Girişimci Destek Programı"
+          ],
+          "ozet": "Sadece girişimcilere açık olan bu program çerçevesinde 1.000.000 - 5.000.000 TL arasında destek sağlanacaktır."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96773/manisa-il-kultur-ve-turizm-mudurlugu-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Manisa İl Kültür ve Turizm Müdürlüğü Kamu Hizmet Standartları Tablosu",
@@ -24079,7 +24604,39 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf",
+            "üniversite/akademisyen"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 100000,
+          "hibe_miktari_max_tl": null,
+          "hibe_miktari": "Üst limit 5.000.000 TL, KDV hariç",
+          "toplam_butce": null,
+          "son_basvuru_tarihleri": [
+            "2023-09-30"
+          ],
+          "desteklenen_aktiviteler": null,
+          "faaliyet_suresi": "6-24 ay arası",
+          "temalar": [
+            "inovasyon",
+            "ar-ge"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa (Horizon Europe)"
+          ],
+          "ozet": "Bu programa başvurular devam etmektedir."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96774/mardin-il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlari-tablosu.html": {
       "title": "Mardin İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartları Tablosu",
@@ -24109,7 +24666,37 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": false,
+          "kimler_etiketleri": [
+            "STK/dernek/vakıf",
+            "kayıt dışı kuruluş"
+          ],
+          "kimler_basvurabilir": "KOBİ, girişimci/startup, STK/dernek/vakıf, büyük işletme",
+          "hibe_miktari_min_tl": 150000,
+          "hibe_miktari_max_tl": 500000,
+          "hibe_miktari": "projeler için 150.000-500.000 TL destek",
+          "toplam_butce": "programın toplam bütçesi 10 Milyar TL",
+          "son_basvuru_tarihleri": [
+            "2023-08-31"
+          ],
+          "desteklenen_aktiviteler": "araştırma-geliştirme, inovasyon ve yenilikçilik",
+          "faaliyet_suresi": "12-24 ay arası",
+          "temalar": [
+            "inovasyon",
+            "ar-ge"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa"
+          ],
+          "ozet": "Yeni projelere 150.000-500.000 TL arasında destek sağlayan program."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96777/mugla-il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlar-tablosu.html": {
       "title": "Muğla İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartlar Tablosu",
@@ -24129,7 +24716,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktivitelerden": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Halk Köküt Phanesi Memurluûu",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96779/nevsehir-il-halk-kutuphanesi-kamu-hizmetleri-standartlar-tablosu.html": {
       "title": "Nevşehir İl Halk Kütüphanesi Kamu Hizmetleri Standartlar Tablosu",
@@ -24139,7 +24744,41 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "büyük işletme",
+            "girişimci/startup",
+            "STK/dernek/vakıf",
+            "üniversite/akademisyen"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 2000000,
+          "hibe_miktari": "%75 hibe oranı, proje başına üst limit 2.000.000 TL",
+          "toplam_butce": null,
+          "son_basvuru_tarihleri": [
+            "2024-06-30"
+          ],
+          "desteklenen_aktiviteler": "yazılım, araştırmaya yönelik harcamalar",
+          "faaliyet_suresi": "en fazla 24 ay",
+          "temalar": [
+            "yazılım",
+            "araştırma"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa (Horizon Europe)",
+            "TEKNOFEST"
+          ],
+          "ozet": "KOBİ'ler için yazılım ve araştırmalar için 2 milyon TL'lere varan hibeler"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96780/nevsehir-il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlar-tablosu.html": {
       "title": "Nevşehir İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartlar Tablosu",
@@ -24159,7 +24798,39 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": "Girişimciler, girişimcilerden kurumsal girişimler ve STK'lar başvuru yapabilir.\n\nGirişimlerde en az bir ortakın girişimcilik deneyimine sahip olması, ancak girişimci/ortakların girişimcilik eğitimine sahip olmadığı durumlarda en az bir ortakın girişimcilik eğitimini tamamlamış olması ve girişimci/ortaklar arasından en az birinin girişimcilik eğitimi almış olması gerekir.",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 1500000,
+          "hibe_miktari": "%75 hibe oranı, proje başına üst limit 500.000 TL, 1.500.000 TL arası",
+          "toplam_butce": "Alan Toplam Bütçesi: 10 Milyar TL",
+          "son_basvuru_tarihleri": [
+            "2024-02-15"
+          ],
+          "desteklenen_aktiviteler": "Girişimlerde proje yönetimi, pazarlama, iş modeli geliştirme ve pazar araştırması desteklenir.",
+          "faaliyet_suresi": "en fazla 24 ay",
+          "temalar": [
+            "girişimcilik",
+            "inovasyon",
+            "kalkınma"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa (Horizon Europe)"
+          ],
+          "ozet": "Ufuk Avrupa (Horizon Europe) programı kapsamında, genç girişimciler ve kurumlara destek sağlanacak."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96782/osmaniye-il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlar-tablosu.html": {
       "title": "Osmaniye İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartlar Tablosu",
@@ -24179,7 +24850,46 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "büyük işletme",
+            "kamu kurumu",
+            "yözgecilik",
+            "kentel kalkınma hamlesi",
+            "STK/dernek/vakıf",
+            "Kosgeb kobi gel",
+            "STK DERNEK"
+          ],
+          "kimler_basvurabilir": "bölgemize ait iş yerleri",
+          "hibe_miktari_min_tl": 250000.0,
+          "hibe_miktari_max_tl": 3000000.0,
+          "hibe_miktari": "1 milyon EUR (hak edişe göre)",
+          "toplam_butce": "Bütçe: 15.000.000 TL",
+          "son_basvuru_tarihleri": [
+            "2024-05-31"
+          ],
+          "desteklenen_aktiviteler": "yazılım, teknoloji, geliştirici",
+          "faaliyet_suresi": "12 ay",
+          "temalar": [
+            "inovasyon",
+            "ar-GE",
+            "dijital dönüşüm",
+            "yapay zeka",
+            "yazılım"
+          ],
+          "program_serisi": [
+            "TUBİTAK 1507"
+          ],
+          "ozet": "Geliştiricilere destek için 1.000.000 TL'e kadar hibe"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96784/rize--il-kultur-ve-turizm-mudurlugu-kamu-hizmetleri-standartlari-tablosu.html": {
       "title": "Rize  İl Kültür ve Turizm Müdürlüğü Kamu Hizmetleri Standartları Tablosu",
@@ -24189,7 +24899,39 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": "KOBİ ve STK/dernek/vakıf",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 2000000,
+          "hibe_miktari": "500.000 TL - 2.000.000 TL arası, %75 hibe oranı",
+          "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2024-05-31",
+            "2024-06-30"
+          ],
+          "desteklenen_aktiviteler": "Girişim destekleme, Üretkenlik güçlendirici projeler",
+          "faaliyet_suresi": "en fazla 18 ay",
+          "temalar": [
+            "Girişimcilik",
+            "İnovasyon"
+          ],
+          "program_serisi": [
+            "Erasmus+",
+            "Ufuk Avrupa"
+          ],
+          "ozet": "Girişimci desteği için 500.000 TL ile 2.000.000 TL arasında başvuru çağrısı"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96785/samsun-il-kultur-ve-turizm-mudurlugu-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Samsun İl Kültür ve Turizm Müdürlüğü Kamu Hizmet Standartları Tablosu",
@@ -24209,7 +24951,37 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": "Tümü için geçerli",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": null,
+          "hibe_miktari": "500.000 TL",
+          "toplam_butce": "Alan Toplam Bütçesi: 13.1 Milyar Avro",
+          "son_basvuru_tarihleri": [
+            "2024-09-10"
+          ],
+          "desteklenen_aktiviteler": "Haberleşme ve internet altyapısı",
+          "faaliyet_suresi": "en fazla 18 ay",
+          "temalar": [
+            "inovasyon"
+          ],
+          "program_serisi": [
+            "Erasmus+"
+          ],
+          "ozet": "Sektöre yeni teknoloji yatırım desteği"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96787/siverek-ilce-halk-kutuphanesi-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Siverek İlçe Halk Kütüphanesi Kamu Hizmet Standartları Tablosu",
@@ -24229,7 +25001,40 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "KOBİ",
+            "girişimci/startup",
+            "STK/dernek/vakıf"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 1000000,
+          "hibe_miktari": "üst limit 2.000.000 TL, KDV dahil",
+          "toplam_butce": "4,5 Milyar TL",
+          "son_basvuru_tarihleri": [
+            "2023-08-15",
+            "2023-09-30"
+          ],
+          "desteklenen_aktiviteler": null,
+          "faaliyet_suresi": null,
+          "temalar": [
+            "girişimcilik",
+            "yapay zeka",
+            "dijital dönüşüm"
+          ],
+          "program_serisi": [
+            "Ufuk Avrupa (Horizon Europe)"
+          ],
+          "ozet": "Yeni başvurulara açık olan bir hibesiz çağrı için geliştirilmiştir."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-436196/sanliurfa-il-halk-kutuphanesi-hizmet-standartlari-tablosu.html": {
       "title": "Şanlıurfa İl Halk Kütüphanesi Hizmet Standartları Tablosu",
@@ -24249,7 +25054,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplum_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteleri": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "İl Kültür ve Turizm Müdürlüğü kamu hizmet standartlarını bulmak için bu sayfayı ziyaret edin.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96790/tekirdag-valiligi-namik-kemal-il-halk-kutuphanesi-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Tekirdağ Valiliği Namık Kemal İl Halk Kütüphanesi Kamu Hizmet Standartları Tablosu",
@@ -24279,7 +25102,37 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "assistant<|end_header_id|>": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": false,
+          "kimler_etiketleri": [
+            "KOBİ"
+          ],
+          "kimler_basvurabilir": null,
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": null,
+          "hibe_miktari": "%75 hibe oranı, proje başına üst limit 500.000 TL",
+          "toplam_butce": "Programın toplam bütçesi",
+          "son_basvuru_tarihleri": [
+            "2024-04-30"
+          ],
+          "desteklenen_aktiviteler": null,
+          "faaliyet_suresi": null,
+          "temalar": [
+            "inovasyon",
+            "ar-ge",
+            "girişimcilik"
+          ],
+          "program_serisi": [
+            "TÜBİTAK 1001"
+          ],
+          "ozet": "Genel bütçe için çağrı açıklaması"
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96793/tunceli-il-kultur-ve-turizm-mudurlugu-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Tunceli İl Kültür ve Turizm Müdürlüğü Kamu Hizmet Standartları Tablosu",
@@ -24299,7 +25152,35 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "JSON data": {
+          "tur": "hibe_duyurusu",
+          "basvuruya_acik": true,
+          "kimler_etiketleri": [
+            "STK/dernek/vakıf",
+            "universite/akademisyen"
+          ],
+          "kimler_basvurabilir": "Bunlar başvuru yapmaları için ön başvuru zorunluluğu olmayan bireyler/organizasyonlardır:",
+          "hibe_miktari_min_tl": 500000,
+          "hibe_miktari_max_tl": 2000000,
+          "hibe_miktari": "500.000 - 2.000.000 TL arası",
+          "toplam_butce": "Proje Bütçesi: 10 Milyon TL",
+          "son_basvuru_tarihleri": [
+            "2024-01-31",
+            "2024-03-17"
+          ],
+          "desteklenen_aktiviteler": "Sadece projeler desteklenir.",
+          "faaliyet_suresi": "Proje süresi en fazla 24 ay",
+          "temalar": [],
+          "program_serisi": [
+            "TÜBİTAK 1001"
+          ],
+          "ozet": "Bilinen projelere destek sağlamak için açık çağrı."
+        },
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96795/urla-ilce-halk-kutuphanesi-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Urla İlçe Halk Kütüphanesi Kamu Hizmet Standartları Tablosu",
@@ -24359,7 +25240,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Krıkkale Kamu Hizmet Standartları Tablosu",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-96801/malatya-il-kultur-ve-turizm-mudurlugu-kamu-hizmet-standartlari-tablosu.html": {
       "title": "Malatya İl Kültür Ve Turizm Müdürlüğü Kamu Hizmet Standartları Tablosu",
@@ -24379,7 +25278,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": "Kamu kurumu, kamu görevlisi",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kamu Hizmet Standartları ve erişilebilirlik seçeneklerini inceleyin.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-98487/kultur-ve-turizm-bakanligi-rss-servisi.html": {
       "title": "Kültür ve Turizm Bakanlığı RSS Servisi",
@@ -24389,7 +25306,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın resmi web sitesinde yaşanan güncellemeler ve duyurular yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-98488/sitemizde-yer-alan-rss-linkleri.html": {
       "title": "Sitemizde yer alan RSS linkleri",
@@ -24399,7 +25334,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın güncel haber ve duyurularını takip edin.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132608/bilgi-ve-belge-merkezleri-ile-ilgili-sikca-sorulan-sorular.html": {
       "title": "Bilgi ve Belge Merkezleri ile ilgili sıkça sorulan sorular",
@@ -24409,7 +25362,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bu sayfada Bilgi ve Belge Merkezleri ile ilgili sıkça sorulan sorular yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132609/halk-kutuphanesi.html": {
       "title": "Halk Kütüphanesi",
@@ -24419,7 +25390,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sıkça sorulanlar sayfasında, genel olarak halk kütüphaneleri ile ilgili sıkça sorulan soruların cevapları yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132645/halk-kulturu-bilgi-ve-belge-merkezi.html": {
       "title": "Halk Kültürü Bilgi ve Belge Merkezi",
@@ -24429,7 +25418,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Halk Kültürü Bilgi ve Belge Merkezi, Türk halk kültürünü tanıtmak ve gelecek nesillere aktarılmasını sağlamak amacıyla kurulmuştur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132674/milli-kutuphane.html": {
       "title": "Milli Kütüphane",
@@ -24449,7 +25456,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Turizm ve kültür konusunda bilgi ve deneyim paylaşımı yapılan bir site. Türk kültür mirasını tanıtılmasına ve teşvik edici ortamların oluşturulmasına katkı sağlıyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132693/egitim-faaliyetleri-kurslar-seminerler-ile-ilgili-sikca-sorulan-sorular.html": {
       "title": "Eğitim faaliyetleri, kurslar, seminerler ile ilgili sıkça sorulan sorular",
@@ -24459,7 +25484,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [],
+        "ozet": "Eğitim faaliyetleri, kurslar ve seminerler ile ilgili sıkça sorulan sorular ve cevapları bu sayfa için hazırlanmış bir rehberdir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132694/yaygin-egitimi-kurslari.html": {
       "title": "Yaygın Eğitimi Kursları",
@@ -24469,7 +25512,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bu site, Türk kültür ve turizm bakanlığı tarafından sunulan hizmet ve bilgiler içermektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132723/geleneksel-turk-susleme-ve-el-sanatlari-kurslari.html": {
       "title": "Geleneksel Türk Süsleme ve El Sanatları Kursları",
@@ -24479,7 +25540,28 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": "Hepsi",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "geleneksel el sanatları kursları",
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat",
+          "eğitim"
+        ],
+        "program_serisi": [],
+        "ozet": "Türk Süsleme Sanatları ve Geleneksel El Sanatları Kursları, farklı alanlarda kurslar düzenlenmektedir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132728/bakanlikta-staj-yapilabilir-mi.html": {
       "title": "Bakanlıkta staj yapılabilir mi?",
@@ -24489,7 +25571,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Stajlar ile ilgili sıkça sorulan sorular.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132729/geleneksel-el-sanatlari-ve-satis-magazalarimiz-ile-ilgili-sikca-sorulan-sorular.html": {
       "title": "Geleneksel el sanatları ve satış mağazalarımız ile ilgili sıkça sorulan sorular",
@@ -24499,7 +25599,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Geleneksel El Sanatları Merkez Müdürlüğünün faaliyetlerini, Geleneksel El Sanatları ve Mağazalar İşletme Müdürlüğü yürütür. Bakanlık yayınlarının okuyucuya ulaştırılması ve geleneksel el sanatlarımızın tanıtımına yönelik çalışmalar gerçekleştirilir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132735/internet-sitenizdeki-bilgileri-kullanabilir-miyim.html": {
       "title": "İnternet Sitenizdeki bilgileri kullanabilir miyim?",
@@ -24509,7 +25627,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türk Bayrağı ve İstiklal Marşı hakkında genel bilgiler sunuluyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132736/kitap-fuarlari-ile-ilgili-sikca-sorulan-sorular.html": {
       "title": "Kitap fuarları ile ilgili sıkça sorulan sorular",
@@ -24519,7 +25655,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bakanlığın katılımını gösterdiği uluslararası kitap fuarları ve etkinlikle ilgili genel bilgiler",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132741/kutlamalar-festivaller-ve-kulturel-etkinlikler-ile-ilgili-sikca-sorulan-sorular.html": {
       "title": "Kutlamalar, Festivaller ve Kültürel Etkinlikler ile ilgili sıkça sorulan sorular",
@@ -24529,7 +25683,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "digerr",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Kutlamalar, Festivaller ve Kültürel Etkinlikler ile ilgili sıkça sorulan sorularlar Geleneksel El Sanatlarımız Ve Türk Süsleme Sanatlarının Tanıtılması İle İlgili Çalışmalar Nelerdir? El Sanatkarlarının Desteklenmesine Yönelik Ne Gibi Çalışmalar Yapılmaktadır? Nevruz Kutlamaları İle İlgili Ne Gibi Faaliyetler Yapılmaktadır?",
+        "toplam_butce": "T.C. Kültür ve Turizm Bakanlığı ile ilgili bilgiler bulunmaktadır.",
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Kültür ve Turizm Bakanlığı'nın çeşitli faaliyetleriyle ilgili genel bilgiler bulunmaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132742/geleneksel-el-sanatlarimiz-ve-turk-susleme-sanatlarinin-tanitilmasi-ile-ilgili-calismalar-nelerdir.html": {
       "title": "Geleneksel El Sanatlarımız ve Türk Süsleme Sanatlarının tanıtılması ile ilgili çalışmalar nelerdir?",
@@ -24539,7 +25711,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığından güncel haberler ve duyurular",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132743/el-sanatkarlarinin-desteklenmesine-yonelik-ne-gibi-calismalar-yapilmaktadir.html": {
       "title": "El Sanatkarlarının desteklenmesine yönelik ne gibi çalışmalar yapılmaktadır?",
@@ -24579,7 +25769,29 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [
+          "kültür-sanat"
+        ],
+        "program_serisi": [
+          "Nevruz Kutlamaları"
+        ],
+        "ozet": "Nevruz kutlamaları ile ilgili yurt genelinde birçok faaliyet yapılmaktadır. Etkinlikler arasında resim yarışması, şiir yarışması, kompozisyon yarışması, halka açık konserler ve dans gösterileri yer almaktadır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132745/kultur-varliklari-ile-ilgili-sikca-sorulan-sorular.html": {
       "title": "Kültür varlıkları ile ilgili sıkça sorulan sorular",
@@ -24589,7 +25801,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketi": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sıkça Sorulan Sorular Sıkça Sorulan Sorular Neredeyim: S. S. S. Sıkça Sorulan Sorular\n\nTaşınmaz Kültür Varlıklarına Yardım Komisyonu'nca yardım yapılmasına karar verilen proje ve proje uygulama yardımları ile ilgili süreç nasıl ilerlemektedir? 21.7.1983 tarihli ve 2863 sayılı Kültür ve Tabiat Varlıklarını Koruma Kanununun 12. maddesine dayanılarak hazırlanan ve 15.07.2005 tarih ve 25876 sayılı Resmi Gazete’de yayımlanarak yürürlüğe giren Taşınmaz Kültür Varlıklarının Onarımına Yardım Sağlanması 5225 Sayılı Kültür Yatırımlarını ve Girişimlerini Teşvik Kanununun amacı nedir? Arkeoloji Bölümü mezunuyum/öğrencisiyim. Arkeolojik kazılara/yüzey araştırmalarına (gönüllü) katılmak istiyorum. Ne yapmalıyım? Beldemiz/Köyümüz yakınlarında binlerce yıllık uygarlıkların kalıntıları, tarihî kalıntılar defineciler tarafından talan edilmektedir. Bu eserler neden kurtarılmıyor? Beldemiz/Köyümüz yakınlarında binlerce yıllık uygarlıkların kalıntıları, tarihî kalıntılar, yapılar, kale, yeraltı şehri bulunmaktadır. Bu kültür hazinelerinin kazılar sonucu değerlendirilmesi, kurtarılması, turizme açılması için çalışma başlatılmasını istememizi ifade ediyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132786/muze-kart-ve-muze-oren-yerlerine-iliskin-sikca-sorulan-sorular.html": {
       "title": "Müze Kart ve Müze-Ören Yerlerine ilişkin sıkça sorulan sorular",
@@ -24609,7 +25839,27 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "27.07.2026"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sözleşmeselsiz personel alımı başvuru değerlendirme süreci hakkında duyurular ve güncel haberler.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132853/profesyonel-turist-rehberligi-hakkinda-sikca-sorulan-sorular.html": {
       "title": "Profesyonel turist rehberliği hakkında sıkça sorulan sorular",
@@ -24619,7 +25869,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Profesyonel turist rehberliği hakkında sıkça sorulan sorulara bu sayfa cevap bulunuyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132854/sanat-dallariyla-ilgili-sikca-sorulan-sorular.html": {
       "title": "Sanat dallarıyla ilgili sıkça sorulan sorular",
@@ -24629,7 +25897,27 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": [
+          "T.C. Kültür ve Turizm Bakanlığı"
+        ],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı tarafından kültür ve turizm alanındaki faaliyetler ile ilgili güncel haberler ve duyurular.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132869/turizm-faaliyetleriyle-ilgili-sikca-sorulan-sorular.html": {
       "title": "Turizm Faaliyetleriyle İlgili Sıkça Sorulan Sorular",
@@ -24639,7 +25927,28 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "kamu kurumu",
+          "yerel yönetim"
+        ],
+        "kimler_basvurabilir": "İhtiyaca bağlı olarak",
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sıkça sorulan soruları ve cevaplarını sorgularken sizlere yardımcı olması dileğiyle, sitemizde yer alan sıkça sorulan sorular listesindeki tüm soruları tek tek yanıtlandırmış durumdayız.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132881/yayincilik-faaliyetleriyle-ilgili-sikca-sorulan-sorular.html": {
       "title": "Yayıncılık faaliyetleriyle ilgili sıkça sorulan sorular",
@@ -24649,7 +25958,25 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Kültür ve Turizm Bakanlığı tarafından kültür ve turizm işleri ile ilgili güncel haberler ve duyurular",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.ktb.gov.tr/TR-132970/yerel-yonetimlerin-derneklerin-ve-vakiflarin-kulturel-etkinliklerine-yonelik-yapilacak-yardimlara-iliskin-basvurular-ile-ilgili-sikca-sorulan-sorular.html": {
       "title": "Yerel yönetimlerin, Derneklerin ve Vakıfların kültürel etkinliklerine yönelik yapılacak yardımlara ilişkin başvurular ile ilgili sıkça sorulan sorular",
@@ -24696,7 +26023,29 @@
       "source": "Kültür ve Turizm Bakanlığı",
       "source_id": "ktb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [
+          "bireysel_basvuru"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2025-09-02"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Stajlar ile ilgili sıkça sorulan sorular",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/sayfa/5026-bakan-yardimcilari": {
       "title": "Bakan Yardımcıları",
@@ -24706,7 +26055,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Türkiye Bilgi ve İletişim Teknolojileri Bakanlığının genel bilgileri",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/sayfa/3756-misyon-vizyon": {
       "title": "Misyon, Vizyon",
@@ -24728,7 +26095,25 @@
           "source_id": "zafer",
           "url": "https://zafer.gov.tr/misyon-vizyon"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bakanlık gençlik ve spor alanlarında yenilikçi, rekabetçi ve sürdürülebilir politikalar üreterek bilimde, kültürde, sanatta ve sporda donanımlı gençler yetiştirmek; spor kültürünün geniş kitlelere yayılmasını teşvik ederek dünyada güçlü bir spor ülkesi olmak.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/sayfa/35-teskilat-semasi": {
       "title": "Teşkilat Şeması",
@@ -24799,7 +26184,28 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [
+          "yönetici",
+          "kamu_kurumu"
+        ],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": "belirtilmedi",
+        "faaliyet_suresi": "belirtilmedi",
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Bakanlığımız taşra teşkilatı Gençlik ve Spor İl Müdürlüklerinde istihdam edilmek üzere, boş bulunan sözleşmeli yurt yönetim personeli ve gençlik çalışanı pozisyonları için sözlü sınav çağrısı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/duyuru/301325-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-sozlu-sinava-katilim-duyurusu": {
       "title": "5Ağustos20262026 YILI SÖZLEŞMELİ DİYETİSYEN, PSİKOLOG VE  SOSYAL ÇALIŞMACI ALIMI SÖZLÜ SINAVA KATILIM DUYURUSU",
@@ -24809,7 +26215,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "2026 Yılı Sözleşmeli Diyetisyen, Psikolog ve Sosyal Çalışmacı Alımı sözlü sınava katılan adayların listesi açıklanacaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/duyuru/301254-rehberlik-ve-teftis-baskanligi-mufettis-yardimciligi-giris-sinavi-sozlu-sinav-duyurusu": {
       "title": "31Temmuz2026REHBERLİK VE TEFTİŞ BAŞKANLIĞI MÜFETTİŞ YARDIMCILIĞI GİRİŞ SINAVI SÖZLÜ SINAV DUYURUSU",
@@ -24819,7 +26243,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Sözlü sınav yeri ve tarihi Kariyer Kapısı platformunda yayınlanmıştır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/duyuru/300997-2026-yili-sozlesmeli-diyetisyen-psikolog-ve-sosyal-calismaci-alimi-duyurusu": {
       "title": "17Temmuz20262026 YILI SÖZLEŞMELİ DİYETİSYEN, PSİKOLOG ve SOSYAL ÇALIŞMACI ALIMI DUYURUSU",
@@ -24829,7 +26271,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "total_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "2026 yılı sözleşmeli diyetisyen, psikolog ve sosyal çalışmacı alımı duyurusu. Bakanlık taşra teşkilatı Gençlik ve Spor İl Müdürlüklerinde istihdam edilmek üzere boş bulunan pozisyonlar için sözlü sınav sonucu başarı sırasına göre adaylar arasından alımı yapılacaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/duyuru/300992-tc-genclik-ve-spor-bakanligi-kredi-ve-yurtlar-genel-mudurlugu-isletici-duyurusu": {
       "title": "16Temmuz2026T.C. GENÇLİK VE SPOR BAKANLIĞI KREDİ VE YURTLAR GENEL MÜDÜRLÜĞÜ İŞLETİCİ DUYURUSU",
@@ -24839,7 +26299,27 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": true,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-07-29"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "T.C. Gençlik ve Spor Bakanlığı Kredi ve yurtlar Genel Müdürlüğünün işleticisi olarak işletme seçimine ilişkin duyurudur.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haberler": {
       "title": "Tüm Haberler",
@@ -24881,7 +26361,25 @@
           "source_id": "fka",
           "url": "https://fka.gov.tr/fka-haberler"
         }
-      ]
+      ],
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bakan bakanlık hakkında güncel haberler.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/301026-bakan-baktan-milli-para-bisikletciler-icin-tebrik-mesaji": {
       "title": "BAKAN BAK’TAN MİLLİ PARA BİSİKLETÇİLER İÇİN TEBRİK MESAJI18.07.2026",
@@ -24893,7 +26391,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplom_butce": null,
+        "son_basvuru_tarihleri": [],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/301020-bakan-dr-osman-askin-bak-batmanda": {
       "title": "BAKAN DR. OSMAN AŞKIN BAK BATMAN’DA17.07.2026",
@@ -24905,7 +26421,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak, sporun birleştirici ve iyileştirici gücünü Batman'da yaydığını vurgulayarak, kentte tenis, su sporları merkezi çalışması, Hasankeyf'teki gençlik kampı gibi yatırımları ön plana çıkardı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/300998-genclik-ve-spor-bakanligi-550-personel-alimi-yapacak": {
       "title": "GENÇLİK VE SPOR BAKANLIĞI 550 PERSONEL ALIMI YAPACAK17.07.2026",
@@ -24917,7 +26451,28 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": [
+          "2026-07-20",
+          "2026-07-24"
+        ],
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Gençlik ve Spor Bakanlığı'nın 2026 Yılı Sözleşmeli Diyetisyen, Psikolog ve Sosyal Çalışmacı Alımı duyurusu yayımlandı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/300964-milli-iradenin-zaferini-asla-unutmayacagiz-ve-unutturmayacagiz": {
       "title": "\"MİLLİ İRADENİN ZAFERİNİ ASLA UNUTMAYACAĞIZ VE UNUTTURMAYACAĞIZ\"15.07.2026",
@@ -24929,7 +26484,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak, 15 Temmuz Demokrasi ve Milli Birlik Günü'nde \"İrade Bizim, Zafer Bizim\" temalı yürüyüşe katıldı ve milli iradenin zaferini unutmayacağını söyledi.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/300945-istikrarli-basarilarla-voleybol-ulkesi-haline-geldik": {
       "title": "“İSTİKRARLI BAŞARILARLA VOLEYBOL ÜLKESİ HALİNE GELDİK”14.07.2026",
@@ -24941,7 +26514,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "\"Haber: Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak, China'da düzenlenen 2026 ISF Dünya Liseler Arası Voleybol Şampiyonası'nda şampiyon olan TVF Spor Lisesi Erkek Voleybol Takımını kabul etti.\"",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/300941-bakan-bak-ozel-sporcular-ile-bir-araya-geldi": {
       "title": "BAKAN BAK ÖZEL SPORCULAR İLE BİR ARAYA GELDİ13.07.2026",
@@ -24953,7 +26544,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": "Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak, özel sporcuları kabul etti.",
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak, 2026 SU-DS Dünya Şampiyonası ve IBA21 Dünya Basketbol Şampiyonası’nda 28 altın, 5 gümüş ve 18 bronz madalya kazanan özel sporcuları kabul etti.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/300912-bakan-baktan-milli-aticilar-icin-tebrik-mesaji": {
       "title": "BAKAN BAK’TAN MİLLİ ATICILAR İÇİN TEBRİK MESAJI12.07.2026",
@@ -24965,7 +26574,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": null,
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak, milli sporcular Yavuz İlnam ve Safiye Temizdemir için tebrik mesajı yayımladı.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/haber-detay/300911-bakan-bak-18-yas-alti-kadin-voleybol-milli-takimini-tebrik-etti": {
       "title": "BAKAN BAK 18 YAŞ ALTI KADIN VOLEYBOL MİLLİ TAKIMINI TEBRİK ETTİ12.07.2026",
@@ -24977,7 +26604,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "haber",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": "Gençlik ve Spor Bakanı Dr. Osman Aşkın Bak, 18 Yaş Altı Kadınlar Avrupa Voleybol Şampiyonası'nda finalde mücadele eden 18 Yaş Altı Kadın Voleybol Milli Takımını yürekten kutluyor.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/sayfa/3560-kvkk-aydinlatma-metni": {
       "title": "KVKK Aydınlatma Metni",
@@ -24999,7 +26644,25 @@
       "source": "Gençlik ve Spor Bakanlığı",
       "source_id": "gsb",
       "first_seen": "2026-08-07",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Bilgi Güvenliği Politikamız, T.C. Gençlik ve Spor Bakanlığı Bilgi İşlem Dairesi Başkanlığı tarafından sunulan hizmetlerde bilgi güvenliğinin sağlanmasını, risk yönetimini güvence altına almak, bilgi güvenlik yönetimi süreç performansını ölçmek ve bilgi güvenlik ile ilgili konularda üçüncü taraflarla olan ilişkilerin düzenlenmesini sağlamaktır.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.gsb.gov.tr/tr/bilgi-guvenligi-ihlal-bildirimi": {
       "title": "Bilgi Güvenliği İhlal Bildirimi",
@@ -25016,7 +26679,25 @@
           "source_id": "tarim_orman",
           "url": "https://www.tarimorman.gov.tr/btgm/Sayfalar/Bilgi-G%c3%bcvenligi-Ihlal-Bildirimi.aspx"
         }
-      ]
+      ],
+      "details": {
+        "tur": "diger",
+        "basvuruya_acik": null,
+        "kimler_etiketleri": null,
+        "kimler_basvurabilir": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "hibe_miktari": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": null,
+        "program_serisi": null,
+        "ozet": "Gençlik ve Spor Bakanlığı Bilgi İşlem Dairesi Başkanlığı Siber Olaylara Müdahale Ekibi (SOME), Bakanlığımız sistemlerinde bilgi güvenliği açıklıklarını önleme ve giderme ile görevlidir.",
+        "ai_ile_dogrulandi": true,
+        "ai_saglayici": "groq"
+      }
     },
     "https://www.istka.org.tr/kalkinma-ajanslari-hakkinda": {
       "title": "Kalkınma Ajansları Hakkında",
@@ -53466,6 +55147,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#90f2f1e2e4f9fee9f4ffd0f2f1fbfbf1bef7ffe6bee4e2"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#0b7164656c7e676f6a60726f644b696a60606a256c647d257f79"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7c171d0e1d1e09170518133c1e1d17171d521b130a52080e"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8defecfff9e4e3f4e9e2cdefece6e6eca3eae2fba3f9ff"
         }
       ]
     },
@@ -56326,6 +58022,139 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-15",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-yapay-zeka-film-yarismasi-proje-oneri-raporu-sonuclari-aciklandi/": {
+      "title": "15.08.2026YARIŞMATEKNOFEST Yapay Zeka Film Yarışması Proje Öneri Raporu Sonuçları AçıklandıYapay Zeka Film Yarışması Proje Öneri Raporu sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-yapay-zeka-film-yarismasi-proje-oneri-raporu-sonuclari-aciklandi/",
+      "date": "2026-08-15",
+      "on_tarihler": [
+        "2026-08-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-16",
+      "olasi_tur": "sonuc_olabilir",
+      "details": {
+        "tur": "sonuc_ilani_tahmini",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": false
+      }
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-savasan-iha-avci-drone-yarismasi-simulasyon-ucus-kanit-video-sonuclari-aciklandi/": {
+      "title": "15.08.2026YARIŞMATEKNOFEST Savaşan İHA Avcı Drone Yarışması Simülasyon Uçuş Kanıt Video Sonuçları AçıklandıSavaşan İHA Avcı Drone Yarışması Simülasyon Uçuş Kanıt video sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-savasan-iha-avci-drone-yarismasi-simulasyon-ucus-kanit-video-sonuclari-aciklandi/",
+      "date": "2026-08-15",
+      "on_tarihler": [
+        "2026-08-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-16",
+      "olasi_tur": "sonuc_olabilir",
+      "details": {
+        "tur": "sonuc_ilani_tahmini",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": false
+      }
+    },
+    "https://teknofest.org/tr/duyurular/teknofest-insansiz-deniz-araci-yarismasi-sistem-kabiliyeti-video-sonuclari-aciklandi/": {
+      "title": "15.08.2026YARIŞMATEKNOFEST İnsansız Deniz Aracı Yarışması Sistem Kabiliyeti Video Sonuçları Açıklandıİnsansız Deniz Aracı Yarışması Sistem Kabiliyeti video sonuçları açıklanmıştır.",
+      "url": "https://teknofest.org/tr/duyurular/teknofest-insansiz-deniz-araci-yarismasi-sistem-kabiliyeti-video-sonuclari-aciklandi/",
+      "date": "2026-08-15",
+      "on_tarihler": [
+        "2026-08-15"
+      ],
+      "source": "TEKNOFEST",
+      "source_id": "teknofest",
+      "first_seen": "2026-08-16",
+      "olasi_tur": "sonuc_olabilir",
+      "details": {
+        "tur": "sonuc_ilani_tahmini",
+        "basvuruya_acik": false,
+        "kimler_etiketleri": [],
+        "kimler_basvurabilir": null,
+        "hibe_miktari": null,
+        "hibe_miktari_min_tl": null,
+        "hibe_miktari_max_tl": null,
+        "toplam_butce": null,
+        "son_basvuru_tarihleri": null,
+        "desteklenen_aktiviteler": null,
+        "faaliyet_suresi": null,
+        "temalar": [],
+        "program_serisi": [],
+        "ozet": null,
+        "ai_ile_dogrulandi": false
+      }
+    },
+    "https://www.tarimorman.gov.tr/Haber/7227/Bakan-Yumaklidan-Tarimda-Rekor-Mujdesi-140-Milyon-Tonluk-Uretim": {
+      "title": "BAKAN YUMAKLI'DAN TARIMDA REKOR MÜJDESİ: 140 MİLYON TONLUK ÜRETİM",
+      "url": "https://www.tarimorman.gov.tr/Haber/7227/Bakan-Yumaklidan-Tarimda-Rekor-Mujdesi-140-Milyon-Tonluk-Uretim",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-16",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#0b7164656c7e676f6a60726f644b696a60606a256c647d257f79": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#0b7164656c7e676f6a60726f644b696a60606a256c647d257f79",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-16",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7c171d0e1d1e09170518133c1e1d17171d521b130a52080e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7c171d0e1d1e09170518133c1e1d17171d521b130a52080e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-16",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#8defecfff9e4e3f4e9e2cdefece6e6eca3eae2fba3f9ff": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#8defecfff9e4e3f4e9e2cdefece6e6eca3eae2fba3f9ff",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-16",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
