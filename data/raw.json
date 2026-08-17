@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-08-16",
+  "last_updated": "2026-08-17",
   "source_status": {
     "ka_gov": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://ka.gov.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 3,
+      "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 149181 byte HTML, 109 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 44,
       "diag": "/tr/haberler -> HTTP 200, 36955 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/gelismis-arama -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /gelismis-arama (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.yatirimadestek.gov.tr/gelismis-arama\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 10,
+      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /site/tr/genel/destekler/3/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /site/tr/genel/duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.kosgeb.gov.tr/\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 44,
+      "diag": "/ -> HTTP 200, 109587 byte HTML, 158 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 69,
       "diag": "/duyurular/ -> HTTP 200, 196130 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 27,
-      "diag": "/Duyurular -> HTTP 200, 27636 byte HTML, 93 link, 29 olası duyuru"
+      "diag": "/Duyurular -> HTTP 200, 27635 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 94846 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 81,
       "diag": "/ -> HTTP 200, 860062 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 25,
       "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 154614 byte HTML, 92 link, 28 olası duyuru"
     },
     "sivil_alan": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 26,
       "diag": "/category/hibe-duyurulari/ -> HTTP 200, 301889 byte HTML, 128 link, 46 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 298 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 300 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 69,
-      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59984 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 583258 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
+      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59984 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 583335 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 3,
       "diag": "/@projeyonetimi -> HTTP 200, 147332 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 0,
       "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27452 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/ihaleler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /ihaleler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.cfcu.gov.tr/ihaleler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 8,
+      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 355,
       "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213348 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 68,
       "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15890 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338088 byte HTML, 256 link, 186 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 22,
       "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 53763 byte HTML, 106 link, 59 olası duyuru"
     },
     "istka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvuru-cagrilari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.istka.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 24,
+      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/ajans-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /ajans-destek-programlari (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://ankaraka.org.tr/ajans-destek-programlari\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 71,
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54412 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://bebka.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 28,
+      "diag": "/destekler -> HTTP 200, 144176 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 289487 byte HTML, 309 link, 66 olası duyuru"
     },
     "karacadag": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler/ (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.karacadag.gov.tr/destekler/\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 19,
+      "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/tr/guncel-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/guncel-destek -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/guncel-destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.cka.org.tr/tr/guncel-destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 19,
+      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.baka.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 1,
+      "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /medya/guncel-duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler/destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.dogaka.gov.tr/destekler/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 76,
+      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler/guncel-destek-programlari (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.mevka.org.tr/destekler/guncel-destek-programlari\", waiting until \"networkidle\"\n"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://oka.gov.tr/\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 44,
+      "diag": "/ -> HTTP 200, 122403 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/acik-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /acik-destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.doka.org.tr/acik-destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 21,
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226312 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.oran.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 88,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 114217 byte HTML, 195 link, 130 olası duyuru"
     },
     "marka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.marka.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 3,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483171 byte HTML, 648 link, 177 olası duyuru"
     },
     "gmka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/acik-destek-programlari -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /acik-destek-programlari (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.gmka.gov.tr/acik-destek-programlari\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 39,
+      "diag": "/acik-destek-programlari -> HTTP 200, 71443 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/basvurusu-devam-eden-destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://geka.gov.tr/\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 129,
+      "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
     },
     "ika": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.ika.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 2,
+      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/tr/33286/DESTEKLER -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /tr/33286/DESTEKLER (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.trakyaka.org.tr/tr/33286/DESTEKLER\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 60,
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://zafer.gov.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 80,
+      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.ahika.gov.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 56,
+      "diag": "/destekler -> HTTP 200, 29760 byte HTML, 158 link, 95 olası duyuru"
     },
     "kuzka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/ -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.kuzka.gov.tr/\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 111,
+      "diag": "/ -> HTTP 200, 189009 byte HTML, 269 link, 132 olası duyuru"
     },
     "kudaka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/home -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /home (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://kudaka.gov.tr/home\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 127,
+      "diag": "/home -> HTTP 200, 101624 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.serka.gov.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 147,
+      "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
     },
     "daka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.daka.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 74,
+      "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
     },
     "fka": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://fka.gov.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 65,
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66681 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
-      "ok": false,
-      "checked": "2026-08-16",
-      "found": 0,
-      "diag": "/destekler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /destekler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.dika.org.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-08-17",
+      "found": 27,
+      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-16",
+      "checked": "2026-08-17",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156364 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -22296,7 +22296,7 @@
       "first_seen": "2026-08-15"
     },
     "https://ufukavrupa.org.tr/tr/haberler/eic-kilavuz-pathfinder-stratejik-oncelik-cagrilari-bilgi-gunu-24-agustos-2026-cevrim-ici": {
-      "title": "EIC Kılavuz (Pathfinder) Stratejik Öncelik Çağrıları Bilgi Günü, 24 Ağustos 2026, Çevrim içi",
+      "title": "EIC Kılavuz (Pathfinder) Stratejik Öncelik Çağrıları Bilgi Günü, 24 Ağustos 2026, Çevrim İçi",
       "url": "https://ufukavrupa.org.tr/tr/haberler/eic-kilavuz-pathfinder-stratejik-oncelik-cagrilari-bilgi-gunu-24-agustos-2026-cevrim-ici",
       "date": "2026-08-24",
       "on_tarihler": [],
@@ -22453,6 +22453,42 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-16"
+    },
+    "https://www.kuzka.gov.tr/form/proje-oneri-formu-1": {
+      "title": "Proje Öneri Formu",
+      "url": "https://www.kuzka.gov.tr/form/proje-oneri-formu-1",
+      "date": null,
+      "on_tarihler": [],
+      "source": "KUZKA (Kuzey Anadolu Kalkınma Ajansı)",
+      "source_id": "kuzka",
+      "first_seen": "2026-08-17"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#90eafffef7e5fcf4f1fbe9f4ffd0f2f1fbfbf1bef7ffe6bee4e2": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#90eafffef7e5fcf4f1fbe9f4ffd0f2f1fbfbf1bef7ffe6bee4e2",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-17"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#660d07140704130d1f02092604070d0d0748010910481214": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#660d07140704130d1f02092604070d0d0748010910481214",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-17"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#33515241475a5d4a575c7351525858521d545c451d4741": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#33515241475a5d4a575c7351525858521d545c451d4741",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-17"
     }
   }
 }
