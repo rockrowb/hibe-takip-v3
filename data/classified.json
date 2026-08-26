@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-26",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605152 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 148728 byte HTML, 103 link, 37 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 44,
-      "diag": "/tr/haberler -> HTTP 200, 37118 byte HTML, 117 link, 49 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37412 byte HTML, 117 link, 49 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 10,
       "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 44,
       "diag": "/ -> HTTP 200, 110945 byte HTML, 160 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 69,
-      "diag": "/duyurular/ -> HTTP 200, 196341 byte HTML, 324 link, 156 olası duyuru"
+      "diag": "/duyurular/ -> HTTP 200, 196343 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 27,
       "diag": "/Duyurular -> HTTP 200, 27731 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 18,
       "diag": "/tr/duyuru -> HTTP 200, 95377 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 55865 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 55958 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 81,
-      "diag": "/ -> HTTP 200, 993925 byte HTML, 123 link, 81 olası duyuru"
+      "diag": "/ -> HTTP 200, 993692 byte HTML, 122 link, 81 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 155164 byte HTML, 92 link, 28 olası duyuru"
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 155292 byte HTML, 92 link, 28 olası duyuru"
     },
     "sivil_alan": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 26,
       "diag": "/category/hibe-duyurulari/ -> HTTP 200, 301605 byte HTML, 128 link, 46 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 302 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 300 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 69,
       "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59984 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 589424 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 3,
-      "diag": "/@projeyonetimi -> HTTP 200, 147332 byte HTML, 16 link, 3 olası duyuru"
+      "diag": "/@projeyonetimi -> HTTP 200, 153177 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 0,
-      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27370 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 27391 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 8,
-      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
+      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32335 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213467 byte HTML, 587 link, 392 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 213396 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 68,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 337468 byte HTML, 256 link, 186 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15912 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 338593 byte HTML, 258 link, 187 olası duyuru"
     },
     "gsb": {
-      "ok": true,
-      "checked": "2026-08-25",
-      "found": 22,
-      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 54036 byte HTML, 106 link, 59 olası duyuru"
+      "ok": false,
+      "checked": "2026-08-26",
+      "found": 0,
+      "diag": "/Haberler -> HTTP 404 | /Duyurular -> HTTP 404 | / -> HTTP 200, 3446 byte HTML, 2 link, 1 olası duyuru | /Haberler (Playwright) -> HTTP 200, 678 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "istka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 24,
       "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 134617 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 71,
       "diag": "/ajans-destek-programlari -> HTTP 200, 54413 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 68236 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 28,
-      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 290562 byte HTML, 310 link, 66 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 147446 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 291572 byte HTML, 310 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 19,
       "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 1,
       "diag": "/destekler -> HTTP 200, 28248 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35444 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 76,
       "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 0,
       "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 44,
       "diag": "/ -> HTTP 200, 122492 byte HTML, 277 link, 63 olası duyuru"
     },
     "doka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 21,
       "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 226329 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 88,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 113935 byte HTML, 195 link, 130 olası duyuru"
     },
     "marka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 3,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 483935 byte HTML, 648 link, 177 olası duyuru"
     },
     "gmka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 39,
       "diag": "/acik-destek-programlari -> HTTP 200, 71443 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 129,
       "diag": "/ -> HTTP 200, 213018 byte HTML, 358 link, 212 olası duyuru"
     },
     "ika": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 2,
       "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37201 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32717 byte HTML, 139 link, 90 olası duyuru"
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 80,
       "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 54,
       "diag": "/destekler -> HTTP 200, 28988 byte HTML, 155 link, 92 olası duyuru"
     },
     "kuzka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 111,
-      "diag": "/ -> HTTP 200, 187243 byte HTML, 245 link, 134 olası duyuru"
+      "diag": "/ -> HTTP 200, 191951 byte HTML, 248 link, 135 olası duyuru"
     },
     "kudaka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 127,
       "diag": "/home -> HTTP 200, 101627 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 147,
       "diag": "/destekler -> HTTP 200, 62109 byte HTML, 258 link, 200 olası duyuru"
     },
     "daka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 74,
       "diag": "/destekler -> HTTP 200, 21411 byte HTML, 155 link, 109 olası duyuru"
     },
     "fka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 65,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66681 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 27,
       "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-08-25",
+      "checked": "2026-08-26",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156248 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -26224,6 +26224,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c3a1a2b1b7aaadbaa7ac83a1a2a8a8a2eda4acb5edb7b1"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a9d3c6c7cedcc5cdc8c2d0cdc6e9cbc8c2c2c887cec6df87dddb"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7912180b181b0c12001d16391b18121218571e160f570d0b"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2a0a3b0b6abacbba6ad82a0a3a9a9a3eca5adb4ecb6b0"
         }
       ]
     },
@@ -26669,7 +26684,14 @@
       "source": "Tarım ve Orman Bakanlığı",
       "source_id": "tarim_orman",
       "first_seen": "2026-08-08",
-      "olasi_tur": "belirsiz"
+      "olasi_tur": "belirsiz",
+      "also_found_in": [
+        {
+          "source": "Tarım ve Orman Bakanlığı",
+          "source_id": "tarim_orman",
+          "url": "https://www.tarimorman.gov.tr/Duyuru/2678/Iklim-Fenolojik-Durum-Ve-Sulama-Izleme-Istatistik-Bulteni-Yayinlandi"
+        }
+      ]
     },
     "https://www.tarimorman.gov.tr/Duyuru/2642/Unvan-Degisikligi-Sozlu-Sinavi": {
       "title": "Ünvan Değişikliği Sözlü Sınavı",
@@ -29402,6 +29424,124 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-08-25",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/marie-sklodowska-curie-actions-msca-doctoral-networks-dn-kapsaminda-proje-onerisi": {
+      "title": "Marie Skłodowska-Curie Actions (MSCA) Doctoral Networks (DN) kapsamında proje önerisi hazırlayan araştırmacılara yönelik “How to Write a Competitive Proposal?” başlıklı eğitim etkinliği, 7 Eylül 2026 tarihinde gerçekleştirilecektir.",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/marie-sklodowska-curie-actions-msca-doctoral-networks-dn-kapsaminda-proje-onerisi",
+      "date": "2026-09-07",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/icturkiye-2026-uluslararasi-ag-kurma-etkinligi-29-eylul-2026-cevrimici": {
+      "title": "ICTürkiye 2026 Uluslararası Ağ Kurma Etkinliği, 29 Eylül 2026 (Çevrimiçi)",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/icturkiye-2026-uluslararasi-ag-kurma-etkinligi-29-eylul-2026-cevrimici",
+      "date": "2026-09-29",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/eic-kilavuz-pathfinder-stratejik-oncelik-cagrilari-bilgi-gunu-150yi-askin-katilimciyla": {
+      "title": "EIC Kılavuz (Pathfinder) Stratejik Öncelik Çağrıları Bilgi Günü 150’yi Aşkın Katılımcıyla Gerçekleştirildi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/eic-kilavuz-pathfinder-stratejik-oncelik-cagrilari-bilgi-gunu-150yi-askin-katilimciyla",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/cetpartnership-2026-konferansi-enerji-guvenligi-ve-dayanikliligi-icin-etkili-arastirma": {
+      "title": "CETPartnership 2026 Konferansı, “Enerji Güvenliği ve Dayanıklılığı İçin Etkili Araştırma, Teknoloji Geliştirme ve Yenilik” Temasıyla Düzenlenecek",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/cetpartnership-2026-konferansi-enerji-guvenligi-ve-dayanikliligi-icin-etkili-arastirma",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.sivildusun.net/cizgi-festivali-sanat-ve-insan-haklarini-bulusturuyor/": {
+      "title": "ÇİZGİ Festivali sanat ve insan haklarını buluşturuyor",
+      "url": "https://www.sivildusun.net/cizgi-festivali-sanat-ve-insan-haklarini-bulusturuyor/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Sivil Düşün AB Programı",
+      "source_id": "sivil_dusun",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.ktb.gov.tr/TR-472351/karahantepede-11-bin-yillik-benzersiz-heykel.html": {
+      "title": "KARAHANTEPE’DE 11 BİN YILLIK BENZERSİZ HEYKEL",
+      "url": "https://www.ktb.gov.tr/TR-472351/karahantepede-11-bin-yillik-benzersiz-heykel.html",
+      "date": "2026-08-25",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2679/Turkiye-Iklim-Akilli-Ve-Rekabetci-Buyume-Projesi-%e2%80%93-Su-Team-Yapim-Isi-Ihalesi-Sonuc-Bildirimi": {
+      "title": "Türkiye İklim Akıllı ve Rekabetçi Büyüme Projesi – Su-Team Yapım İşi İhalesi Son ...",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2679/Turkiye-Iklim-Akilli-Ve-Rekabetci-Buyume-Projesi-%e2%80%93-Su-Team-Yapim-Isi-Ihalesi-Sonuc-Bildirimi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2678/Iklim-Fenolojik-Durum-Ve-Sulama-Izleme-Istatistik-Bulteni-Yayinlandi": {
+      "title": "İklim, Fenolojik Durum Ve Sulama İzleme İstatistik Bülteni Yayınlandı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2678/Iklim-Fenolojik-Durum-Ve-Sulama-Izleme-Istatistik-Bulteni-Yayinlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://www.tarimorman.gov.tr/Duyuru/2643/Iklim-Fenolojik-Durum-Ve-Sulama-Izleme-Istatistik-Bulteni-Yayinlandi",
+      "duplicate_of_source": "Tarım ve Orman Bakanlığı"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#a9d3c6c7cedcc5cdc8c2d0cdc6e9cbc8c2c2c887cec6df87dddb": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#a9d3c6c7cedcc5cdc8c2d0cdc6e9cbc8c2c2c887cec6df87dddb",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7912180b181b0c12001d16391b18121218571e160f570d0b": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7912180b181b0c12001d16391b18121218571e160f570d0b",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-26",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2a0a3b0b6abacbba6ad82a0a3a9a9a3eca5adb4ecb6b0": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#c2a0a3b0b6abacbba6ad82a0a3a9a9a3eca5adb4ecb6b0",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-08-26",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
