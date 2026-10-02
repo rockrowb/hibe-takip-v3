@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605377 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 152284 byte HTML, 113 link, 41 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 37862 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 37743 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 10,
       "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 45,
-      "diag": "/ -> HTTP 200, 111256 byte HTML, 160 link, 74 olası duyuru"
+      "diag": "/ -> HTTP 200, 110927 byte HTML, 159 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 69,
-      "diag": "/duyurular/ -> HTTP 200, 197175 byte HTML, 324 link, 156 olası duyuru"
+      "diag": "/duyurular/ -> HTTP 200, 197173 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 27,
-      "diag": "/Duyurular -> HTTP 200, 27492 byte HTML, 93 link, 29 olası duyuru"
+      "diag": "/Duyurular -> HTTP 200, 27638 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 96565 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 96603 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
-      "ok": false,
-      "checked": "2026-10-01",
-      "found": 0,
-      "diag": "/destekler -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /destekler (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /duyurular -> hata: HTTPSConnectionPool(host='ticaret.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by NameResolutionError(\"HTTPSConnection(host='ticaret.gov.tr', port=443): Failed to resolve 'ticaret.gov.tr' ([Errno -3] Temporary failure in name resolution)\")) | /destekler (Playwright) -> hata: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ticaret.gov.tr/destekler\nCall log:\nnavigating to \"https://ticaret.gov.tr/destekler\", waiting until \"networkidle\"\n"
+      "ok": true,
+      "checked": "2026-10-02",
+      "found": 4,
+      "diag": "/destekler -> HTTP 200, 55866 byte HTML, 160 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 51,
       "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 82,
-      "diag": "/ -> HTTP 200, 717136 byte HTML, 121 link, 82 olası duyuru"
+      "diag": "/ -> HTTP 200, 929434 byte HTML, 122 link, 82 olası duyuru"
     },
     "sivil_dusun": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 25,
       "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 155234 byte HTML, 92 link, 28 olası duyuru"
     },
     "sivil_alan": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 17,
-      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 147854 byte HTML, 122 link, 46 olası duyuru"
+      "diag": "/category/hibe-duyurulari/ -> HTTP 200, 148929 byte HTML, 124 link, 46 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 300 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 302 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 69,
-      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59960 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 590426 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
+      "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59960 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 590523 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 3,
       "diag": "/@projeyonetimi -> HTTP 200, 153270 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 0,
       "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 28566 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 8,
-      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
+      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32335 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 355,
       "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215705 byte HTML, 587 link, 392 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369256 byte HTML, 262 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 369923 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 22,
       "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54253 byte HTML, 106 link, 59 olası duyuru"
     },
     "istka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 24,
       "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 136535 byte HTML, 127 link, 60 olası duyuru"
     },
     "ankaraka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
+      "diag": "/ajans-destek-programlari -> HTTP 200, 54463 byte HTML, 123 link, 86 olası duyuru"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 69172 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 28,
       "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 288215 byte HTML, 307 link, 66 olası duyuru"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 19,
       "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
     },
     "baka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 1,
       "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35587 byte HTML, 94 link, 44 olası duyuru"
     },
     "dogaka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 76,
       "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 0,
       "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 45,
       "diag": "/ -> HTTP 200, 124271 byte HTML, 280 link, 64 olası duyuru"
     },
     "doka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 222262 byte HTML, 130 link, 53 olası duyuru"
+      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 177902 byte HTML, 130 link, 53 olası duyuru"
     },
     "oran": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 77,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 108211 byte HTML, 184 link, 120 olası duyuru"
     },
     "marka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 484482 byte HTML, 650 link, 181 olası duyuru"
+      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 484481 byte HTML, 650 link, 181 olası duyuru"
     },
     "gmka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 39,
       "diag": "/acik-destek-programlari -> HTTP 200, 71592 byte HTML, 94 link, 51 olası duyuru"
     },
     "geka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 131,
       "diag": "/ -> HTTP 200, 213391 byte HTML, 359 link, 214 olası duyuru"
     },
     "ika": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 2,
       "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37196 byte HTML, 120 link, 61 olası duyuru"
     },
     "trakyaka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 60,
       "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32629 byte HTML, 139 link, 90 olası duyuru"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 260906 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 262231 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 51,
       "diag": "/destekler -> HTTP 200, 28578 byte HTML, 146 link, 85 olası duyuru"
     },
     "kuzka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 115,
-      "diag": "/ -> HTTP 200, 228264 byte HTML, 260 link, 144 olası duyuru"
+      "diag": "/ -> HTTP 200, 914730 byte HTML, 260 link, 144 olası duyuru"
     },
     "kudaka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 126,
       "diag": "/home -> HTTP 200, 101746 byte HTML, 196 link, 134 olası duyuru"
     },
     "serka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 145,
       "diag": "/destekler -> HTTP 200, 61685 byte HTML, 256 link, 198 olası duyuru"
     },
     "daka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 28,
       "diag": "/destekler -> HTTP 200, 51379 byte HTML, 72 link, 49 olası duyuru"
     },
     "fka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 65,
       "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66689 byte HTML, 167 link, 73 olası duyuru"
     },
     "dika": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 27,
       "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-10-01",
+      "checked": "2026-10-02",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156194 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -360,7 +360,7 @@
     "provider": "groq",
     "quota_exceeded": false,
     "quota_error": null,
-    "checked_at": "2026-10-01T12:08:37Z",
+    "checked_at": "2026-10-02T11:40:01Z",
     "pending_count": 150
   },
   "items": {
@@ -14842,7 +14842,7 @@
       }
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
-      "title": "Towards Artificial General Intelligence (AGI) for healthcare",
+      "title": "Towards the next generation of frontier Artificial Intelligence models for healthcare",
       "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
       "date": "2027-06-03",
       "on_tarihler": [],
@@ -14850,13 +14850,6 @@
       "source_id": "eu_funding_portal",
       "first_seen": "2026-08-07",
       "olasi_tur": "belirsiz",
-      "also_found_in": [
-        {
-          "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
-          "source_id": "eu_funding_portal",
-          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details-tr/HORIZON-HLTH-2027-03-TOOL-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate"
-        }
-      ],
       "details": {
         "tur": "haber",
         "basvuruya_acik": null,
@@ -43798,11 +43791,12 @@
       "olasi_tur": "belirsiz"
     },
     "https://zafer.gov.tr/destek-programlari/girisimci-ve-guclu-sivil-toplum-mali-destek-programi": {
-      "title": "GİSEP02.10.2026 23:59Girişimci ve Güçlü Sivil Toplum Mali Destek ProgramıAlternatif Hibe Desteği",
+      "title": "GİSEP02.10.2026 23:59 (uzatıldı 16.10.2026 23:59)Girişimci ve Güçlü Sivil Toplum Mali Destek ProgramıAlternatif Hibe Desteği",
       "url": "https://zafer.gov.tr/destek-programlari/girisimci-ve-guclu-sivil-toplum-mali-destek-programi",
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -43855,6 +43849,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -43875,6 +43870,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -43921,6 +43917,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -43972,6 +43969,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44019,6 +44017,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44059,6 +44058,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44109,6 +44109,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44157,6 +44158,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44207,6 +44209,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44254,6 +44257,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44292,6 +44296,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44330,6 +44335,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44379,6 +44385,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44423,6 +44430,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44466,6 +44474,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44504,6 +44513,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44544,6 +44554,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44586,6 +44597,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44628,6 +44640,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44666,6 +44679,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44708,6 +44722,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44753,6 +44768,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44793,6 +44809,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44831,6 +44848,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44874,6 +44892,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44916,6 +44935,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -44956,6 +44976,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45000,6 +45021,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45045,6 +45067,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45087,6 +45110,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45129,6 +45153,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45171,6 +45196,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45213,6 +45239,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45253,6 +45280,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45281,6 +45309,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45321,6 +45350,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45361,6 +45391,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45402,6 +45433,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45440,6 +45472,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45484,6 +45517,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45522,6 +45556,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45552,6 +45587,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45594,6 +45630,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45634,6 +45671,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45672,6 +45710,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45710,6 +45749,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45752,6 +45792,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -45790,6 +45831,7 @@
       "date": "2026-10-02",
       "on_tarihler": [
         "2026-10-02",
+        "2026-10-16",
         "2026-05-08",
         "2026-05-15",
         "2025-02-13",
@@ -58342,6 +58384,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#d7b5b6a5a3beb9aeb3b897b5b6bcbcb6f9b0b8a1f9a3a5"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#95effafbf2e0f9f1f4feecf1fad5f7f4fefef4bbf2fae3bbe1e7"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#553e34273437203e2c313a1537343e3e347b323a237b2127"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5b393a292f3235223f341b393a30303a753c342d752f29"
         }
       ]
     },
@@ -63985,6 +64042,11 @@
           "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
           "source_id": "horizon_avrupa",
           "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-13"
+        },
+        {
+          "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+          "source_id": "horizon_avrupa",
+          "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-14"
         }
       ]
     },
@@ -65463,6 +65525,11 @@
           "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
           "source_id": "horizon_avrupa",
           "url": "https://ufukavrupa.org.tr/tr/haberler?page=229"
+        },
+        {
+          "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+          "source_id": "horizon_avrupa",
+          "url": "https://ufukavrupa.org.tr/tr/haberler?page=230"
         }
       ]
     },
@@ -66679,9 +66746,7 @@
       "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
       "source_id": "eu_funding_portal",
       "first_seen": "2026-09-18",
-      "olasi_tur": "belirsiz",
-      "duplicate_of": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-03-TOOL-08?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
-      "duplicate_of_source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)"
+      "olasi_tur": "belirsiz"
     },
     "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details-tr/HORIZON-CL5-2027-06-D6-12?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
       "title": "Support for dissemination events in the field of Transport Research",
@@ -69456,6 +69521,186 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-10-01",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/futurefoods-ucuncu-uluslararasi-ortak-cagrisi-duyurusu-yayinlandi": {
+      "title": "FutureFoodS Üçüncü Uluslararası Ortak Çağrısı Ön Duyurusu Yayınlandı!",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/futurefoods-ucuncu-uluslararasi-ortak-cagrisi-duyurusu-yayinlandi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-14": {
+      "title": "Ufuk Avrupa Sağlık Kümesi Ortak Arama Duyurusu",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-14",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-saglik-kumesi-ortak-arama-duyurusu-12",
+      "duplicate_of_source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/embo-doktora-sonrasi-arastirma-burslari-icin-2027-yili-1-donem-son-basvuru-tarihi-22-ocak": {
+      "title": "EMBO Doktora Sonrası Araştırma Bursları için 2027 Yılı 1. Dönem Son Başvuru Tarihi 22 Ocak 2027",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/embo-doktora-sonrasi-arastirma-burslari-icin-2027-yili-1-donem-son-basvuru-tarihi-22-ocak",
+      "date": "2027-01-22",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-widera-programi-excellence-hubs-bilgi-gunu-23-ekim-2026": {
+      "title": "Ufuk Avrupa - WIDERA Programı: Excellence Hubs Bilgi Günü – 23 Ekim 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-widera-programi-excellence-hubs-bilgi-gunu-23-ekim-2026",
+      "date": "2026-10-23",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-widera-excellence-hubs-brokerage-etkinligi-28-ekim-2026": {
+      "title": "Ufuk Avrupa – WIDERA Excellence Hubs Brokerage Etkinliği - 28 Ekim 2026",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/ufuk-avrupa-widera-excellence-hubs-brokerage-etkinligi-28-ekim-2026",
+      "date": "2026-10-28",
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler?page=230": {
+      "title": "Last pageSon »",
+      "url": "https://ufukavrupa.org.tr/tr/haberler?page=230",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://ufukavrupa.org.tr/tr/haberler?page=228",
+      "duplicate_of_source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/embo-doktora-sonrasi-arastirma-burslari-2027-yili-1-donem-basvurulari-basladi": {
+      "title": "EMBO Doktora Sonrası Araştırma Bursları 2027 Yılı 1. Dönem Başvuruları Başladı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/embo-doktora-sonrasi-arastirma-burslari-2027-yili-1-donem-basvurulari-basladi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://sivilalan.com/tap-vakfi-11-donem-1-aralik-genclik-fonu-basvurulari-acildi/": {
+      "title": "TAP Vakfı 11. Dönem 1 Aralık Gençlik Fonu Başvuruları Açıldı!",
+      "url": "https://sivilalan.com/tap-vakfi-11-donem-1-aralik-genclik-fonu-basvurulari-acildi/",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Sivil Alan",
+      "source_id": "sivil_alan",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-01-CANCELLED?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
+      "title": "Startup Europe - CANCELLED",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-01-CANCELLED?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "2027-06-01",
+      "on_tarihler": [],
+      "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
+      "source_id": "eu_funding_portal",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-BM-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
+      "title": "Open topic on research and innovation for effective management of EU external borders that promotes fundamental rights and EU values",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-BM-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "2027-05-05",
+      "on_tarihler": [],
+      "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
+      "source_id": "eu_funding_portal",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
+      "title": "Online harms detection and investigation tools using a short development cycle model",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "2027-05-05",
+      "on_tarihler": [],
+      "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
+      "source_id": "eu_funding_portal",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
+      "title": "Open topic on increasing security of citizens against terrorism, including in public spaces",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "2027-05-05",
+      "on_tarihler": [],
+      "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
+      "source_id": "eu_funding_portal",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz"
+    },
+    "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate": {
+      "title": "Effective and evidence-based responses to the increased availability and use of synthetic drugs and stimulants in Europe",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-05?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate",
+      "date": "2027-05-05",
+      "on_tarihler": [],
+      "source": "AB Funding & Tenders Portal (Horizon Europe / Erasmus+ vb. tüm AB çağrıları)",
+      "source_id": "eu_funding_portal",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Duyuru/2707/6-Bolge-Mudurlugu-Isparta-Golcuk-Tabiat-Parki-Mal-Alimi-Ihale-Ilani": {
+      "title": "6. Bölge Müdürlüğü Isparta Gölcük Tabiat Parkı Mal Alımı İhale İlanı",
+      "url": "https://www.tarimorman.gov.tr/Duyuru/2707/6-Bolge-Mudurlugu-Isparta-Golcuk-Tabiat-Parki-Mal-Alimi-Ihale-Ilani",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#95effafbf2e0f9f1f4feecf1fad5f7f4fefef4bbf2fae3bbe1e7": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#95effafbf2e0f9f1f4feecf1fad5f7f4fefef4bbf2fae3bbe1e7",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#553e34273437203e2c313a1537343e3e347b323a237b2127": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#553e34273437203e2c313a1537343e3e347b323a237b2127",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-02",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#5b393a292f3235223f341b393a30303a753c342d752f29": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#5b393a292f3235223f341b393a30303a753c342d752f29",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-02",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
