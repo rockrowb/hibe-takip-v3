@@ -1,285 +1,285 @@
 {
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "source_status": {
     "ka_gov": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 3,
       "diag": "/destekler -> HTTP 200, 605238 byte HTML, 29 link, 23 olası duyuru"
     },
     "teknofest": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 22,
       "diag": "/tr/duyurular/ -> HTTP 200, 149371 byte HTML, 107 link, 39 olası duyuru"
     },
     "horizon_avrupa": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 50,
-      "diag": "/tr/haberler -> HTTP 200, 40806 byte HTML, 122 link, 55 olası duyuru"
+      "diag": "/tr/haberler -> HTTP 200, 40571 byte HTML, 122 link, 55 olası duyuru"
     },
     "yatirimadestek": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 10,
-      "diag": "/gelismis-arama -> HTTP 200, 1387724 byte HTML, 2015 link, 0 olası duyuru | /duyurular -> HTTP 200, 22098 byte HTML, 41 link, 10 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/gelismis-arama -> HTTP 200, 12008 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12063 byte HTML, 0 link, 0 olası duyuru | /gelismis-arama (Playwright) -> HTTP 200, 11818 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kosgeb": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 45,
       "diag": "/ -> HTTP 200, 110927 byte HTML, 159 link, 74 olası duyuru"
     },
     "iskur": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 69,
-      "diag": "/duyurular/ -> HTTP 200, 197175 byte HTML, 324 link, 156 olası duyuru"
+      "diag": "/duyurular/ -> HTTP 200, 197173 byte HTML, 324 link, 156 olası duyuru"
     },
     "tkdk": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 27,
-      "diag": "/Duyurular -> HTTP 200, 27614 byte HTML, 93 link, 29 olası duyuru"
+      "diag": "/Duyurular -> HTTP 200, 27411 byte HTML, 93 link, 29 olası duyuru"
     },
     "tubitak": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 18,
-      "diag": "/tr/duyuru -> HTTP 200, 96212 byte HTML, 214 link, 18 olası duyuru"
+      "diag": "/tr/duyuru -> HTTP 200, 95409 byte HTML, 214 link, 18 olası duyuru"
     },
     "ticaret_bakanligi": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 4,
-      "diag": "/destekler -> HTTP 200, 56197 byte HTML, 161 link, 5 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 56104 byte HTML, 161 link, 5 olası duyuru"
     },
     "ua_erasmus": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 51,
-      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96397 byte HTML, 206 link, 153 olası duyuru"
+      "diag": "/anasayfa/icerikler/teklif-cagrilari-ve-rehberler/ -> HTTP 200, 96827 byte HTML, 206 link, 153 olası duyuru"
     },
     "unesco_turkiye": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 82,
       "diag": "/ -> HTTP 200, 520363 byte HTML, 121 link, 82 olası duyuru"
     },
     "sivil_dusun": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 25,
-      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 155234 byte HTML, 92 link, 28 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/kategori/fon-hibe-destek-duyurulari/ -> HTTP 200, 12073 byte HTML, 0 link, 0 olası duyuru | /kategori/fon-hibe-destek-duyurulari/ (Playwright) -> HTTP 200, 11783 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "sivil_alan": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 11,
       "diag": "/category/hibe-duyurulari/ -> HTTP 200, 141333 byte HTML, 114 link, 40 olası duyuru"
     },
     "undp_turkiye": {
       "ok": false,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 0,
-      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 300 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/turkiye/news -> HTTP 403 | /turkiye/press-releases -> HTTP 403 | /turkiye/procurement-notices -> HTTP 403 | /turkiye/news (Playwright) -> HTTP 200, 302 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "eu_funding_portal": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 69,
       "diag": "/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate -> HTTP 200, 59960 byte HTML, 1 link, 0 olası duyuru | /info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?isExactMatch=true&status=31094501,31094502,31094503&order=DESC&pageNumber=1&pageSize=50&sortBy=startDate (Playwright) -> HTTP 200, 584169 byte HTML, 83 link, 72 olası duyuru [Playwright ile]"
     },
     "opusunity": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 3,
-      "diag": "/@projeyonetimi -> HTTP 200, 153270 byte HTML, 16 link, 3 olası duyuru"
+      "diag": "/@projeyonetimi -> HTTP 200, 153313 byte HTML, 16 link, 3 olası duyuru"
     },
     "stgm": {
       "ok": false,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 0,
-      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 28873 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/hibe-duyurulari -> HTTP 403 | /hibe-duyurulari (Playwright) -> HTTP 200, 28852 byte HTML, 2 link, 0 olası duyuru [Playwright ile]"
     },
     "cssp": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 8,
-      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32333 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
+      "diag": "/ihaleler -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /ihaleler (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /duyurular -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: /duyurular (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | / -> hata: HTTPSConnectionPool(host='www.cfcu.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)'))) | /ihaleler (Playwright) -> HTTP 200, 32232 byte HTML, 44 link, 8 olası duyuru [Playwright ile]"
     },
     "ktb": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 355,
-      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215454 byte HTML, 587 link, 391 olası duyuru"
+      "diag": "/TR-9857/duyurular.html -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 215496 byte HTML, 587 link, 390 olası duyuru"
     },
     "tarim_orman": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 67,
-      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370159 byte HTML, 263 link, 191 olası duyuru"
+      "diag": "/Haberler -> HTTP 404 | /Duyuru -> HTTP 200, 15922 byte HTML, 4 link, 2 olası duyuru | / -> HTTP 200, 370412 byte HTML, 263 link, 191 olası duyuru"
     },
     "gsb": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 22,
-      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 54195 byte HTML, 106 link, 59 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/Haberler -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | /Duyurular -> ZAMAN AŞIMI (20sn içinde yanıt gelmedi) | / -> HTTP 200, 6870 byte HTML, 0 link, 0 olası duyuru | /Haberler (Playwright) -> hata: Page.goto: Timeout 30000ms exceeded.\nCall log:\nnavigating to \"https://www.gsb.gov.tr/Haberler\", waiting until \"networkidle\"\n"
     },
     "istka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 24,
-      "diag": "/destekler -> HTTP 404 | /tr/basvuru-cagrilari -> HTTP 404 | /duyurular -> HTTP 200, 136432 byte HTML, 127 link, 60 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12019 byte HTML, 0 link, 0 olası duyuru | /tr/basvuru-cagrilari -> HTTP 200, 12032 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12019 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11659 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "ankaraka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 71,
-      "diag": "/ajans-destek-programlari -> HTTP 200, 54460 byte HTML, 123 link, 86 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/ajans-destek-programlari -> HTTP 200, 12134 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12054 byte HTML, 0 link, 0 olası duyuru | /ajans-destek-programlari (Playwright) -> HTTP 200, 11637 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "izka": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 16,
       "diag": "/destekler -> HTTP 200, 69174 byte HTML, 54 link, 21 olası duyuru"
     },
     "bebka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 28,
-      "diag": "/destekler -> HTTP 200, 147464 byte HTML, 147 link, 65 olası duyuru | /duyurular -> HTTP 200, 288215 byte HTML, 307 link, 66 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12040 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11927 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11643 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "karacadag": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 19,
       "diag": "/destekler/ -> HTTP 200, 48875 byte HTML, 55 link, 30 olası duyuru"
     },
     "cka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 19,
-      "diag": "/tr/guncel-destekler -> HTTP 200, 35124 byte HTML, 103 link, 43 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/tr/guncel-destekler -> HTTP 200, 12070 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destek -> HTTP 200, 12025 byte HTML, 0 link, 0 olası duyuru | /tr/guncel-destekler (Playwright) -> HTTP 200, 11640 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "baka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 1,
-      "diag": "/destekler -> HTTP 200, 28249 byte HTML, 86 link, 37 olası duyuru | /duyurular -> HTTP 200, 35587 byte HTML, 94 link, 44 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12024 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11982 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11754 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "dogaka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 76,
-      "diag": "/destekler/destekler -> HTTP 200, 41640 byte HTML, 185 link, 112 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler/destekler -> HTTP 200, 11946 byte HTML, 0 link, 0 olası duyuru | /medya/guncel-duyurular -> HTTP 200, 12050 byte HTML, 0 link, 0 olası duyuru | /destekler/destekler (Playwright) -> HTTP 200, 11733 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "mevka": {
       "ok": false,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 0,
-      "diag": "/destekler/guncel-destek-programlari -> HTTP 500 | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 1165 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
+      "diag": "/destekler/guncel-destek-programlari -> HTTP 200, 12006 byte HTML, 0 link, 0 olası duyuru | /destekler/guncel-destek-programlari (Playwright) -> HTTP 200, 11701 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 45,
-      "diag": "/ -> HTTP 200, 124103 byte HTML, 280 link, 64 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11997 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11998 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11591 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "doka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 21,
-      "diag": "/acik-destekler -> HTTP 404 | /destekler -> HTTP 404 | / -> HTTP 200, 177890 byte HTML, 130 link, 53 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/acik-destekler -> HTTP 200, 12057 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 12088 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11966 byte HTML, 0 link, 0 olası duyuru | /acik-destekler (Playwright) -> HTTP 200, 11663 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "oran": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 77,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 108211 byte HTML, 184 link, 120 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12018 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12053 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11672 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "marka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 3,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 200, 484909 byte HTML, 652 link, 181 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11969 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11995 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11660 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "gmka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 40,
-      "diag": "/acik-destek-programlari -> HTTP 200, 71760 byte HTML, 95 link, 52 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/acik-destek-programlari -> HTTP 200, 12038 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12043 byte HTML, 0 link, 0 olası duyuru | /acik-destek-programlari (Playwright) -> HTTP 200, 11727 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "geka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 131,
-      "diag": "/ -> HTTP 200, 213391 byte HTML, 359 link, 214 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/ -> HTTP 200, 12053 byte HTML, 0 link, 0 olası duyuru | /tr/basvurusu-devam-eden-destekler -> HTTP 200, 12030 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11698 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "ika": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 2,
-      "diag": "/destekler -> HTTP 200, 270690 byte HTML, 315 link, 226 olası duyuru | /duyurular -> HTTP 200, 37196 byte HTML, 120 link, 61 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11950 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11972 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11733 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "trakyaka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 60,
-      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 32620 byte HTML, 139 link, 90 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/tr/33286/DESTEKLER -> HTTP 200, 12066 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11967 byte HTML, 0 link, 0 olası duyuru | /tr/33286/DESTEKLER (Playwright) -> HTTP 200, 11610 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "zafer": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 80,
-      "diag": "/destekler -> HTTP 200, 261997 byte HTML, 165 link, 83 olası duyuru"
+      "diag": "/destekler -> HTTP 200, 262203 byte HTML, 165 link, 83 olası duyuru"
     },
     "ahika": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 51,
-      "diag": "/destekler -> HTTP 200, 28578 byte HTML, 146 link, 85 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12004 byte HTML, 0 link, 0 olası duyuru | /haberler -> HTTP 200, 11972 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11650 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kuzka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 115,
-      "diag": "/ -> HTTP 200, 915766 byte HTML, 260 link, 144 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/ -> HTTP 200, 11966 byte HTML, 0 link, 0 olası duyuru | /destekler -> HTTP 200, 11965 byte HTML, 0 link, 0 olası duyuru | / (Playwright) -> HTTP 200, 11671 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "kudaka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 126,
-      "diag": "/home -> HTTP 200, 101746 byte HTML, 196 link, 134 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/home -> HTTP 200, 11917 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12051 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 11958 byte HTML, 0 link, 0 olası duyuru | /home (Playwright) -> HTTP 200, 11656 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "serka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 145,
-      "diag": "/destekler -> HTTP 200, 61685 byte HTML, 256 link, 198 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11949 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12018 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11715 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "daka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 28,
-      "diag": "/destekler -> HTTP 200, 51380 byte HTML, 72 link, 49 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11948 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12027 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11709 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "fka": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 65,
-      "diag": "/destekler -> HTTP 404 | /duyurular -> HTTP 404 | / -> HTTP 200, 66689 byte HTML, 167 link, 73 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 12007 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 12064 byte HTML, 0 link, 0 olası duyuru | / -> HTTP 200, 12007 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11667 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "dika": {
-      "ok": true,
-      "checked": "2026-10-07",
-      "found": 27,
-      "diag": "/destekler -> HTTP 200, 58243 byte HTML, 161 link, 61 olası duyuru"
+      "ok": false,
+      "checked": "2026-10-08",
+      "found": 0,
+      "diag": "/destekler -> HTTP 200, 11977 byte HTML, 0 link, 0 olası duyuru | /duyurular -> HTTP 200, 11988 byte HTML, 0 link, 0 olası duyuru | /destekler (Playwright) -> HTTP 200, 11663 byte HTML, 0 link, 0 olası duyuru [Playwright ile]"
     },
     "bakka": {
       "ok": true,
-      "checked": "2026-10-07",
+      "checked": "2026-10-08",
       "found": 15,
       "diag": "/duyurular -> HTTP 200, 156194 byte HTML, 39 link, 17 olası duyuru"
     }
@@ -360,7 +360,7 @@
     "provider": "groq",
     "quota_exceeded": false,
     "quota_error": null,
-    "checked_at": "2026-10-07T12:23:31Z",
+    "checked_at": "2026-10-08T12:34:50Z",
     "pending_count": 150
   },
   "items": {
@@ -43791,11 +43791,10 @@
       "olasi_tur": "belirsiz"
     },
     "https://zafer.gov.tr/destek-programlari/girisimci-ve-guclu-sivil-toplum-mali-destek-programi": {
-      "title": "GİSEP02.10.2026 23:59 (uzatıldı 16.10.2026 23:59)Girişimci ve Güçlü Sivil Toplum Mali Destek ProgramıAlternatif Hibe Desteği",
+      "title": "GİSEP16.10.2026 23:59Girişimci ve Güçlü Sivil Toplum Mali Destek ProgramıAlternatif Hibe Desteği",
       "url": "https://zafer.gov.tr/destek-programlari/girisimci-ve-guclu-sivil-toplum-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -43846,9 +43845,8 @@
     "https://zafer.gov.tr/destek-programlari/sogreen-sosyal-kapsayici-yesil-gecis-projesi-geri-odemeli-finansman-destegi": {
       "title": "SoGreen Geri Ödemeli08.05.2026 23:59SoGreen - Sosyal Kapsayıcı Yeşil Geçiş Projesi Geri Ödemeli Finansman DesteğiFaizsiz Kredi Desteği",
       "url": "https://zafer.gov.tr/destek-programlari/sogreen-sosyal-kapsayici-yesil-gecis-projesi-geri-odemeli-finansman-destegi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -43867,9 +43865,8 @@
     "https://zafer.gov.tr/destek-programlari/2026-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2026 Yılı Sosyal Gelişmeyi Destekleme Programı2026 Yılı Sosyal Gelişmeyi Destekleme Programı - SOGEP 2026Hibe",
       "url": "https://zafer.gov.tr/destek-programlari/2026-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -43914,9 +43911,8 @@
     "https://zafer.gov.tr/destek-programlari/2025-yili-sosyal-gelismeyi-destekleme-programi-2025-sogep": {
       "title": "2025 SOGEP13.02.2025 23:592025 Yılı Sosyal Gelişmeyi Destekleme Programı (2025 SOGEP)",
       "url": "https://zafer.gov.tr/destek-programlari/2025-yili-sosyal-gelismeyi-destekleme-programi-2025-sogep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -43966,9 +43962,8 @@
     "https://zafer.gov.tr/destek-programlari/manisa-imalat-sanayisinde-yesil-donusum-ureten-sehirler-teknik-destek-programi-mustd": {
       "title": "MUSTD31.10.2024 23:59Manisa İmalat Sanayisinde Yeşil Dönüşüm Üreten Şehirler Teknik Destek Programı (MUSTD)Üreten Şehirler Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/manisa-imalat-sanayisinde-yesil-donusum-ureten-sehirler-teknik-destek-programi-mustd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44014,9 +44009,8 @@
     "https://zafer.gov.tr/destek-programlari/2024-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2024 SOGEP12.05.2024 23:592024 Yılı Sosyal Gelişmeyi Destekleme Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2024-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44055,9 +44049,8 @@
     "https://zafer.gov.tr/destek-programlari/2023-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2023 SOGEP21.01.2023 18:002023 Yılı Sosyal Gelişmeyi Destekleme Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2023-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44106,9 +44099,8 @@
     "https://zafer.gov.tr/destek-programlari/kobi-lerde-i-stihdamin-ve-uretimin-artirilmasi-finansman-destegi-programi-kobi-stfi-n": {
       "title": "KOBİSTFİNKOBİ'lerde İstihdamın ve Üretimin Artırılması Finansman Desteği Programı (KOBİSTFİN)Finansman Desteği Programı",
       "url": "https://zafer.gov.tr/destek-programlari/kobi-lerde-i-stihdamin-ve-uretimin-artirilmasi-finansman-destegi-programi-kobi-stfi-n",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44155,9 +44147,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-ve-tarimsal-altyapi-mali-destek-programi-tutap": {
       "title": "TUTAPTurizm ve Tarımsal Altyapı Mali Destek Programı (TUTAP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-ve-tarimsal-altyapi-mali-destek-programi-tutap",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44206,9 +44197,8 @@
     "https://zafer.gov.tr/destek-programlari/i-malat-sanayisindeki-kobi-lerin-rekabet-gucunun-artirilmasi-finansman-destegi-programi-kobi-fi-n": {
       "title": "KOBİFİNİmalat Sanayisindeki KOBİ’lerin Rekabet Gücünün Artırılması Finansman Desteği Programı (KOBİFİN)Finansman Desteği Programı",
       "url": "https://zafer.gov.tr/destek-programlari/i-malat-sanayisindeki-kobi-lerin-rekabet-gucunun-artirilmasi-finansman-destegi-programi-kobi-fi-n",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44254,9 +44244,8 @@
     "https://zafer.gov.tr/destek-programlari/2021-yili-fizibilite-destegi-programi-fd": {
       "title": "FZD2021 Yılı Fizibilite Desteği Programı (FD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2021-yili-fizibilite-destegi-programi-fd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44293,9 +44282,8 @@
     "https://zafer.gov.tr/destek-programlari/2021-yili-teknik-destek-programi-2021-td": {
       "title": "2021 TD2021 Yılı Teknik Destek Programı (2021 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2021-yili-teknik-destek-programi-2021-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44332,9 +44320,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-i-yilestirilmesi-mali-destek-programi": {
       "title": "TAİDEPTurizm Altyapısının İyileştirilmesi Mali Destek ProgramıMali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-i-yilestirilmesi-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44382,9 +44369,8 @@
     "https://zafer.gov.tr/destek-programlari/2021-yili-sosyal-gelismeyi-destekleme-programi": {
       "title": "2021 SOGEP2021 Yılı Sosyal Gelişmeyi Destekleme Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2021-yili-sosyal-gelismeyi-destekleme-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44427,9 +44413,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-gelistirilmesi-mali-destek-programi": {
       "title": "TAGDEPTurizm Altyapısının Geliştirilmesi Mali Destek ProgramıMali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-altyapisinin-gelistirilmesi-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44471,9 +44456,8 @@
     "https://zafer.gov.tr/destek-programlari/2020-yili-fizibilite-destegi-programi-fd": {
       "title": "FD2020 Yılı Fizibilite Desteği Programı (FD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2020-yili-fizibilite-destegi-programi-fd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44510,9 +44494,8 @@
     "https://zafer.gov.tr/destek-programlari/2020-yili-teknik-destek-programi-2020-td": {
       "title": "2020 TD2020 Yılı Teknik Destek Programı (2020 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2020-yili-teknik-destek-programi-2020-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44551,9 +44534,8 @@
     "https://zafer.gov.tr/destek-programlari/mesleki-egitimin-gelistirilmesi-mali-destek-programi": {
       "title": "MEGDEPMesleki Eğitimin Geliştirilmesi Mali Destek ProgramıMali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/mesleki-egitimin-gelistirilmesi-mali-destek-programi",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44594,9 +44576,8 @@
     "https://zafer.gov.tr/destek-programlari/2019-yili-fizibilite-destegi-programi-2019-fd": {
       "title": "2019 FD2019 Yılı Fizibilite Desteği Programı (2019 FD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2019-yili-fizibilite-destegi-programi-2019-fd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44637,9 +44618,8 @@
     "https://zafer.gov.tr/destek-programlari/2019-yili-teknik-destek-programi-2019-td": {
       "title": "2019 TD2019 Yılı Teknik Destek Programı (2019 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2019-yili-teknik-destek-programi-2019-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44676,9 +44656,8 @@
     "https://zafer.gov.tr/destek-programlari/yeni-nesil-egitim-mali-destek-programi-yenep": {
       "title": "YENEPYeni Nesil Eğitim Mali Destek Programı (YENEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/yeni-nesil-egitim-mali-destek-programi-yenep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44719,9 +44698,8 @@
     "https://zafer.gov.tr/destek-programlari/2018-yili-fizibilite-destegi-programi-2018-fzd": {
       "title": "2018 FZD2018 Yılı Fizibilite Desteği ProgramI (2018 FZD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2018-yili-fizibilite-destegi-programi-2018-fzd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44765,9 +44743,8 @@
     "https://zafer.gov.tr/destek-programlari/2018-yili-teknik-destek-programi-2018-td": {
       "title": "2018 TD2018 Yılı Teknik Destek Programı (2018 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2018-yili-teknik-destek-programi-2018-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44806,9 +44783,8 @@
     "https://zafer.gov.tr/destek-programlari/gelisen-kobi-mali-destek-programi-gekop": {
       "title": "GEKOPGelişen KOBİ Mali Destek Programı (GEKOP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/gelisen-kobi-mali-destek-programi-gekop",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44845,9 +44821,8 @@
     "https://zafer.gov.tr/destek-programlari/cevre-ve-enerji-altyapi-mali-destek-programi-cedep": {
       "title": "ÇEDEPÇevre ve Enerji Altyapı Mali Destek Programı (ÇEDEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/cevre-ve-enerji-altyapi-mali-destek-programi-cedep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44889,9 +44864,8 @@
     "https://zafer.gov.tr/destek-programlari/2017-yili-teknik-destek-programi-2017-td": {
       "title": "2017 TD2017 Yılı Teknik Destek Programı (2017 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2017-yili-teknik-destek-programi-2017-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44932,9 +44906,8 @@
     "https://zafer.gov.tr/destek-programlari/2016-yili-dogrudan-faaliyet-destek-programi-2016-dfd": {
       "title": "2016 DFD2016 Yılı Doğrudan Faaliyet Destek Programı (2016 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2016-yili-dogrudan-faaliyet-destek-programi-2016-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -44973,9 +44946,8 @@
     "https://zafer.gov.tr/destek-programlari/yenilikci-kobi-mali-destek-programi-ykmdp": {
       "title": "YKMDPYenilikçi KOBİ Mali Destek Programı (YKMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/yenilikci-kobi-mali-destek-programi-ykmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45018,9 +44990,8 @@
     "https://zafer.gov.tr/destek-programlari/surdurulebilir-cevre-altyapi-mali-destek-programi-sucep": {
       "title": "SÜÇEPSürdürülebilir Çevre Altyapı Mali Destek Programı (SÜÇEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/surdurulebilir-cevre-altyapi-mali-destek-programi-sucep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45064,9 +45035,8 @@
     "https://zafer.gov.tr/destek-programlari/sanayide-rekabetciligin-gelistirilmesi-mali-destek-programi-sarep": {
       "title": "SAREPSanayide Rekabetçiliğin Geliştirilmesi Mali Destek Programı (SAREP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sanayide-rekabetciligin-gelistirilmesi-mali-destek-programi-sarep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45107,9 +45077,8 @@
     "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-ve-beseri-gelisme-altyapi-mali-destek-programi-sobep": {
       "title": "SOBEPSosyal Kalkınma ve Beşeri Gelişme Altyapı Mali Destek Programı (SOBEP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-ve-beseri-gelisme-altyapi-mali-destek-programi-sobep",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45150,9 +45119,8 @@
     "https://zafer.gov.tr/destek-programlari/rekabetci-kobi-mali-destek-programi-rkmdp": {
       "title": "RKMDPRekabetçi KOBİ Mali Destek Programı (RKMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/rekabetci-kobi-mali-destek-programi-rkmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45193,9 +45161,8 @@
     "https://zafer.gov.tr/destek-programlari/turizm-enerji-ve-cevre-altyapi-mali-destek-programi-tecdp": {
       "title": "TEÇDPTurizm, Enerji ve Çevre Altyapı Mali Destek Programı (TEÇDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/turizm-enerji-ve-cevre-altyapi-mali-destek-programi-tecdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45236,9 +45203,8 @@
     "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-mali-destek-programi-skmdp": {
       "title": "SKMDP25.01.2013 17:00Sosyal Kalkınma Mali Destek Programı (SKMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sosyal-kalkinma-mali-destek-programi-skmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45277,9 +45243,8 @@
     "https://zafer.gov.tr/destek-programlari/sosyal-altyapi-mali-destek-programi-samdp": {
       "title": "SAMDP25.01.2013 17:00Sosyal Altyapı Mali Destek Programı (SAMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/sosyal-altyapi-mali-destek-programi-samdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45306,9 +45271,8 @@
     "https://zafer.gov.tr/destek-programlari/2012-yili-teknik-destek-programi-2012-td": {
       "title": "2012 TD2012 Yılı Teknik Destek Programı (2012 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2012-yili-teknik-destek-programi-2012-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45347,9 +45311,8 @@
     "https://zafer.gov.tr/destek-programlari/2012-yili-dogrudan-faaliyet-destek-programi-2012-dfd": {
       "title": "2012 DFD2012 Yılı Doğrudan Faaliyet Destek Programı (2012 DFD)",
       "url": "https://zafer.gov.tr/destek-programlari/2012-yili-dogrudan-faaliyet-destek-programi-2012-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45388,9 +45351,8 @@
     "https://zafer.gov.tr/destek-programlari/surdurulebilir-kirsal-kentsel-altyapi-mali-destek-programi-sukap": {
       "title": "SÜKAPSürdürülebilir Kırsal & Kentsel Altyapı Mali Destek Programı (SÜKAP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/surdurulebilir-kirsal-kentsel-altyapi-mali-destek-programi-sukap",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45430,9 +45392,8 @@
     "https://zafer.gov.tr/destek-programlari/odak-sektorler-mali-destek-programi-odak": {
       "title": "ODAKOdak Sektörler Mali Destek Programı (ODAK)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/odak-sektorler-mali-destek-programi-odak",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45469,9 +45430,8 @@
     "https://zafer.gov.tr/destek-programlari/2011-yili-teknik-destek-programi-2011-td": {
       "title": "2011 TD2011 Yılı Teknik Destek Programı (2011 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2011-yili-teknik-destek-programi-2011-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45514,9 +45474,8 @@
     "https://zafer.gov.tr/destek-programlari/2011-yili-dogrudan-faaliyet-destek-programi-2011-dfd": {
       "title": "2011 DFD2011 Yılı Doğrudan Faaliyet Destek Programı (2011 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2011-yili-dogrudan-faaliyet-destek-programi-2011-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45553,9 +45512,8 @@
     "https://zafer.gov.tr/destek-programlari/bolgesel-potansiyelin-harekete-gecirilmesi-mali-destek-programi-bphgmdp": {
       "title": "BPHGMDPBölgesel Potansiyelin Harekete Geçirilmesi Mali Destek Programı (BPHGMDP)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/bolgesel-potansiyelin-harekete-gecirilmesi-mali-destek-programi-bphgmdp",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45584,9 +45542,8 @@
     "https://zafer.gov.tr/destek-programlari/2010-yili-teknik-destek-programi-2010-td": {
       "title": "2010 TD2010 Yılı Teknik Destek Programı (2010 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2010-yili-teknik-destek-programi-2010-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45627,9 +45584,8 @@
     "https://zafer.gov.tr/destek-programlari/2015-yili-dogrudan-faaliyet-destek-programi-2015-dfd": {
       "title": "2015 DFD2015 Yılı Doğrudan Faaliyet Destek Programı (2015 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2015-yili-dogrudan-faaliyet-destek-programi-2015-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45668,9 +45624,8 @@
     "https://zafer.gov.tr/destek-programlari/2013-yili-teknik-destek-programi-2013-td": {
       "title": "2013 TD2013 Yılı Teknik Destek Programı (2013 TD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2013-yili-teknik-destek-programi-2013-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45707,9 +45662,8 @@
     "https://zafer.gov.tr/destek-programlari/2014-yili-teknik-destek-programi-2014-td": {
       "title": "2014 TD2014 Yılı Teknik Destek Programı (2014 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2014-yili-teknik-destek-programi-2014-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45746,9 +45700,8 @@
     "https://zafer.gov.tr/destek-programlari/2015-yili-teknik-destek-programi-2015-td": {
       "title": "2015 TD2015 Yılı Teknik Destek Programı (2015 TD)Teknik Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2015-yili-teknik-destek-programi-2015-td",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45789,9 +45742,8 @@
     "https://zafer.gov.tr/destek-programlari/2013-yili-dogrudan-faaliyet-destek-programi-2013-dfd": {
       "title": "2013 DFD2013 Yılı Doğrudan Faaliyet Destek Programı (2013 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2013-yili-dogrudan-faaliyet-destek-programi-2013-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -45828,9 +45780,8 @@
     "https://zafer.gov.tr/destek-programlari/2014-yili-dogrudan-faaliyet-destek-programi-2014-dfd": {
       "title": "2014 DFD2014 Yılı Doğrudan Faaliyet Destek Programı (2014 DFD)Mali Destek Programı",
       "url": "https://zafer.gov.tr/destek-programlari/2014-yili-dogrudan-faaliyet-destek-programi-2014-dfd",
-      "date": "2026-10-02",
+      "date": "2026-10-16",
       "on_tarihler": [
-        "2026-10-02",
         "2026-10-16",
         "2026-05-08",
         "2026-05-15",
@@ -58459,6 +58410,21 @@
           "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
           "source_id": "bakka",
           "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#1e7c7f6c6a7770677a715e7c7f75757f30797168306a6c"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7c0613121b0910181d170518133c1e1d17171d521b130a52080e"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3853594a595a4d53415c57785a59535359165f574e164c4a"
+        },
+        {
+          "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+          "source_id": "bakka",
+          "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#4b292a393f2225322f240b292a20202a652c243d653f39"
         }
       ]
     },
@@ -70376,6 +70342,152 @@
       "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
       "source_id": "bakka",
       "first_seen": "2026-10-07",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/new-european-bauhaus-calisma-programi-guncellendi": {
+      "title": "New European Bauhaus Çalışma Programı Güncellendi",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/new-european-bauhaus-calisma-programi-guncellendi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://ufukavrupa.org.tr/tr/haberler/nukleerradyoaktif-atik-bilgisine-sahip-cevresel-degerlendirme-uzmani-aranmaktadir": {
+      "title": "Nükleer/Radyoaktif Atık Bilgisine Sahip Çevresel Değerlendirme Uzmanı  Aranmaktadır",
+      "url": "https://ufukavrupa.org.tr/tr/haberler/nukleerradyoaktif-atik-bilgisine-sahip-cevresel-degerlendirme-uzmani-aranmaktadir",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Ufuk Avrupa (Horizon Europe) Türkiye Ulusal Koordinasyon Ofisi",
+      "source_id": "horizon_avrupa",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi": {
+      "title": "Eureka Globalstars Japonya 2026 Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/eureka-globalstars-japonya-2026-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2572-tubitak-urdun-ulusal-arastirma-gelistirme-merkezi-ncrd-ikili-isbirligi-cagrisi-basvuruya-acildi": {
+      "title": "2572 TÜBİTAK–Ürdün Ulusal Araştırma Geliştirme Merkezi (NCRD) İkili İşbirliği Çağrısı Başvuruya Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2572-tubitak-urdun-ulusal-arastirma-gelistirme-merkezi-ncrd-ikili-isbirligi-cagrisi-basvuruya-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2211-yurt-ici-doktora-burs-programlari-2026-yili-2-donem-cagrilari-basvuruya-acildi": {
+      "title": "2211-Yurt İçi Doktora Burs Programları 2026 Yılı 2. Dönem Çağrıları Başvuruya Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2211-yurt-ici-doktora-burs-programlari-2026-yili-2-donem-cagrilari-basvuruya-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2210-yurt-ici-yuksek-lisans-burs-programlari-2026-yili-2-donem-cagrilari-acildi": {
+      "title": "2210-Yurt İçi Yüksek Lisans Burs Programları 2026 Yılı 2. Dönem Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2210-yurt-ici-yuksek-lisans-burs-programlari-2026-yili-2-donem-cagrilari-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2205-lisans-burs-programi-2026-yili-2-donem-cagrisi-acildi": {
+      "title": "2205-Lisans Burs Programı 2026 Yılı 2. Dönem Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2205-lisans-burs-programi-2026-yili-2-donem-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/2223-yurt-ici-bilimsel-etkinlikleri-destekleme-programlari-2026-yili-3-donem-cagrilari-acildi": {
+      "title": "2223-Yurt İçi Bilimsel Etkinlikleri Destekleme Programları 2026 Yılı 3. Dönem Çağrıları Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/2223-yurt-ici-bilimsel-etkinlikleri-destekleme-programlari-2026-yili-3-donem-cagrilari-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://tubitak.gov.tr/tr/duyuru/1007-programi-alternatif-haberlesme-sistemi-gelistirilmesi-projesi-cagrisi-acildi": {
+      "title": "1007 Programı Alternatif Haberleşme Sistemi Geliştirilmesi Projesi Çağrısı Açıldı",
+      "url": "https://tubitak.gov.tr/tr/duyuru/1007-programi-alternatif-haberlesme-sistemi-gelistirilmesi-projesi-cagrisi-acildi",
+      "date": null,
+      "on_tarihler": [],
+      "source": "TÜBİTAK",
+      "source_id": "tubitak",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "hibe_olabilir"
+    },
+    "https://www.ktb.gov.tr/TR-475961/hititlerin-devlet-hafizasi-3-bin-400-yil-sonra-gun-isigina-kavustu.html": {
+      "title": "HİTİTLERİN DEVLET HAFIZASI 3 BİN 400 YIL SONRA GÜN IŞIĞINA KAVUŞTU",
+      "url": "https://www.ktb.gov.tr/TR-475961/hititlerin-devlet-hafizasi-3-bin-400-yil-sonra-gun-isigina-kavustu.html",
+      "date": "2026-10-08",
+      "on_tarihler": [],
+      "source": "Kültür ve Turizm Bakanlığı",
+      "source_id": "ktb",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://www.tarimorman.gov.tr/Haber/7310/Bakan-Yumakli-Dsi-Vakfi-Koy-Okullarina-Yardim-Yoresel-Urunler-Sergisinin-Acilisini-Yapti": {
+      "title": "BAKAN YUMAKLI, \"DSİ VAKFI KÖY OKULLARINA YARDIM YÖRESEL ÜRÜNLER SERGİSİ\"NİN AÇILIŞINI YAPTI",
+      "url": "https://www.tarimorman.gov.tr/Haber/7310/Bakan-Yumakli-Dsi-Vakfi-Koy-Okullarina-Yardim-Yoresel-Urunler-Sergisinin-Acilisini-Yapti",
+      "date": null,
+      "on_tarihler": [],
+      "source": "Tarım ve Orman Bakanlığı",
+      "source_id": "tarim_orman",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#7c0613121b0910181d170518133c1e1d17171d521b130a52080e": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#7c0613121b0910181d170518133c1e1d17171d521b130a52080e",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#3853594a595a4d53415c57785a59535359165f574e164c4a": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#3853594a595a4d53415c57785a59535359165f574e164c4a",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-08",
+      "olasi_tur": "belirsiz",
+      "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
+      "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
+    },
+    "https://bakka.gov.tr/cdn-cgi/l/email-protection#4b292a393f2225322f240b292a20202a652c243d653f39": {
+      "title": "[email protected]",
+      "url": "https://bakka.gov.tr/cdn-cgi/l/email-protection#4b292a393f2225322f240b292a20202a652c243d653f39",
+      "date": null,
+      "on_tarihler": [],
+      "source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)",
+      "source_id": "bakka",
+      "first_seen": "2026-10-08",
       "olasi_tur": "belirsiz",
       "duplicate_of": "https://bakka.gov.tr/cdn-cgi/l/email-protection#dba1b4b5bcaeb7bfbab0a2bfb49bb9bab0b0baf5bcb4adf5afa9",
       "duplicate_of_source": "BAKKA (Batı Karadeniz Kalkınma Ajansı)"
